@@ -48,16 +48,6 @@ gradlew clean assembleDebug
 
 When launching the application, you arrive on the page * Create audit *
 
-#Download
-
-[ocara.apk](https://github.com/cSploit/android/releases/download/v1.6.0-rc.1/cSploit-release.apk)
-
-Download it on the shelf and install
-
-#Travis
-
-Look [here](https://travis-ci.org/Orange-OpenSource/trail-drawing)
-
 #License
 
 Copyright (C) 2015 Orange
