@@ -67,6 +67,9 @@ Copyright (C) 2015 Orange
 
 #Authors
 denis boisset
+
 alexis chemin
+
 ludovic lelion
+
 manuel sanchez
