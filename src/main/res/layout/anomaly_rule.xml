@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2015 Orange
+
+  This Source Code Form is subject to the terms of the Mozilla Public
+  License, v. 2.0. If a copy of the MPL was not distributed with this
+  file, You can obtain one at http://mozilla.org/MPL/2.0/.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:drawableTop="@android:color/black"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/rule_id"
+        style="@style/AnomalyRule"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:text="id de la regle"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/rule_title"
+        style="@style/AnomalyRule"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="90"
+        android:text="règle sdrgkl jsdfmgj sdfmgj msdflg lmsdfkgm kgsdfjgkl sdfjmgklsjkl sdfjgkl sjdfgkl jsdfmlgk jsdmgj " />
+</LinearLayout>
+
+
+
+

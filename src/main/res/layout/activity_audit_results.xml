@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2015 Orange
+
+  This Source Code Form is subject to the terms of the Mozilla Public
+  License, v. 2.0. If a copy of the MPL was not distributed with this
+  file, You can obtain one at http://mozilla.org/MPL/2.0/.
+-->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/gridBackground"
+        android:paddingTop="@dimen/resultPaddingTop"
+        android:paddingBottom="@dimen/resultPaddingBottom"
+        android:paddingLeft="@dimen/resultPaddingLeft"
+        android:paddingRight="@dimen/resultPaddingRight">
+
+        <!-- details layout -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/details_layout"
+            style="@style/ResultHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/ResultHeadingContainer"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/ResultHeadingTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/audit_results_details_title" />
+
+                <include layout="@layout/result_detail_layout" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <!-- path layout -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/path_layout"
+            style="@style/ResultHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/ResultHeadingTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/audit_results_path_title" />
+
+                <com.orange.ocara.ui.view.AuditObjectsView_
+                    android:id="@+id/audited_objects"
+                    style="@style/ResultHeadingContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <!-- summary layout -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/summary_layout"
+            style="@style/ResultHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/ResultHeadingContainer"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/ResultHeadingTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/audit_results_summary_title" />
+
+                <include layout="@layout/result_resume_layout" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <!-- general comment  layout -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/audit_comment_layout"
+            style="@style/ResultHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/ResultHeadingContainer"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/ResultHeadingTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/audit_results_general_comment_title" />
+
+                <LinearLayout
+                    android:id="@+id/audit_comment_container"
+                    android:orientation="vertical"
+                    style="@style/ResultHeadingContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <!--<include layout="@layout/result_comment_layout" />-->
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <!-- anomaly layout -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/anomaly_layout"
+            style="@style/ResultHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/ResultHeadingContainer"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/ResultHeadingTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/audit_results_anomaly_title" />
+
+                <LinearLayout
+                    android:id="@+id/anomaly_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    style="@style/ResultHeadingContent"
+                    android:orientation="vertical" >
+
+
+                 </LinearLayout>
+
+
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

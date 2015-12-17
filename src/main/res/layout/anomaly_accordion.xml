@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2015 Orange
+
+  This Source Code Form is subject to the terms of the Mozilla Public
+  License, v. 2.0. If a copy of the MPL was not distributed with this
+  file, You can obtain one at http://mozilla.org/MPL/2.0/.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+    android:orientation="vertical">
+
+    <Button
+        style="@style/AnomalyGroup"
+        android:id="@+id/accordion_header_button"
+        android:drawableLeft="@drawable/ic_hardware_keyboard_arrow_down"
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Object" />
+
+
+    <LinearLayout
+        style="@style/AnomalyChild"
+        android:id="@+id/anomaly_details_view"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/rules_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/divider_horizontal"
+            android:showDividers="middle"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                style="@style/AnomalyHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/audit_results_anomaly_rules_title" />
+
+            <!--<include layout="@layout/anomaly_rule" />-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/comments_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/divider_horizontal"
+            android:showDividers="middle"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/AnomalyHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/audit_results_anomaly_comments_title" />
+
+            <!--<include layout="@layout/comment_item" />-->
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

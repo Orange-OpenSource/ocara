@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2015 Orange
+
+  This Source Code Form is subject to the terms of the Mozilla Public
+  License, v. 2.0. If a copy of the MPL was not distributed with this
+  file, You can obtain one at http://mozilla.org/MPL/2.0/.
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:paddingLeft="@dimen/auditItemPaddingLeft"
+    android:paddingRight="@dimen/auditItemPaddingRight">
+
+    <ImageView
+        android:id="@+id/status_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/auditItemMargin"
+        android:src="@drawable/ic_status_in_progress" />
+
+    <LinearLayout
+        android:id="@+id/item_audit_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/auditItemPaddingBottom"
+        android:paddingTop="@dimen/auditItemPaddingTop"
+        android:layout_alignTop="@+id/status_icon"
+        android:layout_toRightOf="@+id/status_icon"
+        android:layout_toLeftOf="@+id/action_export_audit_docx"
+        android:layout_toStartOf="@+id/action_export_audit_docx"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/status_icon"
+            android:layout_toEndOf="@+id/status_icon"
+            android:layout_toRightOf="@+id/status_icon"
+            android:singleLine="true"
+            android:text="name"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="@dimen/auditItemBlockWidth"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/ruleset"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:text="Règles de parcours (V1)"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/status_text_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:text="Terminé le 10 janvier 2015"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="@dimen/divider"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/auditItemMargin"
+                android:layout_marginRight="@dimen/auditItemMargin"
+                android:background="@color/divider" />
+
+            <TextView
+                android:id="@+id/site"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:ellipsize="marquee"
+                android:singleLine="true"
+                android:text="MEYLAN FTR&amp;D"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/action_export_audit_docx"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/item_audit_description"
+        android:layout_alignTop="@+id/item_audit_description"
+        android:paddingLeft="@dimen/auditItemHalfMargin"
+        android:paddingRight="@dimen/auditItemHalfMargin"
+        android:scaleType="center"
+        android:src="@drawable/ic_export"
+        android:layout_toLeftOf="@+id/more"
+        android:layout_toStartOf="@+id/more"/>
+
+
+    <ImageView
+        android:id="@+id/more"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/item_audit_description"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/item_audit_description"
+        android:scaleType="center"
+        android:paddingLeft="@dimen/auditItemHalfMargin"
+        android:paddingRight="@dimen/auditItemHalfMargin"
+        android:src="@drawable/ic_new" />
+
+</RelativeLayout>

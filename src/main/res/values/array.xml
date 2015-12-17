@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2015 Orange
+
+  This Source Code Form is subject to the terms of the Mozilla Public
+  License, v. 2.0. If a copy of the MPL was not distributed with this
+  file, You can obtain one at http://mozilla.org/MPL/2.0/.
+-->
+
+<resources>
+    <string-array name="setting_when_test_entries">
+        <item name="0">@string/setting_test_ask_every_time</item>
+        <item name="1">@string/setting_test_now</item>
+        <item name="2">@string/setting_test_later</item>
+    </string-array>
+    <string-array name="setting_when_test_entries_values">
+        <item name="0">0</item>
+        <item name="1">1</item>
+        <item name="2">2</item>
+    </string-array>
+    <string-array name="setting_display_auditing_progress_entries">
+        <item name="0">@string/setting_display_auditing_progress_no</item>
+        <item name="0">@string/setting_display_auditing_progress_yes</item>
+    </string-array>
+    <string-array name="setting_display_auditing_progress_entries_values">
+        <item name="0">0</item>
+        <item name="1">1</item>
+    </string-array>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2015 Orange
+
+  This Source Code Form is subject to the terms of the Mozilla Public
+  License, v. 2.0. If a copy of the MPL was not distributed with this
+  file, You can obtain one at http://mozilla.org/MPL/2.0/.
+-->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_lock"
+        android:icon="@drawable/ic_lock"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/action_lock" />
+
+    <item
+        android:id="@+id/action_export_audit_docx"
+        android:icon="@drawable/ic_export"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/action_export_audit_docx" />
+
+</menu>

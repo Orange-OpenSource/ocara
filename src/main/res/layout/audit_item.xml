@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2015 Orange
+
+  This Source Code Form is subject to the terms of the Mozilla Public
+  License, v. 2.0. If a copy of the MPL was not distributed with this
+  file, You can obtain one at http://mozilla.org/MPL/2.0/.
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:paddingLeft="@dimen/auditItemPaddingLeft"
+    android:paddingRight="@dimen/auditItemPaddingRight">
+
+
+
+    <ImageView
+        android:id="@+id/status_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_status_in_progress" />
+
+    <LinearLayout
+        android:id="@+id/item_audit_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/auditItemPaddingTop"
+        android:paddingBottom="@dimen/auditItemPaddingBottom"
+        android:layout_marginLeft="@dimen/auditItemMargin"
+        android:layout_marginRight="@dimen/auditItemMargin"
+        android:orientation="vertical"
+        android:layout_alignTop="@+id/status_icon"
+        android:layout_toRightOf="@+id/status_icon"
+        android:layout_toStartOf="@+id/action_export_audit_docx"
+        android:layout_toLeftOf="@+id/action_export_audit_docx">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/ruleset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Règles de parcours (V1)"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:ellipsize="marquee" />
+
+        <TextView
+            android:id="@+id/status_text_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terminé le 10 janvier 2015"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:singleLine="true"
+            android:ellipsize="marquee" />
+
+        <TextView
+            android:id="@+id/site"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MEYLAN FTR&amp;D"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:singleLine="true"
+            android:ellipsize="marquee" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/action_export_audit_docx"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/item_audit_description"
+        android:layout_alignTop="@+id/item_audit_description"
+        android:paddingLeft="@dimen/auditItemHalfMargin"
+        android:paddingRight="@dimen/auditItemHalfMargin"
+        android:scaleType="center"
+        android:src="@drawable/ic_export"
+        android:layout_toLeftOf="@+id/more"
+        android:layout_toStartOf="@+id/more" />
+
+
+    <ImageView
+        android:id="@+id/more"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/item_audit_description"
+        android:layout_alignTop="@+id/item_audit_description"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="@dimen/auditItemHalfMargin"
+        android:paddingRight="@dimen/auditItemHalfMargin"
+        android:scaleType="center"
+        android:src="@drawable/ic_new" />
+
+
+
+</RelativeLayout>

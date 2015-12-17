@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2015 Orange
+
+  This Source Code Form is subject to the terms of the Mozilla Public
+  License, v. 2.0. If a copy of the MPL was not distributed with this
+  file, You can obtain one at http://mozilla.org/MPL/2.0/.
+-->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+
+    <item
+        android:id="@+id/sort"
+        android:icon="@drawable/ic_sort_desc"
+        android:title="@string/action_sort"
+        app:showAsAction="ifRoom|withText">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/sort_by_status"
+                    android:title="@string/action_sort_by_status"></item>
+                <item
+                    android:id="@+id/sort_by_site"
+                    android:title="@string/action_sort_by_site"></item>
+                <item
+                    android:id="@+id/sort_by_date"
+                    android:title="@string/action_sort_by_date"></item>
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/add_audit"
+        android:icon="@drawable/ic_new"
+        android:title="@string/action_create"
+        app:showAsAction="ifRoom|withText" />
+
+</menu>
