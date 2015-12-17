@@ -38,7 +38,7 @@ Associated with scalable and customizable set of rules, it allows to audit any t
 
 #Build the application
 
-A prebuilt apk is provided for your convenience [here](https://github.com/Orange-OpenSource/ocara/tree/master/demo/ocara-opensource-debug.apk)
+A prebuilt apk is provided for your convenience [here](https://github.com/Orange-OpenSource/ocara/blob/master/demo/ocara-opensource-debug.apk)
 
 To build the application, you need to have a proper installation of the [Android SDK](https://developer.android.com/sdk/index.html).
 Then the application can be built with Android Studio, or directly on the command line through:
