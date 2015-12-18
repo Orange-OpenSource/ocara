@@ -38,7 +38,7 @@ selon une approche multi-handicaps.
 
 # Construire et utiliser
 
- Un apk prédéfini est fourni pour votre commodité [ici] (blabliblo)
+ Un apk prédéfini est fourni pour votre commodité (cliquez sur "Raw" pour enregistrer le fichier) [ici] (https://github.com/Orange-OpenSource/ocara/blob/master/demo/ocara-opensource-debug.apk)
 
  Pour construire l'application, vous devez avoir une installation correcte de la [SDK Android] (https://developer.android.com/sdk/index.html).
  Ensuite, l'application peut être construit avec les applications en studio, ou directement sur la ligne de commande par le biais:
@@ -47,16 +47,6 @@ selon une approche multi-handicaps.
 	```
 
 Lors du lancement de l'application, vous arrivez sur la page * Créer un audit *
-
-#Téléchargement
-
-[ocara.apk](https://github.com/cSploit/android/releases/download/v1.6.0-rc.1/cSploit-release.apk)
-
-Le télécharger sur la tablette et installez le
-
-#Travis
-
-Regardez [ici](https://travis-ci.org/Orange-OpenSource/trail-drawing)
 
 #License
 
@@ -67,6 +57,9 @@ Copyright (C) 2015 Orange
 
 #Authors
 denis boisset
+
 alexis chemin
+
 ludovic lelion
+
 manuel sanchez
