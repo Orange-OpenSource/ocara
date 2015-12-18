@@ -29,10 +29,9 @@ selon une approche multi-handicaps.
     * Au-delà du handicap, permettre d’améliorer la circulation et la sécurité pour tous les salariés du site 
 
 **Orange** 
-	Orange a décidé de mettre OCARA en open-source afin que toutes les entreprises, associations ou personnes préoccupés par l’accessibilité, puissent utiliser cet outil et contribuer à son développement.
+ Orange a décidé de mettre OCARA en open-source afin que toutes les entreprises, associations ou personnes préoccupés par l’accessibilité, puissent utiliser cet outil et contribuer à son développement.
 
-	L'accessibilité est une préoccupation commune. Par la mutualisation et le partage de nos ressources en matière d'accessibilité, nous pourrons aller plus loin ensemble.
-   	[voir la vidéo] (http: //vod.com.ftgroup/content/encoded/t81HxrJyewTuNLcLgfph.asx)
+ L'accessibilité est une préoccupation commune. Par la mutualisation et le partage de nos ressources en matière d'accessibilité, nous pourrons aller plus loin ensemble. [voir la vidéo] (http: //vod.com.ftgroup/content/encoded/t81HxrJyewTuNLcLgfph.asx)
 
 
 
