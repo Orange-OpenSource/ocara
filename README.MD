@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Orange-OpenSource/ocara.svg?branch=master)](https://travis-ci.org/Orange-OpenSource/ocara) 
+
 #OCARA
 
 OCARA, available for 10 inch Android tablet, is primarily an application for performing a self-diagnosis of buildings accessibility. You can use expert, but you do not need to be an expert!
