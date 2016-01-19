@@ -8,18 +8,18 @@ Associated with scalable and customizable set of rules, it allows to audit any t
 
 
 **For who ?**
-	* Indirectly for employees with disabilities
-	* For all corporate actors in the field of disability: disability correspondents, site managers, safety managers ...
+ * Indirectly for employees with disabilities
+ * For all corporate actors in the field of disability: disability correspondents, site managers, safety managers ...
 
 
 **Employees  Benefits**
 
- For disability stakeholders
+For disability stakeholders
    * Being able to independently assess the accessibility level of workplaces for a given collaborator, without particular expertise
    * Quickly and easily produce an audit report
    * Integrating new rules quickly
 
- For employees with disabilities
+For employees with disabilities
    * The possibility of a recurring audit easy to perform promotes the quality of life at work
    * Employees may also express their specific needs or even ask for the creation of new rules
 
@@ -29,8 +29,7 @@ Associated with scalable and customizable set of rules, it allows to audit any t
    * Beyond Disability such a tool help to improve movements and safety for all employees 
 
 
-**Orange** 
-   Ocara decided to open-source so that all companies, associations and individuals concerned about accessibility, can use this tool and contribute to its development.
+**Orange** decided to open-source Ocara so that all companies, associations and individuals concerned about accessibility, can use this tool and contribute to its development.
 
    Accessibility is a common concern. It is by pooling and sharing our accessibility resources we will go further together.
    [watch the video](http://vod.com.ftgroup/content/encoded/t81HxrJyewTuNLcLgfph.asx)
@@ -56,10 +55,10 @@ Copyright (C) 2015 Orange
 
 
 #Authors
-denis boisset
+Denis Boisset
 
-alexis chemin
+Alexis Chemin
 
-ludovic lelion
+Ludovic Lelion
 
-manuel sanchez
+Manuel Sanchez
