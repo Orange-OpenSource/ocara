@@ -4,4 +4,5 @@ However, documentation and image files listed below are distributed under a crea
 http://creativecommons.org/licenses/by-sa/4.0
 
 Files published under the CC BY-SA 4.0 license:
- - to complete!
+ - Files under the directory documentation
+ - In the JSON Files under the directory src/main/assetsopensource/rulsets images and documentation are published under the CC BY-SA 4.0 license

@@ -49,6 +49,12 @@ gradlew clean assembleDebug
 
 Lors du lancement de l'application, vous arrivez sur la page * Créer un audit *
 
+# Documentation
+
+Le manuel d'utilisation de l'application est accessible [ici] (https://github.com/Orange-OpenSource/ocara/blob/master/documentation/Guide de formation V16.2.pdf)
+
+La description du format du fichier json de règles est accessible [ici] (https://github.com/Orange-OpenSource/ocara/blob/master/documentation/Fichier JSON des règles.md)
+
 #License
 
 Copyright (C) 2015 Orange
@@ -56,7 +62,7 @@ Copyright (C) 2015 Orange
 [Mozilla Public License Version 2.0](https://www.mozilla.org/MPL/2.0)
 
 
-#Authors
+#Auteurs
 Denis Boisset
 
 Alexis Chemin

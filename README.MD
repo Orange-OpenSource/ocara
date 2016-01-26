@@ -49,6 +49,13 @@ gradlew clean assembleDebug
 
 When launching the application, you arrive on the page * Create audit *
 
+# Documentation
+
+How to use Ocara is describe [here] (https://github.com/Orange-OpenSource/ocara/blob/master/documentation/Guide de formation V16.2.pdf)
+
+The description of the json ruleset is [here] (https://github.com/Orange-OpenSource/ocara/blob/master/documentation/Fichier JSON des règles.md)
+
+
 #License
 
 Copyright (C) 2015 Orange
@@ -64,3 +71,6 @@ Alexis Chemin
 Ludovic Lelion
 
 Manuel Sanchez
+
+#Support
+ocara.support@orange.com
