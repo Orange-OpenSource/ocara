@@ -39,7 +39,7 @@ Pour les salariés en situation de handicap
 
 # Construire et utiliser
 
-Un apk prédéfini est fourni pour votre commodité (cliquez sur "Raw" pour enregistrer le fichier) [ici] (https://github.com/Orange-OpenSource/ocara/blob/master/demo/ocara-opensource-debug.apk)
+Un apk prédéfini est fourni pour votre commodité (cliquez sur "Raw" pour enregistrer le fichier) [ici] (https://github.com/Orange-OpenSource/ocara/blob/master/demo/ocara-opensource-release.apk)
 
 Pour construire l'application, vous devez avoir une installation correcte de la [SDK Android] (https://developer.android.com/sdk/index.html).
 Ensuite, l'application peut être construite avec Android Studio, ou directement sur avec la commande :
