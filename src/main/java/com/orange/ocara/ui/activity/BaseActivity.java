@@ -54,6 +54,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.util.Locale;
 
 import javax.inject.Inject;
 
@@ -242,7 +243,7 @@ import timber.log.Timber;
                     onAllRuleSetItemClicked();
                     break;
                 case 3:
-                    final String pdfName = "Guide_de_formation_V16.2.pdf";
+                    final String pdfName = "Guide_de_formation_V14.pdf";
                     showHelp(pdfName);
                     break;
                 default:
@@ -280,30 +281,39 @@ import timber.log.Timber;
     /**
      * Show help item clicked.
      */
-    @SuppressWarnings("deprecation")
+
     protected void showHelp(String pdfName) {
         AssetManager assetManager = getAssets();
         InputStream inputStream = null;
         OutputStream outputStream = null;
+        String locale = Locale.getDefault().getLanguage();
+        String folder;
+        if (locale.equals("en")) {
+            folder = "pdf/";
+        } else {
+            folder = "pdf-"+locale+"/";
+        }
+        Timber.v("locale "+locale+ " folder "+folder);
 
 
         File file = new File(getFilesDir(), pdfName);
-        try {
-            inputStream = assetManager.open("pdf/"+pdfName);
-            outputStream = openFileOutput(file.getName(), Context.MODE_WORLD_READABLE);
 
-            copyFile(inputStream, outputStream);
-            inputStream.close();
-            inputStream = null;
-            outputStream.flush();
-            outputStream.close();
-            outputStream = null;
+
+        try {
+            inputStream = assetManager.open(folder+pdfName);
+
+            viewFile(inputStream, outputStream, file, pdfName);
         } catch (Exception e) {
             Log.e("tag", e.getMessage());
+            try {
+                inputStream = assetManager.open("pdf/" + pdfName);
+                viewFile(inputStream, outputStream, file, pdfName);
+
+            } catch (Exception a) {
+                Log.e("tag", a.getMessage());
+            }
+
         }
-        Intent intent = new Intent(Intent.ACTION_VIEW);
-        intent.setDataAndType(Uri.parse("file://" + getFilesDir() + File.separator + pdfName), "application/pdf");
-        startActivity(intent);
     }
 
     private void copyFile(InputStream in, OutputStream out) throws IOException
@@ -317,6 +327,23 @@ import timber.log.Timber;
             out.write(buffer, 0, read);
         }
     }
+
+    @SuppressWarnings("deprecation")
+    private void viewFile(InputStream in, OutputStream out, File file, String pdfName) throws IOException
+    {
+        out = openFileOutput(file.getName(), Context.MODE_WORLD_READABLE);
+
+        copyFile(in, out);
+        in.close();
+        in = null;
+        out.flush();
+        out.close();
+        out = null;
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        intent.setDataAndType(Uri.parse("file://" + getFilesDir() + File.separator + pdfName), "application/pdf");
+        startActivity(intent);
+    }
+
     // ------------------------------------------------------------------------------------------ //
     // ---------------------------------      ACTION BAR       ---------------------------------- //
     // ------------------------------------------------------------------------------------------ //

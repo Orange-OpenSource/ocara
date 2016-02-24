@@ -229,6 +229,8 @@ public interface ModelManager {
      */
     Collection<RuleSet> getAllRuleSet();
 
+    Collection<RuleSet> getAllRuleSetByLanguage();
+
     /**
      * Returns a list of site match the given noimmo and/or name
      *

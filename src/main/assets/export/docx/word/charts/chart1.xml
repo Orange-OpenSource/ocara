@@ -38,7 +38,7 @@
                             <c:strCache>
                                 <c:ptCount val="1" />
                                 <c:pt idx="0">
-                                    <c:v>contrôle Ok</c:v>
+                                    <c:v>ok control</c:v>
                                 </c:pt>
                             </c:strCache>
                         </c:strRef>
@@ -86,7 +86,7 @@
                             <c:strCache>
                                 <c:ptCount val="1" />
                                 <c:pt idx="0">
-                                    <c:v>doute</c:v>
+                                    <c:v>doubt</c:v>
                                 </c:pt>
                             </c:strCache>
                         </c:strRef>
@@ -134,7 +134,7 @@
                             <c:strCache>
                                 <c:ptCount val="1" />
                                 <c:pt idx="0">
-                                    <c:v>pb gênant</c:v>
+                                    <c:v>bp annoying</c:v>
                                 </c:pt>
                             </c:strCache>
                         </c:strRef>
@@ -182,7 +182,7 @@
                             <c:strCache>
                                 <c:ptCount val="1" />
                                 <c:pt idx="0">
-                                    <c:v>pb bloquant</c:v>
+                                    <c:v>bp blocking</c:v>
                                 </c:pt>
                             </c:strCache>
                         </c:strRef>

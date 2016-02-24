@@ -25,6 +25,7 @@ public class RuleSet {
 
     private String type;
     private String version;
+    private String language;
     private String id;
 
     private List<Category> categories = new ArrayList<Category>();

@@ -1,0 +1,4272 @@
+{
+	"app": "ocara",
+	"version": "1.0.0",
+    "language": "en",
+	"type": "Rules Open Source",
+	"objects": [{
+		"id": "Obj1",
+		"icon": "Barriere-01.png",
+		"name": "barrier",
+		"definition": "",
+		"illustration": "BAR",
+		"objects": [],
+		"questions": ["O-1"]
+	},
+	{
+		"id": "Obj2a",
+		"icon": "Couloir-01.png",
+		"name": "corridor",
+		"definition": "",
+		"objects": ["SObj10",
+		"SObj12",
+		"SObj08"],
+		"questions": ["O-2",
+		"II-1"]
+	},
+	{
+		"id": "Obj2b",
+		"icon": "Chemin-01.png",
+		"name": "path",
+		"definition": "",
+		"objects": ["SObj10",
+		"SObj12"],
+		"questions": ["O-2",
+		"II-1"]
+	},
+	{
+		"id": "Obj3",
+		"icon": "Rampe-01.png",
+		"name": "gradient",
+		"definition": "",
+		"objects": [],
+		"questions": ["O-3"]
+	},
+	{
+		"id": "Obj4a",
+		"icon": "Porte battante_100x100.png",
+		"name": "swing door",
+		"definition": "Decree of December 8, 2014, section 10: The doors must meet the expected uses.\nAll doors located on the paths allow the passage of people with disabilities and can be operated by people with reduced physical abilities, including in case of complex opening system.\nThe doors with a large glass section can be identified by visually impaired people of all sizes and do not create visual impairment.\nSwing doors and automatic doors can be safely used by people with disabilities.\nThe locks allow the passage and operation of the doors for the disabled ...\nFor more information:http:\/\/www.accessibilite-batiment.fr\/erp-situes-dans-un-cadre-bati-existant\/portes-portiques-et-sas\/arrete.html",
+		"objects": ["SObj02",
+		"SObj03",
+		"SObj04",
+		"SObj05",
+		"SObj06"],
+		"questions": ["O-4"]
+	},
+	{
+		"id": "Obj4b",
+		"icon": "Porte coulissante-01.png",
+		"name": "sliding door",
+		"definition": "Decree of December 8, 2014, section 10: The doors must meet the expected uses.\nAll doors located on the paths allow the passage of people with disabilities and can be operated by people with reduced physical abilities, including in case of complex opening system.\nThe doors with a large glass section can be identified by visually impaired people of all sizes and do not create visual impairment.\nSwing doors and automatic doors can be safely used by people with disabilities.\nThe locks allow the passage and operation of the doors for the disabled ...\nFor more information:http:\/\/www.accessibilite-batiment.fr\/erp-situes-dans-un-cadre-bati-existant\/portes-portiques-et-sas\/arrete.html",
+		"objects": ["SObj04",
+		"SObj05",
+		"SObj06"],
+		"questions": ["O-4",
+		"O-4a"]
+	},
+	{
+		"id": "Obj5a",
+		"icon": "Porte tournante-01.png",
+		"name": "revolving door",
+		"definition": "Decree of December 8, 2014, section 10: The doors must meet the expected uses.\n... When a device made necessary because of constraints such as security or safety is incompatible with the constraints of a handicap or the use of technical assistance, especially in the case of doors drum, tourniquets or cylindrical locks, a suitable door is installed in the vicinity of the device.\nFor more information:http:\/\/www.accessibilite-batiment.fr\/erp-situes-dans-un-cadre-bati-existant\/portes-portiques-et-sas\/arrete.html",
+		"objects": [],
+		"questions": ["O-5"]
+	},
+	{
+		"id": "Obj5b",
+		"icon": "Porte tournante-01.png",
+		"name": "turnstile",
+		"definition": "",
+		"objects": [],
+		"questions": ["O-5"]
+	},
+	{
+		"id": "Obj6",
+		"icon": "Accueil-01.png",
+		"name": "Home",
+		"definition": "Home, at the reception desk: topped counter or without a grid and allowing the public to communicate with employees of a company or administration",
+		"illustration": "AC",
+		"objects": [],
+		"questions": ["O-6",
+		"II-1"]
+	},
+	{
+		"id": "Obj7",
+		"icon": "Ascenseur-01.png",
+		"name": "lift",
+		"definition": "Reference may be made to the Decree of December 8, 2014, Article 7 on vertical interior circulations\nhttp:\/\/www.accessibilite-batiment.fr\/erp-situes-dans-un-cadre-bati-existant\/circulations-interieures-verticales\/arrete.html",
+		"objects": [],
+		"questions": ["O-7",
+		"II-1"]
+	},
+	{
+		"id": "Obj8",
+		"icon": "Escalier-01.png",
+		"name": "staircase",
+		"definition": "Reference may be made to the Decree of December 8, 2014, Article 7 on vertical interior circulations\nhttp:\/\/www.accessibilite-batiment.fr\/erp-situes-dans-un-cadre-bati-existant\/circulations-interieures-verticales\/arrete.html\n\nSome useful définitons:\n- On: horizontal surface on which the foot is placed\n- Riser: vertical part between two steps. The riser however is not systematic (the miller scales do not, for example), stairs that lack are then called \"latticed\"\n- Nosing: Part of walking on bare projection of the riser\n- Giron horizontal distance from nosing to nosing\n- Flock: stair portion between both platforms and includes the steps\n- Breakaway: passage height, taken vertically between the line joining two consecutive nosings and above floor (minimum: 1.90 m; usually 2,10 m)",
+		"objects": ["SObj13",
+		"SObj08"],
+		"questions": ["O-8",
+		"II-1"]
+	},
+	{
+		"id": "Obj9",
+		"icon": "Parking Accessible_100x100.png",
+		"name": "parking adapted",
+		"definition": "Decree of December 8, 2014, Section 3. A suitable parking space is easily recognizable by everyone from the entrance of the parking lot is positioned, sized and equipped to enable holders of persons parking card for people disabilities, and in particular to a wheelchair or his accompanist, parking his car as close to an accessible path leading to an accessible entrance or exit of the establishment.",
+		"illustration": "STA",
+		"objects": [],
+		"questions": ["O-9"]
+	},
+	{
+		"id": "Obj10",
+		"icon": "Bus-01.png",
+		"name": "stop transportation",
+		"definition": "",
+		"objects": [],
+		"questions": ["O-10"]
+	},
+	{
+		"id": "Obj11",
+		"icon": "WC-01.png",
+		"name": "WC",
+		"definition": "",
+		"objects": ["SObj08"],
+		"questions": ["O-11",
+		"II-1"]
+	},
+	{
+		"id": "Obj12",
+		"icon": "Restaurant RIE-01.png",
+		"name": "RIC",
+		"definition": "Canteen or Inter Firms",
+		"objects": [],
+		"questions": ["O-12",
+		"II-1",
+		"II-2"]
+	},
+	{
+		"id": "Obj13",
+		"icon": "Salle detente-01.png",
+		"name": "relaxation area",
+		"definition": "",
+		"objects": [],
+		"questions": ["O-13",
+		"II-1",
+		"II-2"]
+	},
+	{
+		"id": "Obj14",
+		"icon": "Securite-01.png",
+		"name": "secure area",
+		"definition": "All users must be evacuated from the building. If no means of escape to the outside is not possible, persons with disabilities should be able to take refuge in a safe waiting area until the aid of firefighters. This applies mainly to levels that are not full foot.\nOurra We refer to the ERP = Regulations Decree of June 25, 1980http:\/\/www.legifrance.gouv.fr\/affichTexte.do;jsessionid=6A627AB6380A71E9055375C881C590AB.tpdila23v_1?cidTexte=JORFTEXT000000290033etdateTexte=20150505",
+		"objects": [],
+		"questions": ["O-14"]
+	},
+	{
+		"id": "Obj15",
+		"icon": "Entree principale-01.png",
+		"name": "main entrance",
+		"definition": "",
+		"objects": [],
+		"questions": ["O-15"]
+	},
+	{
+		"id": "Obj16a",
+		"icon": "Reunion-01.png",
+		"name": "meeting room",
+		"definition": "",
+		"objects": ["SObj08"],
+		"questions": ["O-16",
+		"II-1",
+		"II-2",
+		"II-3"]
+	},
+	{
+		"id": "Obj16b",
+		"icon": "Amphitheatre-01.png",
+		"name": "amphi",
+		"definition": "",
+		"objects": ["SObj08"],
+		"questions": ["O-16",
+		"II-1",
+		"II-2",
+		"II-3"]
+	},
+	{
+		"id": "Obj18",
+		"icon": "Position travail-01.png",
+		"name": "office",
+		"definition": "",
+		"objects": ["SObj08"],
+		"questions": ["O-18",
+		"II-1",
+		"II-2",
+		"II-3"]
+	},
+	{
+		"id": "Obj19",
+		"icon": "Elevateur-01.png",
+		"name": "elevator",
+		"definition": "Gear used to transport vertically or on steep slopes, people, documents or materials.\nA vertical lift device can in some cases be installed instead of an elevator.\nReference may be made to the Decree of December 8, 2014, Article 7 on vertical interior circulations\nhttp:\/\/www.accessibilite-batiment.fr\/erp-situes-dans-un-cadre-bati-existant\/circulations-interieures-verticales\/arrete.html",
+		"objects": [],
+		"questions": ["O-19"]
+	},
+	{
+		"id": "SObj01",
+		"icon": "Eclairage-01.png",
+		"name": "lighting",
+		"definition": "",
+		"objects": [],
+		"questions": ["II-1"]
+	},
+	{
+		"id": "SObj02",
+		"icon": "Ouverture manuelle_100x100.png",
+		"name": "manual opening",
+		"definition": "",
+		"objects": [],
+		"questions": ["O-4m"]
+	},
+	{
+		"id": "SObj03",
+		"icon": "Ouverture automatique-01b.png",
+		"name": "automatic opening",
+		"definition": "",
+		"objects": [],
+		"questions": ["O-4a"]
+	},
+	{
+		"id": "SObj04",
+		"icon": "Commande a distance_100x100.png",
+		"name": "unlocking",
+		"definition": "",
+		"objects": [],
+		"questions": ["C-1"]
+	},
+	{
+		"id": "SObj05",
+		"icon": "Commande-01.png",
+		"name": "remote opening",
+		"definition": "",
+		"objects": [],
+		"questions": ["C-2"]
+	},
+	{
+		"id": "SObj06",
+		"icon": "Detecteur de presence-01.png",
+		"name": "detection system",
+		"definition": "",
+		"objects": [],
+		"questions": ["C-3"]
+	},
+	{
+		"id": "SObj07",
+		"icon": "Controle acces-01.png",
+		"name": "switch",
+		"definition": "",
+		"objects": [],
+		"questions": ["C-4"]
+	},
+	{
+		"id": "SObj08",
+		"icon": "Interrupteur-01.png",
+		"name": "Lighting device",
+		"definition": "",
+		"objects": [],
+		"questions": ["O-20"]
+	},
+	{
+		"id": "SObj09",
+		"icon": "Controle acces-01.png",
+		"name": "access control",
+		"definition": "",
+		"objects": [],
+		"questions": ["O-21"]
+	},
+	{
+		"id": "SObj10",
+		"icon": "Poteau-01.png",
+		"name": "landmark",
+		"definition": "",
+		"objects": [],
+		"questions": ["O-22"]
+	},
+	{
+		"id": "SObj11",
+		"icon": "Interphone-01.png",
+		"name": "intercom",
+		"definition": "",
+		"objects": [],
+		"questions": ["O-23"]
+	},
+	{
+		"id": "SObj12",
+		"icon": "Panneau-01.png",
+		"name": "Safety",
+		"definition": "",
+		"objects": [],
+		"questions": ["O-24"]
+	},
+	{
+		"id": "SObj13",
+		"icon": "Objet personnel-01.png",
+		"name": "guideline",
+		"definition": "Creepy element positioned level of support on the core, to the core-wall, on the stairwell wall or crowning a support ramp. For reasons of safety and comfort, stair handrail need, laid along the wall. It is added to an existing ramp, ramp or done automatically if it does not exist.",
+		"objects": [],
+		"questions": ["O-25"]
+	}],
+	"handicaps": [{
+		"idHandicap": "H1",
+		"label": "Electric wheelchair",
+		"picto": "Fauteuil roulant electrique-01.png"
+	},
+	{
+		"idHandicap": "H2",
+		"label": "Manual wheelchair",
+		"picto": "Fauteuil roulant-01.png"
+	},
+	{
+		"idHandicap": "H3",
+		"label": "Travel difficulties",
+		"picto": "Difficulte deplacement-01.png"
+	},
+	{
+		"idHandicap": "H4",
+		"label": "Gripping difficulties",
+		"picto": "Difficultes prehension-01.png"
+	},
+	{
+		"idHandicap": "H5",
+		"label": "Small size",
+		"picto": "Petite taille-01.png"
+	},
+	{
+		"idHandicap": "H6",
+		"label": "blind",
+		"picto": "Non voyant.png"
+	},
+	{
+		"idHandicap": "H7",
+		"label": "Visually impaired",
+		"picto": "Mal voyant-01.png"
+	},
+	{
+		"idHandicap": "H8",
+		"label": "deaf",
+		"picto": "Sourd-01.png"
+	},
+	{
+		"idHandicap": "H9",
+		"label": "Hard of Hearing",
+		"picto": "Mal entendant-01.png"
+	}],
+	"questions": {
+		"O-9": {
+			"ref": "O-9",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is the parking space reserved adapted and is located near the building?",
+			"doubts": [{
+				"id": "Sta1",
+				"text": "Is the maximum distance is less than 100 m?",
+				"handicaps": {
+					"H1": "G",
+					"H2": "G",
+					"H4": "G",
+					"H5": "G"
+				},
+				"illustration": "Sta1"
+			}]
+		},
+		"O-9-a": {
+			"ref": "O-9-a",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is the parking space is conveniently suited reported?",
+			"doubts": [{
+				"id": "Sta2",
+				"text": "Does the placeholders are marked with:<br\/>    > A blue markings?<br\/>    > A vertical panel with the \"armchair\" logo?<br\/>    > A pictogram on the ground?",
+				"handicaps": {
+					"H1": "G",
+					"H2": "G",
+					"H4": "G",
+					"H5": "G"
+				},
+				"illustration": "Sta2"
+			}]
+		},
+		"O-9-b": {
+			"ref": "O-9-b",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is the parking space reserved adapted and meets the standards?",
+			"doubts": [{
+				"id": "Sta3",
+				"text": "Is the parking is at least 3,10m?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G"
+				},
+				"illustration": "Sta3"
+			},
+			{
+				"id": "Sta4",
+				"text": "Est que qu'il y a un abaissement de trottoir de plus de 70 cm de large, ou est ce que la place est de plain pied ?",
+				"handicaps": {
+					"H1": "G",
+					"H2": "G",
+					"H5": "G"
+				},
+				"illustration": "Sta4"
+			},
+			{
+				"id": "Sta5",
+				"text": "Is the slope and cross slope are less than 4%?",
+				"handicaps": {
+					"H1": "G",
+					"H2": "G"
+				},
+				"illustration": "Sta5"
+			}]
+		},
+		"O-9-c": {
+			"ref": "O-9-c",
+			"subject": "Quality of use",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Does the employee usually finds a suitable place available?",
+			"doubts": [{
+				"id": "Sta6",
+				"text": "Is a suitable place is left available for the disabled user?<br\/>Are the appropriate places in sufficient number? It takes at least 2% of the total number of pending seats (available to all and priority to the disabled user).<br\/>The site they respect personal priority to disabled users?",
+				"handicaps": {
+					"H1": "G",
+					"H2": "G",
+					"H4": "G"
+				},
+				"illustration": "Sta6"
+			}]
+		},
+		"O-10": {
+			"ref": "O-10",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Does the transit stop is adapted and is located near the building?",
+			"doubts": [{
+				"id": "TC1",
+				"text": "Does the public transport stops (bus, metro, tram) are within 100 meters of the entrance to the site?",
+				"handicaps": {
+					"H1": "G",
+					"H2": "G",
+					"H4": "G",
+					"H5": "G"
+				},
+				"illustration": "TC1"
+			},
+			{
+				"id": "TC2",
+				"text": "Is the height of the judgment is the height of wheeled vehicles with a maximum variation of 4 cm?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G",
+					"H4": "G",
+					"H5": "G",
+					"H6": "G"
+				},
+				"illustration": "TC2"
+			}]
+		},
+		"O-10-a": {
+			"ref": "O-10-a",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Does the public transport stopping dimensions comply with standards?",
+			"doubts": [{
+				"id": "TC3",
+				"text": "Is there a minimum width of 0.80 m passing, free of obstacles?",
+				"handicaps": {
+					"H1": "G"
+				},
+				"illustration": "TC3"
+			},
+			{
+				"id": "TC4",
+				"text": "Is there a rotation area of 1.30 m in diameter to a minimum?",
+				"handicaps": {
+					"H1": "G"
+				},
+				"illustration": "TC4"
+			}]
+		},
+		"O-10-b": {
+			"ref": "O-10-b",
+			"subject": "Safety",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Does the type of public transit stop is present and adapted?",
+			"doubts": [{
+				"id": "TC5",
+				"text": "Is transportation and destination lines are indicated at each stop?",
+				"handicaps": {
+					"H1": "G",
+					"H2": "G",
+					"H3": "G",
+					"H4": "G",
+					"H5": "G",
+					"H6": "G",
+					"H7": "G",
+					"H8": "G"
+				},
+				"illustration": "TC5"
+			},
+			{
+				"id": "TC6",
+				"text": "Is the ID of the line is shown in characters minimum 8 cm in height and uses a high contrast relative to the background color?",
+				"handicaps": {
+					"H6": "B"
+				},
+				"illustration": "TC6"
+			},
+			{
+				"id": "TC7",
+				"text": "Is it a band waking alertness if the stop is elevated by more than 26 cm?",
+				"handicaps": {
+					"H5": "B",
+					"H6": "B"
+				},
+				"illustration": "TC7"
+			},
+			{
+				"id": "TC8",
+				"text": "Is there a road marking indicating the location of the doors of access to transportation?",
+				"handicaps": {
+					
+				},
+				"illustration": "TC8"
+			}]
+		},
+		"O-11": {
+			"ref": "O-11",
+			"subject": "Safety",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Does the entrance of the toilet is adequately reported?",
+			"doubts": [{
+				"id": "WC1",
+				"text": "Does the bathroom door has a sufficient contrast signage?<br\/>       (Typically a wholesale parcarte contrasting characters)",
+				"handicaps": {
+					"H5": "B",
+					"H6": "G"
+				},
+				"illustration": "WC1"
+			},
+			{
+				"id": "WC2",
+				"text": "Does the symbol \"accessible washroom\" is visible from the corridor?",
+				"handicaps": {
+					"H1": "G",
+					"H4": "G",
+					"H6": "G"
+				},
+				"illustration": "WC2"
+			}]
+		},
+		"O-11-a": {
+			"ref": "O-11-a",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Are the toilets are accessible to people in wheelchairs and other disability situations (access, size and equipment)?",
+			"doubts": [{
+				"id": "WC3",
+				"text": "Does the toilet doors are easy to open?<br\/>      (Automatic opening or push button, or handful graspable)",
+				"handicaps": {
+					"H1": "G",
+					"H3": "G",
+					"H4": "G"
+				},
+				"illustration": "WC3"
+			},
+			{
+				"id": "WC4",
+				"text": "Is there a free space at the side of bowl at least 0.75 m × 1.25 m, beyond any obstacle and doors deflections?",
+				"handicaps": {
+					"H1": "G",
+					"H3": "G",
+					"H4": "G"
+				},
+				"illustration": "WC4"
+			},
+			{
+				"id": "WC5",
+				"text": "Is the distance of a bowl-axis wall between 0.35 m and 0.40 m?",
+				"handicaps": {
+					"H1": "B",
+					"H3": "G"
+				},
+				"illustration": "WC5"
+			},
+			{
+				"id": "WC6",
+				"text": "Is there a space for rotation of a minimum of 1.50 m in diameter, to be free to maneuver a wheelchair inside or outside?",
+				"handicaps": {
+					"H1": "G"
+				},
+				"illustration": "WC6"
+			},
+			{
+				"id": "WC7",
+				"text": "Is the height of the bowl is between 0.46 m and 0.50 m?",
+				"handicaps": {
+					"H1": "G",
+					"H3": "G",
+					"H4": "G"
+				},
+				"illustration": "WC7"
+			},
+			{
+				"id": "WC8",
+				"text": "Is a horizontal grab bar is positioned between 0.70 m and 0.80 m from the ground?",
+				"handicaps": {
+					"H1": "G",
+					"H3": "G",
+					"H4": "G"
+				},
+				"illustration": "WC8"
+			},
+			{
+				"id": "WC9",
+				"text": "Is the flush control is easy to reach and maneuver?",
+				"handicaps": {
+					"H1": "G",
+					"H3": "G",
+					"H4": "G"
+				},
+				"illustration": "WC9"
+			}]
+		},
+		"O-11-b": {
+			"ref": "O-11-b",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is associated equipment are accessible to people in wheelchairs and other disability situations (access, size)?",
+			"doubts": [{
+				"id": "WC10",
+				"text": "Is the equipment (seat, etc.) are in a contrasting color?",
+				"handicaps": {
+					"H7": "G"
+				},
+				"illustration": "WC10"
+			},
+			{
+				"id": "WC11",
+				"text": "Do washbasins are suspended column with a lower edge more than 0.70 m from the ground to let a fauteuil ?",
+				"handicaps": {
+					"H1": "G",
+					"H3": "G"
+				},
+				"illustration": "WC11"
+			},
+			{
+				"id": "WC12",
+				"text": "Does the lower base of the mirrors is less than 1.05 m from the ground?",
+				"handicaps": {
+					"H1": "G",
+					"H3": "G",
+					"H4": "G"
+				},
+				"illustration": "WC12"
+			},
+			{
+				"id": "WC13",
+				"text": "Does the health accessories (soap dish, dryer ...) are located within 1.30 m from the ground?",
+				"handicaps": {
+					"H1": "G",
+					"H3": "G",
+					"H4": "B"
+				},
+				"illustration": "WC13"
+			},
+			{
+				"id": "WC14a",
+				"text": "Is the toilet area is well covered by the alarm system? We need the beep is heard appropriately",
+				"handicaps": {
+					"H1": "B",
+					"H2": "B",
+					"H3": "B",
+					"H4": "B",
+					"H5": "B",
+					"H6": "B",
+					"H8": "G"
+				},
+				"illustration": "WC13"
+			},
+			{
+				"id": "WC14b",
+				"text": "Is the toilet area is well covered by the substitution alarm? It is necessary that the acoustic signal is doubled by means of substitution to prevent the user in case of an emergency evacuation (watch with vibrating bracelet, visible light flash toilet ...)",
+				"handicaps": {
+					"H7": "B",
+					"H8": "B"
+				},
+				"illustration": "WC14b"
+			}]
+		},
+		"O-1": {
+			"ref": "O-1",
+			"subject": "Identifying Barriers",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is that the barrier is detectable by a white cane?",
+			"doubts": [{
+				"id": "BAR1",
+				"text": "Is the barrier includes a base unit:<br\/>    > Continuous or discontinuity which does not exceed 0.40 m?<br\/>    > Located at a height of 0.40 m maximum?",
+				"handicaps": {
+					"H5": "B",
+					"H6": "G"
+				},
+				"illustration": "BAR1"
+			}]
+		},
+		"O-1-a": {
+			"ref": "O-1-a",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Will control the opening \/ closing of the barrier is possible from a wheelchair?",
+			"doubts": [{
+				"id": "BAR2",
+				"text": "Does the control device (switch) is located more than 0.25 m from a concave angle of the wall or other obstacle to the approach of a wheelchair?",
+				"handicaps": {
+					"H1": "B",
+					"H3": "G"
+				},
+				"illustration": "BAR2"
+			},
+			{
+				"id": "BAR3",
+				"text": "Is the height of the control device (switch) is between 0.90 m and 1.30 m, for use sitting or standing?",
+				"handicaps": {
+					"H1": "B",
+					"H3": "G",
+					"H4": "B"
+				},
+				"illustration": "BAR2"
+			}]
+		},
+		"O-1-b": {
+			"ref": "O-1-b",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Will control the opening \/ closing of the gate is accessible to the visually impaired or blind people?",
+			"doubts": [{
+				"id": "BAR4",
+				"text": "Does the control device (switch):<br\/>    > Is easily spotted thanks to a visual contrast or appropriate signage?<br\/>    > Is located in an illuminated area?",
+				"handicaps": {
+					"H6": "G"
+				},
+				"illustration": "BAR4"
+			}]
+		},
+		"O-2": {
+			"ref": "O-2",
+			"subject": "Quality Pathways",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Do pathways are the required dimensions (cross-section)?",
+			"doubts": [{
+				"id": "CHE1",
+				"text": "Is the minimum width is 1.40 m, free of obstacles?<br\/>Exception: the corridors can be reduced to a maximum of 0.90 m width for a max length of 15 m in parts without crossing neither possible reversal",
+				"handicaps": {
+					"H1": "G",
+					"H2": "G"
+				},
+				"illustration": "CHE1"
+			},
+			{
+				"id": "CHE2",
+				"text": "Does the path in each point where a route choice is given to the user, there is a maneuvering space with the possibility of half turn of at least 1.30m in diameter?",
+				"handicaps": {
+					"H1": "G"
+				},
+				"illustration": "CHE2"
+			}]
+		},
+		"O-2-a": {
+			"ref": "O-2-a",
+			"subject": "Quality Pathways",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Does the path is horizontal, or an inclined plane is arranged?",
+			"doubts": [{
+				"id": "CHE3",
+				"text": "Drop of absence or when it can not be avoided, an inclined plane or ramp is set",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G"
+				},
+				"illustration": "CHE3"
+			}]
+		},
+		"O-2-b": {
+			"ref": "O-2-b",
+			"subject": "Quality Pathways",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is the soil has a moderate and practicable Relief?",
+			"doubts": [{
+				"id": "CHE4",
+				"text": "The path shows no sudden leveling of slippery surfaces or obstacles at the wheel?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G"
+				},
+				"illustration": "CHE4"
+			},
+			{
+				"id": "CHE5",
+				"text": "Will the path presents no jump,<br\/>Or if there are ressaults, is that:<br\/>      > The path is horizontal?<br\/>      > Ressaults and verify:<br\/>          - Height of less than 2 cm, with a rounded edge and spaced at least 2.50 m?<br\/>          - Or up to 4 cm, full height with a slope <33%?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G"
+				},
+				"illustration": "CHE5"
+			},
+			{
+				"id": "CHE6",
+				"text": "Will the path presents no holes and slots in width or diameter greater than or equal to 2.2 cm?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "B"
+				},
+				"illustration": "CHE6"
+			}]
+		},
+		"O-2-c": {
+			"ref": "O-2-c",
+			"subject": "Quality Pathways",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is that the coating of the journey presents a visual and tactile contrast?",
+			"doubts": [{
+				"id": "CHE7",
+				"text": "Does the path includes along its length a continuous mark, tactile, visual contrast compared to its environment?",
+				"handicaps": {
+					"H6": "G"
+				},
+				"illustration": "CHE7"
+			}]
+		},
+		"O-2-d": {
+			"ref": "O-2-d",
+			"subject": "Identifying Barriers",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Does the path is free of obstacles, or obstacles they are easy to spot?",
+			"doubts": [{
+				"id": "CHE8",
+				"text": "Hanging obstacles: is there a free passage above ground than 2,20 m high? (greater than 2 m in parking lots)<br\/>Implanted obstacles as soon as they are in lateral projection of more than 15 cm on the path, and whatever their height.<br\/>Are these elements include:> a visual contrast element with respect to their immediate environment? > And a tactile reminder or an extension to the ground?",
+				"handicaps": {
+					"H5": "B",
+					"H6": "G"
+				},
+				"illustration": "CHE8"
+			}]
+		},
+		"O-2-e": {
+			"ref": "O-2-e",
+			"subject": "Quality Pathways",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is the user a chance to rest along the journey?",
+			"doubts": [{
+				"id": "CHE9",
+				"text": "Does the rest of points (such as the ischial support) allow users (eg with crutches) to rest along the journey?",
+				"handicaps": {
+					"H2": "G"
+				},
+				"illustration": "CHE9"
+			}]
+		},
+		"O-3": {
+			"ref": "O-3",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is the boom is practicable (width, slope)?",
+			"doubts": [{
+				"id": "RAMP1",
+				"text": "Is the width exceeds 1,10 m?",
+				"handicaps": {
+					"H1": "G",
+					"H2": "G"
+				},
+				"illustration": "RAMP1"
+			},
+			{
+				"id": "RAMP2",
+				"text": "Is the slope is less than or equal to 8%?<br\/>Or exceptionally:<br\/>    > Up to 12% over a length less than or equal to 2 m?<br\/>    > Up to 15% less than or equal to 0.5 m?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G"
+				},
+				"illustration": "RAMP2"
+			},
+			{
+				"id": "RAMP3",
+				"text": "Can a rest platform is present at the top and bottom of each inclined plane (of any length)?<br\/>Recommendation: if greater than or equal to 4% slope, provide a rest platform every 10 m",
+				"handicaps": {
+					"H1": "B"
+				},
+				"illustration": "RAMP3"
+			},
+			{
+				"id": "RAMP4",
+				"text": "If there are successive rises, is the minimum distance of 2.30 m between each jump?",
+				"handicaps": {
+					"H1": "G",
+					"H2": "G"
+				},
+				"illustration": "RAMP4"
+			}]
+		},
+		"O-3-a": {
+			"ref": "O-3-a",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is the security features required for the ramp are present?",
+			"doubts": [{
+				"id": "RAMP5",
+				"text": "If the ramp is greater than 4% slope or if it has a higher gradient to 40 cm:<br\/>    > Is there a continuous handrail at least on one side?<br\/>    > And is that this is easily graspable handrail, and arranged at a height of between 0.80 and 1 m?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "B"
+				},
+				"illustration": "RAMP5"
+			},
+			{
+				"id": "RAMP6",
+				"text": "Is there a plow wheels along the edge of the ramp?",
+				"handicaps": {
+					"H1": "G"
+				},
+				"illustration": "RAMP6"
+			}]
+		},
+		"O-3-b": {
+			"ref": "O-3-b",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is the ramp and its equipment are sufficiently identifiable?",
+			"doubts": [{
+				"id": "RAMP7",
+				"text": "The ramp shall be identifiable: is there a minimum contrast of the floor with the environment?<br\/>If present, the handrail must be clearly visible: is that there are contrasting colors to the handrail?",
+				"handicaps": {
+					"H6": "G"
+				},
+				"illustration": "RAMP7"
+			}]
+		},
+		"O-3-c": {
+			"ref": "O-3-c",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is that the ramp is lined by a staircase?",
+			"doubts": [{
+				"id": "RAMP8",
+				"text": "It is recommended that the choice of path for those small example.",
+				"handicaps": {
+					"H2": "G",
+					"H4": "G"
+				},
+				"illustration": "RAMP8"
+			}]
+		},
+		"O-4": {
+			"ref": "O-4",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is the door the required dimensions?",
+			"doubts": [{
+				"id": "PO1",
+				"text": "Measuring the useful door open passage, removing the thickness of the door as it limits the passage.<br\/>A door (not escape door) must be at least 0.75 m of useful transition<br\/>A security gate must be at least 0.77 m of useful way.<br\/>A door for evacuation:<br\/>    > Must be at least 1.40 m wide for premises receiving more than 100 people, and include a leaf of 0.90 m<br\/>    > Must be at least 0.90 m for premises receiving less than 100 people",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G"
+				},
+				"illustration": "PO1"
+			}]
+		},
+		"O-4-a": {
+			"ref": "O-4-a",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Are there any visual cues (tapes, contrasts) on the door?",
+			"doubts": [{
+				"id": "PO2",
+				"text": "Do the doors have at least one marking or contrast with the background?",
+				"handicaps": {
+					"H6": "G"
+				},
+				"illustration": "PO2"
+			}]
+		},
+		"O-4-b": {
+			"ref": "O-4-b",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is the operating space is enough?",
+			"doubts": [{
+				"id": "PO3",
+				"text": "Is there a space for maneuver at the door:> if it opens by pushing, with a minimum length of 1.25 m? > If it is opened by pulling, a minimum length of 1.80 m? > If it opens by sliding, there is a bearing at the door of 1,25m x 1m?<br\/>For isolation sas:> Is that inside the lock, before each door, there is a space for maneuver common circulation x = 1.80 m? > Do and outside the lock, before each door, there is a space for maneuver common circulation x = 1.25 m?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G",
+					"H7": "G",
+					"H8": "G"
+				},
+				"illustration": "PO3"
+			}]
+		},
+		"O-4m": {
+			"ref": "O-4m",
+			"subject": "manual opening",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is that the manual opening device is well established?",
+			"doubts": [{
+				"id": "POM1",
+				"text": "The opening device must be:<br\/>    - Well spotted<br\/>    - Located more than 0.25 m from a concave angle of the wall or other obstacle to the approach of a wheelchair<br\/>    - Situated at a height between 0.90 m and 1.30 m, for use sitting or standing<br\/>    - Located so as not to impede access to the door opening",
+				"handicaps": {
+					"H1": "G",
+					"H3": "G"
+				},
+				"illustration": "POM1"
+			}]
+		},
+		"O-4m-a": {
+			"ref": "O-4m-a",
+			"subject": "manual opening",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Are the controls (handle, push button) are easily activated?",
+			"doubts": [{
+				"id": "POM2",
+				"text": "Do the handles are easily graspable, or facilements activated buttons? - A handful L is grippable, a round or oval handle is not. - On a more easily pushes prohiminant button that is pressed a small flat button.",
+				"handicaps": {
+					"H1": "G",
+					"H3": "G"
+				},
+				"illustration": "POM2"
+			}]
+		},
+		"O-4m-b": {
+			"ref": "O-4m-b",
+			"subject": "manual opening",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is the door maneuver easily without too much effort?",
+			"doubts": [{
+				"id": "POM3",
+				"text": "Does opening the maximum effort does not exceed 50 Newton?",
+				"handicaps": {
+					"H1": "G",
+					"H3": "G"
+				},
+				"illustration": "POM3"
+			}]
+		},
+		"O-4a": {
+			"ref": "O-4a",
+			"subject": "automatic opening",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Does the automatic opening time is set correctly?",
+			"doubts": [{
+				"id": "POA1",
+				"text": "Is the door leaves enough time to spend?<br\/>(You can evaluate this time advancing slowly.)",
+				"handicaps": {
+					"H1": "G",
+					"H2": "G",
+					"H5": "G",
+					"H6": "G"
+				}
+			}]
+		},
+		"O-4a-a": {
+			"ref": "O-4a-a",
+			"subject": "automatic opening",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is there a tone at the opening of the door?",
+			"doubts": [{
+				"id": "POA2",
+				"text": "Can a visually impaired person can perceive auditory way opening the door?",
+				"handicaps": {
+					"H5": "G",
+					"H6": "G"
+				}
+			}]
+		},
+		"O-4a-b": {
+			"ref": "O-4a-b",
+			"subject": "automatic opening",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is there a safety device that protects persons crossing?",
+			"doubts": [{
+				"id": "POA3",
+				"text": "Is that the door is equipped with a safety device that prevents, during his crossing, any contact between the door and the user or technical help?",
+				"handicaps": {
+					"H1": "G",
+					"H2": "G"
+				}
+			}]
+		},
+		"O-4a-c": {
+			"ref": "O-4a-c",
+			"subject": "automatic opening",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is it possible to open it by simple mechanical action in case of evacuation \/ fire?",
+			"doubts": [{
+				"id": "POA4",
+				"text": "If the door is on an escape route, is that the opening by a simple mechanical action is scheduled for evacuation \/ fire?<br\/>It should not be an automatic device can prevent opening of the door.",
+				"handicaps": {
+					"H1": "G",
+					"H2": "G"
+				}
+			}]
+		},
+		"C-3": {
+			"ref": "C-3",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is the detection system is set?",
+			"doubts": [{
+				"id": "DT1",
+				"text": "If the system is to detect, is that it can detect people of all sizes?",
+				"handicaps": {
+					"H1": "G",
+					"H2": "G",
+					"H4": "B"
+				},
+				"illustration": "DT1"
+			},
+			{
+				"id": "DT2",
+				"text": "If the system is to detect, is that it is set to control the opening early enough?",
+				"handicaps": {
+					"H1": "G",
+					"H2": "G"
+				},
+				"illustration": "DT1"
+			}]
+		},
+		"C-2": {
+			"ref": "C-2",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Does the remote opening can properly assess the situation?",
+			"doubts": [{
+				"id": "PO4",
+				"text": "Is it only when remote opening by one third, one third to a good view of the space or there is an accessible intercom?",
+				"handicaps": {
+					"H1": "G",
+					"H2": "G",
+					"H3": "G",
+					"H4": "G",
+					"H5": "G",
+					"H6": "G",
+					"H7": "G",
+					"H8": "G"
+				}
+			}]
+		},
+		"C-1": {
+			"ref": "C-1",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Does the release device is implanted?",
+			"doubts": [{
+				"id": "DEV1",
+				"text": "The locking device must be:<br\/>    - Well spotted<br\/>    - Located more than 0.25 m from a concave angle of the wall or other obstacle to the approach of a wheelchair<br\/>    - Situated at a height between 0.90 m and 1.30 m, for use sitting or standing<br\/>    - Located so as not to impede access to the door opening",
+				"handicaps": {
+					"H5": "G",
+					"H6": "G"
+				},
+				"illustration": "DEV1"
+			}]
+		},
+		"C-1-a": {
+			"ref": "C-1-a",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is there a beep when unlocking access?",
+			"doubts": [{
+				"id": "DEV2",
+				"text": "Is a beep indicates that the visitor is allowed to enter or exit when staff allows access?",
+				"handicaps": {
+					"H5": "G",
+					"H6": "G"
+				}
+			}]
+		},
+		"C-1-b": {
+			"ref": "C-1-b",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is there a light signal upon unlocking of access?",
+			"doubts": [{
+				"id": "DEV3",
+				"text": "Is a light signal indicates that the visitor is allowed to enter or exit when staff allows access?",
+				"handicaps": {
+					"H7": "G",
+					"H8": "G"
+				}
+			}]
+		},
+		"C-1-c": {
+			"ref": "C-1-c",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is there adequate time delay for unlocking \/ locking access?",
+			"doubts": [{
+				"id": "DEV4",
+				"text": "Can a person with reduced mobility can reach the door and start the opening maneuver until the door is locked again when unlocking access?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "B",
+					"H4": "G",
+					"H5": "G",
+					"H6": "G"
+				}
+			}]
+		},
+		"O-5": {
+			"ref": "O-5",
+			"subject": "Quality of use",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is a suitable access can be used near the turnstile or revolving door?",
+			"doubts": [{
+				"id": "PO5",
+				"text": "Is an accessible alternative is possible if the passage is through a turnstile or a revolving door? (for these facilities are not accessible)",
+				"handicaps": {
+					"H1": "B",
+					"H2": "B",
+					"H4": "G",
+					"H5": "B",
+					"H6": "G"
+				},
+				"illustration": "PO5"
+			},
+			{
+				"id": "PO6",
+				"text": "Does the proposed alternative is clearly marked?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "B",
+					"H4": "G",
+					"H5": "B",
+					"H6": "G"
+				},
+				"illustration": "PO5"
+			}]
+		},
+		"O-6": {
+			"ref": "O-6",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is there a possibility to sit?",
+			"doubts": [{
+				"id": "AC1",
+				"text": "Is a waiting area with seating has been provided at the input?",
+				"handicaps": {
+					"H2": "G"
+				}
+			}]
+		},
+		"O-6-a": {
+			"ref": "O-6-a",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is the reception desk is equipped with a sound system accessible to people with hearing disabilities?",
+			"doubts": [{
+				"id": "AC2",
+				"text": "Is a desk equipped with a transmission system of the acoustic signal by magnetic induction (magnetic loop) is present?",
+				"handicaps": {
+					"H8": "B"
+				},
+				"illustration": "AC2"
+			},
+			{
+				"id": "AC3",
+				"text": "Is a pictogram (standardized logo) indicating the area covered by the magnetic loop is present?",
+				"handicaps": {
+					"H8": "G"
+				},
+				"illustration": "AC2"
+			}]
+		},
+		"O-6-b": {
+			"ref": "O-6-b",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is the reception desk is easily spotted?",
+			"doubts": [{
+				"id": "AC4",
+				"text": "Is the reception station uses contrasting colors and is easily spotted?",
+				"handicaps": {
+					"H6": "G"
+				},
+				"illustration": "AC4"
+			}]
+		},
+		"O-6-c": {
+			"ref": "O-6-c",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is the reception desk has a position accessible to people with reduced mobility?",
+			"doubts": [{
+				"id": "AC5",
+				"text": "Does the furniture at this position has a maximum height of 0.80 m?<br\/><br\/>This high plateau allows a person sitting or small communicate and be seen by the caller.",
+				"handicaps": {
+					"H1": "B",
+					"H3": "G",
+					"H4": "G"
+				},
+				"illustration": "AC5"
+			},
+			{
+				"id": "AC6",
+				"text": "Is there a usage area of a minimum of 0.75 x 1.25 m and a rotation space of 1.30 m in diameter?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G",
+					"H4": "G"
+				},
+				"illustration": "AC5"
+			}]
+		},
+		"O-6-d": {
+			"ref": "O-6-d",
+			"subject": "Quality of use",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Are there any agents aware of the (s) disability (s) and available at the acccueil?",
+			"doubts": [{
+				"id": "AC7",
+				"text": "Do people from the establishment followed a disability awareness training (at least 1 type) and are available to advise or guide people with disabilities?",
+				"handicaps": {
+					"H1": "G",
+					"H2": "G",
+					"H3": "G",
+					"H4": "G",
+					"H5": "G",
+					"H6": "G",
+					"H7": "G",
+					"H8": "G"
+				}
+			}]
+		},
+		"O-7": {
+			"ref": "O-7",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Does the lift required dimensions?",
+			"doubts": [{
+				"id": "ASC1",
+				"text": "Does the size of the cabin her at least 0.80 m × 1.25 m deep?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G"
+				},
+				"illustration": "ASC1"
+			},
+			{
+				"id": "ASC2",
+				"text": "Are the sliding doors of the lift have a width greater than 0.75 m?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G"
+				},
+				"illustration": "ASC1"
+			},
+			{
+				"id": "ASC3",
+				"text": "Are the edges of the door are sensitive to touch?",
+				"handicaps": {
+					"H1": "G",
+					"H2": "G"
+				},
+				"illustration": "ASC3"
+			},
+			{
+				"id": "ASC4",
+				"text": "Is there at least one handrail preferably to 90 cm above the ground and 3.5 cm from the wall?",
+				"handicaps": {
+					"H3": "G",
+					"H5": "G",
+					"H6": "G"
+				},
+				"illustration": "ASC4"
+			}]
+		},
+		"O-7-a": {
+			"ref": "O-7-a",
+			"subject": "Characteristics and equipment",
+			"origin": "Good use Improvement",
+			"handicaps": {
+				
+			},
+			"text": "Is there a complete warning system, audio and video for each floor, and level in the cabin?",
+			"doubts": [{
+				"id": "ASC5a",
+				"text": "In level, is that there is at least a warning sound for each floor?<br\/>(sound information related to the movements of the cabin and the floors served)",
+				"handicaps": {
+					"H5": "G",
+					"H6": "G"
+				},
+				"illustration": "ASC5"
+			},
+			{
+				"id": "ASC5b",
+				"text": "In level, is that there is a visual information for each floor, and level in the cabin?<br\/>(visual information related to the movements of the cabin and the floors served)",
+				"handicaps": {
+					"H7": "G",
+					"H8": "G"
+				},
+				"illustration": "ASC5"
+			},
+			{
+				"id": "ASC6a",
+				"text": "Is there an audible signal before the opening and closing of doors?",
+				"handicaps": {
+					"H5": "G",
+					"H6": "G"
+				},
+				"illustration": "ASC6"
+			},
+			{
+				"id": "ASC6b",
+				"text": "Is there a light signal before the opening and closing of doors?",
+				"handicaps": {
+					"H7": "G",
+					"H8": "G"
+				},
+				"illustration": "ASC6"
+			}]
+		},
+		"O-7-b": {
+			"ref": "O-7-b",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is the door closing delay is sufficient?",
+			"doubts": [{
+				"id": "ASC7",
+				"text": "Is there a minimum time delay 6 seconds of the opening and closing of the door?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G"
+				},
+				"illustration": "ASC3"
+			}]
+		},
+		"O-7-c": {
+			"ref": "O-7-c",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Are the controls have a stopping accuracy on floors 2 cm maximum?",
+			"doubts": [{
+				"id": "ASC8",
+				"text": "Is there a stopping accuracy of 2 cm maximum relative to the bearing to avoid jumps in the cabin of the O?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G",
+					"H4": "G"
+				},
+				"illustration": "ASC8"
+			}]
+		},
+		"O-7-d": {
+			"ref": "O-7-d",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is there a warning with audible and visual signals?",
+			"doubts": [{
+				"id": "ASC9",
+				"text": "Is there a good backup application device (horn)?<br\/>Does this alarm is equipped with visual and audible signals, with:<br\/>    > A yellow illuminated pictogram in addition to the audible signal transmission request, indicating that the emergency request was issued;<br\/>    > A green illuminated pictogram in addition to the audible signal normally required (voice link), indicating that the backup application has been registered",
+				"handicaps": {
+					"H7": "G",
+					"H8": "G"
+				},
+				"illustration": "ASC9"
+			}]
+		},
+		"O-7-e": {
+			"ref": "O-7-e",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is there a phone with well signaled magnetic loop?",
+			"doubts": [{
+				"id": "ASC10",
+				"text": "Does the lift is equipped with an intercom with a magnetic loop?<br\/>Is the device indicated by a standardized logo?",
+				"handicaps": {
+					"H8": "G"
+				},
+				"illustration": "ASC10"
+			}]
+		},
+		"O-7-f": {
+			"ref": "O-7-f",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is there an information plaque on the 114 emergency calls?",
+			"doubts": [{
+				"id": "ASC11",
+				"text": "Is there an information plate on emergency calls (114)?",
+				"handicaps": {
+					"H7": "G",
+					"H8": "G"
+				},
+				"illustration": "ASC11"
+			}]
+		},
+		"O-7-g": {
+			"ref": "O-7-g",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Do the necessary commands and information, inside and outside the elevator are accessible to people with visual impairment?",
+			"doubts": [{
+				"id": "ASC12a",
+				"text": "Is outside the elevator buttons are embossed to provide a better distinction?",
+				"handicaps": {
+					"H5": "B",
+					"H6": "G"
+				},
+				"illustration": "ASC10"
+			},
+			{
+				"id": "ASC12b",
+				"text": "Is in the elevator buttons are embossed to provide a better distinction?",
+				"handicaps": {
+					"H5": "B",
+					"H6": "G"
+				},
+				"illustration": "ASC10"
+			},
+			{
+				"id": "ASC13a",
+				"text": "Is outside the elevator, the platform screen commands (call for floors) use standardized pictograms doubled in Braille?",
+				"handicaps": {
+					"H5": "B",
+					"H6": "G"
+				},
+				"illustration": "ASC10"
+			},
+			{
+				"id": "ASC13b",
+				"text": "Is inside the elevator, the information (mainly controls the elevator and intercom), use standardized pictograms doubled in Braille?",
+				"handicaps": {
+					"H5": "B",
+					"H6": "G"
+				},
+				"illustration": "ASC13"
+			}]
+		},
+		"O-8": {
+			"ref": "O-8",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Does the staircase has the required dimensions?",
+			"doubts": [{
+				"id": "ESC1",
+				"text": "Do step height is less than or equal to 18 cm?",
+				"handicaps": {
+					"H2": "G",
+					"H4": "G",
+					"H5": "G",
+					"H6": "G"
+				},
+				"illustration": "ESC1"
+			},
+			{
+				"id": "ESC2",
+				"text": "Is the depth of the market (the fold) is greater than or equal to 25 cm?",
+				"handicaps": {
+					"H2": "G",
+					"H4": "G",
+					"H5": "G",
+					"H6": "G"
+				},
+				"illustration": "ESC1"
+			},
+			{
+				"id": "ESC3",
+				"text": "There is no overhang of the stair nosing with respect to the riser?",
+				"handicaps": {
+					"H2": "G",
+					"H4": "G",
+					"H5": "G",
+					"H6": "G"
+				},
+				"illustration": "ESC2"
+			}]
+		},
+		"O-8-a": {
+			"ref": "O-8-a",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Does the staircase is accessible to people with visual impairments?",
+			"doubts": [{
+				"id": "ESC4",
+				"text": "Are the stair nosing are in a contrasting color, and not slippery?<br\/>     Check for a horizontal strip at least 3 cm, contrasted and not slippery.",
+				"handicaps": {
+					"H2": "G",
+					"H5": "G",
+					"H6": "G"
+				},
+				"illustration": "ESC3"
+			},
+			{
+				"id": "ESC5",
+				"text": "Is the first step is provided with a visually contrasting riser?",
+				"handicaps": {
+					"H6": "G"
+				},
+				"illustration": "ESC4"
+			},
+			{
+				"id": "ESC6",
+				"text": "Is the last step is provided with a visually contrasting riser?",
+				"handicaps": {
+					"H6": "G"
+				},
+				"illustration": "ESC3"
+			},
+			{
+				"id": "ESC7",
+				"text": "Is there a floor covering visual and tactile contrast to 0.50 m from the first step of the top of the stairs? (awakening of vigilance)",
+				"handicaps": {
+					"H5": "B",
+					"H6": "G"
+				},
+				"illustration": "ESC6"
+			},
+			{
+				"id": "ESC8",
+				"text": "Are the numbers of floors are engraved on every level?",
+				"handicaps": {
+					"H5": "G",
+					"H6": "G"
+				},
+				"illustration": "ESC5"
+			}]
+		},
+		"O-8-b": {
+			"ref": "O-8-b",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is there at least a handrail on one side of the stairs?",
+			"doubts": [{
+				"id": "ESC9",
+				"text": "Is it possible to stand on one side of the stairs?",
+				"handicaps": {
+					"H2": "G",
+					"H3": "G",
+					"H4": "G",
+					"H5": "G",
+					"H6": "G"
+				}
+			}]
+		},
+		"O-8-c": {
+			"ref": "O-8-c",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Do the stairs are coupled with a ramp or a lift?",
+			"doubts": [{
+				"id": "ESC13",
+				"text": "Is there a free design stairs to access the level?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G"
+				}
+			}]
+		},
+		"O-25": {
+			"ref": "O-25",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Are handrails are well positioned (height, length)?",
+			"doubts": [{
+				"id": "MC1",
+				"text": "Are handrails are located at a height between 0.80 m and 1.00 m?",
+				"handicaps": {
+					"H2": "G",
+					"H3": "G",
+					"H4": "G",
+					"H5": "G"
+				},
+				"illustration": "MC1"
+			}]
+		},
+		"O-25-a": {
+			"ref": "O-25-a",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Are handrails are well structured?",
+			"doubts": [{
+				"id": "MC2",
+				"text": "Are handrails are continuous, rigid and easily grippable?",
+				"handicaps": {
+					"H2": "G",
+					"H4": "G",
+					"H5": "G",
+					"H6": "G"
+				},
+				"illustration": "MC1"
+			}]
+		},
+		"O-25-b": {
+			"ref": "O-25-b",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Are handrails are visually differentiated support?",
+			"doubts": [{
+				"id": "MC3",
+				"text": "Are handrails have integrated lighting, or have a good visual contrast?",
+				"handicaps": {
+					"H5": "G",
+					"H6": "G"
+				},
+				"illustration": "ESC3"
+			}]
+		},
+		"O-24": {
+			"ref": "O-24",
+			"subject": "Safety",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Are the signs are accessible to visually impaired persons?",
+			"doubts": [{
+				"id": "SIG1",
+				"text": "Are there any signs oriented to avoid any dazzling effect, reflection or against the light due to the light?",
+				"handicaps": {
+					"H6": "G"
+				},
+				"illustration": "SIG1"
+			},
+			{
+				"id": "SIG2",
+				"text": "Can a visually impaired person can come within 1.5m of signage?",
+				"handicaps": {
+					"H6": "G"
+				},
+				"illustration": "SIG1"
+			},
+			{
+				"id": "SIG3",
+				"text": "Is the height of the written characters is enough?<br\/>    > Greater than 15 mm for signaling elements and information relating to the orientation?<br\/>    > Greater than 4.5 mm in other cases",
+				"handicaps": {
+					"H6": "G"
+				},
+				"illustration": "SIG2"
+			},
+			{
+				"id": "SIG4",
+				"text": "Does the display has a sufficiently high contrast (white on black)?",
+				"handicaps": {
+					"H6": "G"
+				},
+				"illustration": "SIG3"
+			},
+			{
+				"id": "SIG5",
+				"text": "Is the displayed information is clear, explicit and understandable (eg Using pictogrames ...)",
+				"handicaps": {
+					"H6": "G"
+				},
+				"illustration": "SIG4"
+			}]
+		},
+		"C-4": {
+			"ref": "C-4",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Does the control device is correctly positioned, and accessible to people in wheelchairs or small?",
+			"doubts": [{
+				"id": "CDE1",
+				"text": "Does the control device (switch) is more than 0.25 m from a concave angle of the wall or any other obstacle approaching a wheelchair?",
+				"handicaps": {
+					"H1": "G",
+					"H3": "G"
+				},
+				"illustration": "CDE1"
+			},
+			{
+				"id": "CDE2",
+				"text": "Is the height of the control device (switch) is between 0.90 m and 1.30 m, and can be used sitting or standing?",
+				"handicaps": {
+					"H1": "G",
+					"H3": "G",
+					"H4": "B"
+				},
+				"illustration": "CDE1"
+			}]
+		},
+		"C-4-a": {
+			"ref": "C-4-a",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Does the control device is easily identifiable for people with visual impairments?",
+			"doubts": [{
+				"id": "CDE3",
+				"text": "Does the control device (switch) is easily spotted thanks to a visual contrast or appropriate signage, and located in a lighted area?",
+				"handicaps": {
+					"H6": "G"
+				},
+				"illustration": "CDE3"
+			},
+			{
+				"id": "CDE4",
+				"text": "Do the buttons are easy to spot?",
+				"handicaps": {
+					"H5": "G",
+					"H6": "G"
+				},
+				"illustration": "CDE4"
+			}]
+		},
+		"C-4-b": {
+			"ref": "C-4-b",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is that the control is easily activated?",
+			"doubts": [{
+				"id": "CDE5",
+				"text": "Is there a contactless device, or easily activated call buttons (from 2.5 to maximum 5 Newton)?",
+				"handicaps": {
+					"H1": "G",
+					"H3": "G"
+				},
+				"illustration": "CDE5"
+			}]
+		},
+		"C-4-c": {
+			"ref": "C-4-c",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Does the device provides information, sound and visual in response to user actions?",
+			"doubts": [{
+				"id": "CDE6",
+				"text": "Is there any eyewitnesses (flash) activation and registration of control buttons?",
+				"handicaps": {
+					"H7": "G",
+					"H8": "G"
+				},
+				"illustration": "CDE6"
+			},
+			{
+				"id": "CDE7",
+				"text": "Is there sound controls (beeps) or activation and registration of control knobs messages?",
+				"handicaps": {
+					"H5": "G",
+					"H6": "G"
+				},
+				"illustration": "CDE7"
+			}]
+		},
+		"C-4-d": {
+			"ref": "C-4-d",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Lorsque la commande est prise en compte, est ce que la durée de l'action est suffisante ?",
+			"doubts": [{
+				"id": "CDE8",
+				"text": "Can a person with reduced mobility can reach the door and start the opening maneuver until the door is locked again when unlocking access?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "B",
+					"H4": "G",
+					"H5": "G",
+					"H6": "G"
+				}
+			}]
+		},
+		"O-12": {
+			"ref": "O-12",
+			"subject": "Caractéristiques et équipements",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Are all the dining facilities is available? RIC (Restaurant inter company)",
+			"doubts": [{
+				"id": "RIE1",
+				"text": "Does the equipment of the service area are located at a height between 0.90 m and 1.30 m?<br\/>  (oven, fountain, ...)",
+				"handicaps": {
+					"H1": "G",
+					"H3": "G",
+					"H4": "B"
+				},
+				"illustration": "EQP1"
+			},
+			{
+				"id": "RIE2",
+				"text": "Are the tables:<br\/>    > Less than or equal to 0.80 m height?<br\/>    > Vacuum tablet (or table) of at least 0.30 m deep, 0.60 m wide and 0.70 m high? (to allow passage of the knees)",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G",
+					"H4": "G"
+				},
+				"illustration": "EQP2"
+			},
+			{
+				"id": "RIE3",
+				"text": "Does the area depositing trays:<br\/>    > A high back desk trays of less than or equal to 0.80 m?<br\/>    > Has a height of rejection banks remains of meals less than or equal to 0.80 m?<br\/>    > Has a maximum depth to access the \"trash the hole\" 0.30 m?",
+				"handicaps": {
+					"H1": "B",
+					"H3": "G",
+					"H4": "B"
+				},
+				"illustration": "EQP2"
+			},
+			{
+				"id": "RIE4",
+				"text": "Are the trays, cutlery and dishes for self-service are located at a maximum height of 1.30 m?<br\/>(to be accessible to all)",
+				"handicaps": {
+					"H1": "B",
+					"H3": "G",
+					"H4": "B"
+				},
+				"illustration": "EQP2"
+			}]
+		},
+		"O-12-1": {
+			"ref": "O-12-1",
+			"subject": "Caractéristiques et équipements",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Are the circulation areas are wide enough?",
+			"doubts": [{
+				"id": "RIE5",
+				"text": "Do the passages to the equipment and between tables with a minimum width of 0.90 m?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G"
+				}
+			},
+			{
+				"id": "RIE6",
+				"text": "Is the width of the queue is a minimum of 0.90 m to allow the passage of a person with reduced mobility?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G"
+				},
+				"illustration": "RIE6"
+			}]
+		},
+		"O-12-2": {
+			"ref": "O-12-2",
+			"subject": "Caractéristiques et équipements",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is there enough serviced sites?",
+			"doubts": [{
+				"id": "RIE7",
+				"text": "Is there at least an arranged location (for receiving a wheelchair user) for 50 seats?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G"
+				}
+			}]
+		},
+		"O-12-3": {
+			"ref": "O-12-3",
+			"subject": "Caractéristiques et équipements",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Are there areas of practice and turning to size?",
+			"doubts": [{
+				"id": "RIE8",
+				"text": "Is there a usage space of 0.75 mx 1.25 m in front of the equipment including distributors, microwave …",
+				"handicaps": {
+					"H1": "B",
+					"H3": "G"
+				},
+				"illustration": "ESP1"
+			},
+			{
+				"id": "RIE9",
+				"text": "Is there one or more turning space in the room with a diameter greater than or equal to 1.30 m?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G",
+					"H4": "G"
+				},
+				"illustration": "ESP2"
+			}]
+		},
+		"O-12-4": {
+			"ref": "O-12-4",
+			"subject": "Caractéristiques et équipements",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Est-ce qu'il y a suffisament de caisses adaptées, et est ce qu'elles sont accessibles ?",
+			"doubts": [{
+				"id": "RIE10",
+				"text": "Is there a minimum number of adequate funds is a box for every 20 crates, rounded to the next whole?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G",
+					"H4": "G"
+				},
+				"illustration": "RIE6"
+			},
+			{
+				"id": "RIE11",
+				"text": "Is that appropriate funds are provided with a directly readable display by the user to enable the deaf to receive information on the price?",
+				"handicaps": {
+					"H7": "G",
+					"H8": "G"
+				},
+				"illustration": "RIE6"
+			}]
+		},
+		"O-13": {
+			"ref": "O-13",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is the equipment in this space accessible?",
+			"doubts": [{
+				"id": "DET1",
+				"text": "Are the tables:<br\/>    > Less than or equal to 0.80 m height?<br\/>    > Vacuum tablet (or table) of at least 0.30 m deep, 0.60 m wide and 0.70 m high? (to allow passage of the knees)",
+				"handicaps": {
+					"H1": "G",
+					"H3": "G"
+				},
+				"illustration": "EQP2"
+			},
+			{
+				"id": "DET2",
+				"text": "Are sinks are:<br\/>    - Or without column (ideally)<br\/>    - Or a model with suspended column and discreet, with a lower edge more than 0.70 m from the ground?",
+				"handicaps": {
+					"H1": "G",
+					"H3": "G"
+				},
+				"illustration": "DET2"
+			},
+			{
+				"id": "DET3",
+				"text": "Are distributors orders and payment devices with a height between 0.90 m and 1.30 m?",
+				"handicaps": {
+					"H1": "G",
+					"H3": "G",
+					"H4": "B"
+				},
+				"illustration": "DET2"
+			},
+			{
+				"id": "DET4",
+				"text": "Does the equipment of the service area are located at a height between 0.90 m and 1.30 m?<br\/>  (oven, fountain, ...)",
+				"handicaps": {
+					"H1": "G",
+					"H3": "G",
+					"H4": "B"
+				},
+				"illustration": "EQP1"
+			}]
+		},
+		"O-13-1": {
+			"ref": "O-13-1",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is that the passages are wide enough?",
+			"doubts": [{
+				"id": "DET5",
+				"text": "Do the passages to the equipment and between tables with a minimum width of 0.90 m?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G"
+				}
+			}]
+		},
+		"O-13-2": {
+			"ref": "O-13-2",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is there any use spaces and turning to size?",
+			"doubts": [{
+				"id": "DET6",
+				"text": "Is there a usage space of 0.75 mx 1.25 m in front of the equipment including distributors, microwave …",
+				"handicaps": {
+					"H1": "B",
+					"H3": "G"
+				},
+				"illustration": "ESP1"
+			},
+			{
+				"id": "DET7",
+				"text": "Is there one or more turning space in the room with a diameter greater than or equal to 1.30 m?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G"
+				},
+				"illustration": "ESP2"
+			}]
+		},
+		"O-13-3": {
+			"ref": "O-13-3",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is the space in front of the bar and the cash register is accessible?",
+			"doubts": [{
+				"id": "DET8",
+				"text": "Is there a space in front of the bar and the cash register in the cafeteria, located has a maximum height of 0.80 m?<br\/>This space is spotted it using contrasting elements?",
+				"handicaps": {
+					"H1": "B",
+					"H3": "G"
+				},
+				"illustration": "DET8"
+			},
+			{
+				"id": "DET9",
+				"text": "Is that appropriate funds are provided with a directly readable display by the user to enable the deaf to receive information on the price?",
+				"handicaps": {
+					"H7": "G",
+					"H8": "G"
+				},
+				"illustration": "DET8"
+			}]
+		},
+		"O-13-4": {
+			"ref": "O-13-4",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is there enough serviced sites?",
+			"doubts": [{
+				"id": "DET10",
+				"text": "Is there at least an arranged location (for receiving a wheelchair user) for 50 seats?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G"
+				}
+			}]
+		},
+		"O-14": {
+			"ref": "O-14",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is that safe waiting area is adequately sized?",
+			"doubts": [{
+				"id": "EAS1",
+				"text": "Is that safe waiting area has a minimum of two wheelchair locations for 50 people, plus an additional seat location for every 50 people?<br\/>Each location must be at least 1.30 mx 0.80 m",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G"
+				},
+				"illustration": "EAS1"
+			}]
+		},
+		"O-14-1": {
+			"ref": "O-14-1",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is that safe waiting area is well established and usable?",
+			"doubts": [{
+				"id": "EAS2",
+				"text": "Is that safe waiting area is located near the evacuations, unlocked, not crowded, and with the possibility of sitting?<br\/>(this space must not be intended for storage)",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G"
+				},
+				"illustration": "EAS2"
+			}]
+		},
+		"O-14-2": {
+			"ref": "O-14-2",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is that safe waiting area is easily identifiable?",
+			"doubts": [{
+				"id": "EAS3",
+				"text": "Is that safe waiting area are:<br\/>   > easily identifiable?<br\/>   > identifiable and accessible?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G"
+				},
+				"illustration": "EAS3"
+			}]
+		},
+		"O-14-3": {
+			"ref": "O-14-3",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is that safe waiting area contains the necessary equipment?",
+			"doubts": [{
+				"id": "EAS4",
+				"text": "Is that safe waiting area is equipped with:<br\/>   > a fire extinguisher (EAS not located in the open air)?<br\/>   > Instructions? <br\/>   >Window and \/ or an emergency call device with identified emergency button and localized?<br\/>Did he can close the door once inside?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "B"
+				},
+				"illustration": "EAS4"
+			}]
+		},
+		"O-15": {
+			"ref": "O-15",
+			"subject": "Safety",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is the main entrance well marked?",
+			"doubts": [{
+				"id": "EP1",
+				"text": "Is the main entrance is easily spotted thanks to:<br\/>    > Special architectural elements?<br\/>    > Treatment using different materials?<br\/>    > A visual contrast with the environment?",
+				"handicaps": {
+					"H6": "G"
+				},
+				"illustration": "EP1"
+			}]
+		},
+		"O-15-1": {
+			"ref": "O-15-1",
+			"subject": "Safety",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is the main entrance accessible?",
+			"doubts": [{
+				"id": "EP2",
+				"text": "Are they may access the entrance of the building by the main path? (for a person with disabilities is not obliged to take a different path from that taken by other people)",
+				"handicaps": {
+					"H1": "G",
+					"H2": "G"
+				},
+				"illustration": "EP2"
+			}]
+		},
+		"O-15-2": {
+			"ref": "O-15-2",
+			"subject": "Safety",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "In cases where the main entrance is not accessible, is there a secondary road accessible and well marked?",
+			"doubts": [{
+				"id": "EP3",
+				"text": "In case the person can not take the main road, is there a secondary path adapted?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "B"
+				}
+			},
+			{
+				"id": "EP4",
+				"text": "Is the dedicated access path is well signposted and marked with the international accessibility symbol?",
+				"handicaps": {
+					"H1": "G",
+					"H2": "G"
+				},
+				"illustration": "EP3"
+			}]
+		},
+		"O-16": {
+			"ref": "O-16",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is that enough of serviced sites available in the room?",
+			"doubts": [{
+				"id": "SFA1",
+				"text": "Is there at least one slot arranged for 50 seats? (slot for receiving a wheelchair user)<br\/>(for comfort 2 slots arranged to provide 50 places)",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G"
+				},
+				"illustration": "SFA1"
+			},
+			{
+				"id": "SFA2",
+				"text": "Does the serviced sites measuring at least 0.75 mx 1.25 m?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G"
+				},
+				"illustration": "SFA1"
+			},
+			{
+				"id": "SFA3",
+				"text": "Is there a space rotation 1.30m diameter close to landscaped locations?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G",
+					"H4": "G"
+				},
+				"illustration": "SFA1"
+			}]
+		},
+		"O-16-1": {
+			"ref": "O-16-1",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Are the shelves and tables in these locations are accessible?",
+			"doubts": [{
+				"id": "SFA4",
+				"text": "If a writing tablet (or table) is this:<br\/>    > Its height is less than or equal to 0.80 m?<br\/>    > There is a vacuum tablet (or table) of at least 0.30 m deep, 0.60 m wide and 0.70 m high? (to allow passage of the knees)",
+				"handicaps": {
+					"H1": "G",
+					"H3": "G"
+				},
+				"illustration": "SFA2"
+			}]
+		},
+		"O-16-2": {
+			"ref": "O-16-2",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is the room is equipped for a deaf or hard of hearing employees can attend all types of meetings?",
+			"doubts": [{
+				"id": "SFA5",
+				"text": "Is the room is equipped with an amplification system and quality of sound transmission (microphones and loudspeakers)<br\/>> There is a central spider if the room is small, or more spiders which are arranged along the tables?<br\/>> There is at least one functional microphone, and for larger rooms deportees pickups are available?",
+				"handicaps": {
+					"H7": "B",
+					"H8": "G"
+				}
+			},
+			{
+				"id": "SFA6",
+				"text": "Is the room is equipped with a dedicated display (second screen) to display the real-time text translation (TTR) or Sign Language (LS) device located near the viewing presentations?",
+				"handicaps": {
+					"H7": "B",
+					"H8": "G"
+				}
+			},
+			{
+				"id": "SFA7",
+				"text": "Is the room is equipped for the Telephone Relay Centre?<br\/>    > There is a dedicated on-site PC or tablet with a phone software and CRT access<br\/>    > There is an internet connection, direct or unfiltered e-buro, which provides access to the service",
+				"handicaps": {
+					"H7": "B",
+					"H8": "G"
+				},
+				"illustration": "CRT1"
+			},
+			{
+				"id": "SFA8",
+				"text": "Is the room is equipped for meetings subtitled remotely?<br\/>    > Is an internet connection available?<br\/>    > Is there a dedicated on-site PC or tablet present in place and operational?",
+				"handicaps": {
+					"H7": "B",
+					"H8": "G"
+				},
+				"illustration": "CRT1"
+			},
+			{
+				"id": "SFA9",
+				"text": "Does the seat is suitable for meetings interpreted (LSF)-face?<br\/>> There is sufficient room near the presentations of the display is available for the interpreters?<br\/>> Does this place is well lit and clearly visible from the space intended for deaf employees?<br\/>> Does spaces reserved for deaf employees are clearly identified by a reservation signage?<br\/>> Can a seat is available for the second interpreter?",
+				"handicaps": {
+					"H7": "B",
+					"H8": "G"
+				},
+				"illustration": "CRT1"
+			},
+			{
+				"id": "SFA10",
+				"text": "Is the saddle is adapted to subtitled meetings (TTR)-face:<br\/>> There is sufficient space is available to place the captionist?<br\/>> Does this place is easily connectable to dedicated projection system?<br\/>> Are sites for deaf employees clearly identified by signage reservation?",
+				"handicaps": {
+					"H7": "B",
+					"H8": "G"
+				},
+				"illustration": "CRT1"
+			},
+			{
+				"id": "SFA11",
+				"text": "Is the room the sound equipment can be effectively connected to the phone?<br\/>    > Is the room has deported microphones loop?<br\/>    > Are spiders phone can be connected to speakers of the room?<br\/>    > Will wireless headsets can be connected to the loop microphones? (interpreters and \/ or subtitlers-face)",
+				"handicaps": {
+					"H7": "B",
+					"H8": "G"
+				},
+				"illustration": "CRT1"
+			}]
+		},
+		"O-16-3": {
+			"ref": "O-16-3",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Does the rating for the room and this accessibility is adequate?",
+			"doubts": [{
+				"id": "SFA12",
+				"text": "Are local signage is in place:<br\/>    > Is there a good ear logo T + circle to the right with the magnetic loop?<br\/>    > Is there a good ear + T logo on the left with traits for TTR subtitling?<br\/>    > Is there a good operator logo + LS or TTR for CRT?<br\/>    > Does spaces reserved for deaf people are clearly marked?",
+				"handicaps": {
+					"H7": "B",
+					"H8": "G"
+				},
+				"illustration": "BMG1"
+			},
+			{
+				"id": "SFA13",
+				"text": "Is reservation of the room has adequate signage?",
+				"handicaps": {
+					"H7": "B",
+					"H8": "G"
+				},
+				"illustration": "BMG1"
+			}]
+		},
+		"O-23": {
+			"ref": "O-23",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is the internet is well positioned and accessible to people in wheelchairs or small?",
+			"doubts": [{
+				"id": "INT1",
+				"text": "Is the intercom is located more than 0.25 m from a concave angle of the wall or any other obstacle approaching a wheelchair?<br\/>(more than 0.40 m for comfort)",
+				"handicaps": {
+					"H1": "G",
+					"H3": "G"
+				},
+				"illustration": "INT1"
+			},
+			{
+				"id": "INT2",
+				"text": "Is the intercom is located at a height between 0.90 m and 1.30 m?<br\/>(to be used sitting or standing?)",
+				"handicaps": {
+					"H1": "G",
+					"H3": "G",
+					"H4": "B"
+				},
+				"illustration": "INT2"
+			}]
+		},
+		"O-23-1": {
+			"ref": "O-23-1",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is the internet is identifiable and visible enough?",
+			"doubts": [{
+				"id": "INT3",
+				"text": "Is the internet is easily identifiable by a visual contrast or appropriate signage?",
+				"handicaps": {
+					"H6": "G"
+				},
+				"illustration": "INT4"
+			},
+			{
+				"id": "INT4",
+				"text": "Does the Internet is in a lighted area?",
+				"handicaps": {
+					"H6": "G"
+				},
+				"illustration": "INT5"
+			}]
+		},
+		"O-23-2": {
+			"ref": "O-23-2",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is the intercom allows you to see the visitor no direct vision of access?",
+			"doubts": [{
+				"id": "INT5",
+				"text": "If the staff does not have a direct view of the access, do Intercom has a system that allows the staff can see the visitor? (video phone type)",
+				"handicaps": {
+					"H7": "G",
+					"H8": "G"
+				},
+				"illustration": "INT3"
+			}]
+		},
+		"O-23-3": {
+			"ref": "O-23-3",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is the intercom buttons are identifiable, and give a visual and audible feedback to the user when used?",
+			"doubts": [{
+				"id": "INT6",
+				"text": "Do the buttons are easy to spot?<br\/>Recommendation: we prefer enlarged buttons with contrasting inscriptions and embossed and \/ or Braille",
+				"handicaps": {
+					"H5": "G",
+					"H6": "G"
+				},
+				"illustration": "INT4"
+			},
+			{
+				"id": "INT7",
+				"text": "Is there sound controls as well as activation and registration of the use of buttons messages?",
+				"handicaps": {
+					"H5": "G",
+					"H6": "G"
+				},
+				"illustration": "INT4"
+			},
+			{
+				"id": "INT8",
+				"text": "Is there any eyewitnesses activation and registration of control buttons?",
+				"handicaps": {
+					"H7": "G",
+					"H8": "G"
+				},
+				"illustration": "INT6"
+			}]
+		},
+		"O-23-4": {
+			"ref": "O-23-4",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is the internet is equipped with a magnetic loop correctly reported?",
+			"doubts": [{
+				"id": "INT9",
+				"text": "Is there a magnetic loop?",
+				"handicaps": {
+					"H8": "G"
+				},
+				"illustration": "INT7"
+			},
+			{
+				"id": "INT10",
+				"text": "Is there a pictogram (standardized logo) indicating the area covered by the magnetic loop?",
+				"handicaps": {
+					"H8": "G"
+				},
+				"illustration": "BMG1"
+			}]
+		},
+		"O-18": {
+			"ref": "O-18",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is the room can be used by a person in a wheelchair? (rotational spaces and use)",
+			"doubts": [{
+				"id": "BUR1",
+				"text": "Does the workspace includes a rotation space of 1.30 m diameter?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G",
+					"H4": "G"
+				},
+				"illustration": "BUR1"
+			},
+			{
+				"id": "BUR2",
+				"text": "Is there a usage space of 0.75 mx 1.25 m in front of the equipment?",
+				"handicaps": {
+					"H1": "B",
+					"H3": "G"
+				},
+				"illustration": "ESP1"
+			}]
+		},
+		"O-18-1": {
+			"ref": "O-18-1",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Does the furniture is accessible and well established?",
+			"doubts": [{
+				"id": "BUR3",
+				"text": "Does the furniture:<br\/>    > Has a maximum height of 0.80 m?<br\/>    > Lower part shows a vacuum of at least 0.30 m deep, 0.60 m wide and 0.70 m high to allow passage of the knees?",
+				"handicaps": {
+					"H1": "B",
+					"H3": "G",
+					"H4": "G"
+				},
+				"illustration": "BUR2"
+			}]
+		},
+		"O-18-2": {
+			"ref": "O-18-2",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "In the case of a deaf or hard of hearing employees, is that the office is laid out?",
+			"doubts": [{
+				"id": "BUR4",
+				"text": "Is the work location of the employee deaf or hard of hearing is opposite the door?<br\/>or<br\/>Is a clearly visible warning light that the employee is connected to the door opening? (to signal the entry of a person in the office)",
+				"handicaps": {
+					"H7": "G",
+					"H8": "G"
+				},
+				"illustration": "BUR3"
+			},
+			{
+				"id": "BUR5",
+				"text": "Is the work site is equipped with a door that lets you see incoming people (all or part glazed)?",
+				"handicaps": {
+					"H7": "G",
+					"H8": "G"
+				},
+				"illustration": "BUR3"
+			},
+			{
+				"id": "BUR6",
+				"text": "Is a CRT telephone relay center for translating email communicated by the way, the texts and the LSF was put in place?<br\/>Is for the LPC from a computer and a webcam, the translation is done remotely and instantaneously?",
+				"handicaps": {
+					"H7": "B",
+					"H8": "G"
+				},
+				"illustration": "CRT1"
+			}]
+		},
+		"O-19": {
+			"ref": "O-19",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is that the elevator has the required dimensions?",
+			"doubts": [{
+				"id": "ELE1",
+				"text": "Does the size of the platform are at least:<br\/>    > 0.80 m x 1.25 m right service?<br\/>    > 1 m x 1.25 m for a service to the square?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G"
+				},
+				"illustration": "ELE1"
+			}]
+		},
+		"O-19-1": {
+			"ref": "O-19-1",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Does the lift is equipped with a handrail and a calling device?",
+			"doubts": [{
+				"id": "ELE2",
+				"text": "Does the lift is equipped with a handrail?",
+				"handicaps": {
+					"H3": "G",
+					"H4": "G",
+					"H5": "G",
+					"H6": "G"
+				}
+			},
+			{
+				"id": "ELE3",
+				"text": "Is there a call device in case the lift is locked?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G",
+					"H3": "G"
+				},
+				"illustration": "ELE2"
+			}]
+		},
+		"O-19-2": {
+			"ref": "O-19-2",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Do the doors open automatically and are wide enough?",
+			"doubts": [{
+				"id": "ELE4",
+				"text": "Do the doors open automatically?",
+				"handicaps": {
+					"H1": "G",
+					"H2": "G"
+				},
+				"illustration": "ELE3"
+			},
+			{
+				"id": "ELE5",
+				"text": "Does the landing doors which over 0.75 m wide?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "G"
+				},
+				"illustration": "ELE3"
+			}]
+		},
+		"O-19-3": {
+			"ref": "O-19-3",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Does the landing control device can be used sitting or standing?",
+			"doubts": [{
+				"id": "ELE6",
+				"text": "Is landing control device located at a height between 0.90 m and 1.30 m and 0.25 m over a concave angle of the wall or other obstacle to the approach of a wheelchair?",
+				"handicaps": {
+					"H1": "B",
+					"H3": "G",
+					"H4": "G"
+				},
+				"illustration": "ELE4"
+			}]
+		},
+		"O-19-4": {
+			"ref": "O-19-4",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Does the interior equipment, control devices and backup application, they are easily identified and usable sitting or standing?",
+			"doubts": [{
+				"id": "ELE7",
+				"text": "The backup application device (intercom) of the lift it is located at a height between 0.90 m and 1.30 m and 0.25 m over a concave angle of the wall or other obstacle to approach 'A wheelchair ?",
+				"handicaps": {
+					"H1": "B",
+					"H3": "G",
+					"H4": "G"
+				},
+				"illustration": "ELE4"
+			},
+			{
+				"id": "ELE8",
+				"text": "The controller in the lift it is located at a height between 0.90 m and 1.30 m and 0.25 m over a concave angle of the wall or other obstacle to the approach of a wheelchair?",
+				"handicaps": {
+					"H1": "B",
+					"H3": "G",
+					"H4": "B"
+				},
+				"illustration": "ELE4"
+			},
+			{
+				"id": "ELE9",
+				"text": "Is the backup application device is easily identifiable?",
+				"handicaps": {
+					"H1": "B",
+					"H3": "B",
+					"H4": "B"
+				},
+				"illustration": "ELE4"
+			}]
+		},
+		"O-20": {
+			"ref": "O-20",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is the lighting control is available?",
+			"doubts": [{
+				"id": "ECL1",
+				"text": "Does the control device (switch) is located more than 0.25 m from a concave angle of the wall or any other obstacle approaching a wheelchair?",
+				"handicaps": {
+					"H1": "B",
+					"H3": "G"
+				},
+				"illustration": "CDE1"
+			},
+			{
+				"id": "ECL2",
+				"text": "Does the control device (switch) is at a height between 0.90 m and 1.30 m?<br\/>(to be used sitting or standing?)",
+				"handicaps": {
+					"H1": "B",
+					"H3": "G",
+					"H4": "B"
+				},
+				"illustration": "CDE1"
+			},
+			{
+				"id": "ECL3",
+				"text": "Does the control device (switch) is easily spotted thanks to a visual contrast or appropriate signage?",
+				"handicaps": {
+					"H6": "B"
+				},
+				"illustration": "CDE3"
+			},
+			{
+				"id": "ECL4",
+				"text": "Does the control device (switch) is located in a lighted area?",
+				"handicaps": {
+					"H6": "B"
+				},
+				"illustration": "CDE3"
+			}]
+		},
+		"O-20-1": {
+			"ref": "O-20-1",
+			"subject": "Quality of use",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is adequate lighting, uniform and well distributed throughout the area?",
+			"doubts": [{
+				"id": "ECL5",
+				"text": "With automatic system, is that the movement is detected, the entire area is illuminated?",
+				"handicaps": {
+					"H6": "G"
+				},
+				"illustration": "ECL1"
+			},
+			{
+				"id": "ECL6",
+				"text": "During his visit in the area, the person is never in a gray area?",
+				"handicaps": {
+					"H6": "G"
+				},
+				"illustration": "ECL2"
+			},
+			{
+				"id": "ECL7",
+				"text": "Is a security lights which lighting value is 100 lux minimum at any point is expected?",
+				"handicaps": {
+					"H6": "G"
+				},
+				"illustration": "ECL2"
+			}]
+		},
+		"O-20-2": {
+			"ref": "O-20-2",
+			"subject": "Quality of use",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is the timer provides a sufficient time to cross the area and a signal indicating that the light is about to turn off?",
+			"doubts": [{
+				"id": "ECL8",
+				"text": "If the lighting works with a timer, is a signal warns of imminent extinction of the lighting system? (progressive reduction or gradual reduction of the illumination, or other off warning system)",
+				"handicaps": {
+					"H6": "G"
+				},
+				"illustration": "ECL3"
+			},
+			{
+				"id": "ECL9",
+				"text": "If the lighting time is limited, is that the duration is sufficient for a total clearance of the area or to the next switch?",
+				"handicaps": {
+					"H6": "G"
+				},
+				"illustration": "ECL3"
+			}]
+		},
+		"O-21": {
+			"ref": "O-21",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is audible and visual signals are emitted to indicate that access is allowed?",
+			"doubts": [{
+				"id": "CTA1",
+				"text": "Is a beep indicates that the visitor is allowed to enter or exit when access is allowed?",
+				"handicaps": {
+					"H5": "G",
+					"H6": "G"
+				},
+				"illustration": "CTA1"
+			},
+			{
+				"id": "CTA2",
+				"text": "Is a light signal indicates that the visitor is allowed to enter or exit when access is allowed?",
+				"handicaps": {
+					"H7": "G",
+					"H8": "G"
+				},
+				"illustration": "CTA2"
+			}]
+		},
+		"O-21-1": {
+			"ref": "O-21-1",
+			"subject": "Characteristics and equipment",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Does the opening time of the door when unlocking is enough?",
+			"doubts": [{
+				"id": "CTA3",
+				"text": "Can a person with reduced mobility can reach the door and start the opening maneuver until the door is locked again when unlocking access?",
+				"handicaps": {
+					"H1": "B",
+					"H3": "B"
+				},
+				"illustration": "CTA3"
+			}]
+		},
+		"O-22": {
+			"ref": "O-22",
+			"subject": "Identifying Barriers",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Are the landmark and \/ or poles are visible enough?",
+			"doubts": [{
+				"id": "Brn1",
+				"text": "Is that there is at least one contrast marking?",
+				"handicaps": {
+					"H5": "G",
+					"H6": "B"
+				},
+				"illustration": "Brn1"
+			}]
+		},
+		"O-22-a": {
+			"ref": "O-22-a",
+			"subject": "Identifying Barriers",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Are the landmark and \/ or poles are to size?",
+			"doubts": [{
+				"id": "Brn2",
+				"text": "Are the posts and landmark<br\/>> Have a height of 0.50 meters to a minimum?<br\/>> Have a minimum diameter with a size varying inversely to the task?<br\/>(see diagram in illustration)",
+				"handicaps": {
+					"H5": "B",
+					"H6": "B"
+				},
+				"illustration": "Brn2"
+			}]
+		},
+		"O-22-b": {
+			"ref": "O-22-b",
+			"subject": "Identifying Barriers",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Are the landmark and \/ or poles are properly implemented?",
+			"doubts": [{
+				"id": "Brn3",
+				"text": "These elements do not impede traffic.<br\/>If necessary, certain elements are arranged in cantilever to clear traffic",
+				"handicaps": {
+					"H1": "G",
+					"H2": "G",
+					"H5": "B",
+					"H6": "B"
+				},
+				"illustration": "Brn3"
+			}]
+		},
+		"II-1": {
+			"ref": "II-1",
+			"subject": "Quality of use",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is the illumination is homogeneous and optimal (in lux)?",
+			"doubts": [{
+				"id": "Lum1",
+				"text": "Is the lighting in the area is enough?<br\/>Can an artificial lighting allows properly illuminate the area (100 lux)?<br\/>Is the lighting is uniform? (no gray area or misrepresent or against day and anti dazzling)",
+				"handicaps": {
+					"H6": "G"
+				}
+			}]
+		},
+		"II-2": {
+			"ref": "II-2",
+			"subject": "Services",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Do accessibility has been taken into account in the discharge device?",
+			"doubts": [{
+				"id": "SEC1",
+				"text": "Does the type of evacuation is accessible?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "B",
+					"H4": "G"
+				}
+			},
+			{
+				"id": "SEC2",
+				"text": "Is it that there is a safe waiting area nearby (if floor) or the evacuation is feasible the Ground Floor?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "B",
+					"H4": "G"
+				}
+			},
+			{
+				"id": "SEC3",
+				"text": "Is the room is equipped with a warning system adapted to emergency?<br\/>    > Is generic, light type flash?<br\/>    > Or there is a central warning system by vibrating alarm, and the dining area is covered by the radio device?",
+				"handicaps": {
+					"H7": "B",
+					"H8": "G"
+				}
+			}]
+		},
+		"II-2-1": {
+			"ref": "II-2-1",
+			"subject": "Services",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Is accessible toilets are available nearby?",
+			"doubts": [{
+				"id": "SCE1",
+				"text": "Are there accessible toilet nearby?",
+				"handicaps": {
+					"H1": "B",
+					"H2": "B",
+					"H4": "G"
+				}
+			}]
+		},
+		"II-3": {
+			"ref": "II-3",
+			"subject": "Services",
+			"origin": "",
+			"handicaps": {
+				
+			},
+			"text": "Do the relaxation and catering spaces are available nearby?",
+			"doubts": [{
+				"id": "SCE2",
+				"text": "Is there a relaxation area available nearby?",
+				"handicaps": {
+					"H1": "G",
+					"H2": "G",
+					"H4": "G"
+				}
+			},
+			{
+				"id": "SCE3",
+				"text": "Is there a RIC available nearby?",
+				"handicaps": {
+					"H1": "G",
+					"H2": "G",
+					"H4": "G"
+				}
+			}]
+		}
+	},
+	"rules": {
+		"O-20": {
+			"V": "O-20-1",
+			"NV": "O-20-1"
+		},
+		"O-20-1": {
+			"V": "O-20-2",
+			"NV": "O-20-2"
+		},
+		"O-15": {
+			"V": "O-15-1",
+			"NV": "O-15-1"
+		},
+		"O-15-1": {
+			"V": "O-15-2",
+			"NV": "O-15-2"
+		},
+		"O-11": {
+			"V": "O-11-a",
+			"NV": "O-11-a"
+		},
+		"O-11-a": {
+			"V": "O-11-b",
+			"NV": "O-11-b"
+		},
+		"O-18": {
+			"V": "O-18-1",
+			"NV": "O-18-1"
+		},
+		"O-18-1": {
+			"V": "O-18-2",
+			"NV": "O-18-2"
+		},
+		"O-14": {
+			"V": "O-14-1",
+			"NV": "O-14-1"
+		},
+		"O-14-1": {
+			"V": "O-14-2",
+			"NV": "O-14-2"
+		},
+		"O-14-2": {
+			"V": "O-14-3",
+			"NV": "O-14-3"
+		},
+		"O-9": {
+			"V": "O-9-a",
+			"NV": "O-9-a"
+		},
+		"O-9-a": {
+			"V": "O-9-b",
+			"NV": "O-9-b"
+		},
+		"O-9-b": {
+			"V": "O-9-c",
+			"NV": "O-9-c"
+		},
+		"O-10": {
+			"V": "O-10-a",
+			"NV": "O-10-a"
+		},
+		"O-10-a": {
+			"V": "O-10-b",
+			"NV": "O-10-b"
+		},
+		"O-22": {
+			"V": "O-22-a",
+			"NV": "O-22-a"
+		},
+		"O-22-a": {
+			"V": "O-22-b",
+			"NV": "O-22-b"
+		},
+		"O-23": {
+			"V": "O-23-1",
+			"NV": "O-23-1"
+		},
+		"O-23-1": {
+			"V": "O-23-2",
+			"NV": "O-23-2"
+		},
+		"O-23-2": {
+			"V": "O-23-3",
+			"NV": "O-23-3"
+		},
+		"O-23-3": {
+			"V": "O-23-4",
+			"NV": "O-23-4"
+		},
+		"C-4": {
+			"V": "C-4-a",
+			"NV": "C-4-a"
+		},
+		"C-4-a": {
+			"V": "C-4-b",
+			"NV": "C-4-b"
+		},
+		"C-4-b": {
+			"V": "C-4-c",
+			"NV": "C-4-c"
+		},
+		"C-4-c": {
+			"V": "C-4-d",
+			"NV": "C-4-d"
+		},
+		"O-13": {
+			"V": "O-13-1",
+			"NV": "O-13-1"
+		},
+		"O-13-1": {
+			"V": "O-13-2",
+			"NV": "O-13-2"
+		},
+		"O-13-2": {
+			"V": "O-13-3",
+			"NV": "O-13-3"
+		},
+		"O-13-3": {
+			"V": "O-13-4",
+			"NV": "O-13-4"
+		},
+		"O-19": {
+			"V": "O-19-1",
+			"NV": "O-19-1"
+		},
+		"O-19-1": {
+			"V": "O-19-2",
+			"NV": "O-19-2"
+		},
+		"O-19-2": {
+			"V": "O-19-3",
+			"NV": "O-19-3"
+		},
+		"O-19-3": {
+			"V": "O-19-4",
+			"NV": "O-19-4"
+		},
+		"O-8": {
+			"V": "O-8-a",
+			"NV": "O-8-a"
+		},
+		"O-8-a": {
+			"V": "O-8-b",
+			"NV": "O-8-b"
+		},
+		"O-8-b": {
+			"V": "O-8-c",
+			"NV": "O-8-c"
+		},
+		"O-4": {
+			"V": "O-4-a",
+			"NV": "O-4-a"
+		},
+		"O-4-a": {
+			"V": "O-4-b",
+			"NV": "O-4-b"
+		},
+		"O-16": {
+			"V": "O-16-1",
+			"NV": "O-16-1"
+		},
+		"O-16-1": {
+			"V": "O-16-2",
+			"NV": "O-16-2"
+		},
+		"O-16-2": {
+			"V": "O-16-3",
+			"NV": "O-16-3"
+		},
+		"O-12": {
+			"V": "O-12-1",
+			"NV": "O-12-1"
+		},
+		"O-12-1": {
+			"V": "O-12-2",
+			"NV": "O-12-2"
+		},
+		"O-12-2": {
+			"V": "O-12-3",
+			"NV": "O-12-3"
+		},
+		"O-12-3": {
+			"V": "O-12-4",
+			"NV": "O-12-4"
+		},
+		"O-6": {
+			"V": "O-6-a",
+			"NV": "O-6-a"
+		},
+		"O-6-a": {
+			"V": "O-6-b",
+			"NV": "O-6-b"
+		},
+		"O-6-b": {
+			"V": "O-6-c",
+			"NV": "O-6-c"
+		},
+		"O-6-c": {
+			"V": "O-6-d",
+			"NV": "O-6-d"
+		},
+		"O-7": {
+			"V": "O-7-a",
+			"NV": "O-7-a"
+		},
+		"O-7-a": {
+			"V": "O-7-b",
+			"NV": "O-7-b"
+		},
+		"O-7-b": {
+			"V": "O-7-c",
+			"NV": "O-7-c"
+		},
+		"O-7-c": {
+			"V": "O-7-d",
+			"NV": "O-7-d"
+		},
+		"O-7-d": {
+			"V": "O-7-e",
+			"NV": "O-7-e"
+		},
+		"O-7-e": {
+			"V": "O-7-f",
+			"NV": "O-7-f"
+		},
+		"O-7-f": {
+			"V": "O-7-g",
+			"NV": "O-7-g"
+		},
+		"O-1": {
+			"V": "O-1-a",
+			"NV": "O-1-a"
+		},
+		"O-1-a": {
+			"V": "O-1-b",
+			"NV": "O-1-b"
+		},
+		"O-4m": {
+			"V": "O-4m-a",
+			"NV": "O-4m-a"
+		},
+		"O-4m-a": {
+			"V": "O-4m-b",
+			"NV": "O-4m-b"
+		},
+		"O-3": {
+			"V": "O-3-a",
+			"NV": "O-3-a"
+		},
+		"O-3-a": {
+			"V": "O-3-b",
+			"NV": "O-3-b"
+		},
+		"O-3-b": {
+			"V": "O-3-c",
+			"NV": "O-3-c"
+		},
+		"O-21": {
+			"V": "O-21-1",
+			"NV": "O-21-1"
+		},
+		"II-2": {
+			"V": "II-2-1",
+			"NV": "II-2-1"
+		},
+		"O-4a": {
+			"V": "O-4a-a",
+			"NV": "O-4a-a"
+		},
+		"O-4a-a": {
+			"V": "O-4a-b",
+			"NV": "O-4a-b"
+		},
+		"O-4a-b": {
+			"V": "O-4a-c",
+			"NV": "O-4a-c"
+		},
+		"C-1": {
+			"V": "C-1-a"
+		},
+		"C-1-a": {
+			"V": "C-1-b",
+			"NV": "C-1-b"
+		},
+		"C-1-b": {
+			"V": "C-1-c",
+			"NV": "C-1-c"
+		},
+		"O-25": {
+			"V": "O-25-a",
+			"NV": "O-25-a"
+		},
+		"O-25-a": {
+			"V": "O-25-b",
+			"NV": "O-25-b"
+		},
+		"O-2": {
+			"V": "O-2-a",
+			"NV": "O-2-a"
+		},
+		"O-2-a": {
+			"V": "O-2-b",
+			"NV": "O-2-b"
+		},
+		"O-2-b": {
+			"V": "O-2-c",
+			"NV": "O-2-c"
+		},
+		"O-2-c": {
+			"V": "O-2-d",
+			"NV": "O-2-d"
+		},
+		"O-2-d": {
+			"V": "O-2-e",
+			"NV": "O-2-e"
+		}
+	},
+	"sites": [{
+		"type": "Audits course",
+		"areas": [{
+			"desc": "Access area",
+			"objects": ["Obj1",
+			"Obj4a",
+			"Obj4b",
+			"Obj5a",
+			"Obj5b",
+			"Obj6",
+			"Obj9",
+			"Obj10",
+			"Obj15",
+			"SObj09",
+			"SObj11"]
+		},
+		{
+			"desc": "Tracking",
+			"objects": ["Obj2a",
+			"Obj2b",
+			"Obj3",
+			"Obj7",
+			"Obj8",
+			"Obj19",
+			"SObj10",
+			"SObj12",
+			"SObj13"]
+		},
+		{
+			"desc": "Services",
+			"objects": ["Obj11",
+			"Obj12",
+			"Obj13",
+			"Obj14",
+			"Obj16a",
+			"Obj16b",
+			"Obj18",
+			"SObj11",
+			"SObj12"]
+		}]
+	}],
+	"illustrations": {
+		"STA": {
+			"title": "suitable parking space",
+			"image": "stationnement08.jpg"
+		},
+		"Sta1": {
+			"title": "implementation of adapted seats and signage",
+			"image": "stationnement01.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 3 - Provisions relating to car parking"
+		},
+		"Sta2": {
+			"title": "Accessible signage",
+			"image": "stationnement02.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 3 - Provisions relating to car parking"
+		},
+		"Sta3": {
+			"image": "stationnement04.gif",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 3 - Provisions relating to car parking"
+		},
+		"Sta4": {
+			"image": "stationnement05.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 3 - Provisions relating to car parking"
+		},
+		"Sta5": {
+			"image": "stationnement06.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 3 - Provisions relating to car parking"
+		},
+		"Sta6": {
+			"title": "suitable parking space",
+			"image": "stationnement08.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 3 - Provisions relating to car parking"
+		},
+		"TC1": {
+			"image": "arret de transport en commun01.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 3 - Provisions relating to car parking"
+		},
+		"TC2": {
+			"image": "arret de transport en commun02.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 3 - Provisions relating to car parking"
+		},
+		"TC3": {
+			"image": "arret de transport en commun03.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 3 - Provisions relating to car parking"
+		},
+		"TC4": {
+			"image": "arret de transport en commun04.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 3 - Provisions relating to car parking"
+		},
+		"TC5": {
+			"image": "arret de transport en commun05.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 3 - Provisions relating to car parking"
+		},
+		"TC6": {
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 3 - Provisions relating to car parking"
+		},
+		"TC7": {
+			"image": "arret de transport en commun07.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 3 - Provisions relating to car parking"
+		},
+		"TC8": {
+			"image": "arret de transport en commun08.jpg",
+			"comment": "Origin Recommendation: Good Use Improvement"
+		},
+		"Brn1": {
+			"title": "Safety diagram of a terminal",
+			"image": "borne-poteau01.jpg",
+			"comment": "Origin Recommendation: Good-use recommendation \/ Decree of January 15, 2007 September 18, 2012 as amended, relating to the accessibility of roads for the disabled, which specifies how to proceed:\nFor more visibility, the terminal part of this consists of a contrasting color strip\n    > At least 10 cm, put on the periphery of the support or on each of its faces,\n    > Over a length at least equal to one third of its width,\n    > In the upper part of the terminals and posts of a height less than or equal to 1.30 m"
+		},
+		"Brn2": {
+			"title": "Dimension diagram of a landmark",
+			"image": "borne-poteau02.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 3 - Provisions relating to car parking"
+		},
+		"Brn3": {
+			"comment": "Origin Recommendation: Good Use Improvement"
+		},
+		"Lum1": {
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 14 - Provisions relating to lighting"
+		},
+		"WC1": {
+			"image": "sanitaire01.jpg",
+			"comment": "Origin of recommendation: Proper use \/ Decrees of 1 August 2006 and 30 November 2007 - Article 12 - Health Provisions\n\nIn case of development or re layout of premises, we recommend a legible sign touch or Braille, large contrasting characters indicating it is toilets for both men and women"
+		},
+		"WC2": {
+			"title": "Accessible Toilets signaling",
+			"image": "sanitaire02.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007 - Article 12 - Health Provisions"
+		},
+		"WC3": {
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007 - Article 12 - Health Provisions"
+		},
+		"WC4": {
+			"title": "Accessible Toilet Scheme - top view",
+			"image": "sanitaire03.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007 - Article 12 - Health Provisions"
+		},
+		"WC5": {
+			"title": "Accessible Toilet Scheme - top view",
+			"image": "sanitaire03.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007 - Article 12 - Health Provisions"
+		},
+		"WC6": {
+			"title": "Accessible Toilet Scheme - top view",
+			"image": "sanitaire03.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007 - Article 12 - Health Provisions"
+		},
+		"WC7": {
+			"title": "Diagram available Toilet - side view",
+			"image": "sanitaire04.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007 - Article 12 - Health Provisions"
+		},
+		"WC8": {
+			"title": "Diagram available Toilet - side view",
+			"image": "sanitaire04.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007 - Article 12 - Health Provisions",
+			"next": "WC8-2"
+		},
+		"WC8-2": {
+			"title": "Example accessible toilet",
+			"image": "sanitaire05.jpg"
+		},
+		"WC9": {
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007 - Article 12 - Health Provisions"
+		},
+		"WC10": {
+			"title": "Example accessible toilet",
+			"image": "sanitaire08.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007 - Article 12 - Health Provisions"
+		},
+		"WC11": {
+			"title": "Diagram accessible washroom facilities",
+			"image": "sanitaire06.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007 - Article 12 - Health Provisions"
+		},
+		"WC12": {
+			"title": "Diagram accessible washroom facilities",
+			"image": "sanitaire06.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007 - Article 12 - Health Provisions"
+		},
+		"WC13": {
+			"title": "Diagram accessible washroom facilities",
+			"image": "sanitaire06.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007 - Article 12 - Health Provisions"
+		},
+		"WC14b": {
+			"title": "flashing lights on the ceiling",
+			"image": "sanitaire09.jpg"
+		},
+		"BAR": {
+			"title": "Examples of barriers",
+			"image": "barriere01.jpg"
+		},
+		"BAR1": {
+			"title": "Examples of barriers",
+			"image": "barriere01.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 11 - Provisions relating to equipment, furniture and control devices and internal and external services"
+		},
+		"BAR2": {
+			"title": "Schematic implementation of equipment",
+			"image": "barriere02.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 10 - Provisions relating to doors, frames and locks"
+		},
+		"BAR4": {
+			"title": "Access control Illustration",
+			"image": "barriere03.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 11 - Provisions relating to equipment, furniture and control devices and internal and external services"
+		},
+		"CHE1": {
+			"title": "Flow Diagram",
+			"image": "cheminements01.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Articles 2 and 6: Provisions on the exterior and interior horizontal paths."
+		},
+		"CHE2": {
+			"title": "Flow Diagram",
+			"image": "cheminements02.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Articles 2 and 6: Provisions on the exterior and interior horizontal paths."
+		},
+		"CHE3": {
+			"title": "Obstacles to movement",
+			"image": "cheminements03.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Articles 2 and 6: Provisions on the exterior and interior horizontal paths."
+		},
+		"CHE4": {
+			"title": "A well-appointed path",
+			"image": "cheminements04.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Articles 2 and 6: Provisions on the exterior and interior horizontal paths."
+		},
+		"CHE5": {
+			"title": "Arrange the projections",
+			"image": "cheminements05.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Articles 2 and 6: Provisions on the exterior and interior horizontal paths."
+		},
+		"CHE6": {
+			"title": "Limitations holes and projections",
+			"image": "cheminements06.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Articles 2 and 6: Provisions on the exterior and interior horizontal paths."
+		},
+		"CHE7": {
+			"title": "An easily identifiable path",
+			"image": "cheminements07.jpg",
+			"comment": "Origin of recommendation: good use Improvement \/ Decrees of 1 August 2006 and 30 November 2007, Articles 2 and 6: Provisions on the exterior and interior horizontal paths"
+		},
+		"CHE8": {
+			"title": "Avoid obstacles",
+			"image": "cheminements08.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Articles 2 and 6: Provisions on the exterior and interior horizontal paths."
+		},
+		"CHE9": {
+			"title": "Avoid obstacles",
+			"image": "cheminements09.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Articles 2 and 6: Provisions on the exterior and interior horizontal paths."
+		},
+		"RAMP1": {
+			"title": "Ramp Example",
+			"image": "rampe01.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Articles 2 and 6: Provisions on the exterior and interior horizontal paths."
+		},
+		"RAMP2": {
+			"title": "slopes and slope",
+			"image": "rampe02.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Articles 2 and 6: Provisions on the exterior and interior horizontal paths."
+		},
+		"RAMP3": {
+			"title": "Successive slopes and slope",
+			"image": "rampe03.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Articles 2 and 6: Provisions on the exterior and interior horizontal paths."
+		},
+		"RAMP4": {
+			"title": "Avoid or limit ressaults",
+			"image": "rampe04.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Articles 2 and 6: Provisions on the exterior and interior horizontal paths."
+		},
+		"RAMP5": {
+			"title": "Protection ramp",
+			"image": "rampe05.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Articles 2 and 6: Provisions on the exterior and interior horizontal paths."
+		},
+		"RAMP6": {
+			"title": "Ramp with plow wheel rim",
+			"image": "rampe06.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Articles 2 and 6: Provisions on the exterior and interior horizontal paths."
+		},
+		"RAMP7": {
+			"title": "Well reported Ramp",
+			"image": "rampe07.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Articles 2 and 6: Provisions on the exterior and interior horizontal paths."
+		},
+		"RAMP8": {
+			"title": "Ramp doubled by stairs",
+			"image": "rampe08.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Articles 2 and 6: Provisions on the exterior and interior horizontal paths."
+		},
+		"PO1": {
+			"title": "Inner height",
+			"image": "porte01.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 10 - Provisions relating to doors, frames and locks"
+		},
+		"PO2": {
+			"title": "Well spotted doors",
+			"image": "porte02.jpg",
+			"comment": "Origin Recommendation: Good Use Improvement \/ Arrêtés du 1er août 2006 et du 30 novembre 2007, Article 10 - Dispositions relatives aux portes, portiques et sas"
+		},
+		"PO3": {
+			"title": "Maneuvering space for swing doors",
+			"image": "porte battante01.jpg",
+			"comment": "Origin Recommendation: Good Use Improvement \/ Arrêtés du 1er août 2006 et du 30 novembre 2007, Article 10 - Dispositions relatives aux portes, portiques et sas"
+		},
+		"POM1": {
+			"image": "porte08.jpg"
+		},
+		"POM2": {
+			"title": "An ergonomic handle",
+			"image": "porte06.jpg",
+			"comment": "When one door opens easily, it's nice for everyone"
+		},
+		"POM3": {
+			"title": "Moderate opening force",
+			"image": "porte07.jpg",
+			"comment": "When one door opens easily, it's nice for everyone"
+		},
+		"DT1": {
+			"title": "zone de détection",
+			"image": "porte05.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Articles 2 and 6: Provisions on the exterior and interior horizontal paths."
+		},
+		"DEV1": {
+			"image": "porte03.jpg",
+			"comment": "Good use Improvement \/ Decrees of 1 August 2006 and 30 November 2007, Article 10 - Provisions relating to doors, frames and locks"
+		},
+		"PO5": {
+			"title": "mandatory alternative",
+			"image": "porte tournante et tourniquet01.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 10 - Provisions relating to doors, frames and locks"
+		},
+		"AC": {
+			"title": "A well-spotted desk accessible to wheelchair users",
+			"image": "accueil03.jpg",
+			"comment": "From the article 5 of the Decree of December 8, 2014: \"Any development, equipment or furniture located in the reception point of the public and needed to access public open spaces, to use them and to understand them, must be located, reached and used by a disabled person.\nWhen there are several reception points close to each other, at least one of them is made available under the same conditions of access and use than those available to disabled people priority is open and is reported appropriately on the entry.\nIn particular, the host device has a visual and sound environment adapted ..."
+		},
+		"AC2": {
+			"title": "A window accessible to deaf",
+			"image": "accueil02.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 5 - Provisions relating to home"
+		},
+		"AC4": {
+			"title": "A well-spotted desk accessible to wheelchair users",
+			"image": "accueil03.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 5 - Provisions relating to home"
+		},
+		"AC5": {
+			"title": "One-stop access to wheelchair",
+			"image": "accueil01.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 5 - Provisions relating to home\n\nPour plus de confort,nous recommandons que  le mobilier présente un vide en partie inférieure d’au moins 0,30 m de profondeur, 0,60 m de largeur et 0,70 m de hauteur pour permettre le passage des genoux."
+		},
+		"ASC1": {
+			"title": "Dimensions of an lift",
+			"image": "ascenseur01.jpg",
+			"comment": "Origin of recommendation: good use-improvement \/ Decrees of 1 August 2006 and 30 November 2007, section 7-2. Vertical interior dispositions relatives to traffic"
+		},
+		"ASC3": {
+			"title": "Protection of vulnerable persons",
+			"image": "ascenseur02.jpg",
+			"comment": "Origin of recommendation: good use-improvement \/ Decrees of 1 August 2006 and 30 November 2007, section 7-2. Vertical interior dispositions relatives to traffic"
+		},
+		"ASC4": {
+			"title": "Handrails in the lift",
+			"image": "ascenseur03.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 7-2. Provisions relating to vertical interior circulations"
+		},
+		"ASC5": {
+			"title": "Visual and audible information",
+			"image": "ascenseur04.jpg",
+			"comment": "Origin of recommendation: good use-improvement \/ Decrees of 1 August 2006 and 30 November 2007, section 7-2. Vertical interior dispositions relatives to traffic"
+		},
+		"ASC6": {
+			"title": "Visual and audible information",
+			"image": "ascenseur05.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 7-2. Provisions relating to vertical interior circulations"
+		},
+		"ASC8": {
+			"title": "access without ledge",
+			"image": "ascenseur06.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 7-2. Provisions relating to vertical interior circulations"
+		},
+		"ASC10": {
+			"title": "Embossed buttons and visible information",
+			"image": "ascenseur08.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 7-2. Provisions relating to vertical interior circulations"
+		},
+		"ASC9": {
+			"title": "Example command with conspicuous visual warning button",
+			"image": "ascenseur09.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 7-2. Provisions relating to vertical interior circulations"
+		},
+		"ASC11": {
+			"title": "Emergency information 114 deaf",
+			"image": "ascenseur10.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 7-2. Provisions relating to vertical interior circulations"
+		},
+		"ASC13": {
+			"title": "eg Braille doubled info",
+			"image": "ascenseur11.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 7-2. Provisions relating to vertical interior circulations"
+		},
+		"ESC1": {
+			"title": "Dimensions sufficient",
+			"image": "escalier01.jpg",
+			"comment": "Origin of recommendation: Proper use Improvement \/ Decrees of 1 August 2006 and 30 November 2007, Article 7-1. Provisions relating to vertical circulation"
+		},
+		"ESC2": {
+			"title": "Well-formed stairs",
+			"image": "escalier02.jpg",
+			"comment": "Origin of recommendation: Proper use Improvement \/ Decrees of 1 August 2006 and 30 November 2007, Article 7-1. Provisions relating to vertical circulation"
+		},
+		"ESC3": {
+			"title": "Conspicuous elements",
+			"image": "escalier03.jpg",
+			"comment": "Origin of recommendation: Proper use Improvement \/ Decrees of 1 August 2006 and 30 November 2007, Article 7-1. Provisions relating to vertical circulation"
+		},
+		"ESC4": {
+			"title": "Stair nosing without overhang",
+			"image": "escalier04.jpg",
+			"comment": "Origin of recommendation: Proper use Improvement \/ Decrees of 1 August 2006 and 30 November 2007, Article 7-1. Provisions relating to vertical circulation"
+		},
+		"ESC5": {
+			"title": "Nose contrasting steps",
+			"image": "escalier05.jpg",
+			"comment": "Origin of recommendation: Proper use Improvement \/ Decrees of 1 August 2006 and 30 November 2007, Article 7-1. Provisions relating to vertical circulation"
+		},
+		"ESC6": {
+			"title": "Of-marches against identifiable and well formed",
+			"image": "escalier06.jpg",
+			"comment": "Origin of recommendation: Proper use Improvement \/ Decrees of 1 August 2006 and 30 November 2007, Article 7-1. Provisions relating to vertical circulation"
+		},
+		"MC1": {
+			"title": "Well trained handrail scheme",
+			"image": "escalier07.jpg",
+			"comment": "Origin of recommendation: Proper use Improvement \/ Decrees of 1 August 2006 and 30 November 2007, Article 7-1. Provisions relating to vertical circulation"
+		},
+		"SIG1": {
+			"title": "Accessible signage",
+			"image": "signaletique01.jpg",
+			"comment": "Origin of recommendation: Proper use Improvement \/ Decrees of 1 August 2006 and 30 November 2007 Article 4 - Provisions relating to access to the establishment or installation"
+		},
+		"SIG2": {
+			"title": "Large enough characters",
+			"image": "signaletique02.jpg",
+			"comment": "Origin of recommendation: Proper use Improvement \/ Decrees of 1 August 2006 and 30 November 2007 Article 4 - Provisions relating to access to the establishment or installation"
+		},
+		"SIG3": {
+			"title": "Large enough characters",
+			"image": "signaletique03.jpg",
+			"comment": "Origin of recommendation: Proper use Improvement \/ Decrees of 1 August 2006 and 30 November 2007 Article 4 - Provisions relating to access to the establishment or installation"
+		},
+		"SIG4": {
+			"title": "Sufficiently contrasting characters",
+			"image": "signaletique04.jpg",
+			"comment": "Origin of recommendation: Proper use Improvement \/ Decrees of 1 August 2006 and 30 November 2007 Article 4 - Provisions relating to access to the establishment or installation"
+		},
+		"CDE1": {
+			"title": "Affordable way to position the controls",
+			"image": "dispositif de commande01.jpg",
+			"comment": "Origin of recommendation: Proper use Improvement \/ Decrees of 1 August 2006 and 30 November 2007, Article 11 - Provisions relating to equipment, furniture and control devices and internal and external services"
+		},
+		"CDE3": {
+			"title": "Conspicuous commands",
+			"image": "dispositif de commande02.jpg",
+			"comment": "Origin of recommendation: Proper use Improvement \/ Decrees of 1 August 2006 and 30 November 2007, Article 11 - Provisions relating to equipment, furniture and control devices and internal and external services",
+			"next": "CDE3-2"
+		},
+		"CDE3-2": {
+			"title": "Conspicuous commands",
+			"image": "dispositif de commande03.jpg"
+		},
+		"CDE4": {
+			"title": "Braille and large button",
+			"image": "dispositif de commande04.jpg",
+			"comment": "Origin of recommendation: Proper use Improvement \/ Decrees of 1 August 2006 and 30 November 2007, Article 11 - Provisions relating to equipment, furniture and control devices and internal and external services"
+		},
+		"CDE5": {
+			"title": "Easy to handle orders",
+			"image": "dispositif de commande05.jpg",
+			"comment": "Origin of recommendation: Proper use Improvement \/ Decrees of 1 August 2006 and 30 November 2007, Article 11 - Provisions relating to equipment, furniture and control devices and internal and external services"
+		},
+		"CDE6": {
+			"title": "Commands with visual feedback",
+			"image": "dispositif de commande06.jpg",
+			"comment": "Origin of recommendation: Proper use Improvement \/ Decrees of 1 August 2006 and 30 November 2007, Article 11 - Provisions relating to equipment, furniture and control devices and internal and external services"
+		},
+		"CDE7": {
+			"image": "dispositif de commande07.jpg",
+			"comment": "Origin of recommendation: Proper use Improvement \/ Decrees of 1 August 2006 and 30 November 2007, Article 11 - Provisions relating to equipment, furniture and control devices and internal and external services"
+		},
+		"EQP1": {
+			"title": "accessible height for equipment",
+			"image": "RIE01.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 11 - Provisions relating to equipment, furniture and control devices and internal and external services"
+		},
+		"EQP2": {
+			"title": "accessible tables",
+			"image": "RIE02.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 11 - Provisions relating to equipment, furniture and control devices and internal and external services"
+		},
+		"ESP1": {
+			"title": "think of the usual spaces",
+			"image": "RIE03.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 11 - Provisions relating to equipment, furniture and control devices and internal and external services"
+		},
+		"ESP2": {
+			"title": "Turning spaces",
+			"image": "RIE04.png",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 11 - Provisions relating to equipment, furniture and control devices and internal and external services"
+		},
+		"RIE6": {
+			"title": "accessible crates",
+			"image": "RIE05.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 11 - Provisions relating to equipment, furniture and control devices and internal and external services"
+		},
+		"DET2": {
+			"title": "Accessible sink scheme",
+			"image": "espace detente06.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 11 - Provisions relating to equipment, furniture and control devices and internal and external services"
+		},
+		"DET8": {
+			"title": "bar available",
+			"image": "espace detente02.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 11 - Provisions relating to equipment, furniture and control devices and internal and external services"
+		},
+		"EAS1": {
+			"title": "rules for EAS",
+			"image": "securite03.jpg",
+			"comment": "Origin of recommendation: Order of June 25, 1980 - Article GN 8 and recommendation"
+		},
+		"EAS2": {
+			"title": "EADS location",
+			"image": "securite01.jpg",
+			"comment": "Origin of recommendation: Order of June 25, 1980 - Article GN 8 and recommendation"
+		},
+		"EAS3": {
+			"title": "well spotted refuge",
+			"image": "securite04.jpg",
+			"comment": "Origin of recommendation: Order of June 25, 1980 - Article GN 8 and recommendation"
+		},
+		"EAS4": {
+			"title": "SOS equipment",
+			"image": "securite05.jpg",
+			"comment": "Origin of recommendation: Order of June 25, 1980 - Article GN 8 and recommendation"
+		},
+		"EP1": {
+			"title": "A prominent entry",
+			"image": "entree01.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Articles 2: Provisions relating to external paths and good use-improvement."
+		},
+		"EP2": {
+			"image": "entree02.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Articles 2: Provisions relating to external paths and good use-improvement."
+		},
+		"EP3": {
+			"title": "tagging accessible route",
+			"image": "entree03.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Articles 2: Provisions relating to external paths and good use-improvement."
+		},
+		"SFA1": {
+			"image": "salle reunion et amphi01.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007 Article 4 - Provisions relating to access to the establishment or the installation and proper use-improvement."
+		},
+		"SFA2": {
+			"image": "salle reunion et amphi02.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007 Article 4 - Provisions relating to access to the establishment or the installation and proper use-improvement."
+		},
+		"BMG1": {
+			"title": "Safety magnetic loop",
+			"image": "logo oreille T.jpg",
+			"comment": "Origin of recommendation: Orange"
+		},
+		"CRT1": {
+			"title": "CRT device",
+			"image": "dispositif CRT.jpg",
+			"comment": "Origin of recommendation: Orange"
+		},
+		"INT1": {
+			"image": "interphone01.jpg",
+			"comment": "Origin of recommendation: Proper use Improvement \/ Decrees of 1 August 2006 and 30 November 2007 Article 4 - Provisions relating to access to the establishment or installation"
+		},
+		"INT2": {
+			"image": "interphone02.jpg",
+			"comment": "Origin of recommendation: Proper use Improvement \/ Decrees of 1 August 2006 and 30 November 2007 Article 4 - Provisions relating to access to the establishment or installation"
+		},
+		"INT3": {
+			"image": "interphone03.jpg",
+			"comment": "Origin of recommendation: Proper use Improvement \/ Decrees of 1 August 2006 and 30 November 2007 Article 4 - Provisions relating to access to the establishment or installation"
+		},
+		"INT4": {
+			"image": "interphone04.jpg",
+			"comment": "Origin of recommendation: Proper use Improvement \/ Decrees of 1 August 2006 and 30 November 2007 Article 4 - Provisions relating to access to the establishment or installation"
+		},
+		"INT5": {
+			"image": "interphone05.jpg",
+			"comment": "Origin of recommendation: Proper use Improvement \/ Decrees of 1 August 2006 and 30 November 2007 Article 4 - Provisions relating to access to the establishment or installation"
+		},
+		"INT6": {
+			"image": "interphone06.jpg",
+			"comment": "Origin of recommendation: Proper use Improvement \/ Decrees of 1 August 2006 and 30 November 2007 Article 4 - Provisions relating to access to the establishment or installation"
+		},
+		"INT7": {
+			"image": "interphone07.jpg",
+			"comment": "Origin of recommendation: Proper use Improvement \/ Decrees of 1 August 2006 and 30 November 2007 Article 4 - Provisions relating to access to the establishment or installation"
+		},
+		"BUR1": {
+			"title": "implantation diagram",
+			"image": "bureau01.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 11 - Provisions relating to equipment, furniture and control devices and internal and external services"
+		},
+		"BUR2": {
+			"image": "bureau02.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 11 - Provisions relating to equipment, furniture and control devices and internal and external services"
+		},
+		"BUR3": {
+			"title": "Presence Detector",
+			"image": "bureau03.jpg",
+			"comment": "Origin of recommendation: Orange"
+		},
+		"ELE1": {
+			"title": "diagram",
+			"image": "elevateur01.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 7-2. Provisions relating to vertical interior corridors, NF 82-222 and NF XP 22-261 and European standard pr EN 82-40 and EN 82-40 pr"
+		},
+		"ELE2": {
+			"title": "access control",
+			"image": "elevateur02.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 7-2. Provisions relating to vertical interior corridors, NF 82-222 and NF XP 22-261 and European standard pr EN 82-40 and EN 82-41 pr"
+		},
+		"ELE3": {
+			"title": "gate dimension",
+			"image": "elevateur03.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 7-2. Provisions relating to vertical interior corridors, NF 82-222 and NF XP 22-261 and European standard pr EN 82-40 and EN 82-42 pr"
+		},
+		"ELE4": {
+			"title": "Height controls",
+			"image": "elevateur04.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 7-2. Provisions relating to vertical interior corridors, NF 82-222 and NF XP 22-261 and European standard pr EN 82-40 and EN 82-43 pr"
+		},
+		"ECL1": {
+			"image": "dispositif d'eclairage01.jpg",
+			"comment": "Origin of recommendation: Proper use Improvement \/ Decrees of 1 August 2006 and 30 November 2007, Article 11 - Provisions relating to equipment, furniture and control devices and internal and external services"
+		},
+		"ECL2": {
+			"image": "dispositif d'eclairage02.jpg",
+			"comment": "Origin of recommendation: Proper use Improvement \/ Decrees of 1 August 2006 and 30 November 2007, Article 11 - Provisions relating to equipment, furniture and control devices and internal and external services"
+		},
+		"ECL3": {
+			"image": "dispositif d'eclairage03.jpg",
+			"comment": "Origin of recommendation: Proper use Improvement \/ Decrees of 1 August 2006 and 30 November 2007, Article 11 - Provisions relating to equipment, furniture and control devices and internal and external services"
+		},
+		"CTA1": {
+			"title": "sound signal",
+			"image": "controle d acces01.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 11 - Provisions relating to equipment, furniture and control devices and internal and external service and good use-improvement."
+		},
+		"CTA2": {
+			"title": "light signal",
+			"image": "controle d acces02.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 11 - Provisions relating to equipment, furniture and control devices and internal and external service and good use-improvement."
+		},
+		"CTA3": {
+			"title": "let time pass",
+			"image": "controle d acces03.jpg",
+			"comment": "Origin of recommendation: Decrees of 1 August 2006 and 30 November 2007, Article 11 - Provisions relating to equipment, furniture and control devices and internal and external service and good use-improvement."
+		}
+	}
+}

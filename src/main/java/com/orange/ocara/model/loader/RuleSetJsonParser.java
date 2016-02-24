@@ -42,7 +42,7 @@ import lombok.Setter;
 public class RuleSetJsonParser extends AbstractJsonParser {
 
     @Getter
-    private RuleSet ruleSet = null;
+    private RuleSet ruleSet;
 
     @Setter
     private File pictosPath = new File("./pictos");
@@ -66,13 +66,11 @@ public class RuleSetJsonParser extends AbstractJsonParser {
 
         HashMap content = readValue(jsonStream, HashMap.class);
 
-        storeResourcesIfNeeded(content, "pictos", pictosPath);
-        storeResourcesIfNeeded(content, "images", imagesPath);
-
         ruleSet = new RuleSet();
 
         ruleSet.setType(extractString(content, "type"));
         ruleSet.setVersion(extractString(content, "version"));
+        ruleSet.setLanguage(extractString(content, "language"));
 
 
         Map jsonIllustrations = extractMap(content, "illustrations");

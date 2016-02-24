@@ -597,6 +597,7 @@ public class SetupAuditPathActivity extends BaseActivityManagingAudit implements
             ObjectsByCategoryFragment fragment = ObjectsByCategoryFragment_.builder().build();
             String ruleSetId = audit.getRuleSetId();
             Long auditId = audit.getId();
+            fragment.setRetainInstance(true);
             fragment.setAuditId(auditId);
             fragment.setCategory(categories.get(position));
             fragment.setRuleSetId(ruleSetId);

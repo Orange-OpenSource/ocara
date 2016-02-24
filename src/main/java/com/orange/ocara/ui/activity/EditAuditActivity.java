@@ -177,7 +177,7 @@ abstract class EditAuditActivity extends BaseActivityManagingAudit {
 
     @AfterViews
     void setUpAuditType() {
-        rulesAdapter = new RulesAdapter(this, modelManager.getAllRuleSet());
+        rulesAdapter = new RulesAdapter(this, modelManager.getAllRuleSetByLanguage());
         type.setAdapter(rulesAdapter);
         type.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
@@ -240,7 +240,6 @@ abstract class EditAuditActivity extends BaseActivityManagingAudit {
             startAuditButton.setText(com.orange.ocara.R.string.edit_audit_start_audit_button);
             this.audit.setName("");
             setName(audit.getName());
-            type.setEnabled(true);
         } else {
             // modification mode
             setTitle(com.orange.ocara.R.string.edit_audit_update_title);

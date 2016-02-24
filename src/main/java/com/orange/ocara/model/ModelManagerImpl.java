@@ -30,6 +30,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 
@@ -235,7 +236,7 @@ import timber.log.Timber;
         From from = new Select().from(Site.class);
 
         if (StringUtils.isNotBlank(noImmo)) {
-            from = from.where(Site.COLUMN_NOIMMO + " = ?", noImmo );
+            from = from.where(Site.COLUMN_NOIMMO + " = ?", noImmo);
         }
 
 
@@ -673,6 +674,22 @@ import timber.log.Timber;
     @Override
     public Collection<RuleSet> getAllRuleSet() {
         return Collections.unmodifiableSet(allRuleSets);
+    }
+
+    @Override
+    public Collection<RuleSet> getAllRuleSetByLanguage() {
+        final Map<String, RuleSet> allRuleSetsByIdByLanguage = new HashMap<String, RuleSet>();
+        final Set<RuleSet> allRuleSetsByLanguage = new HashSet<RuleSet>();
+
+        Set<String> ruleSetIds = ruleSetLoader.getInstalledRuleSetIds();
+        for (String ruleSetId : ruleSetIds) {
+            RuleSet ruleSet = ruleSetLoader.loadInstalledRuleSet(ruleSetId);
+            if (ruleSet.getLanguage().equals(Locale.getDefault().getLanguage())) {
+                allRuleSetsByIdByLanguage.put(ruleSetId, ruleSet);
+                allRuleSetsByLanguage.add(ruleSet);
+            }
+        }
+        return Collections.unmodifiableSet(allRuleSetsByLanguage);
     }
 
     @Override

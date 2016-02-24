@@ -33,7 +33,7 @@
           <w:szCs w:val="36"/>
           <w:lang w:val="fr-FR"/>
         </w:rPr>
-        <w:t>Rapport d’audit d’accessibilité OCARA</w:t>
+        <w:t>Ocara accessibility audit report</w:t>
       </w:r>
     </w:p>
       <w:p w:rsidP="009407C2" w:rsidR="00607F99" w:rsidRDefault="00BC238B">
@@ -271,7 +271,7 @@
                                 <w:szCs w:val="24" />
                                 <w:lang w:val="fr-FR" />
                             </w:rPr>
-                            <w:t xml:space="preserve">Nom de l’audit : </w:t>
+                            <w:t xml:space="preserve">Name of the audit: </w:t>
                         </w:r>
                         <w:r w:rsidRPr="00DA25CB">
                             <w:rPr>
@@ -303,7 +303,7 @@
                                 <w:szCs w:val="24" />
                                 <w:lang w:val="fr-FR" />
                             </w:rPr>
-                            <w:t>Jeu de règles</w:t>
+                            <w:t>Rule set</w:t>
                         </w:r>
                         <w:r w:rsidRPr="00DA25CB">
                             <w:rPr>
@@ -346,7 +346,7 @@
                                 <w:szCs w:val="24" />
                                 <w:lang w:val="fr-FR" />
                             </w:rPr>
-                            <w:t xml:space="preserve">Auditeur : </w:t>
+                            <w:t xml:space="preserve">Auditor: </w:t>
                         </w:r>
                         <w:r>
                             <w:rPr>
@@ -387,7 +387,7 @@
           <w:b/>
           <w:lang w:val="fr-FR"/>
         </w:rPr>
-        <w:t>Dessin du parcours</w:t>
+        <w:t>Drawing Course</w:t>
       </w:r>
       <w:r>
         <w:rPr>
@@ -402,7 +402,7 @@
           <w:color w:val="984806" w:themeColor="accent6" w:themeShade="80"/>
           <w:lang w:val="fr-FR"/>
         </w:rPr>
-          <w:t>{{auditObjects.size}} élément(s) audité(s)</w:t>
+          <w:t>{{auditObjects.size}} elements audited</w:t>
       </w:r>
 
     </w:p>
@@ -653,14 +653,14 @@
                   <w:b />
                   <w:lang w:val="fr-FR" />
               </w:rPr>
-              <w:t>Résultats</w:t>
+              <w:t>Results</w:t>
           </w:r>
           <w:r w:rsidRPr="007145A1">
               <w:rPr>
                   <w:b />
                   <w:lang w:val="fr-FR" />
               </w:rPr>
-              <w:t xml:space="preserve"> du parcours</w:t>
+              <w:t xml:space="preserve"> of course</w:t>
           </w:r>
           <w:r>
               <w:rPr>
@@ -4962,7 +4962,7 @@
                   <w:b />
                   <w:lang w:val="fr-FR" />
               </w:rPr>
-              <w:t>Tableau des résultats obtenus</w:t>
+              <w:t>Table of results</w:t>
           </w:r>
       </w:p>
       <w:tbl>
@@ -5028,7 +5028,7 @@
                               <w:szCs w:val="22" />
                               <w:lang w:eastAsia="fr-FR" w:val="fr-FR" />
                           </w:rPr>
-                          <w:t>type de handicap &gt;</w:t>
+                          <w:t>type of disability &gt;</w:t>
                       </w:r>
                   </w:p>
               </w:tc>
@@ -5111,7 +5111,7 @@
                               <w:szCs w:val="22" />
                               <w:lang w:eastAsia="fr-FR" w:val="fr-FR" />
                           </w:rPr>
-                          <w:t>contrôle Ok</w:t>
+                          <w:t>ok control</w:t>
                       </w:r>
                   </w:p>
               </w:tc>
@@ -5200,7 +5200,7 @@
                               <w:szCs w:val="22" />
                               <w:lang w:eastAsia="fr-FR" w:val="fr-FR" />
                           </w:rPr>
-                          <w:t>doute</w:t>
+                          <w:t>doubt</w:t>
                       </w:r>
                   </w:p>
               </w:tc>
@@ -5289,7 +5289,7 @@
                               <w:szCs w:val="22" />
                               <w:lang w:eastAsia="fr-FR" w:val="fr-FR" />
                           </w:rPr>
-                          <w:t xml:space="preserve">problème </w:t>
+                          <w:t xml:space="preserve">problem </w:t>
                       </w:r>
                       <w:r w:rsidR="00185074" w:rsidRPr="00185074">
                           <w:rPr>
@@ -5300,7 +5300,7 @@
                               <w:szCs w:val="22" />
                               <w:lang w:eastAsia="fr-FR" w:val="fr-FR" />
                           </w:rPr>
-                          <w:t>gênant</w:t>
+                          <w:t>embarrassing</w:t>
                       </w:r>
                   </w:p>
               </w:tc>
@@ -5400,7 +5400,7 @@
                               <w:szCs w:val="22" />
                               <w:lang w:eastAsia="fr-FR" w:val="fr-FR" />
                           </w:rPr>
-                          <w:t xml:space="preserve">roblème </w:t>
+                          <w:t xml:space="preserve">roblem </w:t>
                       </w:r>
                       <w:r w:rsidRPr="00185074">
                           <w:rPr>
@@ -5412,7 +5412,7 @@
                               <w:szCs w:val="22" />
                               <w:lang w:eastAsia="fr-FR" w:val="fr-FR" />
                           </w:rPr>
-                          <w:t>bloquant</w:t>
+                          <w:t>blocking</w:t>
                       </w:r>
                   </w:p>
               </w:tc>
@@ -5830,7 +5830,7 @@
         <w:rPr>
           <w:lang w:val="fr-FR"/>
         </w:rPr>
-        <w:t>Recommandations d’accessibilité non vérifiées : synthèse</w:t>
+        <w:t>Accessibility recommendations unverified : Synthesis</w:t>
       </w:r>
     </w:p>
     <w:tbl>
@@ -5866,7 +5866,7 @@
                 <w:szCs w:val="24"/>
                 <w:lang w:val="fr-FR"/>
               </w:rPr>
-              <w:t>Elément</w:t>
+              <w:t>Element</w:t>
             </w:r>
           </w:p>
         </w:tc>
@@ -5891,7 +5891,7 @@
                           <w:szCs w:val="24" />
                           <w:lang w:val="fr-FR" />
                       </w:rPr>
-                      <w:t xml:space="preserve">Point non respecté ou non vérifié (</w:t>
+                      <w:t xml:space="preserve">Point not respected or unverified (</w:t>
                   </w:r>
                   <w:r w:rsidR="00C452D0" w:rsidRPr="00C452D0">
                       <w:rPr>
@@ -5901,7 +5901,7 @@
                           <w:szCs w:val="24" />
                           <w:lang w:val="fr-FR" />
                       </w:rPr>
-                      <w:t xml:space="preserve">en rouge </w:t>
+                      <w:t xml:space="preserve">in red </w:t>
                   </w:r>
                   <w:r w:rsidR="00C452D0">
                       <w:rPr>
@@ -5910,7 +5910,7 @@
                           <w:szCs w:val="24" />
                           <w:lang w:val="fr-FR" />
                       </w:rPr>
-                      <w:t>point bloquant)</w:t>
+                      <w:t>blocking point)</w:t>
                   </w:r>
               </w:p>
           </w:tc>
@@ -5935,7 +5935,7 @@
                 <w:szCs w:val="24"/>
                 <w:lang w:val="fr-FR"/>
               </w:rPr>
-              <w:t xml:space="preserve">Fiche résultat</w:t>
+              <w:t xml:space="preserve">result sheet</w:t>
             </w:r>
           </w:p>
         </w:tc>
@@ -6115,7 +6115,7 @@
         <w:pStyle w:val="Titre1"/>
       </w:pPr>
       <w:r>
-        <w:t>Recommandations d’accessibilité non vérifiées : détails</w:t>
+        <w:t>Accessibility recommendations unverified: Details</w:t>
       </w:r>
     </w:p>
 
@@ -6134,7 +6134,7 @@
               <w:rPr>
                   <w:lang w:val="fr-FR" />
               </w:rPr>
-              <w:t>Une fiche résultat est éditée par objet du parcours qui comporte des anomalies ou bien des doutes
+              <w:t>A listing result is published by the path object that has anomalies or doubts
               </w:t>
           </w:r>
       </w:p>
@@ -6177,7 +6177,7 @@
                   <w:lang w:val="fr-FR" />
               </w:rPr>
               <w:lastRenderedPageBreak />
-              <w:t xml:space="preserve">Fiche résultat de l'élément de parcours : {{name}}</w:t>
+              <w:t xml:space="preserve">Sheet result of the path member : {{name}}</w:t>
           </w:r>
       </w:p>
 
@@ -6201,7 +6201,7 @@
                   <w:szCs w:val="24" />
                   <w:lang w:val="fr-FR" />
               </w:rPr>
-              <w:t xml:space="preserve">Caractéristiques associées à l’objet audité : </w:t>
+              <w:t xml:space="preserve">Characteristics associated with the audited object : </w:t>
           </w:r>
           {{#auditObjectCharacteristic}}
           <w:r w:rsidRPr="007C4608">
@@ -6237,7 +6237,7 @@
           <w:szCs w:val="24"/>
           <w:lang w:val="fr-FR"/>
         </w:rPr>
-        <w:t>Règles d’accessibilité non vérifiées</w:t>
+        <w:t>Unaudited Accessibility Guidelines</w:t>
       </w:r>
     </w:p>
 
@@ -6274,7 +6274,7 @@
                 <w:szCs w:val="22"/>
                 <w:lang w:val="fr-FR"/>
               </w:rPr>
-              <w:t>Référence règle</w:t>
+              <w:t>reference rule</w:t>
             </w:r>
           </w:p>
         </w:tc>
@@ -6300,7 +6300,7 @@
                 <w:szCs w:val="24"/>
                 <w:lang w:val="fr-FR"/>
               </w:rPr>
-              <w:t>Libellé</w:t>
+              <w:t>Wording</w:t>
             </w:r>
           </w:p>
         </w:tc>
@@ -6326,7 +6326,7 @@
                 <w:szCs w:val="22"/>
                 <w:lang w:val="fr-FR"/>
               </w:rPr>
-              <w:t>Statut</w:t>
+              <w:t>Status</w:t>
             </w:r>
           </w:p>
         </w:tc>

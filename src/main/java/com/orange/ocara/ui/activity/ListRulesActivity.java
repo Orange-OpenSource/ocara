@@ -32,6 +32,7 @@ import java.util.List;
 
 import javax.inject.Inject;
 
+
 @EActivity(resName="activity_list_rules")
 public class ListRulesActivity extends BaseActivity {
     @Inject
@@ -100,6 +101,7 @@ public class ListRulesActivity extends BaseActivity {
         public Fragment getItem(int position) {
 
             ObjectsByRuleSetFragment fragment = ObjectsByRuleSetFragment_.builder().build();
+            fragment.setRetainInstance(true);
             fragment.setRuleSet(ruleSets.get(position));
             fragment.setObjectDescriptionId(objectDescriptionId);
 

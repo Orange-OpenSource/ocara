@@ -27,6 +27,7 @@ import org.apache.commons.io.FileUtils;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Locale;
 
 import javax.inject.Inject;
 
@@ -62,8 +63,15 @@ public class AuditExportService extends DaggerIntentService {
 
     private void exportToDocx(Audit audit) {
         final AssetManager assetManager = getAssets();
-
-        final File exportDir = new File(getCacheDir(), "export");
+        String locale = Locale.getDefault().getLanguage();
+        String folder;
+        if (locale.equals("en")) {
+            folder = "export/";
+        } else {
+            folder = "export-"+locale+"/";
+        }
+        Timber.v("locale "+locale+ " folder "+folder);
+        final File exportDir = new File(getCacheDir(), folder);
 
         final File templateDir = new File(exportDir, "docx/template");
         final File workingDir = new File(exportDir, "docx/working");
@@ -78,7 +86,7 @@ public class AuditExportService extends DaggerIntentService {
             FileUtils.deleteQuietly(exportFile);
             exportFile.createNewFile();
 
-            AssetsHelper.copyAsset(assetManager, "export/docx", templateDir);
+            AssetsHelper.copyAsset(assetManager, folder+"docx", templateDir);
             FileUtils.copyDirectory(templateDir, workingDir);
 
             DocxExporter auditExporter = new AuditDocxExporter(audit, templateDir);

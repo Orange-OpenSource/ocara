@@ -6,289 +6,289 @@
   License, v. 2.0. If a copy of the MPL was not distributed with this
   file, You can obtain one at http://mozilla.org/MPL/2.0/.
 -->
-
 <resources>
 
     <string name="app_name">Ocara</string>
 
     <!-- Actions -->
-    <string name="action_yes">Oui</string>
-    <string name="action_no">Non</string>
+    <string name="action_yes">Yes</string>
+    <string name="action_no">No</string>
     <string name="action_ok">OK</string>
-    <string name="action_back">Retour</string>
-    <string name="action_cancel">Retour</string>
-    <string name="action_exit">Quitter</string>
-    <string name="action_exit_menu">Quitter l\'application</string>
-    <string name="action_about">A propos</string>
-    <string name="action_help">Aide sur la page</string>
-    <string name="action_settings">Préférences</string>
-    <string name="action_create">Créer</string>
-    <string name="action_report">Rapport</string>
-    <string name="action_share">Partager</string>
-    <string name="action_save">Enregistrer sous</string>
-    <string name="action_delete_path">Effacer le parcours</string>
-    <string name="action_delete_all_comment">Effacer tous les commentaires</string>
-    <string name="action_close_audit">Clore l\'audit</string>
-    <string name="action_export_audit_docx">Rapport</string>
-    <string name="action_update">Modifier</string>
-    <string name="action_remove">Supprimer</string>
-    <string name="action_lock">Clore</string>
-    <string name="action_close">Fermer</string>
-    <string name="action_sort">Tri</string>
-    <string name="action_comment">Notes</string>
-    <string name="action_rules">Règles</string>
-    <string name="action_complete">Compléter</string>
-    <string name="action_ruleset">Afficher le jeu de règle</string>
-    <string name="title_context">Menu élément de parcours</string>
-    <string name="action_object_definition">Voir la définition</string>
-    <string name="action_object_remove">Retirer du parcours</string>
-    <string name="action_object_update">Renommer</string>
-    <string name="action_object_comment">Ajouter un commentaire</string>
-    <string name="action_object_characteristics">Modifier les caractéristiques</string>
-    <string name="action_object_detail">Détail</string>
-    <string name="action_object_grid_detail">Détail</string>
-    <string name="action_object_add">Ajouter au parcours</string>
-    <string name="action_object_ruleset">Voir le jeu de règle</string>
-    <string name="action_text_comment">Texte</string>
+    <string name="action_back">Back</string>
+    <string name="action_cancel">Back</string>
+    <string name="action_exit">Quit</string>
+    <string name="action_exit_menu">Exit the application</string>
+    <string name="action_about">About</string>
+    <string name="action_help">Help on the page</string>
+    <string name="action_settings">Preferences</string>
+    <string name="action_create">Make</string>
+    <string name="action_report">Report</string>
+    <string name="action_share">Share</string>
+    <string name="action_save">Save as</string>
+    <string name="action_delete_path">Clear path</string>
+    <string name="action_delete_all_comment">Delete all comments</string>
+    <string name="action_close_audit">Close Audit</string>
+    <string name="action_export_audit_docx">Report</string>
+    <string name="action_update">Edit</string>
+    <string name="action_remove">Delete</string>
+    <string name="action_lock">Close</string>
+    <string name="action_close">Shut off</string>
+    <string name="action_sort">Sorting</string>
+    <string name="action_comment">Briefing</string>
+    <string name="action_rules">Rules</string>
+    <string name="action_complete">Complete</string>
+    <string name="action_ruleset">Show the game rule</string>
+    <string name="title_context">Path member Menu</string>
+    <string name="action_object_definition">See definition</string>
+    <string name="action_object_remove">Delete of path</string>
+    <string name="action_object_update">Rename</string>
+    <string name="action_object_comment">Add a comment</string>
+    <string name="action_object_characteristics">Edit features</string>
+    <string name="action_object_detail">Detail</string>
+    <string name="action_object_grid_detail">Detail</string>
+    <string name="action_object_add">Add to path</string>
+    <string name="action_object_ruleset">See the rule set</string>
+    <string name="action_text_comment">Text</string>
     <string name="action_audio_comment">Audio</string>
     <string name="action_photo_comment">Photo</string>
-    <string name="action_complete_record">Compléter le parcours</string>
-    <string name="action_retest">Retester</string>
+    <string name="action_complete_record">Complete the path</string>
+    <string name="action_retest">Retest</string>
 
     <!-- Toast -->
-    <string name="info_retest">Les caractéristiques sont modifiées. RETESTER vous permet de compléter le test d\’accessibilité de l\’objet</string>
+    <string name="info_retest">The characteristics are changed. Retest allows you to complete the test accessibility of the object</string>
 
     <!-- Response button bar -->
-    <string name="response_ok_button">Oui</string>
-    <string name="response_nok_button">Non</string>
+    <string name="response_ok_button">Yes</string>
+    <string name="response_nok_button">No</string>
     <string name="response_notapplicable_button">NA</string>
-    <string name="response_no_answer_button">Doute</string>
+    <string name="response_no_answer_button">Doubt</string>
 
     <!-- general to all activities -->
-    <string name="exit_dialog_title">Quitter l\'application ?</string>
-    <string name="exit_dialog_message">Êtes vous certain de vouloir quitter l\'application ?</string>
+    <string name="exit_dialog_title">Exit application?</string>
+    <string name="exit_dialog_message">Are you sure you want to exit the application?</string>
 
     <!-- navigation menu -->
-    <string name="navigation_menu_open">Menu ouvert</string>
-    <string name="navigation_menu_close">Menu fermé</string>
+    <string name="navigation_menu_open">Open menu</string>
+    <string name="navigation_menu_close">Closed menu</string>
 
-    <string name="navigation_item_new_audit">Créer un audit</string>
-    <string name="navigation_item_list_audit">Tous les audits</string>
-    <string name="navigation_item_show_ruleset">Jeu de règles</string>
-    <string name="navigation_item_show_help">Aide</string>
+    <string name="navigation_item_new_audit">Create an audit</string>
+    <string name="navigation_item_list_audit">All audits</string>
+    <string name="navigation_item_show_ruleset">Rules set</string>
+    <string name="navigation_item_show_help">Help</string>
 
-    <!-- about -->
-    <string name="about_title">A Propos</string>
+    <!-- about ²-->
+    <string name="about_title">About</string>
     <string name="about_version" formatted="false">Version: %s</string>
-    <string name="about_label_site">C’est sur le site de Meylan, Isère,  que Ocara prend sa source</string>
+    <string name="about_label_site">It is on the site of Meylan, Isère, as Ocara rises</string>
 
 
     <!-- about OpenSource-->
-    <string name="about_text_1_OpenSource"><b>OCARA</b>, Outil de Contrôle et d’Analyse du Réel Accessible, est avant tout une application permettant d’effectuer un autodiagnostic d’accessibilité des locaux accueillant les salariés. Il fonctionne selon une logique de parcours utilisateur ; grâce à un jeu de règles élaboré, il permet d’auditer tout type d’objet ou de zone de service, selon une approche multi-handicaps.</string>
-    <string name="about_text_2_OpenSource">C’est un outil complet et autonome, qui peut être associé à des jeux de règles évolutifs et personnalisables.</string>
-    <string name="about_text_3_OpenSource">Ocara est développé par les Orange Labs pour la Mission Insertion Handicap d’Orange. Les règles d’accessibilité proposées, inspirées des ERP, ont été élaborées pour les besoins des salariés de l’entreprise. Mais Ocara peut intégrer d’autres jeux de règles, <b>vos</b> jeux de règles !</string>
-    <string name="about_text_4_OpenSource">Orange a décidé de mettre Ocara en open-source afin que toutes les entreprises, associations ou personnes préoccupés par l’accessibilité, puissent utiliser cet outil et contribuer à son développement.</string>
-    <string name="about_text_5_OpenSource">L’accessibilité est une cause commune qui rentre dans le cadre des politiques de Responsabilité Sociale des Entreprises. Elle devrait devenir partie intégrante des politiques de bien-être et de la santé au travail, et un facteur d’efficience sociale.</string>
-    <string name="about_text_6_OpenSource">Et c’est en mettant en commun nos moyens, en mutualisant,  que l’on ira plus loin ensemble.</string>
+    <string name="about_text_1_OpenSource"><b>OCARA</b>, Control Tool and Real Analysis access is primarily an application for performing a local welcoming employees self-diagnosis of accessibility. It operates on a user path logic; through an elaborate set of rules, it allows to audit any type of object or service area, according to a multi-disability approach.</string>
+    <string name="about_text_2_OpenSource">It is a complete and autonomous tool, which can be associated with gambling scalable and customizable rules.</string>
+    <string name="about_text_3_OpenSource">Ocara is developed by Orange Labs for Mission Insertion Handicap Orange. Accessibility proposed rules, inspired by the ERP have been developed for the needs of company employees. But Ocara can integrate other rule sets, <b> you </b> rule sets!</string>
+    <string name="about_text_4_OpenSource">Orange Ocara decided to open-source so that all companies, associations and individuals concerned about accessibility, can use this tool and contribute to its development.</string>
+    <string name="about_text_5_OpenSource">Accessibility is a common cause which comes within the framework of the policies of Corporate Social Responsibility. It should become an integral part of the policies of welfare and health, and social efficiency factor.</string>
+    <string name="about_text_6_OpenSource">And it is by pooling our resources, by sharing, we will go further together.</string>
 
 
-    <string name="about_label_site__OpenSource">C’est sur le site de Meylan, Isère,  que Ocara prend sa source</string>
-    <string name="about_mailTo_OpenSource"><b>contact : ocara.support@orange.com</b></string>
+    <string name="about_label_site__OpenSource">It is on the site of Meylan, Isère, as Ocara rises</string>
+    <string name="about_mailTo_OpenSource"><b>contact us : ocara.support@orange.com</b></string>
     <string name="about_mentions_légales"><b>Mentions légales</b>\n\nActiveAndroid - https://github.com/pardom/ActiveAndroid\nCopyright (C) 2010 Michael Pardo\nActiveAndroid is distributed under the terms and conditions of the Apache License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nAndroidAnnotations - https://github.com/excilys/androidannotations\nCopyright 2012-2015 eBusiness Information\nAndroidAnnotations is distributed under the terms and conditions of the Apache License, Version 2.0\nhttps://github.com/excilys/androidannotations/blob/develop/LICENSE.txt\n\napache commons IO - https://github.com/apache/commons-io\napache commons IO is distributed under the terms and conditions of the Apache License, Version 2.0\nhttps://github.com/excilys/androidannotations/blob/develop/LICENSE.txt\n\napache POI - https://poi.apache.org/\nCopyright 2003-2015 The Apache Software Foundation\napache POI is distributed under the terms and conditions of the Apache License, Version 2.0\nhttps://github.com/excilys/androidannotations/blob/develop/LICENSE.txt\n\nappcompat-v7 support library - The Android Open Source Project - https://source.android.com\nCopyright (C) 2007 The Android Open Source Project\nappcompat-v7 support library is distributed under the terms and conditions of the Apache License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nBadgeView - https://github.com/jgilfelt/android-viewbadger\nCopyright (c) 2011 readyState Software Ltd.\nBadgeView is distributed under the terms and conditions of the Apache License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0\n\ncardview-v7 support library - The Android Open Source Project - https://source.android.com\nCopyright (C) 2007 The Android Open Source Project\ncardview-v7 is distributed under the terms and conditions of the Apache License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nDagger - https://github.com/square/Dagger\nCopyright 2012 Square, Inc.\nDagger is distributed under the terms and conditions of the Apache License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0\n\njackson databind - https://github.com/FasterXML/jackson-core\nCopyright (c) 2007- Tatu Saloranta, tatu.saloranta@iki.fi\njackson databind is distributed under the terms and conditions of the Apache License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0\n\njmustache - https://github.com/samskivert/jmustache\nCopyright (c) 2010, Michael Bayne\njmustache is distributed under the terms and conditions of the following BSD like license:\nhttps://github.com/samskivert/jmustache/blob/master/LICENSE\n\nPagerSlidingTabStrip - https://github.com/astuetz/PagerSlidingTabStrip\nCopyright (C) 2013 Andreas Stuetz andreas.stuetz@gmail.com\nPagerSlidingTabStrip is distributed under the terms and conditions of the Apache License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nPicasso - https://github.com/square/picasso\nCopyright 2013 Square, Inc.\nPicasso is distributed under the terms and conditions of the Apache License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nholographlibrary - https://bitbucket.org/danielnadeau/holographlibrary\nCopyright 2013 The Apache Software Foundation\nholographlibrary is distributed under the terms and conditions of the Apache License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nsnackbar - https://github.com/nispok/snackbar\nCopyright (c) 2015 William Mora\nsnackbar is distributed under the terms and conditions of the MIT license\nhttps://github.com/nispok/snackbar/blob/master/LICENSE\n\nTimber - https://github.com/JakeWharton/timber\nCopyright 2013 Jake Wharton\nTimber is distributed under the terms and conditions of the Apache License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nTouchImageView - https://github.com/MikeOrtiz/TouchImageView\nCopyright (c) 2012 Michael Ortiz\nTouchImageView is distributed under the terms and conditions of a BSD like license\nhttps://github.com/MikeOrtiz/TouchImageView/blob/master/LICENSE\n\nTwoWayView - https://github.com/lucasr/twoway-view\nCopyright (C) 2013 Lucas Rocha\nTwoWayView is distributed under the terms and conditions of the Apache License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0</string>
 
+
     <!-- settings -->
-    <string name="settings_title">Préférences</string>
-    <string name="setting_test_title">Quand tester les éléments de parcours</string>
-    <string name="setting_test_dialog_title">Quand tester les éléments ?</string>
-    <string name="setting_test_ask_every_time">Demander à chaque fois</string>
-    <string name="setting_test_now">A la sélection</string>
-    <string name="setting_test_later">En fin de parcours</string>
-    <string name="setting_test_button_validate">Valider</string>
-    <string name="setting_test_button_cancel">Retour</string>
+    <string name="settings_title">Preferences</string>
+    <string name="setting_test_title">When testing path members</string>
+    <string name="setting_test_dialog_title">When testing the elements?</string>
+    <string name="setting_test_ask_every_time">Ask every time</string>
+    <string name="setting_test_now">A selection</string>
+    <string name="setting_test_later">At the end of course</string>
+    <string name="setting_test_button_validate">Validate</string>
+    <string name="setting_test_button_cancel">Back</string>
 
 
-    <string name="setting_display_auditing_progress_title">Afficher le résultat obtenu après chaque audit d\'un objet du parcours </string>
-    <string name="setting_display_auditing_progress_dialog_title">Avancement de l\'audit</string>
-    <string name="setting_display_auditing_progress_no">Ne pas afficher le résultat obtenu après chaque audit d\’un objet</string>
-    <string name="setting_display_auditing_progress_yes">Afficher le résultat obtenu après chaque audit d\’un objet</string>
-    <string name="setting_display_auditing_progress_validate">Valider</string>
-    <string name="setting_display_auditing_progress_cancel">Retour</string>
+    <string name="setting_display_auditing_progress_title">View results after each audit an object of the course</string>
+    <string name="setting_display_auditing_progress_dialog_title">Audit progress</string>
+    <string name="setting_display_auditing_progress_no">Do not show the result after each audit of an object</string>
+    <string name="setting_display_auditing_progress_yes">Do not Display the result after each audit of a objetafficher the result after each audit of an object</string>
+    <string name="setting_display_auditing_progress_validate">Validate</string>
+    <string name="setting_display_auditing_progress_cancel">Back</string>
 
     <!-- export word -->
-    <string name="export_docx_title">Rapport</string>
-    <string name="export_docx_message_closed_audit">L\'audit est clos, il ne peut plus être modifié.\nVous pouvez directement générer et partager une version Word du rapport en utilisant les services configurés sur votre tablette (mail, cloud, sans fil …) (partager).\nVous pouvez aussi enregistrer le rapport Word sous un nom qui convient (enregistrer sous).</string>
-    <string name="export_docx_message">Vous pouvez directement générer et partager une version Word du rapport en utilisant les services configurés sur votre tablette (mail, cloud, sans fil …) (partager).\nVous pouvez aussi enregistrer le rapport Word sous un nom qui convient (enregistrer sous).</string>
+    <string name="export_docx_title">Repport</string>
+    <string name="export_docx_message_closed_audit">he audit is closed, it can not be changed.\nYou can directly generate and share a Word version of the report using the services configured on your tablet (email, cloud, wireless ...) (share). \ NYou can also save the Word report with a suitable name (save as).\nYou can also save the Word report with a suitable name (save as).</string>
+    <string name="export_docx_message">You can directly manage and share a Word version of the report using the services configured on your tablet (email, cloud, wireless ...) (share).\nYou can also save the Word report with a suitable name (save as).</string>
 
     <!-- rules list -->
-    <string name="list_rules_title">Jeu de règles</string>
-    <string name="list_rules_subtitle">Sélectionnez un élément à gauche de l\'écran pour voir les régles d\'accessibilité associées</string>
+    <string name="list_rules_title">Rules set</string>
+    <string name="list_rules_subtitle">Select an item to the left of the screen to see the associated accessibility rules</string>
 
     <!-- audit list -->
-    <string name="empty_audit_text">Aucun audits trouvés.</string>
-    <string name="audit_list_title">Sélectionnez un audit dans liste, triez les audits ou créez un audit</string>
+    <string name="empty_audit_text">No audit found.</string>
+    <string name="audit_list_title">Select an audit in list, sorted audits or create an audit</string>
     <string name="audit_item_ruleset_format" formatted="false">%s (V%s)</string>
-    <string name="audit_item_status_in_progress_format" formatted="false">Modifié le %s</string>
-    <string name="audit_item_status_terminated_format" formatted="false">Terminé le %s</string>
+    <string name="audit_item_status_in_progress_format" formatted="false">modified %s</string>
+    <string name="audit_item_status_terminated_format" formatted="false">finished %s</string>
 
-    <string name="audit_list_delete_audit_title">Supprimer</string>
-    <string name="audit_list_delete_audit_message" formatted="false">Êtes vous certain de vouloir effacer l\'audit %s ?</string>
-    <string name="audit_list_complete_audit_title">Compléter</string>
-    <string name="audit_list_complete_audit_message">Êtes vous certain de vouloir compléter ce parcours ?</string>
-    <string name="audit_list_retest_audit_title">Retester le parcours</string>
-    <string name="audit_list_retest_audit_message" formatted="false">Voulez-vous retester l\'ensemble du parcours %s?\nUn nouvel audit sera créé.</string>
+    <string name="audit_list_delete_audit_title">Delete</string>
+    <string name="audit_list_delete_audit_message" formatted="false">Are you sure you want to delete the audit %s ?</string>
+    <string name="audit_list_complete_audit_title">Complete</string>
+    <string name="audit_list_complete_audit_message">Are you sure you want to complete this path ?</string>
+    <string name="audit_list_retest_audit_title">Retest the path</string>
+    <string name="audit_list_retest_audit_message" formatted="false">Do you want to retest the entire journey %s?\nA new audit will be created.</string>
 
-    <string name="action_sort_by_status">Par statut</string>
-    <string name="action_sort_by_site">Par site</string>
-    <string name="action_sort_by_date">Par date</string>
+    <string name="action_sort_by_status">By status</string>
+    <string name="action_sort_by_site">By site</string>
+    <string name="action_sort_by_date">By date</string>
 
     <!-- create site -->
-    <string name="create_site_create_site_title">Ajouter un site dans la base locale</string>
-    <string name="create_site_title">Entrez les informations concernant votre site ci dessous :</string>
-    <string name="create_site_code">(*) Code du site :</string>
-    <string name="create_site_code_hint"><i>Entrez le code du site</i></string>
-    <string name="create_site_name">(*) Nom du site :</string>
-    <string name="create_site_name_hint"><i>Entrez le nom du site</i></string>
-    <string name="create_site_error_title">Erreur de saisie.</string>
-    <string name="create_site_duplicate_site_noImmo">Un site existe déjà avec le même code</string>
-    <string name="create_site_duplicate_site_name">Un site existe déjà avec le même nom</string>
-    <string name="create_site_street">Rue :</string>
-    <string name="create_site_street_hint"><i>Entrez le nom de la rue</i></string>
-    <string name="create_site_postal_code">Code postal :</string>
-    <string name="create_site_postal_code_hint"><i>Entrez le code postal</i></string>
-    <string name="create_site_city">Ville :</string>
-    <string name="create_site_city_hint"><i>Entrez le nom de la ville</i></string>
-    <string name="create_site_mandatory_field">(*) Champs obligatoires</string>
-    <string name="create_site_create_site_button">Créer</string>
+    <string name="create_site_create_site_title">Add a site in the local database</string>
+    <string name="create_site_title">Enter information about your site below :</string>
+    <string name="create_site_code">(*) Site code :</string>
+    <string name="create_site_code_hint"><i>Enter the site code</i></string>
+    <string name="create_site_name">(*) Name of the site :</string>
+    <string name="create_site_name_hint"><i>Enter the site name</i></string>
+    <string name="create_site_error_title">Entry error.</string>
+    <string name="create_site_duplicate_site_noImmo">A site already exists with the same code</string>
+    <string name="create_site_duplicate_site_name">A site already exists with the same name</string>
+    <string name="create_site_street">Street :</string>
+    <string name="create_site_street_hint"><i>Enter the street name</i></string>
+    <string name="create_site_postal_code">Zip code :</string>
+    <string name="create_site_postal_code_hint"><i>Enter the zip code</i></string>
+    <string name="create_site_city">City :</string>
+    <string name="create_site_city_hint"><i>Enter the city</i></string>
+    <string name="create_site_mandatory_field">(*) Required fields</string>
+    <string name="create_site_create_site_button">Create</string>
 
     <!-- create audit -->
-    <string name="edit_audit_title">Entrez les informations concernant votre audit ci dessous :</string>
-    <string name="edit_audit_user_name_title">Nom et prénom :</string>
-    <string name="edit_audit_user_name_hint"><i>Entrez votre nom et prénom</i></string>
-    <string name="edit_audit_site_title">Site à auditer :</string>
-    <string name="edit_audit_site_hint"><i>Entrez le nom ou le NOIMM du site à auditer</i></string>
-    <string name="edit_audit_name">Nom de l\'audit :</string>
-    <string name="edit_audit_name_hint"><i>Entrez le nom de l\'audit</i></string>
-    <string name="edit_audit_type_title">Jeu de règles :</string>
-    <string name="edit_audit_rule_choice_hint"><i>Choisissez votre jeu de règles</i></string>
-    <string name="edit_audit_show_rules_button">Jeu de règles</string>
+    <string name="edit_audit_title">Enter information about your auditing below :</string>
+    <string name="edit_audit_user_name_title">Lastname and firstname :</string>
+    <string name="edit_audit_user_name_hint"><i>enter your lastname and firstname</i></string>
+    <string name="edit_audit_site_title">Site to be audited :</string>
+    <string name="edit_audit_site_hint"><i>Enter the name or the NOIMM of the site to be audited</i></string>
+    <string name="edit_audit_name">Name of the audit :</string>
+    <string name="edit_audit_name_hint"><i>Enter the name of the audit</i></string>
+    <string name="edit_audit_type_title">Rules set :</string>
+    <string name="edit_audit_rule_choice_hint"><i>Choose your rule set</i></string>
+    <string name="edit_audit_show_rules_button">Rules set</string>
     <string name="edit_audit_level_title">Expertise :</string>
-    <string name="edit_audit_level_beginner">Novice</string>
+    <string name="edit_audit_level_beginner">Beginner</string>
     <string name="edit_audit_level_expert">Expert</string>
-    <string name="edit_audit_error_title">Erreur de saisie.</string>
-    <string name="edit_audit_duplicate_audit">Un audit existe déjà avec le même nom et la même version</string>
-    <string name="edit_audit_site_unknown_title">Le site n\'existe pas dans la base locale</string>
-    <string name="edit_audit_site_unknown">Vous pouvez créer ce site avec le bouton +</string>
+    <string name="edit_audit_error_title">Entry error.</string>
+    <string name="edit_audit_duplicate_audit">An audit already exists with the same name and the same version</string>
+    <string name="edit_audit_site_unknown_title">The site does not exist in the local database</string>
+    <string name="edit_audit_site_unknown">You can create this site with the button +</string>
 
-    <string name="edit_audit_start_audit_button">Créer</string>
-    <string name="edit_audit_start_audit_edit_button">Modifier</string>
-    <string name="edit_audit_start_audit_back_button">Reprendre</string>
-    <string name="edit_audit_create_title">Créer un audit</string>
-    <string name="edit_audit_update_title">Modifier l\'audit</string>
+    <string name="edit_audit_start_audit_button">Create</string>
+    <string name="edit_audit_start_audit_edit_button">Edit</string>
+    <string name="edit_audit_start_audit_back_button">Resume</string>
+    <string name="edit_audit_create_title">Create an audit</string>
+    <string name="edit_audit_update_title">Edit audit</string>
 
 
     <!-- Setup objects -->
-    <string name="setup_objects_title">Choix de parcours</string>
-    <string name="setup_objects_button_back">@string/action_back</string>
-    <string name="setup_objects_button_audit">Tester</string>
+    <string name="setup_objects_title">Choice of courses</string>
+    <string name="setup_objects_button_back">Back</string>
+    <string name="setup_objects_button_audit">Test</string>
 
     <!-- Audit objects -->
-    <string name="audit_object_sequential_title" formatted="false">%s (Elément %d/%d)</string>
-    <string name="audit_object_novice_mode_title" formatted="false">%s (Question %d/%d)</string>
+    <string name="audit_object_sequential_title" formatted="false">%s (Item %d/%d)</string>
+    <string name="audit_object_novice_mode_title" formatted="false">%s (Query %d/%d)</string>
 
-    <string name="audit_object_cancel_title">Annuler</string>
-    <string name="audit_object_cancel_message">Souhaitez vous annuler les modifications en cours et revenir à l\'écran précédent ?</string>
+    <string name="audit_object_cancel_title">Cancel</string>
+    <string name="audit_object_cancel_message">You want to cancel the current change and return to the previous screen?</string>
 
-    <string name="audit_object_badglobaleresponse_title">Règle applicable</string>
-    <string name="audit_object_badglobaleresponse_message">Vous devez sélectionner au moins une règle applicable</string>
+    <string name="audit_object_badglobaleresponse_title">Rule</string>
+    <string name="audit_object_badglobaleresponse_message">You must select at least one rule</string>
 
-    <string name="audit_object_button_previous">Précédent</string>
-    <string name="audit_object_button_next">Suivant</string>
-    <string name="audit_object_button_back">Retour</string>
-    <string name="audit_object_button_validate">Valider</string>
-    <string name="audit_object_button_terminate">Terminer</string>
-    <string name="audit_object_update_object_title">Modifier un élément de parcours</string>
-    <string name="audit_object_update_object_button">Modifier cet élément de parcours</string>
+    <string name="audit_object_button_previous">Previous</string>
+    <string name="audit_object_button_next">Next</string>
+    <string name="audit_object_button_back">Back</string>
+    <string name="audit_object_button_validate">Validate</string>
+    <string name="audit_object_button_terminate">Finish</string>
+    <string name="audit_object_update_object_title">Change a path element</string>
+    <string name="audit_object_update_object_button">Change a path element</string>
 
-    <string name="audit_object_remove_object_title">Suppression</string>
-    <string name="audit_object_remove_object_message">Vous allez retirer cet élément du parcours</string>
-    <string name="audit_object_remove_object_button">Retirer</string>
+    <string name="audit_object_remove_object_title">Removal</string>
+    <string name="audit_object_remove_object_message">You will remove this element of the route</string>
+    <string name="audit_object_remove_object_button">Remove</string>
 
 
-    <string name="audit_object_remove_all_objects_title">Suppression parcours</string>
-    <string name="audit_object_remove_all_objects_message">Êtes vous certain de vouloir effacer l\'intégralité du parcours ?</string>
-    <string name="audit_object_remove_all_objects_button">Effacer le parcours</string>
+    <string name="audit_object_remove_all_objects_title">deleting path</string>
+    <string name="audit_object_remove_all_objects_message">Are you sure you want to delete the entire route?</string>
+    <string name="audit_object_remove_all_objects_button">Clear route</string>
 
 
 
     <!-- Auditing progress Dialog -->
-    <string name="auditing_progress_title">Etat d\'avancement</string>
-    <string name="auditing_progress_info" formatted="false">Résultats du test :</string>
-    <string name="auditing_progress_status_ok" >Résultats du test :\nAccessible : Tous les points sont vérifiés !</string>
-    <string name="auditing_progress_status_nok" >Résultats du test :\nNon accessible  : présence de défauts bloquants</string>
-    <string name="auditing_progress_status_anoying" >Résultats du test :\nPartiellement accessible  : présence de défauts génants</string>
-    <string name="auditing_progress_status_doubt" >Résultats du test :\nDoute  : certains points d\'accessibilité n\'ont pas put être évalués</string>
-    <string name="auditing_progress_status_no_answer" >Il manque des réponses</string>
-    <string name="auditing_progress_option">Ne plus afficher ce message</string>
+    <string name="auditing_progress_title">State progress</string>
+    <string name="auditing_progress_info" formatted="false">Test results:</string>
+    <string name="auditing_progress_status_ok" >Test results:\nAccessible: All items are checked!</string>
+    <string name="auditing_progress_status_nok" >Test results:\nUnreachable: presence of blocking errors</string>
+    <string name="auditing_progress_status_anoying" >Test results:\nPartially accessible: the presence of troublesome defects</string>
+    <string name="auditing_progress_status_doubt" >Test results:\nDoubt: Some access points have not been evaluated</string>
+    <string name="auditing_progress_status_no_answer" >Missing responses</string>
+    <string name="auditing_progress_option">Do not show this message again</string>
 
 
     <!-- activity_audit_results.xml -->
-    <string name="audit_results_title">Rapport d\'audit</string>
-    <string name="audit_results_details_title">Résultats</string>
-    <string name="audit_results_details_user">Auditeur:</string>
+    <string name="audit_results_title">Audit report</string>
+    <string name="audit_results_details_title">Results</string>
+    <string name="audit_results_details_user">Auditor:</string>
     <string name="audit_results_details_site">Site:</string>
-    <string name="audit_results_details_audit_name">Nom d\'audit:</string>
-    <string name="audit_results_details_audit_type">Type d\'audit:</string>
-    <string name="audit_results_details_audit_date">Date d\'audit: </string>
-    <string name="audit_results_path_title">Eléments de parcours</string>
-    <string name="audit_results_summary_title">Résumé</string>
-    <string name="audit_results_general_comment_title">Commentaire général</string>
-    <string name="audit_results_anomaly_title">Liste des anomalies et commentaires</string>
-    <string name="audit_results_anomaly_rules_title">Règles non respectées</string>
-    <string name="audit_results_anomaly_comments_title">Commentaires</string>
-    <string name="audit_results_table_handicap_title">Type de handicap</string>
+    <string name="audit_results_details_audit_name">Name of audit: </string>
+    <string name="audit_results_details_audit_type">Type of audit: </string>
+    <string name="audit_results_details_audit_date">Date of audit: </string>
+    <string name="audit_results_path_title">Course Elements</string>
+    <string name="audit_results_summary_title">Summary</string>
+    <string name="audit_results_general_comment_title">General comment</string>
+    <string name="audit_results_anomaly_title">List of anomalies and comments</string>
+    <string name="audit_results_anomaly_rules_title">Rules unfulfilled</string>
+    <string name="audit_results_anomaly_comments_title">Comments</string>
+    <string name="audit_results_table_handicap_title">Type of disability</string>
     <string name="audit_results_table_no_impact_title">Accessible</string>
-    <string name="audit_results_table_annoying_title">Gênant</string>
-    <string name="audit_results_table_blocking_title">Bloquant</string>
-    <string name="audit_results_table_doubt_title">Doute</string>
-    <string name="audit_results_custom_handicap">Personnalisé</string>
-    <string name="audit_results_table_all_handicap">Tout-handicap</string>
-    <string name="audit_results_lock_dialog_title">Clôturer l\'audit et fermer le rapport</string>
-    <string name="audit_results_lock_dialog_message">Êtes vous certain de vouloir clôturer cet audit ? Ensuite vous ne pourrez plus faire de modification.</string>
-    <string name="audit_results_lock_done">Le rapport a été fermé.</string>
+    <string name="audit_results_table_annoying_title">Troublesome</string>
+    <string name="audit_results_table_blocking_title">Blocking</string>
+    <string name="audit_results_table_doubt_title">Doubt</string>
+    <string name="audit_results_custom_handicap">Custom</string>
+    <string name="audit_results_table_all_handicap">All-handicap</string>
+    <string name="audit_results_lock_dialog_title">Close the audit and close the report</string>
+    <string name="audit_results_lock_dialog_message">Are you sure you want to close this audit? Then you can not make change.</string>
+    <string name="audit_results_lock_done">The report has been closed.</string>
 
     <!-- comments list -->
-    <string name="empty_comment_text">Vous pouvez entrer un ou plusieurs commentaires de type texte, photo ou vidéo en cliquant sur l\'icône correspondant dans le bandeau haut</string>
-    <string name="list_comment_title" formatted="false">Commentaires de l\'audit %s</string>
-    <string name="list_comment_object_title">Commentaires de l\'objet</string>
-    <string name="comment_list_delete_comment_message">Êtes vous certain de vouloir supprimer ce commentaire ?</string>
-    <string name="comment_list_delete_all_comment_message_title">Supprimer tous les commentaires</string>
-    <string name="comment_list_delete_all_comment_audit_message">Êtes vous certain de vouloir supprimer tous les commentaires de cet audit ?</string>
-    <string name="comment_list_delete_all_comment_object_message">Êtes vous certain de vouloir supprimer tous les commentaires pour cet objet du parcours ?</string>
+    <string name="empty_comment_text">You can enter one or more text-based comments, photo or video by clicking on the icon in the top banner</string>
+    <string name="list_comment_title" formatted="false">Comments audit %s</string>
+    <string name="list_comment_object_title">Comments of the object</string>
+    <string name="comment_list_delete_comment_message">Are you sure you want to delete this comment?</string>
+    <string name="comment_list_delete_all_comment_message_title">Delete all comments</string>
+    <string name="comment_list_delete_all_comment_audit_message">Are you sure you want to delete all comments of this audit?</string>
+    <string name="comment_list_delete_all_comment_object_message">Are you sure you want to delete all comments for this object of the course?</string>
 
     <!-- comment edit -->
 
-    <string name="edit_comment_validate">Valider</string>
-    <string name="edit_comment_title" formatted="false">Commentaires de l\'audit %s</string>
+    <string name="edit_comment_validate">Validate</string>
+    <string name="edit_comment_title" formatted="false">Comments audit %s</string>
 
-    <string name="edit_comment_text_title">Commentaire textuel</string>
-    <string name="edit_comment_text_info"><i>Entrez votre commentaire dans ce champ de texte</i></string>
-    <string name="edit_comment_text_comment">Commentaire:</string>
+    <string name="edit_comment_text_title">Text Comment</string>
+    <string name="edit_comment_text_info"><i>Enter your comment in the text field</i></string>
+    <string name="edit_comment_text_comment">Comment:</string>
 
-    <string name="edit_comment_photo_title">Commentaire photo</string>
-    <string name="edit_comment_photo_info"><i>Entrez une légende et enregistrez votre commentaire photo ci dessous :</i></string>
-    <string name="edit_comment_photo_comment">Entrez une légende</string>
+    <string name="edit_comment_photo_title">Comment photo</string>
+    <string name="edit_comment_photo_info"><i>Enter a legend and save your comments photo below:</i></string>
+    <string name="edit_comment_photo_comment">Enter a legend</string>
 
 
-    <string name="edit_comment_audio_title">Commentaire audio</string>
-    <string name="edit_comment_audio_info"><i>Entrez une légende et enregistrez votre commentaire audio ci dessous :</i></string>
-    <string name="edit_comment_audio_comment">Légende :</string>
-    <string name="edit_comment_audio_start_recording">Lancer l\'enregistrement</string>
-    <string name="edit_comment_audio_start_playing">Jouer l\'enregistrement</string>
+    <string name="edit_comment_audio_title">Comment audio</string>
+    <string name="edit_comment_audio_info"><i>Enter a legend and record your audio comment below:</i></string>
+    <string name="edit_comment_audio_comment">Legend :</string>
+    <string name="edit_comment_audio_start_recording">Start Recording</string>
+    <string name="edit_comment_audio_start_playing">Play recording</string>
 
     <!-- Common Dialog -->
-    <string name="dialog_close">Fermer</string>
+    <string name="dialog_close">Close</string>
 
-    <string name="alert_dialog_title" >TITRE DU DIALOG</string>
+    <string name="alert_dialog_title" >TITLE DIALOG</string>
 
     <!-- Audio Player Dialog -->
     <string name="audio_player_play">Play</string>
@@ -296,54 +296,54 @@
 
 
     <!-- Audio Recorder Dialog -->
-    <string name="audio_recorder_recording">Enregistrement en cours&#8230;</string>
-    <string name="audio_recorder_rec">Enregistrer</string>
-    <string name="audio_recorder_stop">Terminer</string>
+    <string name="audio_recorder_recording">Recording in progress&#8230;</string>
+    <string name="audio_recorder_rec">Record</string>
+    <string name="audio_recorder_stop">End</string>
 
 
     <!-- Audit Object Characteristics Selector Dialog -->
-    <string name="audit_object_characteristics_title">Caractéristiques de l\'élément </string>
-    <string name="audit_object_characteristics_validate">Valider</string>
-    <string name="audit_object_characteristics_info">Cet élément de parcours présente aussi un/une/des :</string>
+    <string name="audit_object_characteristics_title">Characteristics of the element</string>
+    <string name="audit_object_characteristics_validate">Validate</string>
+    <string name="audit_object_characteristics_info">This course element also has a / of:</string>
 
 
 
     <!-- Ask to test audit object now Dialog -->
-    <string name="audit_object_now_title">Tester l\'élément</string>
-    <string name="do_you_want_to_test_audit_object_now">Voulez-vous tester l\'accessibilité de cet élément</string>
-    <string name="test_later">Tester plus tard</string>
-    <string name="test_now">Maintenant</string>
-    <string name="remember_test_now_answer">Enregistrer mon choix</string>
+    <string name="audit_object_now_title">Test element</string>
+    <string name="do_you_want_to_test_audit_object_now">Want to test the accessibility of this element</string>
+    <string name="test_later">Testing later</string>
+    <string name="test_now">Now</string>
+    <string name="remember_test_now_answer">Save my choice</string>
 
 
 
 
     <!-- activity detail status  accessibility -->
     <string name="status_OK">Accessible</string>
-    <string name="status_NOK">Non accessible</string>
-    <string name="status_NoAnswer">Non testé</string>
-    <string name="status_DOUBT">Doute</string>
+    <string name="status_NOK">Not accessible</string>
+    <string name="status_NoAnswer">Not tested</string>
+    <string name="status_DOUBT">Doubt</string>
     <string name="setting_when_test_entries_key">setting_when_test_entries_key</string>
     <string name="setting_display_auditing_progress_key">setting_display_auditing_progress_key</string>
-    <string name="detail_button_try">tester</string>
-    <string name="detail_button_retry">retester</string>
-    <string name="detail_button_update">modifier</string>
-    <string name="detail_title_caracteristic">Caractéristiques</string>
-    <string name="detail_title_definition">Définition</string>
-    <string name="detail_title_status">Statuts d\'accessibilité</string>
+    <string name="detail_button_try">test</string>
+    <string name="detail_button_retry">retest</string>
+    <string name="detail_button_update">Edit</string>
+    <string name="detail_title_caracteristic">Characteristics</string>
+    <string name="detail_title_definition">Definition</string>
+    <string name="detail_title_status">Accessibility status</string>
     <string name="detail_title_illustration">Illustrations</string>
-    <string name="detail_title_comment">Commentaires</string>
+    <string name="detail_title_comment">Comments</string>
 
     <!-- activity detail grid -->
-    <string name="detail_grid_title_definition">Définition</string>
+    <string name="detail_grid_title_definition">Definition</string>
     <string name="detail_grid_title_illustration">Illustrations</string>
-    <string name="detail_grid_title_caracteristic">Caractéristiques possibles</string>
+    <string name="detail_grid_title_caracteristic">Characteristics possible</string>
 
 
     <!-- Illustration -->
-    <string name="illustration_activity_title" formatted="false">Illustration n° %d de la règle %s</string>
-    <string name="illustration_activity_comment_audit_title" formatted="false">Commentaire n° %d sur l\'audit %s</string>
-    <string name="illustration_activity_comment_auditobject_title" formatted="false">Commentaire n° %d sur l\'object %s</string>
-    <string name="illustration_activity_auditobject_title" formatted="false">Illustration n° %d de l\'object %s</string>
+    <string name="illustration_activity_title" formatted="false">Illustration n° %d of the rule %s</string>
+    <string name="illustration_activity_comment_audit_title" formatted="false">Comment n° %d of the audit %s</string>
+    <string name="illustration_activity_comment_auditobject_title" formatted="false">Comment n° %d of the object %s</string>
+    <string name="illustration_activity_auditobject_title" formatted="false">Illustration n° %d of the object %s</string>
 
 </resources>
