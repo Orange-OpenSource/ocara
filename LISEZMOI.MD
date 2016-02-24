@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Orange-OpenSource/ocara.svg?branch=master)](https://travis-ci.org/Orange-OpenSource/ocara)
+[![Build Status](https://travis-ci.org/Orange-OpenSource/ocara.svg?branch=internationalisation)](https://travis-ci.org/Orange-OpenSource/ocara)
 
 # OCARA
 
@@ -39,7 +39,7 @@ Pour les salariés en situation de handicap
 
 # Construire et utiliser
 
-Un apk prédéfini est fourni pour votre commodité (cliquez sur "Raw" pour enregistrer le fichier) [ici] (https://github.com/Orange-OpenSource/ocara/blob/master/demo/ocara-opensource-release.apk)
+Un apk prédéfini est fourni pour votre commodité (cliquez sur "Raw" pour enregistrer le fichier) [ici] (https://github.com/Orange-OpenSource/ocara/blob/internationalisation/demo/ocara-opensource-release.apk)
 
 Pour construire l'application, vous devez avoir une installation correcte de la [SDK Android] (https://developer.android.com/sdk/index.html).
 Ensuite, l'application peut être construite avec Android Studio, ou directement sur avec la commande :
@@ -51,9 +51,9 @@ Lors du lancement de l'application, vous arrivez sur la page * Créer un audit *
 
 # Documentation
 
-Le manuel d'utilisation de l'application est accessible [ici] (https://github.com/Orange-OpenSource/ocara/blob/master/documentation/Guide de formation V16.2.pdf)
+Le manuel d'utilisation de l'application est accessible [ici] (https://github.com/Orange-OpenSource/ocara/blob/internationalisation/documentation/Guide de formation V16.2.pdf)
 
-La description du format du fichier json de règles est accessible [ici] (https://github.com/Orange-OpenSource/ocara/blob/master/documentation/Fichier JSON des règles.md)
+La description du format du fichier json de règles est accessible [ici] (https://github.com/Orange-OpenSource/ocara/blob/internationalisation/documentation/Fichier JSON des règles.md)
 
 #License
 

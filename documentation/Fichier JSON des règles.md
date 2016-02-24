@@ -47,12 +47,6 @@ Pour plus d'infos : http://www.accessibilite-batiment.fr/erp-situes-dans-un-cadr
     * desc : Catégorie ex "Accès zone"
     * objects : Elements de parcours qui appartiennent à cette catégorie ex ["Obj1", "Obj4a", "Obj4b", "Obj5a","Obj5b","Obj6", "Obj9", "Obj10", "Obj15", "SObj09", "SObj11" ]
 
-## pictos
-* "Nom du fichier image correspondant à l'icône de cet élément de parcours  ex "Porte coulissante-01.png"" : Codage de l'image en base 64
-
-## images
-* "Nom du fichier image  ex "porte01.jpg"" : Codage de l'image en base 64
-
 ##illustrations
 * "Identifiant de l'illustration ex "P01" "
     * title : Titre de l'illustration "Passage utile"
