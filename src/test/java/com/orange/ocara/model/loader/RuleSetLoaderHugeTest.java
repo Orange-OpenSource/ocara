@@ -12,6 +12,7 @@ import com.orange.ocara.modelStatic.Question;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.RobolectricTestRunner;
@@ -59,7 +60,7 @@ public class RuleSetLoaderHugeTest {
 
 
 
-
+    @Ignore
     @Test
     public void questions_should_not_contains_circular_dependencies() {
         // Given

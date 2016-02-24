@@ -223,7 +223,7 @@ public class AuditDocxExporterTest {
         // Then
         String content = FileUtils.readFileToString(new File(workingDirectory, "word/document.xml"), "UTF-8");
 
-        Assertions.assertThat(content).contains(String.format("%d élément(s) audité(s)", audit.getObjects().size()));
+        Assertions.assertThat(content).contains(String.format("%d elements audited", audit.getObjects().size()));
     }
 
     @Test
