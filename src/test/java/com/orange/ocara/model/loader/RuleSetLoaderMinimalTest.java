@@ -39,21 +39,17 @@ public class RuleSetLoaderMinimalTest {
 
 
     static RuleSetJsonParser loader;
-    static File tempResourcesFolder;
     static File pictosPath;
     static File imagesPath;
 
 
     @BeforeClass
     public static void loadFile() throws IOException {
-        tempResourcesFolder = File.createTempFile("ocara-resources", Long.toString(System.nanoTime()));
-        tempResourcesFolder.delete();
-        tempResourcesFolder.mkdir();
 
         loader = new RuleSetJsonParser();
-        pictosPath = new File(tempResourcesFolder, "pictos");
-        imagesPath =  new File(tempResourcesFolder, "images");
 
+        pictosPath = new File("src/test/resources/", "pictos");
+        imagesPath =  new File("src/test/resources/", "images");
         loader.setPictosPath(pictosPath);
         loader.setImagesPath(imagesPath);
 
@@ -64,7 +60,6 @@ public class RuleSetLoaderMinimalTest {
 
     }
 
-    @Ignore
     @Test
     public void should_Load_All_Questions() {
         // Given
@@ -83,7 +78,7 @@ public class RuleSetLoaderMinimalTest {
     }
 
 
-    @Ignore
+
     @Test
     public void should_Load_All_Handicaps() {
         // Given
@@ -102,7 +97,7 @@ public class RuleSetLoaderMinimalTest {
 
 
 
-    @Ignore
+
     @Test
     public void should_Load_ReferenceData() {
         // Given
@@ -120,7 +115,7 @@ public class RuleSetLoaderMinimalTest {
 
 
 
-    @Ignore
+
     @Test
     public void should_Load_Categories() {
         // Given
@@ -136,7 +131,7 @@ public class RuleSetLoaderMinimalTest {
         assertThat(referenceData.getCategories().get(0).getObjects()).hasSize(1);
     }
 
-    @Ignore
+
     @Test
     public void should_Parse_Question() {
         // Given
@@ -163,7 +158,7 @@ public class RuleSetLoaderMinimalTest {
         assertThat(r1.getHandicapAccessibilities().getHandicapAccessibility("H1")).isEqualTo(Accessibility.ANNOYING);
     }
 
-    @Ignore
+
     @Test
     public void should_Parse_Object() throws URISyntaxException {
         // Given
@@ -186,7 +181,7 @@ public class RuleSetLoaderMinimalTest {
 
 
 
-    @Ignore
+
     @Test
     public void should_Store_Resources() {
         // Given
@@ -201,19 +196,4 @@ public class RuleSetLoaderMinimalTest {
         assertThat( new File(imagesPath,"sonorisation.png") ).exists();
     }
 
-
-
-
-    @AfterClass
-    public static void cleanUpFiles() throws IOException {
-        purgeDirectory(tempResourcesFolder);
-        tempResourcesFolder.delete();
-    }
-
-    private static void purgeDirectory(File dir) {
-        for (File file: dir.listFiles()) {
-            if (file.isDirectory()) purgeDirectory(file);
-            file.delete();
-        }
-    }
 }

@@ -39,13 +39,11 @@ public class RuleSetLoaderHugeTest {
 
     @BeforeClass
     public static void loadFile() throws IOException {
-        tempResourcesFolder = File.createTempFile("ocara-resources", Long.toString(System.nanoTime()));
-        tempResourcesFolder.delete();
-        tempResourcesFolder.mkdir();
 
         loader = new RuleSetJsonParser();
-        pictosPath = new File(tempResourcesFolder, "pictos");
-        imagesPath =  new File(tempResourcesFolder, "illustrations");
+
+        pictosPath = new File("src/test/resources/", "pictos");
+        imagesPath =  new File("src/test/resources/", "images");
 
         loader.setPictosPath(pictosPath);
         loader.setImagesPath(imagesPath);
@@ -60,7 +58,7 @@ public class RuleSetLoaderHugeTest {
 
 
 
-    @Ignore
+
     @Test
     public void questions_should_not_contains_circular_dependencies() {
         // Given
@@ -98,17 +96,4 @@ public class RuleSetLoaderHugeTest {
 
     }
 
-
-    @AfterClass
-    public static void cleanUpFiles() throws IOException {
-        purgeDirectory(tempResourcesFolder);
-        tempResourcesFolder.delete();
-    }
-
-    private static void purgeDirectory(File dir) {
-        for (File file: dir.listFiles()) {
-            if (file.isDirectory()) purgeDirectory(file);
-            file.delete();
-        }
-    }
 }
