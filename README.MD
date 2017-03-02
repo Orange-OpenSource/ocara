@@ -34,12 +34,12 @@ For employees with disabilities
 **Orange** decided to open-source Ocara so that all companies, associations and individuals concerned about accessibility, can use this tool and contribute to its development.
 
    Accessibility is a common concern. It is by pooling and sharing our accessibility resources we will go further together.
-   [watch the video](http://vod.com.ftgroup/content/encoded/t81HxrJyewTuNLcLgfph.asx)
+   [watch the video](https://github.com/Orange-OpenSource/ocara/blob/master/documentation/Clip_OCARA.mp4)
 
 
 #Build the application
 
-A prebuilt apk is provided for your convenience (click on "Raw" to save file) [here](https://github.com/Orange-OpenSource/ocara/blob/internationalisation/demo/ocara-opensource-debug.apk)
+A prebuilt apk is provided for your convenience (click on "Raw" to save file) [here](https://github.com/Orange-OpenSource/ocara/blob/master/demo/ocara-opensource-debug.apk)
 
 To build the application, you need to have a proper installation of the [Android SDK](https://developer.android.com/sdk/index.html).
 Then the application can be built with Android Studio, or directly on the command line through:
@@ -51,9 +51,9 @@ When launching the application, you arrive on the page * Create audit *
 
 # Documentation
 
-How to use Ocara is describe [here] (https://github.com/Orange-OpenSource/ocara/blob/internationalisation/documentation/Guide de formation V16.2.pdf)
+How to use Ocara is describe [here] (https://github.com/Orange-OpenSource/ocara/blob/master/documentation/Guide de formation V16.2.pdf)
 
-The description of the json ruleset is [here] (https://github.com/Orange-OpenSource/ocara/blob/internationalisation/documentation/Fichier JSON des règles.md)
+The description of the json ruleset is [here] (https://github.com/Orange-OpenSource/ocara/blob/master/documentation/Fichier JSON des règles.md)
 
 
 #License

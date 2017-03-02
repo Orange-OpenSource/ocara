@@ -33,13 +33,13 @@ Pour les salariés en situation de handicap
 
 **Orange** a décidé de mettre OCARA en open-source afin que toutes les entreprises, associations ou personnes préoccupés par l’accessibilité, puissent utiliser cet outil et contribuer à son développement.
 
- L'accessibilité est une préoccupation commune. Par la mutualisation et le partage de nos ressources en matière d'accessibilité, nous pourrons aller plus loin ensemble. [voir la vidéo] (http://vod.com.ftgroup/content/encoded/t81HxrJyewTuNLcLgfph.asx)
+ L'accessibilité est une préoccupation commune. Par la mutualisation et le partage de nos ressources en matière d'accessibilité, nous pourrons aller plus loin ensemble. [voir la vidéo] (https://github.com/Orange-OpenSource/ocara/blob/master/documentation/Clip_OCARA.mp4)
 
 
 
 # Construire et utiliser
 
-Un apk prédéfini est fourni pour votre commodité (cliquez sur "Raw" pour enregistrer le fichier) [ici] (https://github.com/Orange-OpenSource/ocara/blob/internationalisation/demo/ocara-opensource-debug.apk)
+Un apk prédéfini est fourni pour votre commodité (cliquez sur "Raw" pour enregistrer le fichier) [ici] (https://github.com/Orange-OpenSource/ocara/blob/master/demo/ocara-opensource-debug.apk)
 
 Pour construire l'application, vous devez avoir une installation correcte de la [SDK Android] (https://developer.android.com/sdk/index.html).
 Ensuite, l'application peut être construite avec Android Studio, ou directement sur avec la commande :
@@ -51,9 +51,9 @@ Lors du lancement de l'application, vous arrivez sur la page * Créer un audit *
 
 # Documentation
 
-Le manuel d'utilisation de l'application est accessible [ici] (https://github.com/Orange-OpenSource/ocara/blob/internationalisation/documentation/Guide de formation V16.2.pdf)
+Le manuel d'utilisation de l'application est accessible [ici] (https://github.com/Orange-OpenSource/ocara/blob/master/documentation/Guide de formation V16.2.pdf)
 
-La description du format du fichier json de règles est accessible [ici] (https://github.com/Orange-OpenSource/ocara/blob/internationalisation/documentation/Fichier JSON des règles.md)
+La description du format du fichier json de règles est accessible [ici] (https://github.com/Orange-OpenSource/ocara/blob/master/documentation/Fichier JSON des règles.md)
 
 #License
 
