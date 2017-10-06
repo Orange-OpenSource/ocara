@@ -98,7 +98,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/editAuditRowMarginBottom"
             attr:textLeft="@string/edit_audit_level_beginner"
-            attr:textRight="@string/edit_audit_level_expert" />
+            attr:textRight="@string/edit_audit_level_expert"/>
 
         <Button
             android:id="@+id/start_audit_button"

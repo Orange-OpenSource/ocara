@@ -8,6 +8,7 @@
 
 package com.orange.ocara.ui.activity;
 
+import android.Manifest;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -17,6 +18,7 @@ import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
@@ -66,6 +68,8 @@ import timber.log.Timber;
     @Inject
     Picasso picasso;
 
+    public static final int PERMISSION_REQUEST = 10;
+
     @Extra("mustExitApplication")
     boolean mustExitApplication = false;
 
@@ -100,6 +104,21 @@ import timber.log.Timber;
     @Override
     public void setContentView(int layoutResID) {
         View fullLayout = getLayoutInflater().inflate(R.layout.activity_base, null);
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+
+
+            requestPermissions(new String[]{Manifest.permission.CAMERA,
+                            Manifest.permission.WRITE_EXTERNAL_STORAGE,
+                            Manifest.permission.READ_EXTERNAL_STORAGE,
+                            Manifest.permission.RECORD_AUDIO,
+                            Manifest.permission.INTERNET,
+                            Manifest.permission.ACCESS_NETWORK_STATE
+                    },
+                    PERMISSION_REQUEST);
+
+        }
+
 
         this.drawerLayout = (DrawerLayout) fullLayout.findViewById(R.id.drawer_layout);
         this.contentLayout = (FrameLayout) drawerLayout.findViewById(R.id.content);

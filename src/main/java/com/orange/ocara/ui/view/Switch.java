@@ -1,6 +1,6 @@
 /**
  * Copyright (C) 2015 Orange
- *
+ * <p>
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -204,17 +204,20 @@ public class Switch extends CompoundButton {
         // save canvas before translation (0x0)
         canvas.save();
 
-        // draw left text
+        //  draw left text
         this.getPaint().setColor(!this.isChecked() ? this.textColorChecked : this.textColorUnChecked);
         canvas.translate(left + (this.width / 2 - this.layoutLeft.getWidth()) / 2, (this.height - this.layoutLeft.getHeight()) / 2);
         this.layoutLeft.draw(canvas);
+
         canvas.restore();
 
+        canvas.save();
         // draw right text
         this.getPaint().setColor(this.isChecked() ? this.textColorChecked : this.textColorUnChecked);
         canvas.translate(left + (this.width / 2 - this.layoutRight.getWidth()) / 2 + this.width / 2, (this.height - this.layoutRight.getHeight()) / 2);
         this.layoutRight.draw(canvas);
         canvas.restore();
+
     }
 
     @Override
@@ -246,7 +249,7 @@ public class Switch extends CompoundButton {
                 if (this.onClickListener != null)
                     this.onClickListener.onClick(this);
                 return false;
-            }
+        }
 
 
         return super.onTouchEvent(event);
