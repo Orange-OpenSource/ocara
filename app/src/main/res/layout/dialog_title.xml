@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2020 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:id="@+id/alert_dialog_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_menu_back" />
+
+
+    <TextView
+        android:id="@+id/alert_dialog_title"
+        style="@style/DialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+
+        android:gravity="center_vertical"
+
+
+        android:text="@string/alert_dialog_title" />
+
+</LinearLayout>

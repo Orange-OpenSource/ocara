@@ -1,0 +1,29 @@
+{
+  "count": "2",
+  "results": [
+    {
+      "idUGI": "RAA",
+      "labelUGI": "UGI RHONE ALPES AUVERGNE",
+      "NOIMMO": "389409",
+      "name": "MEYLAN FTR&D",
+      "addr": {
+        "street": "28 CHEMIN DU VIEUX CHENE",
+        "cp": "38240",
+        "city": "MEYLAN"
+      },
+      "type": "Banalisé"
+    },
+    {
+      "idUGI": "OC",
+      "labelUGI": "UGI PAYS D OC",
+      "NOIMMO": "318111",
+      "name": "BLAGNAC RUE LAFAYETTE",
+      "addr": {
+        "street": "4 RUE ESCADRILLE LAFAYETTE",
+        "cp": "31700",
+        "city": "BLAGNAC"
+      },
+      "type": "Banalisé"
+    }
+  ]
+}

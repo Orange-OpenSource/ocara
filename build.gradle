@@ -1,269 +1,99 @@
+/*
+ * Software Name: OCARA
+ *
+ * SPDX-FileCopyrightText: Copyright (c) 2015-2020 Orange
+ * SPDX-License-Identifier: MPL v2.0
+ *
+ * This software is distributed under the Mozilla Public License v. 2.0,
+ * the text of which is available at http://mozilla.org/MPL/2.0/ or
+ * see the "license.txt" file for more details.
+ */
 buildscript {
     repositories {
+        google()
+        maven { url 'https://plugins.gradle.org/m2/' }
         jcenter()
-        mavenCentral()
     }
-
     dependencies {
-        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.4'
-        classpath 'com.android.tools.build:gradle:2.2.0'
-        classpath 'org.pegdown:pegdown:1.5.0'
+        // before upgrading this dependency, please see https://developer.android.com/studio/releases/gradle-plugin.html
+        classpath 'com.android.tools.build:gradle:3.5.3'
+
+        classpath 'com.google.gms:google-services:3.1.2'
+        classpath 'fr.oab.android.gradle:sonarAndroidPlugin:1.9.3'
+        classpath 'org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.8'
+        classpath 'org.pegdown:pegdown:1.6.0'
+
+        // Add the Firebase Crashlytics Gradle plugin.
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.1.1'
+
+        classpath 'org.owasp:dependency-check-gradle:5.2.2'
     }
 }
 
-repositories {
+allprojects {
+    repositories {
+        google()
+        maven { url 'https://jitpack.io' }
 
-    maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
-    maven { url "https://jitpack.io" }
-    maven { url "http://dl.bintray.com/populov/maven" }
+        // for Active Android only
+        maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
 
-    jcenter()
-    mavenLocal()
-    mavenCentral()
-}
-
-apply plugin: 'com.android.application'
-apply plugin: 'android-apt'
-
-import groovy.text.SimpleTemplateEngine
-import org.pegdown.PegDownProcessor
-
-def readTags() {
-    def tags = []
-    def proc = "git tag -l".execute()
-    proc.in.eachLine { line -> tags += line }
-    tags.sort {}
-    Collections.reverse(tags)
-    tags
-}
-
-def readTagMessage(String tag) {
-    def message = []
-    def proc = "git cat-file tag $tag".execute()
-    def startCollection = false
-    proc.in.eachLine { line ->
-        if (line.isEmpty()) {
-            startCollection = true
-        }
-        if (startCollection) {
-            message += line
-        }
-    }
-    proc.err.eachLine { line -> println line }
-    message
-}
-
-task releaseNotes() << {
-    def releaseNotes = new File('releaseNotes.md')
-    releaseNotes.delete()
-    def versions = ""
-
-    def tags = readTags()
-    tags.each { tag ->
-        versions += "- [$tag](#$tag)\n"
-    }
-
-    tags.each { tag ->
-        releaseNotes << "# ${tag}<a name='$tag'></a>\n"
-        def message = readTagMessage(tag)
-        message.each { releaseNotes << "$it\n" }
-        releaseNotes << "\n"
-    }
-
-    def writer = new StringWriter()
-    def pdp = new PegDownProcessor()
-    def engine = new SimpleTemplateEngine()
-    def template = engine.createTemplate(new File("releaseNotes.tpl"))
-    def daten = [releaseNotes: pdp.markdownToHtml(new File("releaseNotes.md").text), application: project.name, versions: pdp.markdownToHtml(versions)]
-
-    def ergebnis = template.make(daten)
-    new File('releaseNotes.html').withWriter { w ->
-        w.write(ergebnis)
+        jcenter()
     }
 }
 
-// recupère la valeur de versionCode dans le manifest
-def getVersionCodeManifest() {
-    println "getVersionCodeManifest"
-    def manifestFile = file("src/main/AndroidManifest.xml")
-    def pattern = java.util.regex.Pattern.compile("versionCode=\"(\\d+)\"")
-    def manifestText = manifestFile.getText()
-    def matcher = pattern.matcher(manifestText)
-    matcher.find()
-    def version = Integer.parseInt(matcher.group(1))
-    println sprintf("Returning version %d", version)
-    return version
+task clean(type: Delete) {
+    delete rootProject.buildDir
 }
 
-// retourne la valeur de versionCode passée en parametre (-PversionCode=xxxx) sinon retourne la valeur défini dans le manifest
-def getVersionCode = { ->
-    def code = project.hasProperty('versionCode') ? versionCode.toInteger() : getVersionCodeManifest()
-    println "VersionCode is set to $code"
-    return code
+ext {
+    // App Version
+    versionNameValue = '2.4.6'
+    versionCodeValue = 4
+
+    /**
+     * the earliest release of the Android SDK that the application can run on.
+     *
+     * Ocara is mostly used on Android 4.4 Tablets, and goes to Android 8 Tablets
+     *
+     * Note : Usually this is because of a problem with the earlier APIs, lacking functionality, or some
+     * other behavioural issue.
+     */
+    minSdkVersion = 19
+
+    /**
+     * the version the application was targeted to run on.
+     *
+     * Ideally, this is because of some sort of optimal run conditions. If you were to "make your
+     * app for version 19", this is where that would be specified. It may run on earlier or later
+     * releases, but this is what you were aiming for. This is mostly to indicate how current your
+     * application is for use in the marketplace, etc.
+     */
+    targetSdkVersion = 26
+
+    /**
+     * the version of android your IDE uses to make the app when you publish a .apk file.
+     *
+     * This is useful for testing your application as it is a common need to compile your app as you
+     * develop it. As this will be the version to compile to an APK, it will naturally be the
+     * version of your release. Likewise, it is advisable to have this match you target sdk version.
+     */
+    compileSdkVersion = 28
+
+    /**
+     * When you change this value, the jobs may fail in Jenkins. When that happens, you have to
+     * update the definition of the tool "Android SDK Licenses" in Jenkins :
+     * - in Jenkins, go to <a href="http://10.192.35.187/jenkins/wizardtools/">Assistant de configuration des outils</a>
+     * - if the action is available, reinitialize the field "Android SDK licenses "
+     *
+     * see https://wiki.jenkins.io/display/JENKINS/Custom+Tools+Plugin
+     * see https://faas.forge.orange-labs.fr/documentation/master/userguide/index.html#jenkins-custom-tools
+     */
+    buildToolsVersion = '28.0.3'
+
+    // androidx dependencies
+    supportLibraryVersion = '26.1.0'
+
+    // com.microsoft.appcenter dependencies
+    appCenterSdkVersion = '1.4.0'
 }
-
-// retourne la valeur de versionName passée en parametre (-PversionName=xxxx) sinon retourne "dev"
-def getVersionName = { ->
-    def name = project.hasProperty('versionName') ? versionName : "dev"
-    println "VersionName is set to $name"
-    return name
-}
-
-android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.3"
-
-    lintOptions {
-        abortOnError false
-    }
-
-    defaultConfig {
-        applicationId "com.orange.ocara"
-        minSdkVersion 14
-        targetSdkVersion 24
-        versionCode getVersionCode()
-        versionName getVersionName()
-        testInstrumentationRunner "com.google.android.apps.common.testing.testrunner.GoogleInstrumentationTestRunner"
-        multiDexEnabled true
-        javaCompileOptions {
-            annotationProcessorOptions {
-                arguments = ["resourcePackageName": android.defaultConfig.applicationId]
-            }
-        }
-    }
-
-    dexOptions {
-        javaMaxHeapSize  "2048M"
-        threadCount  4
-        preDexLibraries = true
-        dexInProcess true
-        maxProcessCount  4
-    }
-
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_7
-        targetCompatibility JavaVersion.VERSION_1_7
-    }
-
-    signingConfigs {
-
-        release {
-            storeFile file("ocara.jks")
-            storePassword "password"
-            keyAlias "ocara"
-            keyPassword "password"
-        }
-    }
-
-    buildTypes {
-        debug {
-            zipAlignEnabled true
-            minifyEnabled false
-
-        }
-        release {
-            zipAlignEnabled true
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.release
-
-        }
-
-    }
-
-
-
-    packagingOptions {
-        exclude 'META-INF/LICENSE'
-        exclude 'META-INF/LICENSE.txt'
-        exclude 'META-INF/NOTICE'
-        exclude 'META-INF/NOTICE.txt'
-        exclude 'META-INF/services/javax.annotation.processing.Processor'
-    }
-
-    sourceSets {
-        main {
-            java.srcDirs = ['src/main/java']
-            assets.srcDirs = ['src/main/assets', 'src/main/assetsopensource']
-        }
-    }
-}
-
-apt {
-    arguments {
-        resourcePackageName android.defaultConfig.applicationId
-        androidManifestFile variant.outputs[0].processResources.manifestFile
-    }
-}
-
-dependencies {
-    //compile project(':core')
-
-
-    compile fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
-    compile 'com.android.support:appcompat-v7:25.3.1'
-    compile 'com.android.support:design:25.3.1'
-    compile 'com.android.support:cardview-v7:25.3.1'
-
-    // Snackbar to replace with android design when android support will be fixed https://code.google.com/p/android/issues/detail?id=175086
-    compile 'com.github.nispok:snackbar:v2.10.9'
-
-    // Android annotations
-    apt "org.androidannotations:androidannotations:3.3.1"
-    compile "org.androidannotations:androidannotations:3.3.1"
-    compile "org.androidannotations:androidannotations-api:3.3.1"
-
-    // Lombok
-    provided "org.projectlombok:lombok:1.16.4"
-    apt "org.projectlombok:lombok:1.16.4"
-
-    // Dagger
-    apt 'com.squareup.dagger:dagger-compiler:1.2.2'
-    compile 'com.squareup.dagger:dagger:1.2.2'
-
-    // Timber for log
-    compile 'com.jakewharton.timber:timber:2.7.1'
-
-    //bus
-    // compile 'de.greenrobot:eventbus:2.2.+'
-
-    // Picasso for pictures loading
-    compile 'com.squareup.picasso:picasso:2.5.2'
-
-    // TwoWay horizontal listview
-    compile 'org.lucasr.twowayview:twowayview:0.1.4'
-
-    // persistency
-    compile 'com.michaelpardo:activeandroid:3.1.0-SNAPSHOT'
-
-    // Jackson parser
-    compile 'com.fasterxml.jackson.core:jackson-databind:2.5.0'
-
-    // commons + commons lang3
-    compile 'org.apache.commons:commons-lang3:3.3.2'
-    compile 'commons-io:commons-io:2.4'
-
-    // Mustache template engine
-    compile 'com.samskivert:jmustache:1.10'
-    compile 'org.apache.poi:poi:3.11'
-
-    // ================== TESTING LIBRARIES ======================
-
-    testCompile 'com.squareup.dagger:dagger-compiler:1.2.2'
-
-    testCompile 'junit:junit:4.12'
-    testCompile 'org.mockito:mockito-core:1.10.19'
-    testCompile('com.squareup:fest-android:1.0.8') {
-        // excluded because conflicting with robolectric
-        // (see https://github.com/robolectric/robolectric/issues/1633)
-        exclude module: 'support-v4'
-    }
-    testCompile('org.robolectric:robolectric:2.4') {
-        // excluded because conflicting with compile dependencies
-        exclude group: 'commons-codec', module: 'commons-codec'
-    }
-
-}
-
-
-

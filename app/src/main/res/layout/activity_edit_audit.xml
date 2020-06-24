@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2020 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:attr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/editAuditLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/editAuditPaddingBottom"
+        android:paddingLeft="@dimen/editAuditPaddingLeft"
+        android:paddingRight="@dimen/editAuditPaddingRight"
+        android:paddingTop="@dimen/editAuditPaddingTop">
+
+        <TextView
+            style="@style/MainTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/edit_audit_title" />
+
+        <EditText
+            android:id="@+id/audit_name"
+            style="@style/EditAuditFieldCell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/editAuditRowMarginBottom"
+            android:layout_marginTop="@dimen/editAuditTitleMarginTop"
+            android:ellipsize="end"
+            android:hint="@string/edit_audit_name_hint"
+            android:inputType="text"
+            android:lines="1"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:singleLine="true" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/create_site"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/site"
+                android:layout_alignRight="@+id/site"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="@dimen/auditItemMargin"
+                android:layout_marginStart="@dimen/auditItemMargin"
+                android:src="@drawable/ic_new" />
+
+            <com.orange.ocara.ui.widget.SiteAutoCompleteView
+                android:id="@+id/site"
+                style="@style/EditAuditFieldCell"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:clickable="false"
+                android:enabled="false"
+                android:completionThreshold="1"
+                android:hint="@string/edit_audit_site_hint"
+                android:inputType="textPostalAddress"
+                android:maxLines="1" />
+
+        </RelativeLayout>
+
+        <com.orange.ocara.ui.widget.AuditorAutoCompleteView
+            android:id="@+id/author_complete_view"
+            style="@style/EditAuditFieldCell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/editAuditRowMarginBottom"
+            android:completionThreshold="2"
+            android:ellipsize="end"
+            android:hint="@string/edit_audit_user_name_hint"
+            android:inputType="text"
+            android:lines="1"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:singleLine="true" />
+
+        <LinearLayout
+            style="@style/EditAuditFieldCell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/editAuditRowMarginBottom"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <Spinner
+                android:id="@+id/ruleset_type"
+                style="@style/EditAuditFieldCell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:spinnerMode="dropdown" />
+
+            <!--<LinearLayout-->
+                <!--android:id="@+id/ruleset_icons_layout"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="end|right"-->
+                <!--android:visibility="gone">-->
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/download_rules"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="@dimen/auditItemMargin"-->
+                    <!--android:layout_marginStart="@dimen/auditItemMargin"-->
+                    <!--android:background="?attr/selectableItemBackgroundBorderless"-->
+                    <!--android:clickable="true"-->
+                    <!--android:src="@drawable/ic_download"-->
+                    <!--android:tint="@color/dark_grey" />-->
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/show_rules"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="@dimen/auditItemMargin"-->
+                    <!--android:layout_marginStart="@dimen/auditItemMargin"-->
+                    <!--android:background="?attr/selectableItemBackgroundBorderless"-->
+                    <!--android:clickable="true"-->
+                    <!--android:src="@drawable/ic_list_bulleted"-->
+                    <!--android:tint="@color/dark_grey" />-->
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/rules_info"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="@dimen/auditItemMargin"-->
+                    <!--android:layout_marginStart="@dimen/auditItemMargin"-->
+                    <!--android:background="?attr/selectableItemBackgroundBorderless"-->
+                    <!--android:clickable="true"-->
+                    <!--android:src="@drawable/ic_information"-->
+                    <!--android:tint="@color/dark_grey" />-->
+            <!--</LinearLayout>-->
+
+        </LinearLayout>
+
+        <com.orange.ocara.ui.view.Switch
+            android:id="@+id/level"
+            style="@style/EditAuditFieldCell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/editAuditRowMarginBottom"
+            attr:textLeft="@string/edit_audit_level_beginner"
+            attr:textRight="@string/edit_audit_level_expert" />
+
+        <Button
+            android:id="@+id/start_audit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/editAuditStartButtonMarginTop"
+            android:enabled="false"
+            android:text="@string/edit_audit_start_audit_button" />
+
+    </LinearLayout>
+</ScrollView>

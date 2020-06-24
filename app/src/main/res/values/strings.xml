@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2020 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  -->
+<resources>
+
+    <!-- Actions -->
+    <string name="action_yes">Yes</string>
+    <string name="action_no">No</string>
+    <string name="action_ok">OK</string>
+    <string name="action_back">Back</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_exit_menu">Close Menu</string>
+    <string name="action_about">About</string>
+    <string name="action_help">Help</string>
+    <string name="action_settings">Preferences</string>
+    <string name="action_terms">Terms Of Use</string>
+    <string name="action_create">New</string>
+    <string name="action_report">Report</string>
+    <string name="action_share">Share</string>
+    <string name="action_save">Save as</string>
+    <string name="action_delete_path">Cancel path</string>
+    <string name="action_delete_all_comment">Erase all comments</string>
+    <string name="action_close_audit">Close Audit</string>
+    <string name="action_export_audit_docx">Generate Report</string>
+    <string name="action_update">Edit</string>
+    <string name="action_remove">Delete</string>
+    <string name="action_lock">Lock</string>
+    <string name="action_close">Close</string>
+    <string name="action_sort">Sort</string>
+    <string name="action_comment">Comments</string>
+    <string name="action_rules">Rules</string>
+    <string name="action_complete">Complete</string>
+    <string name="action_ruleset">Display Rules</string>
+    <string name="title_context">Path objects Menu</string>
+    <string name="action_object_definition">View Definition</string>
+    <string name="action_object_remove">Delete from path</string>
+    <string name="action_object_update">Rename</string>
+    <string name="action_object_comment">Add a comment</string>
+    <string name="action_object_characteristics">Edit characteristics</string>
+    <string name="action_object_detail">Detail</string>
+    <string name="action_object_grid_detail">Detail</string>
+    <string name="action_object_add">Add a path</string>
+    <string name="action_object_ruleset">View rules</string>
+    <string name="action_text_comment">Text</string>
+    <string name="action_audio_comment">Audio</string>
+    <string name="action_photo_comment">Photo</string>
+    <string name="action_file_comment">File</string>
+    <string name="action_complete_record">Complete the path</string>
+    <string name="action_retest">Test Again</string>
+
+    <!-- field labels -->
+    <string name="author_label">Author</string>
+    <string name="name_label">Name</string>
+    <string name="publication_date_label">Publication date</string>
+    <string name="version_label">Version number</string>
+    <string name="rule_category_label">Rule\'s category</string>
+    <string name="comment_label">Comment</string>
+    <string name="associated_objects_label">Associated objects</string>
+
+    <!-- Toast -->
+    <string name="info_retest">Characteristics are modified.\n"Test Again" enables to reiterate object accessibility test.</string>
+
+    <!-- Response button bar -->
+    <string name="response_ok_button">Yes</string>
+    <string name="response_nok_button">No</string>
+    <string name="response_notapplicable_button">N/A</string>
+    <string name="response_no_answer_button">Doubt</string>
+
+    <!-- general to all activities -->
+    <string name="error_missing_permission">You need to accept the permissions to use this app</string>
+    <string name="exit_dialog_title">Exit Application</string>
+    <string name="exit_dialog_message">You will quit application</string>
+
+    <!-- navigation menu -->
+    <string name="navigation_menu_open">Menu open</string>
+    <string name="navigation_menu_close">Menu close</string>
+
+    <string name="navigation_item_new_audit">New Audit</string>
+    <string name="navigation_item_list_audit">All Audits</string>
+    <string name="navigation_item_show_ruleset">View referential</string>
+    <string name="navigation_item_show_help">Help</string>
+
+    <!-- about -->
+    <string name="about_title">About</string>
+    <string name="about_version" formatted="false">Version: %s</string>
+    <string name="about_label_site">OCARA is born in Meylan (France) at the Orange research laboratory</string>
+
+
+    <!-- about OpenSource-->
+    <string name="about_text_1"><b>OCARA</b>, Outil de Contrôle et d’Analyse du Réel Accessible (Real word Auditing Tool), is an auditing tool for buildings accessibility. User define the path, and can check accessibility rules taking into account several kinds of impairment.</string>
+    <string name="about_text_2">OCARA is a complete auditing tool that can address several sets of rules, that can be personalized. It enables to test objects, paths and areas.</string>
+    <string name="about_text_3">OCARA was developed by Orange Labs, for Orange Disability Human Resources Mission and for Real Property Branch. Accessibility rules are based upon several legible documents and from employees needs. Other new sets can be added, <b>your owns</b> sets.</string>
+    <string name="about_text_4">Orange decided to go open-source with OCARA in order to offer to every company or association the ability to check accessibility and to provide design for all, and to improve this software.</string>
+    <string name="about_text_5">Accessibility is a well known subject that has to be taken into account in each company at least in the frame of Social responsibility. This is a mainframe for well being at work.</string>
+    <string name="about_text_6">Sharing through open source is the best way to go further.</string>
+
+
+    <string name="about_label_site__OpenSource">OCARA is born in Meylan (France) at the Orange research laboratory. It was initiated by Denis Ch�ne and performed by Gilles Zanolin.</string>
+    <string name="about_mailTo_OpenSource"><b>contact : ocara.support@orange.com</b></string>
+    <string name="about_mentions_légales"><b>Legal</b>
+androidx - https://developer.android.com/jetpack/androidx
+Copyright (C) 2019, The Android Open Source Project
+AndroidX is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+material-components-android - https://
+Copyright (C) 2019 The Android Open Source Project
+material-components-android is distributed under the terms and conditions of the Apache License, Version 2.0
+https://github.com/material-components/material-components-android/blob/master/LICENSE
+
+okhttp3 - https://github.com/square/okhttp
+Copyright (C) 2019 Square, Inc.
+okhttp3 is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+retrofit2 - https://square.github.io/retrofit/
+Copyright (C) 2013 Square, Inc.
+retrofit2 is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+ActiveAndroid - https://github.com/pardom/ActiveAndroid
+Copyright (C) 2010 Michael Pardo
+ActiveAndroid is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+AndroidAnnotations - https://github.com/excilys/androidannotations
+Copyright 2012-2015 eBusiness Information
+AndroidAnnotations is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+apache commons IO - https://github.com/apache/commons-io
+apache commons IO is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+apache POI - https://poi.apache.org/
+Copyright 2003-2015 The Apache Software Foundation
+apache POI is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+BadgeView - https://github.com/jgilfelt/android-viewbadger
+Copyright (c) 2011 readyState Software Ltd.
+BadgeView is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+cardview-v7 support library - The Android Open Source Project - https://source.android.com
+Copyright (C) 2007 The Android Open Source Project
+cardview-v7 is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+jmustache - https://github.com/samskivert/jmustache
+Copyright (c) 2010, Michael Bayne
+jmustache is distributed under the terms and conditions of the following BSD like license:
+https://github.com/samskivert/jmustache/blob/master/LICENSE
+
+PagerSlidingTabStrip - https://github.com/astuetz/PagerSlidingTabStrip
+Copyright (C) 2013 Andreas Stuetz andreas.stuetz@gmail.com
+PagerSlidingTabStrip is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+Picasso - https://github.com/square/picasso
+Copyright 2013 Square, Inc.
+Picasso is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+holographlibrary - https://bitbucket.org/danielnadeau/holographlibrary
+Copyright 2013 The Apache Software Foundation
+holographlibrary is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+snackbar - https://github.com/nispok/snackbar
+Copyright (c) 2015 William Mora
+snackbar is distributed under the terms and conditions of the MIT license
+https://github.com/nispok/snackbar/blob/master/LICENSE
+
+Timber - https://github.com/JakeWharton/timber
+Copyright 2013 Jake Wharton
+Timber is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+TouchImageView - https://github.com/MikeOrtiz/TouchImageView
+Copyright (c) 2012 Michael Ortiz
+TouchImageView is distributed under the terms and conditions of a BSD like license
+https://github.com/MikeOrtiz/TouchImageView/blob/master/LICENSE
+
+TwoWayView - https://github.com/lucasr/twoway-view
+Copyright (C) 2013 Lucas Rocha
+TwoWayView is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+AndroidPdfViewer - https://github.com/barteksc/AndroidPdfViewer
+Copyright 2017 Bartosz Schiller
+AndroidPdfViewer is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+gson - https://github.com/google/gson
+Copyright 2008 Google Inc.
+google gson is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+facebook Stetho - http://facebook.github.io/stetho/
+Copyright (c) Facebook, Inc. and its affiliates.
+Stetho is distributed under the terms and conditions of the BSD license.
+https://opensource.org/licenses/BSD-3-Clause
+
+project lombok - https://www.projectlombok.org
+Copyright © 2009-2020 The Project Lombok Authors
+projectlombok is distributed under the terms and conditions of the  MIT license.
+https://opensource.org/licenses/mit-license.php
+
+crashlytics - https://firebase.google.com/terms/crashlytics
+Copyright (C) 2020 Google LLC
+firebase crashlytics is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+firebase - https://firebase.google.com/terms
+Copyright (C) 2020 Google LLC
+firebase is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+AppCenter - https://github.com/microsoft/appcenter/blob/master/LICENSE
+Copyright (c) Microsoft Corporation.
+AppCenter is distributed under the terms and conditions of the Creative Commons Attribution 4.0 International Public License
+https://github.com/microsoft/appcenter/blob/master/LICENSE
+
+Xamarin - https://github.com/xamarin/Xamarin.Forms/blob/master/LICENSE
+Copyright (c) .NET Foundation Contributors
+Xamarin is distributed under the terms and conditions of the MIT license.
+https://opensource.org/licenses/mit-license.php
+
+Robolectric - https://github.com/robolectric/robolectric/blob/master/LICENSE
+Copyright (c) 2010 Xtreme Labs, Pivotal Labs and Google Inc.
+Robolectric is distributed under the terms and conditions of the  MIT license.
+https://opensource.org/licenses/mit-license.php
+
+JUnit - https://junit.org/junit4/license.html
+Copyright © 2002-2020 JUnit.
+JUnit is distributed under the terms and conditions of the Eclipse Public License - v 1.0
+https://junit.org/junit4/license.html
+
+AssertJ - https://joel-costigliola.github.io/assertj/
+Copyright (C) 2012-2020 the original author or authors.
+AssertJ is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+Mockito - https://github.com/mockito/mockito/wiki/License
+Copyright (c) 2007 Mockito contributors
+Mockito is distributed under the terms and conditions of the  MIT license.
+https://opensource.org/licenses/mit-license.php
+</string>
+
+    <!-- settings -->
+    <string name="settings_title">Preferences</string>
+    <string name="setting_test_title">When path objects have to be tested</string>
+    <string name="setting_test_dialog_title">When objects have to be tested</string>
+    <string name="setting_test_ask_every_time">Ask every time</string>
+    <string name="setting_test_now">Step by step test</string>
+    <string name="setting_test_later">Test at the end</string>
+    <string name="setting_test_button_validate">Save</string>
+    <string name="setting_test_button_cancel">Cancel</string>
+
+
+    <string name="setting_display_auditing_progress_title">Display audit progression</string>
+    <string name="setting_display_auditing_progress_dialog_title">Audit progress</string>
+    <string name="setting_display_auditing_progress_no">Do not display</string>
+    <string name="setting_display_auditing_progress_yes">Display</string>
+    <string name="setting_display_auditing_progress_validate">Save</string>
+    <string name="setting_display_auditing_progress_cancel">Cancel</string>
+
+    <!-- export word -->
+    <string name="export_docx_title">Report</string>
+    <string name="export_docx_message_closed_audit">Document is closed and can\'t be modified anymore.\nYou can directly generate a Word version of the report and share it with your email or cloud folder (share).\nYou can also rename the Word report and save it (save as...).</string>
+    <string name="export_docx_message">You can directly generate a Word version of the report and share it with your email or cloud folder (share).\nYou can also rename the Word report and save it (save as...).</string>
+
+    <!-- rules list -->
+    <string name="list_rules_title">Referential</string>
+    <string name="list_rules_subtitle">Select an element on the left side of the screen to see associated rules.</string>
+    <string name="no_question">No question</string>
+
+    <!-- audit list -->
+    <string name="empty_audit_text">No audit found</string>
+    <string name="audit_list_title">Select an audit inside the list, sort them or create a new audit</string>
+    <string name="audit_item_ruleset_format" formatted="false">%s (V%s)</string>
+    <string name="audit_item_status_in_progress_format" formatted="false">Modified on %s</string>
+    <string name="audit_item_status_terminated_format" formatted="false">Achieved on %s</string>
+
+    <string name="audit_list_delete_audit_title">Delete</string>
+    <string name="audit_list_delete_audit_message" formatted="false">Are you sure to delete audit %s ?</string>
+    <string name="audit_list_complete_audit_title">Complete</string>
+    <string name="audit_list_complete_audit_message">Are you sure to complete this path ?</string>
+    <string name="audit_list_retest_audit_title">Start a new test of the path</string>
+    <string name="audit_list_retest_audit_message" formatted="false">Do you want to start a new test of the whole path %s?\nA new audit will be generated.</string>
+
+    <string name="action_sort_by_status">by status</string>
+    <string name="action_sort_by_site">by site</string>
+    <string name="action_sort_by_date">by date</string>
+
+    <!-- create site -->
+    <string name="create_site_create_site_title">Add a site in the local base</string>
+    <string name="create_site_title">Input hereafter data about your site:</string>
+    <string name="create_site_code">(*) Site code:</string>
+    <string name="create_site_code_hint"><i>Input code site</i></string>
+    <string name="create_site_name">(*) Site name:</string>
+    <string name="create_site_name_hint"><i>Input site name</i></string>
+    <string name="create_site_error_title">Data entry error</string>
+    <string name="create_site_duplicate_site_noImmo">This code is already used for another site</string>
+    <string name="create_site_duplicate_site_name">This name is already used for another site</string>
+    <string name="create_site_street">Street:</string>
+    <string name="create_site_street_hint"><i>Input street name</i></string>
+    <string name="create_site_postal_code">Postal code:</string>
+    <string name="create_site_postal_code_hint"><i>Input postal code</i></string>
+    <string name="create_site_city">Town:</string>
+    <string name="create_site_city_hint"><i>Input town name</i></string>
+    <string name="create_site_mandatory_field">(*) Mandatory fields</string>
+    <string name="create_site_create_site_button">Create</string>
+
+    <!-- create audit -->
+    <string name="edit_audit_title">Enter information about your audit:</string>
+    <string name="edit_audit_user_name_title">Name and Surname(*):</string>
+    <string name="edit_audit_user_name_hint"><i>Input your name and surname</i></string>
+    <string name="edit_audit_site_title">Site to audit(*):</string>
+    <string name="edit_audit_site_hint"><i>Input name or site NOIMME to audit</i></string>
+    <string name="edit_audit_name">Audit name(*):</string>
+    <string name="edit_audit_name_hint"><i>Input the audit name</i></string>
+    <string name="edit_audit_type_title">Referential type(*):</string>
+    <string name="edit_audit_rule_choice_hint"><i>Choose your referential</i></string>
+    <string name="edit_audit_show_rules_button">Referential</string>
+    <string name="edit_audit_show_rules_information">Referential information</string>
+    <string name="edit_audit_ruleset_details">Details</string>
+    <string name="edit_audit_level_title">Expertise level:</string>
+    <string name="edit_audit_level_beginner">Novice</string>
+    <string name="edit_audit_level_expert">Expert</string>
+    <string name="edit_audit_error_title">Input error</string>
+    <string name="edit_audit_duplicate_audit">Those name and version are already used for another audit</string>
+    <string name="edit_audit_site_unknown_title">The filled site doesn\'t exist inside the local base</string>
+    <string name="edit_audit_site_unknown">You can create a site with the + New button</string>
+
+    <string name="edit_audit_start_audit_button">New</string>
+    <string name="edit_audit_start_audit_edit_button">Edit</string>
+    <string name="edit_audit_start_audit_back_button">Continue</string>
+    <string name="edit_audit_create_title">New</string>
+    <string name="edit_audit_update_title">Update</string>
+
+    <!-- ruleset info -->
+    <string name="ruleset_info_title">Referential Information</string>
+
+    <!-- Setup subObject -->
+    <string name="setup_objects_title">Paths choices</string>
+    <string name="setup_objects_button_back">Back</string>
+    <string name="setup_objects_button_audit">Test</string>
+
+    <!-- Audit subObject -->
+    <string name="audit_object_sequential_title" formatted="false">%s (Element %d/%d)</string>
+    <string name="audit_object_novice_mode_title" formatted="false">%s (Question %d/%d)</string>
+    <string name="audit_object_expert_mode_title" formatted="false">%s (Element %d/%d)</string>
+
+    <string name="audit_object_cancel_title">Cancel</string>
+    <string name="audit_object_cancel_message">Do you want to cancel all current modifications and come back to the previous screen ?</string>
+
+    <string name="audit_object_badglobaleresponse_title">Appropriate crtierion</string>
+    <string name="audit_object_badglobaleresponse_message">You have to select at least one appropriate crtierion</string>
+
+    <string name="audit_object_button_previous">Previous</string>
+    <string name="audit_object_button_next">Next</string>
+    <string name="audit_object_button_back">Back</string>
+    <string name="audit_object_button_validate">Validate</string>
+    <string name="audit_object_button_terminate">Finish</string>
+    <string name="audit_object_update_object_title">Modify a path element</string>
+    <string name="audit_object_update_object_button">To modify this path element</string>
+
+    <string name="audit_object_remove_object_title">Object deletion</string>
+    <string name="audit_object_remove_object_message">This path element will be removed</string>
+    <string name="audit_object_remove_object_button">Remove</string>
+
+    <string name="audit_object_remove_all_objects_title">Path deletion</string>
+    <string name="audit_object_remove_all_objects_message">Do you really want to erase whole path ?</string>
+    <string name="audit_object_remove_all_objects_button">Erase the path</string>
+
+    <!-- Auditing progress Dialog -->
+    <string name="auditing_progress_title">Progress status</string>
+    <string name="auditing_progress_info" formatted="false">Test results :</string>
+    <string name="auditing_progress_status_ok">Test results:\nAccessible: All control points are checked !</string>
+    <string name="auditing_progress_status_nok">Test results :\nNot accessible: Some blocking defaults</string>
+    <string name="auditing_progress_status_anoying">Test results:\nPartially accessible: Some annoying defaults remain</string>
+    <string name="auditing_progress_status_doubt">Test results:\nDoubt: Some accessibility points can\'t be checked</string>
+    <string name="auditing_progress_status_no_answer">Some responses are missing</string>
+    <string name="auditing_progress_option">Don\'t show this anymore</string>
+
+    <!-- activity_audit_results.xml -->
+    <string name="audit_results_title">Audit report</string>
+    <string name="audit_results_details_title">Results</string>
+    <string name="audit_results_details_user">Auditor:</string>
+    <string name="audit_results_details_site">Site:</string>
+    <string name="audit_results_details_audit_name">Audit name:</string>
+    <string name="audit_results_details_audit_type">Audit type:</string>
+    <string name="audit_results_details_audit_date">Audit date: </string>
+    <string name="audit_results_path_title">Path elements</string>
+    <string name="audit_results_summary_title">Summary</string>
+    <string name="audit_results_general_comment_title">General comment</string>
+    <string name="audit_results_anomaly_title">Comments and anomalies list</string>
+    <string name="audit_results_anomaly_rules_title">Not respected rules</string>
+    <string name="audit_results_anomaly_comments_title">Comments</string>
+    <string name="audit_results_table_handicap_title">Profile Type</string>
+    <string name="audit_results_table_no_impact_title">Control OK</string>
+    <string name="audit_results_table_annoying_title">Annoying</string>
+    <string name="audit_results_table_blocking_title">Blocking</string>
+    <string name="audit_results_table_doubt_title">Doubt</string>
+    <string name="audit_results_custom_handicap">Custom</string>
+    <string name="audit_results_not_answered">Not answered</string>
+    <string name="audit_results_table_all_handicap">All disabilities</string>
+    <string name="audit_results_lock_dialog_title">Finalize audit and close report</string>
+    <string name="audit_results_lock_dialog_message">Do you really want to finalize this audit? Any change will not be possible anymore</string>
+    <string name="audit_results_lock_done">The report is finalized and closed</string>
+
+    <!-- comments list -->
+    <string name="empty_comment_text">It is possible to enter one or several text, photos or video comments. Just click on the related button in the upper bar</string>
+    <string name="list_comment_title" formatted="false">Audit %s comments</string>
+    <string name="list_comment_object_title">Object comments</string>
+    <string name="comment_list_delete_comment_message">Do you really want to delete this comment?</string>
+    <string name="comment_list_delete_all_comment_message_title">Delete all comments</string>
+    <string name="comment_list_delete_all_comment_audit_message">Do you really want to delete every audit comments?</string>
+    <string name="comment_list_delete_all_comment_object_message">Do you really want to delete every comments about this object?</string>
+
+    <!-- comment edit -->
+
+    <string name="edit_comment_validate">Validate</string>
+    <string name="edit_comment_change_image">Change</string>
+    <string name="edit_comment_title" formatted="false">Audit %s comments</string>
+
+    <string name="edit_comment_text_title">Text comment</string>
+    <string name="edit_comment_text_info"><i>Input your comment inside this text field</i></string>
+    <string name="edit_comment_text_comment">Comment:</string>
+
+    <string name="edit_comment_photo_title">Photo comment</string>
+    <string name="edit_comment_photo_info"><i>Input a label and record you photo comment hereafter:</i></string>
+    <string name="edit_comment_photo_comment">Input a photo label</string>
+
+    <string name="edit_comment_audio_title">Audio comment</string>
+    <string name="edit_comment_audio_info"><i>Input a label and record your audio comment hereafter:</i></string>
+    <string name="edit_comment_audio_comment">Label:</string>
+    <string name="edit_comment_audio_start_recording">Start recording</string>
+    <string name="edit_comment_audio_start_playing">Play</string>
+
+    <string name="edit_comment_file_title">File comment</string>
+
+    <!-- Common Dialog -->
+    <string name="dialog_close">Close</string>
+
+    <string name="alert_dialog_title">Record comment</string>
+
+    <!-- Audio Player Dialog -->
+    <string name="audio_player_play">Play</string>
+    <string name="audio_player_pause">Pause</string>
+
+
+    <!-- Audio Recorder Dialog -->
+    <string name="audio_recorder_recording">Recording&#8230;</string>
+    <string name="audio_recorder_rec">Start recording</string>
+    <string name="audio_recorder_stop">Stop</string>
+
+    <!-- Audit Object Characteristics Selector Dialog -->
+    <string name="audit_object_characteristics_title">Element properties</string>
+    <string name="audit_object_characteristics_validate">Validate</string>
+    <string name="audit_object_characteristics_info">This path element has also:</string>
+
+    <!-- Ask to test audit object now Dialog -->
+    <string name="audit_object_now_title">To test element</string>
+    <string name="do_you_want_to_test_audit_object_now">Do you want to test this element accessibility?</string>
+    <string name="test_later">Test it later</string>
+    <string name="test_now">Test it now</string>
+    <string name="remember_test_now_answer">Remember my choice</string>
+
+    <!-- activity detail status  accessibility -->
+    <string name="status_OK">Accessible</string>
+    <string name="status_NOK">Not accessible</string>
+    <string name="status_NoAnswer">Not tested</string>
+    <string name="status_DOUBT">Doubt</string>
+    <string name="setting_when_test_entries_key">setting_when_test_entries_key</string>
+    <string name="setting_display_auditing_progress_key">setting_display_auditing_progress_key</string>
+    <string name="setting_default_item">setting_default_item</string>
+    <string name="setting_global_terms">setting_global_terms</string>
+    <string name="detail_button_try">Test</string>
+    <string name="detail_button_retry">Test again</string>
+    <string name="detail_button_update">Modify</string>
+    <string name="detail_title_caracteristic">Properties</string>
+    <string name="detail_title_definition">Definition</string>
+    <string name="detail_title_status">Accessibility status</string>
+    <string name="detail_title_illustration">Illustrations</string>
+    <string name="detail_title_comment">Comments</string>
+
+    <!-- activity detail grid -->
+    <string name="detail_grid_title_definition">Definition</string>
+    <string name="detail_grid_title_illustration">Illustrations</string>
+    <string name="detail_grid_title_caracteristic">Available properties</string>
+
+    <!-- Illustration -->
+    <string name="illustration_activity_title" formatted="false">Illustration n° %d of rule %s</string>
+    <string name="illustration_activity_comment_audit_title" formatted="false">Comment n° %d of Audit %s</string>
+    <string name="illustration_activity_comment_auditobject_title" formatted="false">Comment n° %d of Object %s</string>
+    <string name="illustration_activity_auditobject_title" formatted="false">Illustration n° %d of Object %s</string>
+    <string name="audit_item_name_format" formatted="false">%s (V%d)</string>
+    <string name="list_audit_export_action">How do you want to share?</string>
+
+    <string name="edit_audit_download_rules_button">Download</string>
+
+    <string name="downloading">Downloading</string>
+
+    <string name="ruleset_online">downloadable</string>
+    <string name="ruleset_offline">on tab</string>
+    <string name="ruleset_should_be_update">updatable</string>
+    <string name="init_page">Loading data</string>
+    <string name="choose_rule_in_recap">Select set :</string>
+    <string name="show_rules">Show rules</string>
+    <string name="download_rules">Download</string>
+    <string name="upgrade_rules">Upgrade</string>
+    <string name="invalid_ruleset">Invalid referential</string>
+    <string name="downloading_failed">Downloading failed</string>
+    <string name="downloading_succeeded">operation is successful</string>
+    <string name="object_description_is_characteristic">(characteristic)</string>
+
+    <!-- Terms of use -->
+    <string name="terms_title">Terms Of Use</string>
+    <string name="terms_error">Error while handling terms</string>
+    <string name="terms_declined">Terms declined</string>
+    <string name="terms_accepted">Terms accepted</string>
+    <string name="terms_of_use_close">Close</string>
+    <string name="terms_of_use_close_description">Close terms</string>
+    <string name="terms_of_use_decline">Decline</string>
+    <string name="terms_of_use_decline_description">Refuse terms of use</string>
+    <string name="terms_of_use_accept">Accept</string>
+    <string name="terms_of_use_accept_description">Accept terms of use</string>
+
+    <!-- SSL -->
+    <string name="ssl_error_title">SSL Certificate error.</string>
+    <string name="ssl_error_untrusted">The certificate authority is not trusted. Do you want to continue anyway ?</string>
+    <string name="ssl_error_expired">The certificate has expired. Do you want to continue anyway ?</string>
+    <string name="ssl_error_mismatched">The certificate Hostname mismatch. Do you want to continue anyway ?</string>
+    <string name="ssl_error_not_yet_valid">The certificate is not yet valid. Do you want to continue anyway ?</string>
+
+
+    <string name="ruleset_equipment_attribute">(attribute)</string>
+
+    <string name="app_name">Onboarding</string>
+    <string name="intro_title">intro title</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_start">Get Started</string>
+    <string name="btn_skip">Skip</string>
+    <string name="intro_description">Description</string>
+    <string name="tutorial_title">Tutorial</string>
+
+    <string name="tutorial_ended">Tutorial completed</string>
+    <string name="tutorial_cancelled">Tutorial cancelled</string>
+    <string name="tutorial_step_1_description">For your first visit, this tutorial aims to show you how to download your very first referential. You can either press Next to got to the next step, or press Skip to go straight to the app.</string>
+    <string name="tutorial_step_1_title">Welcome in OCARA</string>
+    <string name="tutorial_step_2_title">Choose your referential</string>
+    <string name="tutorial_step_2_description">Ocara displays the referentials that are currently available. Select the referential to download.</string>
+    <string name="tutorial_step_3_title">View information</string>
+    <string name="tutorial_step_3_description">View the information about the referential before downloading it.</string>
+    <string name="tutorial_step_4_title">Download</string>
+    <string name="tutorial_step_4_description">Clic to start downloading. The process may take a few seconds. Once it ends, a success message shows up, and you can display the whole content.</string>
+    <string name="tutorial_step_5_title">Operation completed</string>
+    <string name="tutorial_step_5_description">The referential with a green flag is ready to use. You can now start a new audit with it.</string>
+    <string name="running_offline">Application is running offline.</string>
+</resources>

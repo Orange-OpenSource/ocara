@@ -1,0 +1,256 @@
+/*
+ * Copyright (C) 2015 Orange
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ */
+apply plugin: 'com.android.application'
+
+// Add the Firebase Crashlytics plugin.
+apply plugin: 'com.google.firebase.crashlytics'
+
+android {
+    // the API version of Android that you compile against
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
+    // the version of the compilers (aapt, dx, renderscript compiler, etc...) that you want to use.
+    // For each API level (starting with 18), there is a matching .0.0 version.
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        applicationId 'com.orange.ocara'
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCodeValue
+        versionName rootProject.ext.versionNameValue
+//        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+
+        // Enabling multidex support.
+        multiDexEnabled true
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [
+                    "androidManifestFile": "$projectDir/src/main/AndroidManifest.xml".toString(),
+                    'resourcePackageName': android.defaultConfig.applicationId,
+                    'logLevel'           : 'INFO',
+                    'trace'              : 'false']
+            }
+        }
+    }
+    configurations {
+        all {
+            resolutionStrategy.force 'com.google.code.findbugs:jsr305:1.3.9'
+        }
+    }
+    lintOptions {
+        abortOnError false
+        htmlReport true
+        checkReleaseBuilds true
+        disable "LogNotTimber", "StringFormatInTimber", "ThrowableNotAtBeginning", "BinaryOperationInTimber", "TimberArgCount", "TimberArgTypes", "TimberTagLength", "TimberExceptionLogging"
+    }
+    dexOptions {
+        javaMaxHeapSize '1024M'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    signingConfigs {
+        release {
+            if (project.hasProperty('GRADLE_KEYSTORE_PWD') && project.hasProperty('GRADLE_KEYSTORE_ALIAS_PWD')) {
+                /**
+                 * see gradle.properties
+                 */
+                storeFile file(GRADLE_KEYSTORE)
+                storePassword GRADLE_KEYSTORE_PWD
+                keyAlias GRADLE_KEYSTORE_ALIAS
+                keyPassword GRADLE_KEYSTORE_ALIAS_PWD
+            }
+        }
+    }
+    /**
+     * see https://developer.android.com/studio/build/build-variants
+     */
+    buildTypes {
+        /**
+         * debug : variant for development mode.
+         */
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        /**
+         * release : variant for production mode.
+         */
+        release {
+            minifyEnabled true
+            zipAlignEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+
+    flavorDimensions 'mode', 'env'
+    productFlavors {
+        opensource {
+            dimension 'mode'
+            applicationId 'com.orange.ocara'
+            buildConfigField("String", "OCARA_SERVEUR", "\"<URL_TO_BE_DEFINED>\"")
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/services/javax.annotation.processing.Processor'
+    }
+	
+    sourceSets {
+
+        opensource  {
+            java.srcDirs = ['src/main/java', 'src/opensource/java']
+            assets.srcDirs = ['src/opensource/assets']
+            resources.srcDirs = ['src/opensource/res']
+        }
+
+        test {
+            resources.srcDirs += ['src/test/res', 'src/main/res']
+            assets.srcDirs += ['src/main/assets', 'src/main/assetsopensource']
+        }
+    }
+    testOptions {
+        animationsDisabled true
+        unitTests {
+            includeAndroidResources true
+            returnDefaultValues true
+
+            // Always show the result of every unit test, even if it passes.
+            all {
+                testLogging {
+                    events 'passed', 'skipped', 'failed', 'standardOut', 'standardError'
+                }
+            }
+        }
+    }
+}
+
+/**
+ * @link https://docs.gradle.org/current/userguide/dependency_management_for_java_projects.html#sec:configurations_java_tutorial
+ */
+dependencies {
+
+    // Android Dependencies
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation "androidx.appcompat:appcompat:1.1.0"
+    implementation "androidx.cardview:cardview:1.0.0"
+    implementation "androidx.recyclerview:recyclerview:1.1.0"
+    implementation "androidx.constraintlayout:constraintlayout:1.1.3"
+    implementation "androidx.legacy:legacy-support-v4:1.0.0"
+    implementation "androidx.preference:preference:1.1.0"
+    implementation "com.google.android.material:material:1.1.0"
+
+    // Firebase
+    implementation 'com.google.firebase:firebase-core:17.2.3'
+    implementation('com.crashlytics.sdk.android:crashlytics:2.10.1@aar') {
+        transitive = true
+    }
+
+    /**
+     * "AndroidAnnotations is an Open Source framework that speeds up Android development. It takes
+     * care of the plumbing, and lets you concentrate on what's really important. By simplifying
+     * your code, it facilitates its maintenance."
+     *
+     * @link http://androidannotations.org/
+     */
+    annotationProcessor "org.androidannotations:androidannotations:4.6.0"
+    implementation "org.androidannotations:androidannotations-api:4.6.0"
+
+    /**
+     * "Project Lombok is a java library that automatically plugs into your editor and build tools,
+     * spicing up your java.
+     * Never write another getter or equals method again, with one annotation your class has a fully
+     * featured builder, Automate your logging variables, and much more."
+     *
+     * @link https://projectlombok.org/
+     */
+    compileOnly 'org.projectlombok:lombok:1.16.18'
+    annotationProcessor 'org.projectlombok:lombok:1.16.18'
+
+    /**
+     * "This is a logger with a small, extensible API which provides utility on top of Android's
+     * normal Log class."
+     *
+     * @link https://github.com/JakeWharton/timber
+     */
+    implementation 'com.jakewharton.timber:timber:4.6.0'
+
+    // Picasso for pictures loading
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+
+    // TwoWay horizontal listview
+    implementation 'org.lucasr.twowayview:twowayview:0.1.4'
+
+    /**
+     * "ActiveAndroid is an active record style ORM (Object Relational Mapper)."
+     *
+     * @link https://github.com/pardom-zz/ActiveAndroid
+     */
+    implementation files('../libs/ActiveAndroid-3.1.0-SNAPSHOT.jar')
+
+    // Stetho for Db debug
+    implementation 'com.facebook.stetho:stetho:1.5.0'
+
+    // JSON parser
+    implementation 'com.google.code.gson:gson:2.8.6'
+
+    // Mustache template engine
+    implementation 'com.samskivert:jmustache:1.14'
+
+    // Docx generation
+    implementation 'org.apache.poi:poi:3.17'
+
+    // PDF Viewer
+    implementation 'com.github.barteksc:android-pdf-viewer:3.2.0-beta.1'
+
+    // Retrofit 2
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.9.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+
+    // Tests libraries
+    testImplementation 'org.mockito:mockito-core:2.18.0'
+    testImplementation 'org.assertj:assertj-core:3.14.0'
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'org.robolectric:robolectric:4.3'
+    testImplementation "org.robolectric:shadows-multidex:4.3"
+    testImplementation 'androidx.test:core:1.2.0'
+    testImplementation 'androidx.test.ext:junit:1.1.1'
+
+    // Instrumentation test libraries
+    androidTestImplementation 'org.mockito:mockito-core:2.18.0'
+    androidTestImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:core:1.2.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'org.assertj:assertj-core:3.14.0'
+    androidTestImplementation 'org.robolectric:robolectric:4.3'
+    androidTestImplementation 'androidx.annotation:annotation:1.1.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test:rules:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-intents:3.2.0'
+    androidTestImplementation 'com.xamarin.testcloud:espresso-support:1.3'
+
+    //app center Request API 15 min
+    implementation "com.microsoft.appcenter:appcenter-analytics:$rootProject.appCenterSdkVersion"
+    implementation "com.microsoft.appcenter:appcenter-crashes:$rootProject.appCenterSdkVersion"
+    testImplementation 'org.apache.commons:commons-lang3:3.9'
+    androidTestImplementation 'org.apache.commons:commons-lang3:3.9'
+}
+
+apply plugin: 'com.google.gms.google-services'
+
+apply plugin: 'project-report'

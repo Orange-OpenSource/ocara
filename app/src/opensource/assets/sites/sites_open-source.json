@@ -1,0 +1,14 @@
+[
+  {
+    "idUGI": "OCARA",
+    "labelUGI": "Unité de Gestion Immobilière OCARA - TEST",
+    "NOIMMO": "999999",
+    "name": "Immeuble OCARA - TEST",
+    "addr": {
+      "street": "99 route de l'Accessibilité",
+      "cp": "99999",
+      "city": "OCARA France"
+    },
+    "type": "Banalisé"
+  }
+]

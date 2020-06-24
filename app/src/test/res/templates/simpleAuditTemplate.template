@@ -1,0 +1,5 @@
+Audit name : {{ name }}
+Site : {{ site.noImmo }} - {{ site.name }}
+{{#subObject}}
+    Audit Object : {{ name }}
+{{/subObject}}

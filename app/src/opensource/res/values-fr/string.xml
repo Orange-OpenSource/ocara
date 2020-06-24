@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2020 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  -->
+
+<resources>
+    <!-- about OpenSource-->
+    <string name="about_text_1"><b>OCARA</b>, Outil de Contrôle et d’Analyse du Réel Accessible, est avant tout une application permettant d’effectuer un autodiagnostic d’accessibilité des locaux accueillant les salariés. Il fonctionne selon une logique de parcours utilisateur ; grâce à un référentiel élaboré, il permet d’auditer tout type d’objet ou de zone de service, selon une approche multi-handicaps.</string>
+    <string name="about_text_2">C’est un outil complet et autonome, qui peut être associé à des jeux de règles évolutifs et personnalisables.</string>
+    <string name="about_text_3">Ocara est développé par les Orange Labs pour la Mission Insertion Handicap d’Orange. Les règles d’accessibilité proposées, inspirées des ERP, ont été élaborées pour les besoins des salariés de l’entreprise. Mais Ocara peut intégrer d’autres jeux de règles, <b>vos</b> jeux de règles !</string>
+    <string name="about_text_4">Orange a décidé de mettre Ocara en open-source afin que toutes les entreprises, associations ou personnes préoccupés par l’accessibilité, puissent utiliser cet outil et contribuer à son développement.</string>
+    <string name="about_text_5">L’accessibilité est une cause commune qui rentre dans le cadre des politiques de Responsabilité Sociale des Entreprises. Elle devrait devenir partie intégrante des politiques de bien-être et de la santé au travail, et un facteur d’efficience sociale.</string>
+    <string name="about_text_6">Et c’est en mettant en commun nos moyens, en mutualisant,  que l’on ira plus loin ensemble.</string>
+
+
+    <string name="about_label_site__OpenSource">C’est sur le site de Meylan, Isère,  que Ocara prend sa source</string>
+    <string name="about_mailTo_OpenSource"><b>contact : ocara.support@orange.com</b></string>
+    <string name="about_mentions_légales"><b>Legal</b>
+androidx - https://developer.android.com/jetpack/androidx
+Copyright (C) 2019, The Android Open Source Project
+AndroidX is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+material-components-android - https://
+Copyright (C) 2019 The Android Open Source Project
+material-components-android is distributed under the terms and conditions of the Apache License, Version 2.0
+https://github.com/material-components/material-components-android/blob/master/LICENSE
+
+okhttp3 - https://github.com/square/okhttp
+Copyright (C) 2019 Square, Inc.
+okhttp3 is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+retrofit2 - https://square.github.io/retrofit/
+Copyright (C) 2013 Square, Inc.
+retrofit2 is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+ActiveAndroid - https://github.com/pardom/ActiveAndroid
+Copyright (C) 2010 Michael Pardo
+ActiveAndroid is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+AndroidAnnotations - https://github.com/excilys/androidannotations
+Copyright 2012-2015 eBusiness Information
+AndroidAnnotations is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+apache commons IO - https://github.com/apache/commons-io
+apache commons IO is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+apache POI - https://poi.apache.org/
+Copyright 2003-2015 The Apache Software Foundation
+apache POI is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+BadgeView - https://github.com/jgilfelt/android-viewbadger
+Copyright (c) 2011 readyState Software Ltd.
+BadgeView is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+cardview-v7 support library - The Android Open Source Project - https://source.android.com
+Copyright (C) 2007 The Android Open Source Project
+cardview-v7 is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+jmustache - https://github.com/samskivert/jmustache
+Copyright (c) 2010, Michael Bayne
+jmustache is distributed under the terms and conditions of the following BSD like license:
+https://github.com/samskivert/jmustache/blob/master/LICENSE
+
+PagerSlidingTabStrip - https://github.com/astuetz/PagerSlidingTabStrip
+Copyright (C) 2013 Andreas Stuetz andreas.stuetz@gmail.com
+PagerSlidingTabStrip is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+Picasso - https://github.com/square/picasso
+Copyright 2013 Square, Inc.
+Picasso is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+holographlibrary - https://bitbucket.org/danielnadeau/holographlibrary
+Copyright 2013 The Apache Software Foundation
+holographlibrary is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+snackbar - https://github.com/nispok/snackbar
+Copyright (c) 2015 William Mora
+snackbar is distributed under the terms and conditions of the MIT license
+https://github.com/nispok/snackbar/blob/master/LICENSE
+
+Timber - https://github.com/JakeWharton/timber
+Copyright 2013 Jake Wharton
+Timber is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+TouchImageView - https://github.com/MikeOrtiz/TouchImageView
+Copyright (c) 2012 Michael Ortiz
+TouchImageView is distributed under the terms and conditions of a BSD like license
+https://github.com/MikeOrtiz/TouchImageView/blob/master/LICENSE
+
+TwoWayView - https://github.com/lucasr/twoway-view
+Copyright (C) 2013 Lucas Rocha
+TwoWayView is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+gson - https://github.com/google/gson
+Copyright 2008 Google Inc.
+google gson is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+facebook Stetho - http://facebook.github.io/stetho/
+Copyright (c) Facebook, Inc. and its affiliates.
+Stetho is distributed under the terms and conditions of the BSD license.
+https://opensource.org/licenses/BSD-3-Clause
+
+project lombok - https://www.projectlombok.org
+Copyright © 2009-2020 The Project Lombok Authors
+projectlombok is distributed under the terms and conditions of the  MIT license.
+https://opensource.org/licenses/mit-license.php
+
+crashlytics - https://firebase.google.com/terms/crashlytics
+Copyright (C) 2020 Google LLC
+firebase crashlytics is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+firebase - https://firebase.google.com/terms
+Copyright (C) 2020 Google LLC
+firebase is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+AppCenter - https://github.com/microsoft/appcenter/blob/master/LICENSE
+Copyright (c) Microsoft Corporation.
+AppCenter is distributed under the terms and conditions of the Creative Commons Attribution 4.0 International Public License
+https://github.com/microsoft/appcenter/blob/master/LICENSE
+
+Xamarin - https://github.com/xamarin/Xamarin.Forms/blob/master/LICENSE
+Copyright (c) .NET Foundation Contributors
+Xamarin is distributed under the terms and conditions of the MIT license.
+https://opensource.org/licenses/mit-license.php
+
+Robolectric - https://github.com/robolectric/robolectric/blob/master/LICENSE
+Copyright (c) 2010 Xtreme Labs, Pivotal Labs and Google Inc.
+Robolectric is distributed under the terms and conditions of the  MIT license.
+https://opensource.org/licenses/mit-license.php
+
+JUnit - https://junit.org/junit4/license.html
+Copyright © 2002-2020 JUnit.
+JUnit is distributed under the terms and conditions of the Eclipse Public License - v 1.0
+https://junit.org/junit4/license.html
+
+AssertJ - https://joel-costigliola.github.io/assertj/
+Copyright (C) 2012-2020 the original author or authors.
+AssertJ is distributed under the terms and conditions of the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+Mockito - https://github.com/mockito/mockito/wiki/License
+Copyright (c) 2007 Mockito contributors
+Mockito is distributed under the terms and conditions of the  MIT license.
+https://opensource.org/licenses/mit-license.php
+</string>
+
+    <string name="intro_title">Bienvenue dans le didacticiel OCARA</string>
+    <string name="btn_next">Suivant</string>
+    <string name="btn_start">Démarrer</string>
+    <string name="btn_skip">Ignorer</string>
+    <string name="intro_description">Description</string>
+</resources>

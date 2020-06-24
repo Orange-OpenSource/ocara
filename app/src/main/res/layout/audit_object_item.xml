@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2020 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/audit_object_item"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/audited_object_background_selector"
+    android:padding="3dp">
+
+
+    <include layout="@layout/audit_object_item_image_text" />
+
+    <com.orange.ocara.ui.view.BadgeView
+        android:id="@+id/comments_number_badge"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="3" />
+
+</FrameLayout>

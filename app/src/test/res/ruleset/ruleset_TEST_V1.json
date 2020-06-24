@@ -1,0 +1,5435 @@
+{
+  "reference": "TEST",
+  "version": 1,
+  "language": "fr",
+  "type": "Jeu de démonstration",
+  "userCredentials": {
+    "username": "Gzan"
+  },
+  "questionnaireGroups": [{
+    "name": "Tous les objets",
+    "objectRef": ["Obj13", "Obj20", "Obj15", "Obj32", "Obj3", "Obj12", "Obj17", "Obj14", "Obj21", "Obj4", "Obj2"]
+  }, {
+    "name": "Accès Zone",
+    "objectRef": ["Obj20", "Obj15", "Obj17"]
+  }, {
+    "name": "Cheminement",
+    "objectRef": ["Obj32", "Obj3", "Obj14", "Obj21", "Obj2"]
+  }, {
+    "name": "Services",
+    "objectRef": ["Obj4"]
+  }],
+  "objectDescriptions": [{
+    "reference": "Obj32",
+    "name": "Elévateur",
+    "icon": "5a01a76c-9c62-4ca5-87e8-0c6b2fa0f393.jpg",
+    "definition": "Engin utilisé pour transporter verticalement, ou sur de fortes pentes, des personnes, des charges ou des matériaux. Un appareil élévateur vertical peut dans certains cas être installé à la place d’un ascenseur. On pourra se référer à l'Arrêté du 8 décembre 2014, article 7, concernant les circulations intérieures verticales",
+    "type": "object",
+    "questionnaireRef": "QO23",
+    "illustrationRef": [],
+    "categories": [{
+      "name": "Tous les objets"
+    }, {
+      "name": "Cheminement"
+    }],
+    "subObject": [],
+    "date": "20171206084802"
+  }, {
+    "reference": "Obj2",
+    "name": "Chemin",
+    "icon": "fb3fa2ee-a742-46c7-b82d-9bf675ef4b8f.jpg",
+    "definition": "",
+    "type": "object",
+    "questionnaireRef": "QO4",
+    "illustrationRef": [],
+    "categories": [{
+      "name": "Tous les objets"
+    }, {
+      "name": "Cheminement"
+    }],
+    "subObject": ["Obj10", "Obj12"],
+    "date": "20171206084902"
+  }, {
+    "reference": "Obj3",
+    "name": "Couloir",
+    "icon": "4ef68989-d9a3-43c6-b4bc-7a43e42394f6.jpg",
+    "definition": "",
+    "type": "object",
+    "questionnaireRef": "QO3",
+    "illustrationRef": [],
+    "categories": [{
+      "name": "Tous les objets"
+    }, {
+      "name": "Cheminement"
+    }],
+    "subObject": ["Obj10", "Obj12"],
+    "date": "20171206084924"
+  }, {
+    "reference": "Obj4",
+    "name": "Eclairage",
+    "icon": "a92e1f28-4c77-4d44-a13c-de60f2aed330.jpg",
+    "definition": "",
+    "type": "subobject",
+    "questionnaireRef": "QO25",
+    "illustrationRef": [],
+    "categories": [{
+      "name": "Tous les objets"
+    }, {
+      "name": "Services"
+    }],
+    "subObject": [],
+    "date": "20171205164323"
+  }, {
+    "reference": "Obj5",
+    "name": "Ouverture manuelle",
+    "icon": "42b61fe1-c05d-4586-8e53-5219394e5eec.jpg",
+    "definition": "",
+    "type": "subobject",
+    "illustrationRef": [],
+    "categories": [{
+      "name": "Tous les objets"
+    }, {
+      "name": "Accès Zone"
+    }],
+    "subObject": [],
+    "date": "20171205164411"
+  }, {
+    "reference": "Obj6",
+    "name": "Ouverture automatique",
+    "icon": "d55731cf-e3c3-4973-94c6-21385ccd0d45.jpg",
+    "definition": "",
+    "type": "subobject",
+    "illustrationRef": [],
+    "categories": [{
+      "name": "Tous les objets"
+    }, {
+      "name": "Accès Zone"
+    }],
+    "subObject": [],
+    "date": "20171205164555"
+  }, {
+    "reference": "Obj7",
+    "name": "Ouverture à distance",
+    "icon": "233211e2-9581-49ad-bf0d-8887894a2d62.jpg",
+    "definition": "",
+    "type": "subobject",
+    "illustrationRef": [],
+    "categories": [{
+      "name": "Tous les objets"
+    }, {
+      "name": "Accès Zone"
+    }],
+    "subObject": [],
+    "date": "20171205164620"
+  }, {
+    "reference": "Obj8",
+    "name": "Système de détection",
+    "icon": "39075ecf-941b-414c-aa7a-6ae0fb796ddb.jpg",
+    "definition": "",
+    "type": "subobject",
+    "illustrationRef": [],
+    "categories": [{
+      "name": "Tous les objets"
+    }, {
+      "name": "Services"
+    }],
+    "subObject": [],
+    "date": "20171205164657"
+  }, {
+    "reference": "Obj9",
+    "name": "Contrôle d'accès",
+    "icon": "ce1a33a7-a621-4f24-8630-61f4445e55bd.jpg",
+    "definition": "",
+    "type": "subobject",
+    "illustrationRef": [],
+    "categories": [{
+      "name": "Tous les objets"
+    }, {
+      "name": "Accès Zone"
+    }],
+    "subObject": [],
+    "date": "20171205164739"
+  }, {
+    "reference": "Obj10",
+    "name": "Borne",
+    "icon": "8b85b526-9344-40c8-a937-f56ccb706c94.jpg",
+    "definition": "",
+    "type": "subobject",
+    "illustrationRef": [],
+    "categories": [{
+      "name": "Tous les objets"
+    }, {
+      "name": "Cheminement"
+    }],
+    "subObject": [],
+    "date": "20171205164846"
+  }, {
+    "reference": "Obj12",
+    "name": "Signalétique",
+    "icon": "5af9e51b-d178-4a91-89f3-fd5502ecfe51.jpg",
+    "definition": "",
+    "type": "subobject",
+    "questionnaireRef": "QO34",
+    "illustrationRef": [],
+    "categories": [{
+      "name": "Tous les objets"
+    }],
+    "subObject": [],
+    "date": "20171206083724"
+  }, {
+    "reference": "Obj13",
+    "name": "Main courante",
+    "icon": "3bd4d8e5-f6c1-43a6-999f-f4aff7d11a29.jpg",
+    "definition": "",
+    "type": "subobject",
+    "questionnaireRef": "QO35",
+    "illustrationRef": [],
+    "categories": [{
+      "name": "Tous les objets"
+    }],
+    "subObject": [],
+    "date": "20180309180709"
+  }, {
+    "reference": "Obj14",
+    "name": "Rampe",
+    "icon": "ff7fc06f-9753-4b91-86cd-283f3c64393a.jpg",
+    "definition": "",
+    "type": "object",
+    "questionnaireRef": "QO5",
+    "illustrationRef": [],
+    "categories": [{
+      "name": "Tous les objets"
+    }, {
+      "name": "Cheminement"
+    }],
+    "subObject": [],
+    "date": "20171206083816"
+  }, {
+    "reference": "Obj15",
+    "name": "Porte battante",
+    "icon": "cff6272d-fa12-4651-8451-eb8e970c5f94.jpg",
+    "definition": "Arrêté du 8 décembre 2014, article 10 : Les portes doivent répondre aux usages attendus. Toutes les portes situées sur les cheminements permettent le passage des personnes handicapées et peuvent être manœuvrées par des personnes ayant des capacités physiques réduites, y compris en cas de système d’ouverture complexe. Les portes comportant une partie vitrée importante peuvent être repérées par les personnes malvoyantes de toutes tailles et ne créent pas de gêne visuelle. Les portes battantes et les portes automatiques peuvent être utilisées sans danger par les personnes handicapées. Les sas permettent le passage et la manœuvre des portes pour les personnes handicapées ... Pour plus d'infos : http://www.accessibilite-batiment.fr/erp-situes-dans-un-cadre-bati-existant/portes-portiques-et-sas/arrete.html",
+    "type": "object",
+    "questionnaireRef": "QO6",
+    "illustrationRef": [],
+    "categories": [{
+      "name": "Tous les objets"
+    }, {
+      "name": "Accès Zone"
+    }],
+    "subObject": ["Obj5", "Obj6", "Obj7", "Obj8", "Obj9"],
+    "date": "20171206085024"
+  }, {
+    "reference": "Obj17",
+    "name": "Porte tournante",
+    "icon": "8f7319c9-34c6-45a5-8cc8-35588c91df48.jpg",
+    "definition": "Objet non accessible. Arrêté du 8 décembre 2014, article 10 ... dans le cas de portes à tambour, tourniquets ou sas cylindriques, une porte adaptée est installée à proximité de ce dispositif. ... lorsqu’un dispositif rendu nécessaire du fait de contraintes liées notamment à la sécurité ou à la sûreté s’avère incompatible avec les contraintes liées à un handicap ou à l’utilisation d’une aide technique, notamment dans le cas de portes à tambour, tourniquets ou sas cylindriques, une porte adaptée est installée à proximité de ce dispositif.",
+    "type": "object",
+    "questionnaireRef": "QO8",
+    "illustrationRef": [],
+    "categories": [{
+      "name": "Tous les objets"
+    }, {
+      "name": "Accès Zone"
+    }],
+    "subObject": [],
+    "date": "20171206090152"
+  }, {
+    "reference": "Obj20",
+    "name": "Ascenseur",
+    "icon": "58ca242f-5ff4-46fc-a685-cb358f654d1f.jpg",
+    "definition": "On pourra se référer à l'Arrêté du 8 décembre 2014, article 7, concernant les circulations intérieures verticales http://www.accessibilite-batiment.fr/erp-situes-dans-un-cadre-bati-existant/circulations-interieures-verticales/arrete.html",
+    "type": "object",
+    "questionnaireRef": "QO11",
+    "illustrationRef": [],
+    "categories": [{
+      "name": "Tous les objets"
+    }, {
+      "name": "Accès Zone"
+    }],
+    "subObject": [],
+    "date": "20171206085943"
+  }, {
+    "reference": "Obj21",
+    "name": "Escalier",
+    "icon": "a14ee91b-cc54-4555-a459-248d463bdc1f.jpg",
+    "definition": "On pourra se référer à l'Arrêté du 8 décembre 2014, article 7, concernant les circulations intérieures verticales http://www.accessibilite-batiment.fr/erp-situes-dans-un-cadre-bati-existant/circulations-interieures-verticales/arrete.html",
+    "type": "object",
+    "questionnaireRef": "QO12",
+    "illustrationRef": [],
+    "categories": [{
+      "name": "Tous les objets"
+    }, {
+      "name": "Cheminement"
+    }],
+    "subObject": ["Obj12", "Obj13"],
+    "date": "20180105093250"
+  }],
+  "questions": [{
+    "reference": "Q14",
+    "label": "Est-ce que les cheminements ont les dimensions requises (profil en travers) ?",
+    "state": "active",
+    "subject": {
+      "name": "Qualité de cheminement"
+    },
+    "rulesRef": ["R34", "R35"],
+    "date": "20171206134013"
+  }, {
+    "reference": "Q15",
+    "label": "Est-ce que le cheminement est horizontal, ou bien un plan incliné est aménagé ?",
+    "state": "active",
+    "subject": {
+      "name": "Qualité de cheminement"
+    },
+    "rulesRef": ["R36"],
+    "date": "20171206134032"
+  }, {
+    "reference": "Q16",
+    "label": "Est-ce que le sol a un relief modéré et praticable ?",
+    "state": "active",
+    "subject": {
+      "name": "Qualité de cheminement"
+    },
+    "rulesRef": ["R37", "R38", "R39"],
+    "date": "20171206134056"
+  }, {
+    "reference": "Q17",
+    "label": "Est-ce que le revêtement du cheminement présente un contraste visuel et tactile ?",
+    "state": "active",
+    "subject": {
+      "name": "Qualité de cheminement"
+    },
+    "rulesRef": ["R40"],
+    "date": "20171206134116"
+  }, {
+    "reference": "Q18",
+    "label": "Est-ce que le cheminement est sans obstacles, ou bien les obstacles sont-ils facilement repérables ?",
+    "state": "active",
+    "subject": {
+      "name": "Qualité de cheminement"
+    },
+    "rulesRef": ["R41"],
+    "date": "20171206134133"
+  }, {
+    "reference": "Q19",
+    "label": "Est-ce que l'usager a possibilité de se reposer le long du cheminement ? ",
+    "state": "active",
+    "subject": {
+      "name": "Qualité de cheminement"
+    },
+    "rulesRef": ["R42"],
+    "date": "20171206134151"
+  }, {
+    "reference": "Q20",
+    "label": "Est-ce que la rampe est praticable (largeur, pente) ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R43", "R44", "R45", "R46"],
+    "date": "20171206134214"
+  }, {
+    "reference": "Q21",
+    "label": "Est-ce que les éléments de sécurité requis pour la rampe sont présents ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R47", "R48"],
+    "date": "20171206134233"
+  }, {
+    "reference": "Q22",
+    "label": "Est ce que la rampe et ses équipements sont suffisamment repérables ? ",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R49"],
+    "date": "20171206134312"
+  }, {
+    "reference": "Q23",
+    "label": "Est-ce que la rampe est doublée par un escalier ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R50"],
+    "date": "20171206134323"
+  }, {
+    "reference": "Q24",
+    "label": "Est-ce que la porte a les dimensions requises ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R51"],
+    "date": "20171206134337"
+  }, {
+    "reference": "Q25",
+    "label": "Est-ce qu'il y a des repères visuels (bandes, contrastes) sur la porte ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R52"],
+    "date": "20171206134353"
+  }, {
+    "reference": "Q26",
+    "label": "Est-ce que l'espace de manœuvre est suffisant ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R53"],
+    "date": "20171206134412"
+  }, {
+    "reference": "Q27",
+    "label": "Est-ce que le dispositif d'ouverture manuelle est bien implanté ?",
+    "state": "active",
+    "subject": {
+      "name": "Qualité d'usage"
+    },
+    "rulesRef": ["R54"],
+    "date": "20171206134430"
+  }, {
+    "reference": "Q28",
+    "label": "Est-ce que les éléments de commande (poignée, bouton poussoir) sont facilement activables ?",
+    "state": "active",
+    "subject": {
+      "name": "Qualité d'usage"
+    },
+    "rulesRef": ["R55"],
+    "date": "20171206134454"
+  }, {
+    "reference": "Q29",
+    "label": "Est-ce que la porte se manœuvre facilement, sans trop d'efforts ?",
+    "state": "active",
+    "subject": {
+      "name": "Qualité d'usage"
+    },
+    "rulesRef": ["R56"],
+    "date": "20171206134510"
+  }, {
+    "reference": "Q30",
+    "label": "Est-ce que la durée d'ouverture automatique est bien réglée ?",
+    "state": "active",
+    "subject": {
+      "name": "Qualité d'usage"
+    },
+    "rulesRef": ["R57"],
+    "date": "20171206134525"
+  }, {
+    "reference": "Q31",
+    "label": "Est-ce qu'il y a un signal sonore à l'ouverture de la porte ?",
+    "state": "active",
+    "subject": {
+      "name": "Qualité d'usage"
+    },
+    "rulesRef": ["R58"],
+    "date": "20171206134543"
+  }, {
+    "reference": "Q32",
+    "label": "Est-ce qu'il y a un dispositif de sécurité qui protège les personnes lors du franchissement ?",
+    "state": "active",
+    "subject": {
+      "name": "Qualité d'usage"
+    },
+    "rulesRef": ["R59"],
+    "date": "20171206134615"
+  }, {
+    "reference": "Q33",
+    "label": "Est-ce qu'il est possible de l'ouvrir par une simple action mécanique en cas d'évacuation / incendie ?",
+    "state": "active",
+    "subject": {
+      "name": "Qualité d'usage"
+    },
+    "rulesRef": ["R60"],
+    "date": "20171206134631"
+  }, {
+    "reference": "Q34",
+    "label": "Est-ce que le système de détection est bien réglé ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R61", "R62"],
+    "date": "20171206134653"
+  }, {
+    "reference": "Q35",
+    "label": "Est-ce que l'ouverture à distance permet de bien évaluer la situation ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R63"],
+    "date": "20171206134713"
+  }, {
+    "reference": "Q40",
+    "label": "Est-ce qu'un accès adapté peut être utilisé à proximité du tourniquet ou de la porte tournante ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R68", "R69"],
+    "date": "20171206134837"
+  }, {
+    "reference": "Q46",
+    "label": "Est-ce que l’ascenseur a les dimensions requises ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R77", "R78", "R79", "R80"],
+    "date": "20171206135049"
+  }, {
+    "reference": "Q47",
+    "label": "Est-ce qu'il y a un système d'avertissement complet, sonore et visuel pour chaque étage, en palier et en cabine ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R81", "R82", "R83", "R84"],
+    "date": "20171206135105"
+  }, {
+    "reference": "Q48",
+    "label": "Est-ce que la temporisation de fermeture de porte est suffisante ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R85"],
+    "date": "20171206135137"
+  }, {
+    "reference": "Q49",
+    "label": "Est-ce que les commandes ont une précision d'arrêt aux étages de 2 cm au maximum ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R86"],
+    "date": "20171206135149"
+  }, {
+    "reference": "Q50",
+    "label": "Est-ce qu'il y a un avertisseur avec signalisations visuelles et sonores ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R87"],
+    "date": "20171206135205"
+  }, {
+    "reference": "Q51",
+    "label": "Est-ce qu'il y a un interphone avec boucle magnétique bien signalée ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R88"],
+    "date": "20171206135217"
+  }, {
+    "reference": "Q52",
+    "label": "Est-ce qu'il y a une plaque d'information sur les appels d'urgence 114 ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R89"],
+    "date": "20171206135231"
+  }, {
+    "reference": "Q53",
+    "label": "Est-ce que les commandes et informations nécessaires, à l'intérieur et à l'extérieur de l'ascenseur, sont accessibles aux personnes avec handicap visuel ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R90", "R91", "R92", "R93"],
+    "date": "20171206135256"
+  }, {
+    "reference": "Q54",
+    "label": "Est-ce que l'escalier a les dimensions requises ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R94", "R95", "R96"],
+    "date": "20171206135312"
+  }, {
+    "reference": "Q55",
+    "label": "Est-ce que l'escalier est accessible aux personnes ayant une déficience visuelle ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R97", "R98", "R99", "R100", "R101"],
+    "date": "20171206135334"
+  }, {
+    "reference": "Q56",
+    "label": "Est-ce qu'il y a au moins une main-courante située sur un côté de l'escalier ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R102"],
+    "date": "20171206135347"
+  }, {
+    "reference": "Q57",
+    "label": "Est-ce que les escaliers sont couplés avec un plan incliné ou un appareil élévateur ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R103"],
+    "date": "20171206135403"
+  }, {
+    "reference": "Q58",
+    "label": "Est-ce que  les mains courantes sont bien positionnées (hauteur, longueur) ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R104"],
+    "date": "20171206135417"
+  }, {
+    "reference": "Q59",
+    "label": "Est-ce que les mains courantes sont bien structurées ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R105"],
+    "date": "20171206135432"
+  }, {
+    "reference": "Q60",
+    "label": "Est-ce que les mains courantes sont bien différenciées visuellement du support ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R106"],
+    "date": "20171206135446"
+  }, {
+    "reference": "Q61",
+    "label": "Est-ce que les panneaux indicateurs sont accessibles aux personnes malvoyantes ?",
+    "state": "active",
+    "subject": {
+      "name": "Signalétique"
+    },
+    "rulesRef": ["R107", "R108", "R109", "R110", "R111"],
+    "date": "20171206135511"
+  }, {
+    "reference": "Q62",
+    "label": "Est-ce que le dispositif de commande est bien positionné, et accessible aux personnes en fauteuil ou de petite taille ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R64", "R194", "R195"],
+    "date": "20180309171847"
+  }, {
+    "reference": "Q63",
+    "label": "Est-ce que le dispositif de commande est facilement repérable pour les personnes ayant une déficience visuelle ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R115", "R196"],
+    "date": "20180309172002"
+  }, {
+    "reference": "Q64",
+    "label": "Est-ce que la commande est facilement activable ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R116"],
+    "date": "20171206135632"
+  }, {
+    "reference": "Q65",
+    "label": "Est-ce que le dispositif fournit une information, sonore et visuelle en réponse aux actions de l'utilisateur ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R174", "R175"],
+    "date": "20180309172216"
+  }, {
+    "reference": "Q66",
+    "label": "Lorsque la commande est prise en compte, est ce que la durée de l'action est suffisante ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R119"],
+    "date": "20171206135700"
+  }, {
+    "reference": "Q100",
+    "label": "Est-ce que l'élévateur a les dimensions requises ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R185"],
+    "date": "20171206140827"
+  }, {
+    "reference": "Q101",
+    "label": "Est-ce que l'élévateur est muni d'une main courante et d'un dispositif d'appel ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R186", "R187"],
+    "date": "20171206140845"
+  }, {
+    "reference": "Q102",
+    "label": "Est-ce que les portes sont à ouverture automatique, et sont suffisamment larges ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R188", "R189"],
+    "date": "20171206140913"
+  }, {
+    "reference": "Q103",
+    "label": "Est-ce que le dispositif de commande palière est utilisable assis ou debout ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R190"],
+    "date": "20171206140932"
+  }, {
+    "reference": "Q104",
+    "label": "Est-ce que les équipements intérieurs, dispositifs de commande et de demande de secours, sont facilement repérables et utilisables assis ou debout ?",
+    "state": "active",
+    "subject": {
+      "name": "Caractéristiques & équipements"
+    },
+    "rulesRef": ["R191", "R192", "R193"],
+    "date": "20171206140950"
+  }, {
+    "reference": "Q108",
+    "label": "Est-ce que les bornes et/ou poteaux sont suffisamment visibles ?",
+    "state": "active",
+    "subject": {
+      "name": "Qualité d'usage"
+    },
+    "rulesRef": ["R202"],
+    "date": "20171206141102"
+  }, {
+    "reference": "Q109",
+    "label": "Est-ce que les bornes et/ou poteaux sont aux dimensions requises ?",
+    "state": "active",
+    "subject": {
+      "name": "Qualité d'usage"
+    },
+    "rulesRef": ["R203"],
+    "date": "20171206141116"
+  }, {
+    "reference": "Q110",
+    "label": "Est-ce que les bornes et/ou poteaux sont correctement implantés ?",
+    "state": "active",
+    "subject": {
+      "name": "Qualité d'usage"
+    },
+    "rulesRef": ["R204"],
+    "date": "20171206141133"
+  }, {
+    "reference": "Q111",
+    "label": "Est-ce que l'éclairement lumineux est homogène et suffisant (en lux) ?",
+    "state": "active",
+    "subject": {
+      "name": "Eclairage"
+    },
+    "rulesRef": ["R205", "R206", "R207"],
+    "date": "20171206141149"
+  }],
+  "questionnaires": [{
+    "reference": "QO32",
+    "version": 5,
+    "objectDescriptionRef": "Obj10",
+    "chains": [{
+      "reference": "CH30",
+      "name": "Contrôle_borne",
+      "questionsRef": ["Q108", "Q109", "Q110"],
+      "date": "20171206144151"
+    }],
+    "parentObjectRefs": ["Obj3", "Obj2"],
+    "date": "20180309181124"
+  }, {
+    "reference": "QO34",
+    "version": 8,
+    "objectDescriptionRef": "Obj12",
+    "chains": [{
+      "reference": "CH19",
+      "name": "Contrôle_panneaux",
+      "questionsRef": ["Q61"],
+      "date": "20171206143400"
+    }],
+    "parentObjectRefs": ["Obj3", "Obj21", "Obj2"],
+    "date": "20180309181106"
+  }, {
+    "reference": "QO35",
+    "version": 4,
+    "objectDescriptionRef": "Obj13",
+    "chains": [{
+      "reference": "CH18",
+      "name": "Contrôle_main_courante",
+      "questionsRef": ["Q58", "Q59", "Q60"],
+      "date": "20171206143335"
+    }],
+    "parentObjectRefs": ["Obj21"],
+    "date": "20180309181038"
+  }, {
+    "reference": "QO3",
+    "version": 2,
+    "objectDescriptionRef": "Obj3",
+    "chains": [{
+      "reference": "CH6",
+      "name": "Contrôle_cheminement",
+      "questionsRef": ["Q14", "Q15", "Q16", "Q17", "Q18", "Q19"],
+      "date": "20171206142204"
+    }, {
+      "reference": "CH31",
+      "name": "Contrôle_éclairage",
+      "questionsRef": ["Q111"],
+      "date": "20171206144204"
+    }],
+    "date": "20180313150954"
+  }, {
+    "reference": "QO4",
+    "version": 2,
+    "objectDescriptionRef": "Obj2",
+    "chains": [{
+      "reference": "CH6",
+      "name": "Contrôle_cheminement",
+      "questionsRef": ["Q14", "Q15", "Q16", "Q17", "Q18", "Q19"],
+      "date": "20171206142204"
+    }, {
+      "reference": "CH31",
+      "name": "Contrôle_éclairage",
+      "questionsRef": ["Q111"],
+      "date": "20171206144204"
+    }],
+    "date": "20180313150713"
+  }, {
+    "reference": "QO5",
+    "version": 1,
+    "objectDescriptionRef": "Obj14",
+    "chains": [{
+      "reference": "CH7",
+      "name": "Contrôle_rampe",
+      "questionsRef": ["Q20", "Q21", "Q22", "Q23"],
+      "date": "20171206142256"
+    }],
+    "date": "20171206160952"
+  }, {
+    "reference": "QO6",
+    "version": 2,
+    "objectDescriptionRef": "Obj15",
+    "chains": [{
+      "reference": "CH8",
+      "name": "Contrôle_porte",
+      "questionsRef": ["Q24", "Q25", "Q26"],
+      "date": "20171206142318"
+    }],
+    "date": "20180313150452"
+  }, {
+    "reference": "QO8",
+    "version": 2,
+    "objectDescriptionRef": "Obj17",
+    "chains": [{
+      "reference": "CH14",
+      "name": "Contrôle_tourniquet",
+      "questionsRef": ["Q40"],
+      "date": "20171206142551"
+    }],
+    "date": "20180313145805"
+  }, {
+    "reference": "QO11",
+    "version": 2,
+    "objectDescriptionRef": "Obj20",
+    "chains": [{
+      "reference": "CH16",
+      "name": "Contrôle_ascenseur",
+      "questionsRef": ["Q46", "Q47", "Q48", "Q49", "Q50", "Q51", "Q52", "Q53"],
+      "date": "20171206143215"
+    }, {
+      "reference": "CH31",
+      "name": "Contrôle_éclairage",
+      "questionsRef": ["Q111"],
+      "date": "20171206144204"
+    }],
+    "date": "20180313145522"
+  }, {
+    "reference": "QO12",
+    "version": 3,
+    "objectDescriptionRef": "Obj21",
+    "chains": [{
+      "reference": "CH17",
+      "name": "Contrôle_escalier",
+      "questionsRef": ["Q54", "Q55", "Q56", "Q57"],
+      "date": "20171206143259"
+    }, {
+      "reference": "CH31",
+      "name": "Contrôle_éclairage",
+      "questionsRef": ["Q111"],
+      "date": "20171206144204"
+    }],
+    "date": "20180313145345"
+  }, {
+    "reference": "QO23",
+    "version": 2,
+    "objectDescriptionRef": "Obj32",
+    "chains": [{
+      "reference": "CH28",
+      "name": "Contrôle_élévateur",
+      "questionsRef": ["Q100", "Q101", "Q102", "Q103", "Q104"],
+      "date": "20171206144111"
+    }],
+    "date": "20180313141921"
+  }, {
+    "reference": "QO25",
+    "version": 2,
+    "objectDescriptionRef": "Obj4",
+    "chains": [{
+      "reference": "CH31",
+      "name": "Contrôle_éclairage",
+      "questionsRef": ["Q111"],
+      "date": "20171206144204"
+    }],
+    "date": "20180313141537"
+  }, {
+    "reference": "QO26",
+    "version": 6,
+    "objectDescriptionRef": "Obj5",
+    "chains": [{
+      "reference": "CH9",
+      "name": "Contrôle_ouverture_manuelle",
+      "questionsRef": ["Q27", "Q28", "Q29"],
+      "date": "20171206142352"
+    }],
+    "parentObjectRefs": ["Obj15"],
+    "date": "20180309181207"
+  }, {
+    "reference": "QO27",
+    "version": 6,
+    "objectDescriptionRef": "Obj6",
+    "chains": [{
+      "reference": "CH10",
+      "name": "Contrôle_ouverture_auto",
+      "questionsRef": ["Q30", "Q31", "Q32", "Q33"],
+      "date": "20171206142418"
+    }],
+    "parentObjectRefs": ["Obj15"],
+    "date": "20180309181200"
+  }, {
+    "reference": "QO29",
+    "version": 6,
+    "objectDescriptionRef": "Obj9",
+    "chains": [{
+      "reference": "CH20",
+      "name": "Contrôle_commande_ou_ctrl_accès",
+      "questionsRef": ["Q63", "Q64", "Q65", "Q66", "Q62"],
+      "date": "20180309170736"
+    }],
+    "parentObjectRefs": ["Obj15"],
+    "date": "20180309181151"
+  }, {
+    "reference": "QO30",
+    "version": 6,
+    "objectDescriptionRef": "Obj7",
+    "chains": [{
+      "reference": "CH12",
+      "name": "Contrôle_ouverture_à_distance",
+      "questionsRef": ["Q35"],
+      "date": "20171206142454"
+    }],
+    "parentObjectRefs": ["Obj15"],
+    "date": "20180309181140"
+  }, {
+    "reference": "QO31",
+    "version": 8,
+    "objectDescriptionRef": "Obj8",
+    "chains": [{
+      "reference": "CH11",
+      "name": "Contrôle_détection",
+      "questionsRef": ["Q34"],
+      "date": "20171206142434"
+    }],
+    "parentObjectRefs": ["Obj15"],
+    "date": "20180309181131"
+  }],
+  "rules": [{
+    "reference": "R34",
+    "label": "Est-ce que la largeur minimale est de 140 cm, libre de tout obstacle ?\r\nException : les couloirs peuvent être réduits à un maximum de 90 cm de largeur pour une longueur max de 15 m dans les parties sans croisement ni retournement possible",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill41"],
+    "ruleImpacts": [{
+      "reference": "2251",
+      "impactValueRef": "3",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2252",
+      "impactValueRef": "2",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2253",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2254",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2255",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2256",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2257",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2258",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2259",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180228171407"
+  }, {
+    "reference": "R35",
+    "label": "Est-ce que en chaque point du cheminement où un choix d'itinéraire est donné à l'usager, il y a un espace de manœuvre avec possibilité de demi-tour de au moins 130 cm de diamètre  ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill42"],
+    "ruleImpacts": [{
+      "reference": "2260",
+      "impactValueRef": "3",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2261",
+      "impactValueRef": "2",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2262",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2263",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2264",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2265",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2266",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2267",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2268",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180228171512"
+  }, {
+    "reference": "R36",
+    "label": "Absence de dénivellation ou lorsqu'elle ne peut être évitée, un plan incliné ou rampe d'accès est aménagé",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill43"],
+    "ruleImpacts": [{
+      "reference": "2269",
+      "impactValueRef": "3",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2270",
+      "impactValueRef": "3",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2271",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2272",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2273",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2274",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2275",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2276",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2277",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180228171711"
+  }, {
+    "reference": "R37",
+    "label": "Le cheminement ne présente pas de dénivellement soudain, de surfaces glissantes, ou d'obstacles à la roue ?",
+    "userCredentials": {
+      "username": "adminService"
+    },
+    "illustration": [],
+    "ruleImpacts": [{
+      "reference": "325",
+      "impactValueRef": "3",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "326",
+      "impactValueRef": "3",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "327",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "328",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "329",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "330",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "331",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "332",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "333",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20171206092534"
+  }, {
+    "reference": "R38",
+    "label": "Est-ce que le cheminement ne présente aucun ressaut, \r\nOu bien s'il y a des ressauts, est-ce que : \r\n     > le chemin est horizontal ?\r\n     >  et les ressauts vérifient : \r\n         - hauteur inférieure à 2 cm, avec un bord arrondi et espacé d'au moins 2,50 m ?\r\n         - ou bien hauteur jusqu'à 4 cm, avec sur toute sa hauteur une pente < 33 % ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill45"],
+    "ruleImpacts": [{
+      "reference": "2278",
+      "impactValueRef": "3",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2279",
+      "impactValueRef": "3",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2280",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2281",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2282",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2283",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2284",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2285",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2286",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180228172220"
+  }, {
+    "reference": "R39",
+    "label": "Est-ce que le cheminement ne présente pas de trous et fentes de largeur ou diamètre supérieur ou égal à 2 cm ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill46"],
+    "ruleImpacts": [{
+      "reference": "2287",
+      "impactValueRef": "2",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2288",
+      "impactValueRef": "3",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2289",
+      "impactValueRef": "3",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2290",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2291",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2292",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2293",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2294",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2295",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180228172549"
+  }, {
+    "reference": "R40",
+    "label": "Est-ce que le cheminement comporte sur toute sa longueur un repère continu, tactile, visuellement contrasté par rapport à son environnement ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill47"],
+    "ruleImpacts": [{
+      "reference": "2296",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2297",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2298",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2299",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2300",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2301",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2302",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2303",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2304",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180228172707"
+  }, {
+    "reference": "R41",
+    "label": "Obstacles suspendus : est-ce qu’il y a un passage libre au dessus du sol supérieur à 2,20 m de hauteur ? \r\n(supérieur à 2 m dans les parcs de stationnement)\r\nObstacles implantés, dès qu'ils sont en saillie latérale de plus de 15 cm sur le cheminement, et quelle que soit leur hauteur.\r\nEst-ce que ces éléments comportent :\r\n   > un élément de contraste visuel par rapport à leur environnement immédiat ?\r\n   > et un rappel tactile ou un prolongement au sol ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill33"],
+    "ruleImpacts": [{
+      "reference": "2305",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2306",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2307",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2308",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2309",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2310",
+      "impactValueRef": "3",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2311",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2312",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2313",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180228172936"
+  }, {
+    "reference": "R42",
+    "label": "Est-ce que des points de repos (par exemple des appuis ischiatiques) permettent aux usagers (avec béquilles par exemple) de se reposer le long du cheminement ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill48"],
+    "ruleImpacts": [{
+      "reference": "2314",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2315",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2316",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2317",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2318",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2319",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2320",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2321",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2322",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180228173042"
+  }, {
+    "reference": "R43",
+    "label": "Est-ce que la largeur est supérieure à 110 cm ?",
+    "userCredentials": {
+      "username": "adminService"
+    },
+    "illustration": [],
+    "ruleImpacts": [{
+      "reference": "379",
+      "impactValueRef": "3",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "380",
+      "impactValueRef": "2",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "381",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "382",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "383",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "384",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "385",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "386",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "387",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20171206092746"
+  }, {
+    "reference": "R44",
+    "label": "Est-ce que la pente est inférieure ou égale à 8 % ?\r\nOu exceptionnellement :\r\n   > jusqu’à 12 % sur une longueur inférieure ou égale à 2 m ? \r\n   > jusqu’à 15 % sur une longueur inférieure ou égale à 50 cm ?                           ",
+    "userCredentials": {
+      "username": "adminService"
+    },
+    "illustration": [],
+    "ruleImpacts": [{
+      "reference": "388",
+      "impactValueRef": "3",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "389",
+      "impactValueRef": "3",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "390",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "391",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "392",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "393",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "394",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "395",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "396",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20171206092811"
+  }, {
+    "reference": "R45",
+    "label": "Est-ce qu’un palier de repos est présent en haut et en bas de chaque plan incliné (quelle qu'en soit la longueur)  ? \r\nRecommandation : en cas de pente supérieure ou égale à 4%, prévoir un palier de repos tous les 10 m",
+    "userCredentials": {
+      "username": "adminService"
+    },
+    "illustration": [],
+    "ruleImpacts": [{
+      "reference": "397",
+      "impactValueRef": "2",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "398",
+      "impactValueRef": "3",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "399",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "400",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "401",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "402",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "403",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "404",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "405",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20171206092826"
+  }, {
+    "reference": "R46",
+    "label": "S’il y a des ressauts successifs, est-ce que la distance minimale est de 2,30 m entre chaque ressaut ?",
+    "userCredentials": {
+      "username": "adminService"
+    },
+    "illustration": [],
+    "ruleImpacts": [{
+      "reference": "406",
+      "impactValueRef": "2",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "407",
+      "impactValueRef": "2",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "408",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "409",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "410",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "411",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "412",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "413",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "414",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20171206092844"
+  }, {
+    "reference": "R174",
+    "label": "Est-ce qu’il y a des témoins sonores ou bien des messages d'activation et d'enregistrement de l’utilisation des boutons de commande ?",
+    "userCredentials": {
+      "username": "adminService"
+    },
+    "illustration": [],
+    "ruleImpacts": [{
+      "reference": "1558",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "1559",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "1560",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "1561",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "1562",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "1563",
+      "impactValueRef": "2",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "1564",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "1565",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "1566",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20171206102757"
+  }, {
+    "reference": "R47",
+    "label": "Si la rampe est de pente supérieure à 4 %, ou si elle présente un dénivelé supérieur à 40 cm :\r\n   > Est-ce qu’il y a une main courante continue au moins sur un côté ? \r\n   > Et est-ce que cette main courante est facilement préhensible, et disposée à une hauteur comprise entre 80 et 100 cm ?",
+    "userCredentials": {
+      "username": "adminService"
+    },
+    "illustration": [],
+    "ruleImpacts": [{
+      "reference": "415",
+      "impactValueRef": "3",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "416",
+      "impactValueRef": "3",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "417",
+      "impactValueRef": "3",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "418",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "419",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "420",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "421",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "422",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "423",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20171206092924"
+  }, {
+    "reference": "R175",
+    "label": "Est-ce qu’il y a des témoins visuels d'activation et d'enregistrement des boutons de commande ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill85"],
+    "ruleImpacts": [{
+      "reference": "3295",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "3296",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "3297",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "3298",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "3299",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "3300",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "3301",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "3302",
+      "impactValueRef": "2",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "3303",
+      "impactValueRef": "2",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180309105005"
+  }, {
+    "reference": "R48",
+    "label": "Est-ce qu'il y a une bordure chasse-roues le long de la rampe ?",
+    "userCredentials": {
+      "username": "adminService"
+    },
+    "illustration": [],
+    "ruleImpacts": [{
+      "reference": "424",
+      "impactValueRef": "2",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "425",
+      "impactValueRef": "2",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "426",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "427",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "428",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "429",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "430",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "431",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "432",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20171206092942"
+  }, {
+    "reference": "R49",
+    "label": "La rampe doit être repérable : est ce qu’il y a au minimum un contraste du revêtement de sol avec l’environnement ?\r\nSi elle est présente, la main courante doit être bien visible : est-ce qu’il y a des couleurs contrastantes à la main courante  ?",
+    "userCredentials": {
+      "username": "adminService"
+    },
+    "illustration": [],
+    "ruleImpacts": [{
+      "reference": "433",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "434",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "435",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "436",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "437",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "438",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "439",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "440",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "441",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20171206093000"
+  }, {
+    "reference": "R50",
+    "label": "Il est recommandé de donner le choix du cheminement, pour les personnes de petite taille par exemple.",
+    "userCredentials": {
+      "username": "adminService"
+    },
+    "illustration": [],
+    "ruleImpacts": [{
+      "reference": "442",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "443",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "444",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "445",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "446",
+      "impactValueRef": "2",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "447",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "448",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "449",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "450",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20171206093022"
+  }, {
+    "reference": "R51",
+    "label": "On mesure le passage utile porte ouverte, en enlevant l'épaisseur de la porte car elle limite le passage.\r\nUne porte (hors porte d’évacuation) doit faire au moins 75 cm de passage utile \r\nUn  portique de sécurité doit faire au moins 77 cm de passage utile.\r\nUne porte servant à l'évacuation :\r\n   > doit faire au moins 140 cm de largeur pour les locaux recevant plus de 100 personnes, et comporter un vantail d'au moins 90 cm\r\n   > doit faire au moins 90 cm pour les locaux recevant moins de 100 personnes",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill2"],
+    "ruleImpacts": [{
+      "reference": "2395",
+      "impactValueRef": "3",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2396",
+      "impactValueRef": "3",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2397",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2398",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2399",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2400",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2401",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2402",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2403",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305161231"
+  }, {
+    "reference": "R52",
+    "label": "Est-ce que les portes présentent au minimum un marquage ou un contraste avec le fond ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill8"],
+    "ruleImpacts": [{
+      "reference": "2404",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2405",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2406",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2407",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2408",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2409",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2410",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2411",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2412",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305161347"
+  }, {
+    "reference": "R53",
+    "label": "Est-ce qu’il y a un espace de manœuvre devant la porte : \r\n   > si elle s’ouvre en poussant, d’une longueur minimale de 125 cm ?\r\n   > si elle s’ouvre en tirant, d’une longueur minimale de 180 cm  ?\r\n   > si elle s'ouvre en coulissant, il y a un palier  devant la porte de 125 cm x 100 cm  ?\r\n\r\nPour les sas d'isolement : \r\n   > Est-ce qu’à l'intérieur du sas, devant chaque porte, il y a un espace de manœuvre =  circulation commune x 180 cm ? \r\n   > Est-ce qu’à l'extérieur du sas, devant chaque porte, il y a un espace de manœuvre = circulation commune x 125 cm ?  ",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill89"],
+    "ruleImpacts": [{
+      "reference": "2413",
+      "impactValueRef": "3",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2414",
+      "impactValueRef": "3",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2415",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2416",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2417",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2418",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2419",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2420",
+      "impactValueRef": "2",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2421",
+      "impactValueRef": "2",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305161524"
+  }, {
+    "reference": "R54",
+    "label": "Le dispositif d'ouverture doit être : \r\n   - bien repérable\r\n   - situé à plus de 25 cm d'un angle rentrant de parois ou de tout autre obstacle à l'approche d'un fauteuil roulant\r\n   - situé à une hauteur comprise entre 90 et 130 cm, pour être utilisé assis ou debout\r\n   - implanté de telle sorte à ne pas gêner l'accès à l'ouverture de la porte",
+    "userCredentials": {
+      "username": "adminService"
+    },
+    "illustration": ["Ill4"],
+    "ruleImpacts": [{
+      "reference": "478",
+      "impactValueRef": "3",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "479",
+      "impactValueRef": "2",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "480",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "481",
+      "impactValueRef": "2",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "482",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "483",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "484",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "485",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "486",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20171206093154"
+  }, {
+    "reference": "R55",
+    "label": "Est-ce que les poignées sont facilement préhensibles, ou boutons facilement activables ?\r\n   - Une poignée en L est bien préhensible, une poignée ronde ou ovale ne l'est pas. \r\n   - On pousse plus facilement un bouton proéminent que l'on enfonce un petit bouton plat.",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill93"],
+    "ruleImpacts": [{
+      "reference": "2422",
+      "impactValueRef": "3",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2423",
+      "impactValueRef": "2",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2424",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2425",
+      "impactValueRef": "2",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2426",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2427",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2428",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2429",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2430",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305161712"
+  }, {
+    "reference": "R56",
+    "label": "Est-ce que l'effort maximum d'ouverture ne dépasse pas les 50 Newton ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill94"],
+    "ruleImpacts": [{
+      "reference": "2431",
+      "impactValueRef": "3",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2432",
+      "impactValueRef": "2",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2433",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2434",
+      "impactValueRef": "2",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2435",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2436",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2437",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2438",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2439",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305161752"
+  }, {
+    "reference": "R185",
+    "label": "Est-ce que les dimensions de la plateforme font au  minimum : \r\n   > 80 cm x 125 cm en service droit ?\r\n   > 100 cm x 125 cm pour un  service à l’équerre ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill62"],
+    "ruleImpacts": [{
+      "reference": "3340",
+      "impactValueRef": "3",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "3341",
+      "impactValueRef": "3",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "3342",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "3343",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "3344",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "3345",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "3346",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "3347",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "3348",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180309132600"
+  }, {
+    "reference": "R57",
+    "label": "Est-ce que la porte laisse suffisamment de temps pour passer ?  \r\n(Vous pouvez évaluer ce temps en avançant lentement.)",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill19", "Ill91"],
+    "ruleImpacts": [{
+      "reference": "2440",
+      "impactValueRef": "2",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2441",
+      "impactValueRef": "2",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2442",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2443",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2444",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2445",
+      "impactValueRef": "2",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2446",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2447",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2448",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305162226"
+  }, {
+    "reference": "R186",
+    "label": "Est-ce que l’élévateur est muni d'une main courante ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill63"],
+    "ruleImpacts": [{
+      "reference": "3349",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "3350",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "3351",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "3352",
+      "impactValueRef": "2",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "3353",
+      "impactValueRef": "2",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "3354",
+      "impactValueRef": "2",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "3355",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "3356",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "3357",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180309132652"
+  }, {
+    "reference": "R58",
+    "label": "Est-ce qu'une personne malvoyante peut percevoir de manière auditive l'ouverture de la porte ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill23"],
+    "ruleImpacts": [{
+      "reference": "2449",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2450",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2451",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2452",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2453",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2454",
+      "impactValueRef": "2",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2455",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2456",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2457",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305162557"
+  }, {
+    "reference": "R187",
+    "label": "Est-ce qu’il y a un dispositif d’appel au cas où l’élévateur serait verrouillé ?",
+    "userCredentials": {
+      "username": "adminService"
+    },
+    "illustration": [],
+    "ruleImpacts": [{
+      "reference": "1675",
+      "impactValueRef": "3",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "1676",
+      "impactValueRef": "3",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "1677",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "1678",
+      "impactValueRef": "2",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "1679",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "1680",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "1681",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "1682",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "1683",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20171206103522"
+  }, {
+    "reference": "R59",
+    "label": "Est-ce que la porte est équipée d’un dispositif de sécurité qui permet d'éviter, pendant son franchissement, tout contact entre la porte et l'usager ou son aide technique ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill91"],
+    "ruleImpacts": [{
+      "reference": "2458",
+      "impactValueRef": "2",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2459",
+      "impactValueRef": "2",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2460",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2461",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2462",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2463",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2464",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2465",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2466",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305162844"
+  }, {
+    "reference": "R188",
+    "label": "Est-ce que les portes sont à ouverture automatique ?",
+    "userCredentials": {
+      "username": "adminService"
+    },
+    "illustration": [],
+    "ruleImpacts": [{
+      "reference": "1684",
+      "impactValueRef": "3",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "1685",
+      "impactValueRef": "2",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "1686",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "1687",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "1688",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "1689",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "1690",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "1691",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "1692",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20171206103550"
+  }, {
+    "reference": "R60",
+    "label": "Si la porte est sur un chemin d'évacuation, est-ce que l'ouverture par une simple action mécanique est prévue en cas d'évacuation / incendie ? \r\nIl ne faut pas qu'un dispositif automatique puisse interdire l'ouverture de la porte.",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill92"],
+    "ruleImpacts": [{
+      "reference": "2467",
+      "impactValueRef": "2",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2468",
+      "impactValueRef": "2",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2469",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2470",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2471",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2472",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2473",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2474",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2475",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305162948"
+  }, {
+    "reference": "R189",
+    "label": "Est-ce que les portes palières ont un passage utile de 75 cm minimum ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill66"],
+    "ruleImpacts": [{
+      "reference": "3385",
+      "impactValueRef": "3",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "3386",
+      "impactValueRef": "3",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "3387",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "3388",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "3389",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "3390",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "3391",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "3392",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "3393",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180309135431"
+  }, {
+    "reference": "R61",
+    "label": "Si le système est à détection, est-ce qu’il peut détecter des personnes de toutes tailles (minimum 100 centimètres) ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill55"],
+    "ruleImpacts": [{
+      "reference": "2476",
+      "impactValueRef": "2",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2477",
+      "impactValueRef": "2",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2478",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2479",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2480",
+      "impactValueRef": "3",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2481",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2482",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2483",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2484",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305163058"
+  }, {
+    "reference": "R190",
+    "label": "Le dispositif de commande palière est-il situé à une hauteur comprise entre 90 cm et 130 cm et à plus de 25 cm d'un angle rentrant de parois ou de tout autre obstacle à l'approche d'un fauteuil roulant ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill64"],
+    "ruleImpacts": [{
+      "reference": "3394",
+      "impactValueRef": "3",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "3395",
+      "impactValueRef": "3",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "3396",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "3397",
+      "impactValueRef": "2",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "3398",
+      "impactValueRef": "2",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "3399",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "3400",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "3401",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "3402",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180309135823"
+  }, {
+    "reference": "R62",
+    "label": "Si le système est à détection, est-ce qu’il est réglé de façon à commander l'ouverture suffisamment tôt ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill55"],
+    "ruleImpacts": [{
+      "reference": "2485",
+      "impactValueRef": "2",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2486",
+      "impactValueRef": "2",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2487",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2488",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2489",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2490",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2491",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2492",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2493",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305163139"
+  }, {
+    "reference": "R191",
+    "label": "Le dispositif de demande de secours (interphone) de l'élévateur est-il situé à une hauteur comprise entre 90 cm et 130 cm et à plus de 25 cm d'un angle rentrant de parois ou de tout autre obstacle à l'approche d'un fauteuil roulant ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill64"],
+    "ruleImpacts": [{
+      "reference": "3403",
+      "impactValueRef": "3",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "3404",
+      "impactValueRef": "3",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "3405",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "3406",
+      "impactValueRef": "2",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "3407",
+      "impactValueRef": "2",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "3408",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "3409",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "3410",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "3411",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180309142724"
+  }, {
+    "reference": "R63",
+    "label": "Est-ce qu’en cas d'ouverture à distance par un tiers, le tiers à un bonne visibilité de l'espace ou bien il y a un interphone accessible ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill90"],
+    "ruleImpacts": [{
+      "reference": "2494",
+      "impactValueRef": "2",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2495",
+      "impactValueRef": "2",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2496",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2497",
+      "impactValueRef": "2",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2498",
+      "impactValueRef": "2",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2499",
+      "impactValueRef": "2",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2500",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2501",
+      "impactValueRef": "2",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2502",
+      "impactValueRef": "2",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305163300"
+  }, {
+    "reference": "R192",
+    "label": "Le dispositif de commande dans l'élévateur est-il situé à une hauteur comprise entre 90 cm et 130 cm et à plus de 25 cm d'un angle rentrant de parois ou de tout autre obstacle à l'approche d'un fauteuil roulant ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill64"],
+    "ruleImpacts": [{
+      "reference": "3412",
+      "impactValueRef": "3",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "3413",
+      "impactValueRef": "3",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "3414",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "3415",
+      "impactValueRef": "2",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "3416",
+      "impactValueRef": "3",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "3417",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "3418",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "3419",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "3420",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180309142827"
+  }, {
+    "reference": "R64",
+    "label": "Est-ce que le dispositif de commande (déverrouillage, interrupteur ...) est implanté de telle sorte qu'il ne gêne pas l'ouverture de la porte ? ",
+    "userCredentials": {
+      "username": "adminService"
+    },
+    "illustration": [],
+    "ruleImpacts": [{
+      "reference": "568",
+      "impactValueRef": "3",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "569",
+      "impactValueRef": "2",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "570",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "571",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "572",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "573",
+      "impactValueRef": "2",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "574",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "575",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "576",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20171206093606"
+  }, {
+    "reference": "R193",
+    "label": "Est-ce que le dispositif de demande de secours est facilement repérable ?",
+    "userCredentials": {
+      "username": "adminService"
+    },
+    "illustration": [],
+    "ruleImpacts": [{
+      "reference": "1729",
+      "impactValueRef": "3",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "1730",
+      "impactValueRef": "3",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "1731",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "1732",
+      "impactValueRef": "3",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "1733",
+      "impactValueRef": "3",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "1734",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "1735",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "1736",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "1737",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20171206125511"
+  }, {
+    "reference": "R194",
+    "label": "Est-ce que le dispositif de commande (déverrouillage, interrupteur, bouton d'appel ...) se situe à plus de 25 cm d'un angle rentrant de parois, ou de tout autre obstacle empêchant l'approche d'un fauteuil roulant ? ",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill35"],
+    "ruleImpacts": [{
+      "reference": "3556",
+      "impactValueRef": "3",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "3557",
+      "impactValueRef": "2",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "3558",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "3559",
+      "impactValueRef": "2",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "3560",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "3561",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "3562",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "3563",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "3564",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180309161926"
+  }, {
+    "reference": "R195",
+    "label": "Est-ce que la hauteur du dispositif de commande (déverrouillage, interrupteur, bouton d'appel ...) est comprise entre 90 cm et 130 cm, pour être utilisé assis ou debout ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill35"],
+    "ruleImpacts": [{
+      "reference": "3574",
+      "impactValueRef": "3",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "3575",
+      "impactValueRef": "2",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "3576",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "3577",
+      "impactValueRef": "2",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "3578",
+      "impactValueRef": "3",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "3579",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "3580",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "3581",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "3582",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180309162220"
+  }, {
+    "reference": "R68",
+    "label": "Est-ce qu’une alternative accessible est possible si le passage s'effectue grâce à un tourniquet ou à une porte tournante ? (car ces équipements ne sont pas accessibles)",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill3"],
+    "ruleImpacts": [{
+      "reference": "2503",
+      "impactValueRef": "3",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2504",
+      "impactValueRef": "3",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2505",
+      "impactValueRef": "3",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2506",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2507",
+      "impactValueRef": "2",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2508",
+      "impactValueRef": "3",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2509",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2510",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2511",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305163353"
+  }, {
+    "reference": "R196",
+    "label": "Est-ce que le dispositif de commande (déverrouillage, interrupteur, bouton d'appel ...) :\r\n   > est facilement repérable grâce à un contraste visuel ou une signalétique adaptée? \r\n   > est situé dans une zone éclairée ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill36"],
+    "ruleImpacts": [{
+      "reference": "3565",
+      "impactValueRef": "2",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "3566",
+      "impactValueRef": "2",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "3567",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "3568",
+      "impactValueRef": "2",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "3569",
+      "impactValueRef": "2",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "3570",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "3571",
+      "impactValueRef": "3",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "3572",
+      "impactValueRef": "2",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "3573",
+      "impactValueRef": "2",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180309162111"
+  }, {
+    "reference": "R69",
+    "label": "Est-ce que l'alternative proposée est clairement signalée ?",
+    "userCredentials": {
+      "username": "adminService"
+    },
+    "illustration": [],
+    "ruleImpacts": [{
+      "reference": "613",
+      "impactValueRef": "3",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "614",
+      "impactValueRef": "3",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "615",
+      "impactValueRef": "3",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "616",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "617",
+      "impactValueRef": "2",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "618",
+      "impactValueRef": "3",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "619",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "620",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "621",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20171206093820"
+  }, {
+    "reference": "R202",
+    "label": "Est ce qu'il y a au moins un marquage contrasté ? ",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill31"],
+    "ruleImpacts": [{
+      "reference": "3484",
+      "impactValueRef": "2",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "3485",
+      "impactValueRef": "2",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "3486",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "3487",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "3488",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "3489",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "3490",
+      "impactValueRef": "3",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "3491",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "3492",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180309160620"
+  }, {
+    "reference": "R203",
+    "label": "Est-ce que les poteaux et bornes : \r\n   > Ont une hauteur de 50 cm au minimum ?\r\n   > Ont un diamètre avec une dimension minimale variant  de manière inverse à la hauteur ? \r\n(voir schéma dans illustration)",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill32"],
+    "ruleImpacts": [{
+      "reference": "3493",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "3494",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "3495",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "3496",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "3497",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "3498",
+      "impactValueRef": "3",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "3499",
+      "impactValueRef": "3",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "3500",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "3501",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180309160708"
+  }, {
+    "reference": "R204",
+    "label": "Ces éléments n'entravent pas la circulation.\r\nAu besoin, certains éléments sont disposés en porte-à-faux pour dégager la circulation",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill33"],
+    "ruleImpacts": [{
+      "reference": "3502",
+      "impactValueRef": "2",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "3503",
+      "impactValueRef": "2",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "3504",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "3505",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "3506",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "3507",
+      "impactValueRef": "3",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "3508",
+      "impactValueRef": "3",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "3509",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "3510",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180309160815"
+  }, {
+    "reference": "R205",
+    "label": "Est-ce qu'un éclairage artificiel permet d'éclairer correctement la zone ?\r\n   - à l'intérieur du bâtiment : 100 lux en moyenne\r\n   - cheminements extérieurs accessibles et zones parking : 20 lux en moyenne",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill86"],
+    "ruleImpacts": [{
+      "reference": "3511",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "3512",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "3513",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "3514",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "3515",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "3516",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "3517",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "3518",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "3519",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180309160922"
+  }, {
+    "reference": "R77",
+    "label": "Est-ce que les dimensions  de la cabine sont d’au moins 80 cm × 125 cm de profondeur ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill15"],
+    "ruleImpacts": [{
+      "reference": "2575",
+      "impactValueRef": "3",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2576",
+      "impactValueRef": "3",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2577",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2578",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2579",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2580",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2581",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2582",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2583",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305170334"
+  }, {
+    "reference": "R206",
+    "label": "Est-ce que l'éclairage est homogène et ne crée pas de gêne visuelle ?\r\n  (sans zone d'ombre ni faux jour, ni contre jour ; anti éblouissant)",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": [],
+    "ruleImpacts": [{
+      "reference": "3529",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "3530",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "3531",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "3532",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "3533",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "3534",
+      "impactValueRef": "2",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "3535",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "3536",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "3537",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180309161040"
+  }, {
+    "reference": "R78",
+    "label": "Est-ce que les portes coulissantes de l'ascenseur ont une largeur supérieure à 75 cm ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill15"],
+    "ruleImpacts": [{
+      "reference": "2584",
+      "impactValueRef": "3",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2585",
+      "impactValueRef": "3",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2586",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2587",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2588",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2589",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2590",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2591",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2592",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305170425"
+  }, {
+    "reference": "R207",
+    "label": "Est-ce que l'éclairage  ne crée pas de difficulté à repérer ou utiliser les dispositifs d'accès et la signalétique ? ",
+    "userCredentials": {
+      "username": "adminService"
+    },
+    "illustration": [],
+    "ruleImpacts": [{
+      "reference": "1855",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "1856",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "1857",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "1858",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "1859",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "1860",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "1861",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "1862",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "1863",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20171206130218"
+  }, {
+    "reference": "R79",
+    "label": "Est-ce que les bords de la porte sont sensibles au contact ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill19"],
+    "ruleImpacts": [{
+      "reference": "2593",
+      "impactValueRef": "2",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2594",
+      "impactValueRef": "2",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2595",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2596",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2597",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2598",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2599",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2600",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2601",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305170632"
+  }, {
+    "reference": "R80",
+    "label": "Est-ce qu’il y a au moins une main courante placée de préférence à 90 cm du sol et à 3,5 cm de la paroi ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill20"],
+    "ruleImpacts": [{
+      "reference": "2602",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2603",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2604",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2605",
+      "impactValueRef": "2",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2606",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2607",
+      "impactValueRef": "2",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2608",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2609",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2610",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305170716"
+  }, {
+    "reference": "R81",
+    "label": "En palier, est-ce qu’il y a au moins un avertissement sonore pour chaque étage ? \r\n(informations sonores liées aux mouvements de la cabine et aux étages desservis)",
+    "userCredentials": {
+      "username": "adminService"
+    },
+    "illustration": [],
+    "ruleImpacts": [{
+      "reference": "721",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "722",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "723",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "724",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "725",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "726",
+      "impactValueRef": "2",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "727",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "728",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "729",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20171206094230"
+  }, {
+    "reference": "R82",
+    "label": "En palier, est-ce qu’il y a une information visuelle pour chaque étage, en palier et en cabine ? \r\n(informations visuelles liées aux mouvements de la cabine et aux étages desservis)",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill21"],
+    "ruleImpacts": [{
+      "reference": "2611",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2612",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2613",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2614",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2615",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2616",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2617",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2618",
+      "impactValueRef": "2",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2619",
+      "impactValueRef": "2",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305170811"
+  }, {
+    "reference": "R83",
+    "label": "Est-ce qu’il y a un signal sonore précédant l’ouverture et la fermeture des portes ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill23"],
+    "ruleImpacts": [{
+      "reference": "2620",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2621",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2622",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2623",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2624",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2625",
+      "impactValueRef": "2",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2626",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2627",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2628",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305170901"
+  }, {
+    "reference": "R84",
+    "label": "Est-ce qu’il y a un signal lumineux  précédant l’ouverture et la fermeture des portes ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill22"],
+    "ruleImpacts": [{
+      "reference": "2629",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2630",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2631",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2632",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2633",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2634",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2635",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2636",
+      "impactValueRef": "2",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2637",
+      "impactValueRef": "2",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305170959"
+  }, {
+    "reference": "R85",
+    "label": "Est-ce qu’il y a une temporisation minimale de 6 secondes de l'ouverture et de la fermeture de la porte ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill19"],
+    "ruleImpacts": [{
+      "reference": "2638",
+      "impactValueRef": "3",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2639",
+      "impactValueRef": "3",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2640",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2641",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2642",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2643",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2644",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2645",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2646",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305171041"
+  }, {
+    "reference": "R86",
+    "label": "Est-ce qu’il y a une précision d'arrêt de 2 cm au maximum par rapport au palier, pour éviter les ressauts à l'entrée-sortie de la cabine ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill24"],
+    "ruleImpacts": [{
+      "reference": "2647",
+      "impactValueRef": "2",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2648",
+      "impactValueRef": "3",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2649",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2650",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2651",
+      "impactValueRef": "2",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2652",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2653",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2654",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2655",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305171123"
+  }, {
+    "reference": "R87",
+    "label": "Est-ce qu'il y a bien un dispositif de demande de secours (avertisseur) ?\r\nEst-ce que cet avertisseur est équipé de signalisations visuelle et sonore, avec :\r\n   > un pictogramme illuminé jaune, en complément du signal sonore de transmission de la demande, pour indiquer que la demande de secours a été émise ;\r\n   > un pictogramme illuminé vert, en complément du signal sonore normalement requis (liaison phonique), pour indiquer que la demande de secours a été enregistrée.",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill25"],
+    "ruleImpacts": [{
+      "reference": "2656",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2657",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2658",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2659",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2660",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2661",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2662",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2663",
+      "impactValueRef": "2",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2664",
+      "impactValueRef": "2",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305171212"
+  }, {
+    "reference": "R88",
+    "label": "Est-ce que l’ascenseur est équipé d'un interphone avec une boucle magnétique ? \r\nLe dispositif est-il signalé par un logo standardisé ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill16"],
+    "ruleImpacts": [{
+      "reference": "2665",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2666",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2667",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2668",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2669",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2670",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2671",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2672",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2673",
+      "impactValueRef": "2",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305171328"
+  }, {
+    "reference": "R89",
+    "label": "Est-ce qu’il y a une plaque d'information sur les appels d'urgence (114) ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill17"],
+    "ruleImpacts": [{
+      "reference": "2674",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2675",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2676",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2677",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2678",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2679",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2680",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2681",
+      "impactValueRef": "2",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2682",
+      "impactValueRef": "2",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305171404"
+  }, {
+    "reference": "R90",
+    "label": "Est-ce que, à l'extérieur de l'ascenseur, les boutons sont en relief pour offrir une meilleure distinction ?",
+    "userCredentials": {
+      "username": "adminService"
+    },
+    "illustration": [],
+    "ruleImpacts": [{
+      "reference": "802",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "803",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "804",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "805",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "806",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "807",
+      "impactValueRef": "3",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "808",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "809",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "810",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20171206094504"
+  }, {
+    "reference": "R91",
+    "label": "Est-ce que dans l'ascenseur,  les boutons sont en relief pour offrir une meilleure distinction ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill16"],
+    "ruleImpacts": [{
+      "reference": "2683",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2684",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2685",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2686",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2687",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2688",
+      "impactValueRef": "3",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2689",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2690",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2691",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305171550"
+  }, {
+    "reference": "R92",
+    "label": "Est-ce que, à l'extérieur de l'ascenseur,  les commandes palières (appel aux étages) utilisent des pictogrammes normalisés doublés en braille ?",
+    "userCredentials": {
+      "username": "adminService"
+    },
+    "illustration": [],
+    "ruleImpacts": [{
+      "reference": "820",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "821",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "822",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "823",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "824",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "825",
+      "impactValueRef": "3",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "826",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "827",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "828",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20171206094730"
+  }, {
+    "reference": "R93",
+    "label": "Est-ce que, à l'intérieur de l'ascenseur , les informations utiles (principalement commandes de l'ascenseur et interphone), utilisent des pictogrammes normalisés doublés en braille ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill18"],
+    "ruleImpacts": [{
+      "reference": "2692",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2693",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2694",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2695",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2696",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2697",
+      "impactValueRef": "3",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2698",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2699",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2700",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305171659"
+  }, {
+    "reference": "R94",
+    "label": "Est-ce que la hauteur des marches est inférieure ou égale à 18 cm ? ",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill73"],
+    "ruleImpacts": [{
+      "reference": "2701",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2702",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2703",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2704",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2705",
+      "impactValueRef": "2",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2706",
+      "impactValueRef": "2",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2707",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2708",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2709",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305171908"
+  }, {
+    "reference": "R95",
+    "label": "Est-ce que la profondeur de la marche (le giron) est supérieure ou égale à 25 cm ? ",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill73"],
+    "ruleImpacts": [{
+      "reference": "2710",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2711",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2712",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2713",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2714",
+      "impactValueRef": "2",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2715",
+      "impactValueRef": "2",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2716",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2717",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2718",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305171941"
+  }, {
+    "reference": "R96",
+    "label": "Il n'y a pas de débord des nez de marches par rapport à la contremarche ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill75"],
+    "ruleImpacts": [{
+      "reference": "2719",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2720",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2721",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2722",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2723",
+      "impactValueRef": "2",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2724",
+      "impactValueRef": "2",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2725",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2726",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2727",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305172016"
+  }, {
+    "reference": "R97",
+    "label": "Est-ce que les nez de marches sont dans une couleur contrastée, et non glissants ?  \r\nVérifier la présence d'une bande horizontale d'au moins 3 cm, contrastée et non glissante.",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill76"],
+    "ruleImpacts": [{
+      "reference": "2728",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2729",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2730",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2731",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2732",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2733",
+      "impactValueRef": "2",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2734",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2735",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2736",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305172056"
+  }, {
+    "reference": "R98",
+    "label": "Est-ce que la première marche est pourvue d’une contremarche visuellement contrastée ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill77"],
+    "ruleImpacts": [{
+      "reference": "2737",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2738",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2739",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2740",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2741",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2742",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2743",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2744",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2745",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305172137"
+  }, {
+    "reference": "R99",
+    "label": "Est-ce que la dernière marche est pourvue d’une contremarche visuellement contrastée ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill77"],
+    "ruleImpacts": [{
+      "reference": "2746",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2747",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2748",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2749",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2750",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2751",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2752",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2753",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2754",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305173532"
+  }, {
+    "reference": "R100",
+    "label": "Est-ce qu’il y a un revêtement de sol à contraste visuel et tactile à 50 cm de la première marche du haut de l'escalier ? (éveil de la vigilance)",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill79"],
+    "ruleImpacts": [{
+      "reference": "2755",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2756",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2757",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2758",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2759",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2760",
+      "impactValueRef": "3",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2761",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2762",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2763",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305173628"
+  }, {
+    "reference": "R101",
+    "label": "Est-ce que les numéros d'étages sont gravés à chaque niveau ?",
+    "userCredentials": {
+      "username": "adminService"
+    },
+    "illustration": [],
+    "ruleImpacts": [{
+      "reference": "901",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "902",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "903",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "904",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "905",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "906",
+      "impactValueRef": "2",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "907",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "908",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "909",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20171206095605"
+  }, {
+    "reference": "R102",
+    "label": "Est-ce qu'il est possible de se tenir sur un côté de l'escalier ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill80"],
+    "ruleImpacts": [{
+      "reference": "2764",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2765",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2766",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2767",
+      "impactValueRef": "2",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2768",
+      "impactValueRef": "2",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2769",
+      "impactValueRef": "2",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2770",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2771",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2772",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305173706"
+  }, {
+    "reference": "R103",
+    "label": "Est-ce qu’il existe un aménagement sans marches permettant d'accéder au niveau ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill74"],
+    "ruleImpacts": [{
+      "reference": "2773",
+      "impactValueRef": "3",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2774",
+      "impactValueRef": "3",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2775",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2776",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2777",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2778",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2779",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2780",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2781",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305173749"
+  }, {
+    "reference": "R104",
+    "label": "Est-ce que les mains-courantes sont situées à une hauteur comprise entre 80 cm et 100 cm ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill87"],
+    "ruleImpacts": [{
+      "reference": "2782",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2783",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2784",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2785",
+      "impactValueRef": "2",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2786",
+      "impactValueRef": "2",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2787",
+      "impactValueRef": "2",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2788",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2789",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2790",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305173930"
+  }, {
+    "reference": "R105",
+    "label": "Est-ce que les mains courantes sont continues, rigides et facilement préhensibles ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill88"],
+    "ruleImpacts": [{
+      "reference": "2791",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2792",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2793",
+      "impactValueRef": "2",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2794",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2795",
+      "impactValueRef": "2",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2796",
+      "impactValueRef": "2",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2797",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2798",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2799",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305174041"
+  }, {
+    "reference": "R106",
+    "label": "Est-ce que les mains courantes ont un éclairage intégré, ou présentent un bon contraste visuel ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": [],
+    "ruleImpacts": [{
+      "reference": "2800",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2801",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2802",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2803",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2804",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2805",
+      "impactValueRef": "2",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2806",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2807",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2808",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180305174716"
+  }, {
+    "reference": "R107",
+    "label": "Est-ce qu’il y a des panneaux orientés de façon à éviter tout effet d'éblouissement, de reflet ou de contre-jour dû à la luminosité ?",
+    "userCredentials": {
+      "username": "adminService"
+    },
+    "illustration": [],
+    "ruleImpacts": [{
+      "reference": "955",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "956",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "957",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "958",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "959",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "960",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "961",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "962",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "963",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20171206095810"
+  }, {
+    "reference": "R108",
+    "label": "Est-ce qu’une  personne malvoyante peut s'approcher à moins de 150 cm de la signalisation ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill109"],
+    "ruleImpacts": [{
+      "reference": "2809",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2810",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2811",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2812",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2813",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2814",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2815",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2816",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2817",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180307164640"
+  }, {
+    "reference": "R109",
+    "label": "Est-ce que la hauteur des caractères d'écriture est :\r\n   > supérieure à 15 mm pour les éléments de signalisation et d'information relatifs à l'orientation ?\r\n   > supérieure à 4,5 mm dans les autres cas ?\r\n   > proportionnelle à la distance de lecture ?\r\n      (voir l'illustration n°2 pour des précisions)",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill110"],
+    "ruleImpacts": [{
+      "reference": "2818",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2819",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2820",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2821",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2822",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2823",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2824",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2825",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2826",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180307164743"
+  }, {
+    "reference": "R110",
+    "label": "Est-ce que l’affichage a un contraste suffisamment élevé (blanc sur noir) ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill111"],
+    "ruleImpacts": [{
+      "reference": "2827",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2828",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2829",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2830",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2831",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2832",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2833",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2834",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2835",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180307164824"
+  }, {
+    "reference": "R111",
+    "label": "Est-ce que l’Information affichée est claire, explicite et compréhensible (ex : Utilisation de pictogrammes,…)",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill112"],
+    "ruleImpacts": [{
+      "reference": "2836",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2837",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2838",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2839",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2840",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2841",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2842",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2843",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2844",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180307164923"
+  }, {
+    "reference": "R115",
+    "label": "Est-ce que les boutons sont  facilement repérables ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill139"],
+    "ruleImpacts": [{
+      "reference": "2881",
+      "impactValueRef": "1",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2882",
+      "impactValueRef": "1",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2883",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2884",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2885",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2886",
+      "impactValueRef": "2",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2887",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2888",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2889",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180307170534"
+  }, {
+    "reference": "R116",
+    "label": "Est-ce qu’il y a un dispositif sans contact, ou des boutons d'appel facilement activables (de 2.5 à 5 Newton maximum ) ? ",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill37"],
+    "ruleImpacts": [{
+      "reference": "2890",
+      "impactValueRef": "2",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2891",
+      "impactValueRef": "2",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2892",
+      "impactValueRef": "1",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2893",
+      "impactValueRef": "2",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2894",
+      "impactValueRef": "1",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2895",
+      "impactValueRef": "1",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2896",
+      "impactValueRef": "1",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2897",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2898",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180307170631"
+  }, {
+    "reference": "R119",
+    "label": "Est-ce qu’une personne à mobilité réduite peut atteindre la porte et entamer la manœuvre d'ouverture avant que la porte ne soit à nouveau verrouillée lors du déverrouillage de l'accès ?",
+    "userCredentials": {
+      "username": "Gzan"
+    },
+    "illustration": ["Ill40"],
+    "ruleImpacts": [{
+      "reference": "2926",
+      "impactValueRef": "3",
+      "profileTypeRef": "P1"
+    }, {
+      "reference": "2927",
+      "impactValueRef": "3",
+      "profileTypeRef": "P2"
+    }, {
+      "reference": "2928",
+      "impactValueRef": "3",
+      "profileTypeRef": "P3"
+    }, {
+      "reference": "2929",
+      "impactValueRef": "1",
+      "profileTypeRef": "P4"
+    }, {
+      "reference": "2930",
+      "impactValueRef": "2",
+      "profileTypeRef": "P5"
+    }, {
+      "reference": "2931",
+      "impactValueRef": "2",
+      "profileTypeRef": "P6"
+    }, {
+      "reference": "2932",
+      "impactValueRef": "2",
+      "profileTypeRef": "P7"
+    }, {
+      "reference": "2933",
+      "impactValueRef": "1",
+      "profileTypeRef": "P8"
+    }, {
+      "reference": "2934",
+      "impactValueRef": "1",
+      "profileTypeRef": "P9"
+    }],
+    "date": "20180307171739"
+  }],
+  "illustrations": [{
+    "reference": "Ill2",
+    "image": "125746cc-f1e3-43c5-b25b-1046662d9929.jpg",
+    "comment": "Origine de la recommandation : Arrêtés du 1er août 2006 et du 30 novembre 2007, Article 10 - Dispositions relatives aux portes, portiques et sas",
+    "date": "20171205163912"
+  }, {
+    "reference": "Ill3",
+    "image": "13be07a1-b15e-4108-87fd-e7a98901d440.jpg",
+    "comment": "Origine de la recommandation : Arrêtés du 1er août 2006 et du 30 novembre 2007, Article 10 - Dispositions relatives aux portes, portiques et sas",
+    "date": "20171205163949"
+  }, {
+    "reference": "Ill4",
+    "image": "6bee116a-8d69-4f6c-b931-3ef9a2040241.jpg",
+    "comment": "",
+    "date": "20171205164008"
+  }, {
+    "reference": "Ill8",
+    "image": "8835af8f-76f6-4b26-b753-5cb0adfc9302.jpg",
+    "comment": "Origine de la recommandation : bon usage-amélioration / Arrêtés du 1er août 2006 et du 30 novembre 2007, Article 10 - Dispositions relatives aux portes, portiques et sas",
+    "date": "20180105150023"
+  }, {
+    "reference": "Ill139",
+    "image": "8efec523-9668-4a50-8605-81f976004533.jpg",
+    "comment": "",
+    "date": "20180307170451"
+  }, {
+    "reference": "Ill15",
+    "image": "6d8b3950-41e3-4f64-92ef-5061bc510ac7.jpg",
+    "comment": "Origine de la recommandation : bon usage-amélioration / Arrêtés du 1er août 2006 et du 30 novembre 2007, Article 7-2. dispositions relatives aux circulations intérieures verticales",
+    "date": "20180227135325"
+  }, {
+    "reference": "Ill16",
+    "image": "26343375-709c-45d9-b6b5-1bff7b6d73b6.jpg",
+    "comment": "Origine de la recommandation associée : arrêtés du 1er août 2006 et du 30 novembre 2007, Article 7-2. dispositions relatives aux circulations intérieures verticales",
+    "date": "20180227135408"
+  }, {
+    "reference": "Ill17",
+    "image": "705fe6f4-96b4-4c03-9330-b2a03140c9db.jpg",
+    "comment": "Origine de la recommandation associée : arrêtés du 1er août 2006 et du 30 novembre 2007, Article 7-2. dispositions relatives aux circulations intérieures verticales",
+    "date": "20180227135620"
+  }, {
+    "reference": "Ill18",
+    "image": "acda7f21-0ea8-422c-8357-3fcf335919ae.jpg",
+    "comment": "Origine de la recommandation associée : arrêtés du 1er août 2006 et du 30 novembre 2007, Article 7-2. dispositions relatives aux circulations intérieures verticales",
+    "date": "20180227135825"
+  }, {
+    "reference": "Ill19",
+    "image": "084aaa28-df91-42aa-8de2-e1ec84e29999.jpg",
+    "comment": "Origine de la recommandation associée : arrêtés du 1er août 2006 et du 30 novembre 2007, Article 7-2. dispositions relatives aux circulations intérieures verticales",
+    "date": "20180227135945"
+  }, {
+    "reference": "Ill20",
+    "image": "cb11aca9-cb7d-4a3b-90cb-03104933e3c2.jpg",
+    "comment": "Origine de la recommandation associée : arrêtés du 1er août 2006 et du 30 novembre 2007, Article 7-2. dispositions relatives aux circulations intérieures verticales",
+    "date": "20180227140016"
+  }, {
+    "reference": "Ill21",
+    "image": "e15069cf-56a5-49e5-9844-8ade07a9a8bf.jpg",
+    "comment": "Origine de la recommandation associée : arrêtés du 1er août 2006 et du 30 novembre 2007, Article 7-2. dispositions relatives aux circulations intérieures verticales",
+    "date": "20180227142417"
+  }, {
+    "reference": "Ill22",
+    "image": "7f3bec3d-a8ed-40fd-9439-116ed34214ad.jpg",
+    "comment": "Origine de la recommandation associée : arrêtés du 1er août 2006 et du 30 novembre 2007, Article 7-2. dispositions relatives aux circulations intérieures verticales",
+    "date": "20180227142521"
+  }, {
+    "reference": "Ill23",
+    "image": "942ec004-e851-4f33-b940-a6eeb02a7b27.jpg",
+    "comment": "Origine de la recommandation associée : arrêtés du 1er août 2006 et du 30 novembre 2007, Article 7-2. dispositions relatives aux circulations intérieures verticales",
+    "date": "20180227142713"
+  }, {
+    "reference": "Ill24",
+    "image": "f088f2b1-eadf-4773-9d26-fc7f1b4bf9b7.jpg",
+    "comment": "Origine de la recommandation associée : arrêtés du 1er août 2006 et du 30 novembre 2007, Article 7-2. dispositions relatives aux circulations intérieures verticales",
+    "date": "20180227142749"
+  }, {
+    "reference": "Ill25",
+    "image": "47b13e5c-8bf5-4adb-8017-360e22ed059b.jpg",
+    "comment": "Origine de la recommandation associée : arrêtés du 1er août 2006 et du 30 novembre 2007, Article 7-2. dispositions relatives aux circulations intérieures verticales",
+    "date": "20180227142844"
+  }, {
+    "reference": "Ill31",
+    "image": "2c34db03-d782-4fad-85cd-0fa9185337f3.jpg",
+    "comment": "Origine de la recommandation : Bon usage-recommandation / Arrêté du 15 janvier 2007 modifié le 18 septembre 2012, relatifs à l’accessibilité de la voirie aux personnes handicapées, qui précise la façon de procéder : Pour plus de visibilité, la borne présente une partie de couleur contrastée constituée d'une bande > d'au moins 10 cm de hauteur, apposée sur le pourtour du support ou sur chacune de ses faces, > sur une longueur au moins égale au tiers de sa largeur, > dans la partie haute des bornes et poteaux d'une hauteur inférieure ou égale à 1,30 m",
+    "date": "20180227145121"
+  }, {
+    "reference": "Ill32",
+    "image": "da7659e4-28f8-4bb3-88fc-55be6e777616.jpg",
+    "comment": "Origine de la recommandation : Arrêté du 15 janvier 2007 modifié le 18 septembre 2012, relatifs à l’accessibilité de la voirie aux personnes handicapées.",
+    "date": "20180227145155"
+  }, {
+    "reference": "Ill33",
+    "image": "30f8a825-df33-4531-a404-93fade60115f.jpg",
+    "comment": "Origine de la recommandation : Arrêtés du 1er août 2006 et du 30 novembre 2007, Articles 2 et 6 : dispositions relatives aux cheminements extérieurs et intérieures horizontales.",
+    "date": "20180228094023"
+  }, {
+    "reference": "Ill35",
+    "image": "accb879e-965b-4d87-b148-4b65b9934ea6.jpg",
+    "comment": "Origine de la recommandation : Bon usage-amélioration / Arrêtés du 1er août 2006 et du 30 novembre 2007, Article 11 - dispositions relatives aux équipements, mobiliers et dispositifs de commande et de service intérieurs et extérieurs",
+    "date": "20180227145529"
+  }, {
+    "reference": "Ill36",
+    "image": "b2a53912-2cad-4347-944b-a84c2b8e87c2.jpg",
+    "comment": "Origine de la recommandation : Bon usage-amélioration / Arrêtés du 1er août 2006 et du 30 novembre 2007, Article 11 - dispositions relatives aux équipements, mobiliers et dispositifs de commande et de service intérieurs et extérieurs",
+    "date": "20180227145632"
+  }, {
+    "reference": "Ill37",
+    "image": "c65b2109-726f-4672-8d09-2c9912a28c27.jpg",
+    "comment": "Asseyez-vous devant le dispositif de commande et appuyez sur le bouton dans cette position, si c’est difficile utilisez un newton-mètre. Origine de la recommandation : Bon usage-amélioration / Arrêtés du 1er août 2006 et du 30 novembre 2007, Article 11 - dispositions relatives aux équipements, mobiliers et dispositifs de commande et de service intérieurs et extérieurs",
+    "date": "20180227145954"
+  }, {
+    "reference": "Ill40",
+    "image": "fab0b05d-b792-4e81-9014-9374fd1b5d2c.jpg",
+    "comment": "",
+    "date": "20180228091809"
+  }, {
+    "reference": "Ill41",
+    "image": "f8748e63-b470-4908-9709-d3f45071f6ed.jpg",
+    "comment": "Origine de la recommandation : Arrêtés du 1er août 2006 et du 30 novembre 2007, Articles 2 et 6 : dispositions relatives aux cheminements extérieurs et intérieures horizontales.",
+    "date": "20180228091846"
+  }, {
+    "reference": "Ill42",
+    "image": "a3ec53aa-4f11-47c6-9580-9028bfcd56c9.jpg",
+    "comment": "Origine de la recommandation : Arrêtés du 1er août 2006 et du 30 novembre 2007, Articles 2 et 6 : dispositions relatives aux cheminements extérieurs et intérieures horizontales.",
+    "date": "20180228091933"
+  }, {
+    "reference": "Ill43",
+    "image": "7b29eb6d-b8f9-4c74-bc24-5e62a06d53f2.jpg",
+    "comment": "Origine de la recommandation : Arrêtés du 1er août 2006 et du 30 novembre 2007, Articles 2 et 6 : dispositions relatives aux cheminements extérieurs et intérieures horizontales.",
+    "date": "20180228172042"
+  }, {
+    "reference": "Ill45",
+    "image": "186a14a8-6671-4970-8c95-b90a63e17ebd.jpg",
+    "comment": "Origine de la recommandation : Arrêtés du 1er août 2006 et du 30 novembre 2007, Articles 2 et 6 : dispositions relatives aux cheminements extérieurs et intérieures horizontales.",
+    "date": "20180228172434"
+  }, {
+    "reference": "Ill46",
+    "image": "0cdcb0bb-6bb5-468b-b50b-aa3cf0145a56.jpg",
+    "comment": "Origine de la recommandation : Arrêtés du 1er août 2006 et du 30 novembre 2007, Articles 2 et 6 : dispositions relatives aux cheminements extérieurs et intérieures horizontales.",
+    "date": "20180228172425"
+  }, {
+    "reference": "Ill47",
+    "image": "d8020db9-49fb-47b1-b7d6-027053da8836.jpg",
+    "comment": "Origine de la recommandation : bon usage-amélioration / Arrêtés du 1er août 2006 et du 30 novembre 2007, Articles 2 et 6 : dispositions relatives aux cheminements extérieurs et intérieures horizontales",
+    "date": "20180228093121"
+  }, {
+    "reference": "Ill48",
+    "image": "d0a894b8-d412-49e5-95a3-eb73775aa9a0.jpg",
+    "comment": "Origine de la recommandation : Arrêtés du 1er août 2006 et du 30 novembre 2007, Articles 2 et 6 : dispositions relatives aux cheminements extérieurs et intérieures horizontales.",
+    "date": "20180228094059"
+  }, {
+    "reference": "Ill55",
+    "image": "7cca9d69-3eb4-4465-86aa-44b3455f15ad.jpg",
+    "comment": "Testez en respectant la vitesse moyenne de la marche à pied. Origine de la recommandation : Arrêtés du 1er août 2006 et du 30 novembre 2007, Articles 2 et 6 : dispositions relatives aux cheminements extérieurs et intérieures horizontales.",
+    "date": "20180228104522"
+  }, {
+    "reference": "Ill62",
+    "image": "ae27d680-ff07-45f8-987a-1dedea0df984.jpg",
+    "comment": "Origine de la recommandation : Arrêtés du 1er août 2006 et du 30 novembre 2007, Article 7-2. dispositions relatives aux circulations intérieures verticales, normes NF 82-222 et NF XP 22-261 et normes européennes pr EN 82-40 et pr EN 82-40",
+    "date": "20180228105106"
+  }, {
+    "reference": "Ill63",
+    "image": "2b7d4301-45db-4a50-9449-701ba0d8fa96.jpg",
+    "comment": "Origine de la recommandation : Arrêtés du 1er août 2006 et du 30 novembre 2007, Article 7-2. dispositions relatives aux circulations intérieures verticales, normes NF 82-222 et NF XP 22-261 et normes européennes pr EN 82-40 et pr EN 82-41",
+    "date": "20180309133318"
+  }, {
+    "reference": "Ill64",
+    "image": "044f7971-840f-42bd-aee4-82da6775af5e.jpg",
+    "comment": "Le schéma présente des recommandations de positionnement en hauteur un peu plus exigeantes que la règle énoncée. Ce sont les hauteurs des boutons de commande qui comptent, pas du boitier. Origine de la recommandation : Arrêtés du 1er août 2006 et du 30 novembre 2007, Article 7-2. dispositions relatives aux circulations intérieures verticales, normes NF 82-222 et NF XP 22-261 et normes européennes pr EN 82-40 et pr EN 82-43",
+    "date": "20180309142441"
+  }, {
+    "reference": "Ill66",
+    "image": "1003baad-2d49-4b9a-936f-db97228eb09b.jpg",
+    "comment": "Origine de la recommandation : Arrêtés du 1er août 2006 et du 30 novembre 2007, Article 7-2. dispositions relatives aux circulations intérieures verticales, normes NF 82-222 et NF XP 22-261 et normes européennes pr EN 82-40 et pr EN 82-43",
+    "date": "20180228105422"
+  }, {
+    "reference": "Ill73",
+    "image": "f51ef559-653d-4897-8eec-8c294d132edc.jpg",
+    "comment": "Origine de la recommandation : Bon usage-amélioration / Arrêtés du 1er août 2006 et du 30 novembre 2007, Article 7-1. dispositions relatives aux circulations verticales",
+    "date": "20180228110707"
+  }, {
+    "reference": "Ill74",
+    "image": "6de3e593-909c-493f-8ba6-48b44514c4b7.jpg",
+    "comment": "Origine de la recommandation : Bon usage-amélioration / Arrêtés du 1er août 2006 et du 30 novembre 2007, Article 7-1. dispositions relatives aux circulations verticales",
+    "date": "20180228110839"
+  }, {
+    "reference": "Ill75",
+    "image": "5cdd79d7-6af8-489c-984d-8ae25a2fbc18.jpg",
+    "comment": "Origine de la recommandation : Bon usage-amélioration / Arrêtés du 1er août 2006 et du 30 novembre 2007, Article 7-1. dispositions relatives aux circulations verticales",
+    "date": "20180228110927"
+  }, {
+    "reference": "Ill76",
+    "image": "44ab6782-518e-44c4-8895-523b8e67e156.jpg",
+    "comment": "Origine de la recommandation : Bon usage-amélioration / Arrêtés du 1er août 2006 et du 30 novembre 2007, Article 7-1. dispositions relatives aux circulations verticales",
+    "date": "20180228111001"
+  }, {
+    "reference": "Ill77",
+    "image": "c5ad2960-004f-482f-8d16-50c1bf9809c5.jpg",
+    "comment": "Origine de la recommandation : Bon usage-amélioration / Arrêtés du 1er août 2006 et du 30 novembre 2007, Article 7-1. dispositions relatives aux circulations verticales",
+    "date": "20180305173311"
+  }, {
+    "reference": "Ill79",
+    "image": "255a0cb6-797d-4ea5-b35a-8ec39c0b3cf7.jpg",
+    "comment": "Origine de la recommandation : Bon usage-amélioration / Arrêtés du 1er août 2006 et du 30 novembre 2007, Article 7-1. dispositions relatives aux circulations verticales",
+    "date": "20180228111151"
+  }, {
+    "reference": "Ill80",
+    "image": "1bb66ac7-c383-4d7c-a895-052b74b47431.jpg",
+    "comment": "Origine de la recommandation : Bon usage-amélioration / Arrêtés du 1er août 2006 et du 30 novembre 2007, Article 7-1. dispositions relatives aux circulations verticales",
+    "date": "20180228125554"
+  }, {
+    "reference": "Ill85",
+    "image": "dd6d168b-64d2-453f-9a17-c29d00d22b7a.jpg",
+    "comment": "Origine de la recommandation : Bon usage-amélioration / Arrêtés du 1er août 2006 et du 30 novembre 2007 Article 4 - dispositions relatives aux accès à l’établissement ou l’installation",
+    "date": "20180228142722"
+  }, {
+    "reference": "Ill86",
+    "image": "",
+    "comment": "Origine de la recommandation : Arrêtés du 08 décembre 2014 - dispositions relatives à l’éclairage L'éclairage permet d´assurer des valeurs d´éclairement moyen horizontal, mesurées au sol le long du parcours usuel de circulation en tenant compte des zones de transition entre les tronçons d´un parcours, d´au moins : 20 lux pour le cheminement extérieur accessible ainsi que les parcs de stationnement extérieurs et leurs circulations piétonnes accessibles ; 20 lux pour les parcs de stationnement intérieurs et leurs circulations piétonnes accessibles ; 200 lux au droit des postes d´accueil ; 100 lux pour les circulations intérieures horizontales ; 150 lux pour chaque escalier et équipement mobile.",
+    "date": "20180228142915"
+  }, {
+    "reference": "Ill87",
+    "image": "738c9d58-e879-48ce-9a2e-3e52893106ac.jpg",
+    "comment": "Origine de la recommandation : Bon usage-amélioration / Arrêtés du 1er août 2006 et du 30 novembre 2007, Article 7-1. dispositions relatives aux circulations verticales",
+    "date": "20180228143329"
+  }, {
+    "reference": "Ill88",
+    "image": "2bf77082-d3a7-4b31-9195-3bf4398ab9de.jpg",
+    "comment": "Origine de la recommandation : Bon usage-amélioration / Arrêtés du 1er août 2006 et du 30 novembre 2007, Article 7-1. dispositions relatives aux circulations verticales",
+    "date": "20180228143421"
+  }, {
+    "reference": "Ill89",
+    "image": "0ed73164-d9d2-48e7-a84e-6b39aeb5832c.jpg",
+    "comment": "",
+    "date": "20180228143504"
+  }, {
+    "reference": "Ill90",
+    "image": "1fb60f98-dfea-4429-88bb-09f676c0137c.jpg",
+    "comment": "Origine de la recommandation : bon usage-amélioration / Arrêtés du 1er août 2006 et du 30 novembre 2007, Article 10 - dispositions relatives aux portes, portiques et sas",
+    "date": "20180228143542"
+  }, {
+    "reference": "Ill91",
+    "image": "171c09aa-f517-4cff-9a03-9c3fe7040f15.jpg",
+    "comment": "Il faut prévoir une temporisation suffisante et un système pour éviter les pincements",
+    "date": "20180228143731"
+  }, {
+    "reference": "Ill92",
+    "image": "2017fa8c-c377-459c-a473-c11a25fdd25c.jpg",
+    "comment": "Contrôler avec le responsable sécurité du site si les portes automatiques peuvent être déverrouillées à la main",
+    "date": "20180228143918"
+  }, {
+    "reference": "Ill93",
+    "image": "83885bac-e91a-48bd-ba74-312f806f9bbc.jpg",
+    "comment": "Quand une porte s'ouvre facilement, c'est agréable pour tout le monde",
+    "date": "20180228144124"
+  }, {
+    "reference": "Ill94",
+    "image": "b6a04bae-4d2c-456e-b58f-780728571e28.jpg",
+    "comment": "Asseyez-vous devant la porte et essayez de la tirer ou de la pousser, si elle résiste utilisez un newton-mètre.",
+    "date": "20180228144344"
+  }, {
+    "reference": "Ill109",
+    "image": "ad49b6b7-234d-4083-a95d-152d1aee89c5.jpg",
+    "comment": "Origine de la recommandation : Bon usage-amélioration /Arrêtés du 1er août 2006 et du 30 novembre 2007 Article 4 - dispositions relatives aux accès à l’établissement ou l’installation",
+    "date": "20180228150840"
+  }, {
+    "reference": "Ill110",
+    "image": "d94aa5d1-702e-4843-8111-06ec037766ff.jpg",
+    "comment": "Origine de la recommandation : Bon usage-amélioration /Arrêtés du 1er août 2006 et du 30 novembre 2007 Article 4 - dispositions relatives aux accès à l’établissement ou l’installation",
+    "date": "20180228150930"
+  }, {
+    "reference": "Ill111",
+    "image": "f78117df-732c-4fd8-b090-14b338815eb0.jpg",
+    "comment": "Origine de la recommandation : Bon usage-amélioration /Arrêtés du 1er août 2006 et du 30 novembre 2007 Article 4 - dispositions relatives aux accès à l’établissement ou l’installation",
+    "date": "20180228151004"
+  }, {
+    "reference": "Ill112",
+    "image": "641ee997-9420-41ec-b68a-e40740b6fda8.jpg",
+    "comment": "",
+    "date": "20180228151027"
+  }],
+  "impactValues": [{
+    "reference": "1",
+    "name": "Non concerné",
+    "editable": false
+  }, {
+    "reference": "2",
+    "name": "Gênant",
+    "editable": false
+  }, {
+    "reference": "3",
+    "name": "Bloquant",
+    "editable": false
+  }],
+  "profileTypes": [{
+    "name": "Fauteuil roulant électrique",
+    "reference": "P1",
+    "icon": "fb459489-ddff-4994-b406-1850a88e00ea.jpg",
+    "rulesCategories": [{
+      "name": "Accessibilité des locaux",
+      "acceptedImpactList": ["1", "2", "3"],
+      "defaultImpact": "1"
+    }]
+  }, {
+    "name": "Fauteuil roulant manuel",
+    "reference": "P2",
+    "icon": "4ce5c5db-86e9-4097-b42a-8b6730c43d79.jpg",
+    "rulesCategories": [{
+      "name": "Accessibilité des locaux",
+      "acceptedImpactList": ["1", "2", "3"],
+      "defaultImpact": "1"
+    }]
+  }, {
+    "name": "Difficultés de déplacement",
+    "reference": "P3",
+    "icon": "d0da1873-3ea4-4b57-8db2-111b966c835f.jpg",
+    "rulesCategories": [{
+      "name": "Accessibilité des locaux",
+      "acceptedImpactList": ["1", "2", "3"],
+      "defaultImpact": "1"
+    }]
+  }, {
+    "name": "Difficultés de préhension",
+    "reference": "P4",
+    "icon": "77087514-3cf6-42e1-9f66-423a538a9a63.jpg",
+    "rulesCategories": [{
+      "name": "Accessibilité des locaux",
+      "acceptedImpactList": ["1", "2", "3"],
+      "defaultImpact": "1"
+    }]
+  }, {
+    "name": "Petite taille",
+    "reference": "P5",
+    "icon": "4aab669f-bece-4b75-aa91-e0023905cc24.jpg",
+    "rulesCategories": [{
+      "name": "Accessibilité des locaux",
+      "acceptedImpactList": ["1", "2", "3"],
+      "defaultImpact": "1"
+    }]
+  }, {
+    "name": "Non-voyant",
+    "reference": "P6",
+    "icon": "d73ed932-f886-4e3c-af75-f81910d584e4.jpg",
+    "rulesCategories": [{
+      "name": "Accessibilité des locaux",
+      "acceptedImpactList": ["1", "2", "3"],
+      "defaultImpact": "1"
+    }]
+  }, {
+    "name": "Mal-voyant",
+    "reference": "P7",
+    "icon": "12ed5b90-f615-47e7-bf40-0089aff4b98d.jpg",
+    "rulesCategories": [{
+      "name": "Accessibilité des locaux",
+      "acceptedImpactList": ["1", "2", "3"],
+      "defaultImpact": "1"
+    }]
+  }, {
+    "name": "Sourd",
+    "reference": "P8",
+    "icon": "2ee93348-01e1-48e5-a316-b3860bb4c4d0.jpg",
+    "rulesCategories": [{
+      "name": "Accessibilité des locaux",
+      "acceptedImpactList": ["1", "2", "3"],
+      "defaultImpact": "1"
+    }]
+  }, {
+    "name": "Mal-entendant",
+    "reference": "P9",
+    "icon": "a81ddbff-fc8d-4b30-8aae-2cf2e295dbb4.jpg",
+    "rulesCategories": [{
+      "name": "Accessibilité des locaux",
+      "acceptedImpactList": ["1", "2", "3"],
+      "defaultImpact": "1"
+    }]
+  }],
+  "date": "20180320141036"
+}

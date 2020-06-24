@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2020 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ResultHeadingContent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:stretchColumns="1">
+
+        <!-- Audit name row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                style="@style/DetailCellHeader"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/audit_results_details_audit_name" />
+
+            <TextView
+                android:id="@+id/audit_name"
+                style="@style/DetailCell"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2" />
+
+        </LinearLayout>
+
+        <!-- Site row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+
+            <TextView
+                style="@style/DetailCellHeader"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/audit_results_details_site" />
+
+            <TextView
+                android:id="@+id/audit_site"
+                style="@style/DetailCell"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2" />
+
+        </LinearLayout>
+
+        <!-- Auditor row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+
+            <TextView
+                style="@style/DetailCellHeader"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/audit_results_details_user" />
+
+            <TextView
+                android:id="@+id/audit_user"
+                style="@style/DetailCell"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2" />
+
+        </LinearLayout>
+
+        <!-- Audit type row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                style="@style/DetailCellHeader"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/audit_results_details_audit_type" />
+
+            <TextView
+                android:id="@+id/audit_type"
+                style="@style/DetailCell"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2" />
+
+        </LinearLayout>
+
+
+        <!-- Audit date row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+
+            <TextView
+                style="@style/DetailCellHeader"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/audit_results_details_audit_date" />
+
+            <TextView
+                android:id="@+id/audit_date"
+                style="@style/DetailCell"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/resultDetailChartMinHeight"
+        android:layout_marginBottom="@dimen/defaultMarginBottom"
+        android:layout_marginTop="@dimen/defaultMarginTop"
+        android:background="@drawable/audit_path_border"
+        android:paddingBottom="@dimen/defaultMarginBottom"
+        android:paddingTop="@dimen/defaultMarginTop">
+
+        <TextView
+            android:id="@+id/chart_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="@dimen/defaultMarginBottom"
+            android:layout_toLeftOf="@+id/next_chart_button"
+            android:layout_toRightOf="@+id/previous_chart_button"
+            android:layout_toStartOf="@+id/next_chart_button"
+            android:gravity="center"
+            android:text="chart title"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/previous_chart_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_arrow_left"
+            android:visibility="invisible" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/chart_pager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/previous_chart_button"
+            android:layout_below="@+id/chart_title"
+            android:layout_toLeftOf="@+id/next_chart_button"
+            android:layout_toRightOf="@+id/previous_chart_button" />
+
+        <ImageView
+            android:id="@+id/next_chart_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_arrow_right"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+    <com.orange.ocara.ui.view.CustomGridView
+        android:id="@+id/chart_choices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/defaultMarginTop"
+        android:choiceMode="multipleChoice"
+        android:drawSelectorOnTop="false"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="5"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth" />
+
+
+</LinearLayout>

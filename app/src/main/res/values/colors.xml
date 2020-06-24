@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2020 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  -->
+
+<resources>
+
+    <!-- Material design -->
+    <color name="primary">#B0BEC5</color>
+    <color name="primaryDark">#607D8B</color>
+    <color name="primaryLight">#CFD8DC</color>
+    <color name="accent">@color/orange</color>
+    <color name="primaryText">@color/black90</color>
+    <color name="secondaryText">@color/black60</color>
+
+    <!-- Window -->
+    <color name="windowBackground">#FAFAFA</color>
+    <color name="gridBackground">#DDDDDD</color>
+    <color name="divider">@color/black15</color>
+
+    <!-- tab -->
+    <color name="tabBackground">@color/primary</color>
+    <color name="tabTextColorSelected">@color/primaryText</color>
+    <color name="tabTextColorUnselected">@color/secondaryText</color>
+    <color name="tabIndicatorColor">@color/accent</color>
+    <color name="tabUnderlineColor">#E2E3EA</color>
+
+    <!-- button -->
+    <color name="buttonBackgroundDefault">@color/black15</color>
+    <color name="buttonBackgroundPressed">@color/black40</color>
+    <color name="buttonBackgroundFocused">@color/black40</color>
+    <color name="buttonBackgroundDisabled">@color/black10</color>
+    <color name="buttonTextColorPressed">@color/black40</color>
+    <color name="buttonTextColorDisabled">@color/black40</color>
+    <color name="buttonTextColorDefault">@color/black</color>
+
+    <!-- CustomViewFlipper -->
+    <color name="circle_enabled">#FF8800</color>
+    <color name="circle_disabled">#CCCCCC</color>
+
+    <!-- switch -->
+    <color name="switchDefaultBackground">@color/black15</color>
+    <color name="switchThumbBackground">@color/accent</color>
+
+    <!-- result resume table colors -->
+    <color name="resultTableHeader">@color/grey_light</color>
+    <color name="resultTableColorOdd">@color/transparent</color>
+    <color name="resultTableColorEven">@color/orange_light</color>
+
+
+    <color name="text_color_default">#00000C</color>
+    <color name="text_color_inverse">#FFFFFF</color>
+
+
+    <!-- Color Palette from Orange Guildeline -->
+    <color name="transparent">@android:color/transparent</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black10">#1A000000</color>
+    <color name="black15">#26000000</color>
+    <color name="black40">#66000000</color>
+    <color name="black50">#80000000</color>
+    <color name="black60">#98000000</color>
+    <color name="black90">#E5000000</color>
+    <color name="black">#000000</color>
+    <color name="blue">#4E6CEF</color>
+    <color name="red">#DD2C00</color>
+    <color name="yellow">#FFD600</color>
+    <color name="green">#259B24</color>
+    <color name="orange">#EF6C00</color>
+    <color name="orange_fallback">#FFA726</color>
+    <color name="orange_light">#FFCC80</color>
+    <color name="grey">#ffaaaaaa</color>
+    <color name="grey_light">#ffcccccc</color>
+    <color name="dark_grey">#656565</color>
+
+
+    <!--<color name="colorPrimary">#008577</color>-->
+    <!--<color name="colorPrimaryDark">#00574B</color>-->
+    <!--<color name="colorAccent">#D81B60</color>-->
+
+    <!-- colors for button style -->
+    <color name="gradient_start_color">#4c84ff</color>
+    <color name="gradient_end_color">#18a3fe</color>
+
+    <!-- colors for tab and screen text -->
+    <color name="tab_indicator_gray">#c0c0c0</color>
+    <color name="intro_description_color">#656565</color>
+    <color name="intro_title_color">#000000</color>
+</resources>

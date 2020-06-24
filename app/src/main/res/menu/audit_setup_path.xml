@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2020 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_update"
+        android:icon="@drawable/ic_edit"
+        android:title="@string/action_update"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/action_report"
+        android:icon="@drawable/ic_report"
+        android:title="@string/action_report"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/action_comment"
+        android:icon="@drawable/ic_comment"
+        android:title="@string/action_comment"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/delete_path"
+        android:title="@string/action_delete_path"
+        app:showAsAction="never" />
+
+</menu>

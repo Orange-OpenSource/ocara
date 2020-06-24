@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2020 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/createSiteLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/editAuditPaddingBottom"
+        android:paddingLeft="@dimen/editAuditPaddingLeft"
+        android:paddingRight="@dimen/editAuditPaddingRight"
+        android:paddingTop="@dimen/editAuditPaddingTop">
+
+        <TextView
+            style="@style/MainTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/create_site_title" />
+
+        <TableLayout
+            android:layout_width="@dimen/editAuditMinWidth"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/editAuditTitleMarginTop"
+            android:stretchColumns="1">
+
+            <TableRow
+                style="@style/EditAuditFieldRow"
+                android:layout_width="wrap_content">
+
+                <TextView
+                    style="@style/EditAuditHeaderFieldCell"
+                    android:text="@string/create_site_code" />
+
+                <EditText
+                    android:id="@+id/site_noimmo"
+                    style="@style/EditAuditFieldCell"
+                    android:layout_span="2"
+                    android:hint="@string/create_site_code_hint"
+                    android:singleLine="true" />
+            </TableRow>
+
+            <TableRow
+                style="@style/EditAuditFieldRow"
+                android:layout_width="wrap_content">
+
+                <TextView
+                    style="@style/EditAuditHeaderFieldCell"
+                    android:text="@string/create_site_name" />
+
+                <EditText
+                    android:id="@+id/site_name"
+                    style="@style/EditAuditFieldCell"
+                    android:layout_span="2"
+                    android:hint="@string/create_site_name_hint"
+                    android:singleLine="true" />
+
+            </TableRow>
+
+
+            <TableRow
+                style="@style/EditAuditFieldRow"
+                android:layout_width="wrap_content">
+
+                <TextView
+                    style="@style/EditAuditHeaderFieldCell"
+                    android:text="@string/create_site_street" />
+
+                <EditText
+                    android:id="@+id/site_street"
+                    style="@style/EditAuditFieldCell"
+                    android:layout_span="2"
+                    android:hint="@string/create_site_street_hint"
+                    android:singleLine="true" />
+
+            </TableRow>
+
+            <TableRow
+                style="@style/EditAuditFieldRow"
+                android:layout_width="wrap_content">
+
+                <TextView
+                    style="@style/EditAuditHeaderFieldCell"
+                    android:text="@string/create_site_postal_code" />
+
+                <EditText
+                    android:id="@+id/site_postal_code"
+                    style="@style/EditAuditFieldCell"
+                    android:layout_span="2"
+                    android:hint="@string/create_site_postal_code_hint"
+                    android:singleLine="true" />
+
+            </TableRow>
+
+            <TableRow
+                style="@style/EditAuditFieldRow"
+                android:layout_width="wrap_content">
+
+                <TextView
+                    style="@style/EditAuditHeaderFieldCell"
+                    android:text="@string/create_site_city" />
+
+                <EditText
+                    android:id="@+id/site_city"
+                    style="@style/EditAuditFieldCell"
+                    android:layout_span="2"
+                    android:hint="@string/create_site_city_hint"
+                    android:singleLine="true" />
+
+            </TableRow>
+
+            <TableRow
+                style="@style/EditAuditFieldRow"
+                android:layout_width="wrap_content">
+
+                <TextView
+                    style="@style/EditAuditHeaderFieldCell"
+                    android:layout_column="1"
+                    android:text="@string/create_site_mandatory_field" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="wrap_content">
+
+                <Button
+                    android:id="@+id/create_site_button"
+                    style="@style/EditAuditFieldCell"
+                    android:layout_column="1"
+                    android:layout_marginTop="@dimen/editAuditStartButtonMarginTop"
+                    android:layout_span="2"
+                    android:enabled="false"
+                    android:text="@string/create_site_create_site_button" />
+            </TableRow>
+        </TableLayout>
+
+
+    </LinearLayout>
+</ScrollView>

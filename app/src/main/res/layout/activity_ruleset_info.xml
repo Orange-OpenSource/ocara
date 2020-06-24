@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2020 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/Text.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/common_default_component_padding"
+        android:text="@string/ruleset_info_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/common_default_large_margin"
+        android:layout_marginRight="@dimen/common_default_large_margin"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_default_padding">
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/Text.Subhead"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/author_label"
+                android:textColor="@color/accent" />
+
+            <TextView
+                android:id="@+id/author_text"
+                style="@style/Text.Subhead"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_default_padding">
+
+            <TextView
+                style="@style/Text.Subhead"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/name_label"
+                android:textColor="@color/accent" />
+
+            <TextView
+                android:id="@+id/name_text"
+                style="@style/Text.Subhead"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_default_padding">
+
+            <TextView
+                style="@style/Text.Subhead"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rule_category_label"
+                android:textColor="@color/accent" />
+
+            <TextView
+                android:id="@+id/rule_category_text"
+                style="@style/Text.Subhead"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_default_padding">
+
+            <TextView
+                style="@style/Text.Subhead"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/version_label"
+                android:textColor="@color/accent" />
+
+            <TextView
+                android:id="@+id/version_text"
+                style="@style/Text.Subhead"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_default_padding">
+
+            <TextView
+                style="@style/Text.Subhead"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/comment_label"
+                android:textColor="@color/accent" />
+
+            <TextView
+                android:id="@+id/comment_text"
+                style="@style/Text.Subhead"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_default_padding">
+
+            <TextView
+                style="@style/Text.Subhead"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/publication_date_label"
+                android:textColor="@color/accent" />
+
+            <TextView
+                android:id="@+id/publication_date_text"
+                style="@style/Text.Subhead"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_default_padding">
+
+            <Button
+                android:id="@+id/button_download_rules"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="20"
+                android:enabled="false"
+                android:visibility="gone"
+                android:text="@string/download_rules" />
+
+            <Button
+                android:id="@+id/button_show_rules"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="20"
+                android:enabled="false"
+                android:visibility="gone"
+                android:text="@string/show_rules" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

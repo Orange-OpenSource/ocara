@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2020 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+
+        <item name="android:windowBackground">@color/windowBackground</item>
+
+        <item name="android:textColorPrimary">@color/primaryText</item>
+        <item name="android:textColorSecondary">@color/secondaryText</item>
+
+        <item name="android:textAppearance">@style/TextAppearance</item>
+        <item name="android:textAppearanceSmall">@style/TextAppearance.Small</item>
+        <item name="android:textAppearanceMedium">@style/TextAppearance.Medium</item>
+        <item name="android:textAppearanceLarge">@style/TextAppearance.Large</item>
+        <item name="android:textAppearanceListItem">?android:attr/textAppearanceMedium</item>
+        <item name="android:textAppearanceListItemSmall">?android:attr/textAppearanceSmall</item>
+        <item name="android:textAppearanceButton">@style/TextAppearance.Button</item>
+
+        <item name="android:buttonStyle">@style/Button</item>
+
+        <item name="spinnerDropDownItemStyle">@style/SpinnerDropDownItem</item>
+        <item name="customSwitchStyle">@style/CustomSwitch</item>
+        <item name="drawerArrowStyle">@style/DrawerArrow</item>
+    </style>
+
+    <!-- The launcher theme. It sets the main window background to the launch_screen drawable -->
+    <style name="AppTheme.Launcher">
+    <item name="android:windowBackground">@drawable/launch_screen</item>
+    <!-- Optional, on Android 5+ you can modify the colorPrimaryDark color to match the windowBackground color for further branding-->
+    <!-- <item name="colorPrimaryDark">@android:color/white</item> -->
+    </style>
+
+    <style name="Text.Body1" parent="Base.TextAppearance.AppCompat.Body1" />
+
+    <style name="Text.Body2" parent="Base.TextAppearance.AppCompat.Body2" />
+
+    <style name="Text.Caption" parent="Base.TextAppearance.AppCompat.Caption" />
+
+    <style name="Text.ListHeader" parent="Text.Caption">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Headline" parent="Base.TextAppearance.AppCompat.Headline" />
+
+    <style name="Text.Inverse" parent="Base.TextAppearance.AppCompat.Inverse" />
+
+    <style name="Text.Large" parent="Base.TextAppearance.AppCompat.Large" />
+
+    <style name="Text.Large.Inverse">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+    </style>
+
+    <style name="Text.Small" parent="Base.TextAppearance.AppCompat.Small" />
+
+    <style name="Text.Small.Inverse" parent="Base.TextAppearance.AppCompat.Small.Inverse" />
+
+    <style name="Text.Subhead" parent="Base.TextAppearance.AppCompat.Subhead" />
+
+    <style name="Text.Title" parent="Base.TextAppearance.AppCompat.Title" />
+
+    <style name="Text.Display1" parent="Base.TextAppearance.AppCompat.Display1" />
+
+    <style name="Text.Display1.Inverse">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+    </style>
+
+    <style name="Text.Display2" parent="Base.TextAppearance.AppCompat.Display2" />
+
+    <style name="Text.Display2.Inverse">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+    </style>
+
+    <style name="Text.Display3" parent="Base.TextAppearance.AppCompat.Display3" />
+
+    <style name="Text.Display3.Inverse">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+    </style>
+
+    <style name="Text.Display4" parent="Base.TextAppearance.AppCompat.Display4" />
+
+    <style name="Text.Display4.Inverse">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+    </style>
+
+    <style name="AlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <!-- Navigation drawer style -->
+    <style name="DrawerArrow" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+    </style>
+
+    <!-- Spinner Drop Down Item -->
+    <style name="SpinnerDropDownItem" parent="Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <!-- Button style -->
+    <style name="Button" parent="android:Widget.Holo.Light.Button">
+        <item name="android:layout_marginLeft">@dimen/buttonMarginLeft</item>
+        <item name="android:layout_marginRight">@dimen/buttonMarginRight</item>
+        <item name="android:minWidth">@dimen/buttonMinWidth</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceButton</item>
+    </style>
+
+    <!-- Text Button style (no background, no margin) -->
+    <style name="TextButton" parent="@style/Button">
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <!-- Button bar style -->
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">@dimen/buttonBarPaddingLeft</item>
+        <item name="android:paddingRight">@dimen/buttonBarPaddingRight</item>
+        <item name="android:paddingTop">@dimen/buttonBarPaddingTop</item>
+        <item name="android:paddingBottom">@dimen/buttonBarPaddingBottom</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:minHeight">@dimen/buttonBarHeight</item>
+    </style>
+
+
+    <!-- Switch style -->
+    <style name="CustomSwitch">
+        <item name="colorChecked">@color/white</item>
+        <item name="colorUnChecked">@color/primaryText</item>
+        <item name="backgroundDrawable">@color/switchDefaultBackground</item>
+        <item name="switchDrawable">@color/switchThumbBackground</item>
+    </style>
+
+    <!-- Divider style -->
+    <style name="Divider">
+        <item name="android:background">@color/divider</item>
+    </style>
+
+    <!-- Custom Pager Tab Style -->
+    <style name="CustomPagerSlidingTab">
+        <item name="android:background">@color/tabBackground</item>
+        <item name="tabBackground">@drawable/tab_background</item>
+        <item name="android:textColor">@color/tab_text_color</item>
+        <item name="android:textSize">@dimen/tabTextSize</item>
+        <item name="indicatorColor">@color/tabIndicatorColor</item>
+        <item name="indicatorHeight">@dimen/tabIndicatorHeight</item>
+        <item name="underlineColor">@color/tabUnderlineColor</item>
+        <item name="dividerColor">@color/black</item>
+        <item name="underlineHeight">@dimen/tabUnderlineHeight</item>
+        <item name="tabPaddingLeftRight">@dimen/tabTextSidePadding</item>
+    </style>
+
+    <!-- Text -->
+    <style name="TextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/textSizeNormal</item>
+    </style>
+
+    <style name="TextAppearance.Small" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">@dimen/textSizeSmall</item>
+    </style>
+
+    <style name="TextAppearance.Medium" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/textSizeMedium</item>
+    </style>
+
+    <style name="TextAppearance.Large" parent="@android:style/TextAppearance.Large">
+        <item name="android:textSize">@dimen/textSizeLarge</item>
+    </style>
+
+    <style name="TextAppearance.Button" parent="@android:style/TextAppearance.Widget.Button">
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+    <!-- Title application theme. -->
+    <style name="MainTitle">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Edit audit. -->
+    <style name="EditAuditFieldRow">
+        <item name="android:layout_marginBottom">@dimen/editAuditRowMarginBottom</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="EditAuditHeaderFieldCell">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/editAuditRowMinHeight</item>
+        <item name="android:layout_marginRight">@dimen/defaultMarginRight</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center_vertical|end</item>
+    </style>
+
+    <style name="EditAuditFieldCell">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/editAuditRowMinHeight</item>
+    </style>
+
+    <!-- Audit ObjectDescription item title -->
+    <style name="ObjectDescriptionTitle">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <!--   <item name="android:textStyle">bold</item> -->
+    </style>
+
+    <!-- Audit subObject navigation button style (previous / next) -->
+    <style name="AuditObjectsNavigationButton">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingLeft">@dimen/auditObjectsButtonMarginLeft</item>
+        <item name="android:paddingRight">@dimen/auditObjectsButtonMarginRight</item>
+    </style>
+
+    <style name="AuditObjectNavigationBar">
+        <item name="android:layout_marginTop">@dimen/auditObjectsMarginBetweenDivider</item>
+        <item name="android:layout_marginBottom">@dimen/auditObjectsMarginBetweenDivider</item>
+        <item name="android:background">@drawable/audit_path_border</item>
+        <item name="android:choiceMode">singleChoice</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+    <!-- Audit object question item style. -->
+    <style name="QuestionItem">
+        <item name="android:minHeight">?android:attr/listPreferredItemHeight</item>
+        <item name="android:background">@color/orange_light</item>
+        <item name="android:paddingLeft">@dimen/questionItemPaddingLeft</item>
+        <item name="android:paddingRight">@dimen/questionItemPaddingRight</item>
+        <item name="android:paddingTop">@dimen/questionItemPaddingTop</item>
+        <item name="android:paddingBottom">@dimen/questionItemPaddingBottom</item>
+    </style>
+
+
+    <style name="QuestionTitle">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!-- Audit object rule item style. -->
+    <style name="RuleItem">
+        <item name="android:minHeight">?android:attr/listPreferredItemHeight</item>
+        <item name="android:background">@color/windowBackground</item>
+        <item name="android:paddingLeft">@dimen/ruleItemPaddingLeft</item>
+        <item name="android:paddingRight">@dimen/ruleItemPaddingRight</item>
+    </style>
+
+    <!-- Audit object rule item title style. -->
+    <style name="RuleTitle">
+        <item name="android:textAppearance">?android:attr/textAppearance</item>
+    </style>
+
+    <!-- Audit object response button style. -->
+    <style name="ResponseButton">
+        <item name="android:minWidth">@dimen/responseButtonMinWidth</item>
+        <item name="android:minHeight">@dimen/responseButtonMinHeight</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/response_text_color</item>
+        <item name="android:textAppearance">?android:attr/textAppearance</item>
+    </style>
+
+
+    <!-- Audit result heading style. -->
+    <style name="ResultHeading">
+        <item name="cardCornerRadius">4dp</item>
+    </style>
+
+    <!-- Audit result heading container style. -->
+    <style name="ResultHeadingContainer">
+        <item name="android:paddingLeft">@dimen/resultSectionPaddingLeft</item>
+        <item name="android:paddingRight">@dimen/resultSectionPaddingRight</item>
+        <item name="android:paddingBottom">@dimen/resultSectionPaddingBottom</item>
+        <item name="android:paddingTop">@dimen/resultSectionPaddingTop</item>
+        <item name="android:background">@color/windowBackground</item>
+        <item name="cardCornerRadius">4dp</item>
+    </style>
+
+    <!-- Audit result heading title style. -->
+    <style name="ResultHeadingTitle">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textColor">@color/accent</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Audit result heading content style. -->
+    <style name="ResultHeadingContent">
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+    <!-- Audit result detail cell style. -->
+    <style name="DetailCell">
+        <item name="android:layout_marginLeft">@dimen/defaultMarginLeft</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:lines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!-- Audit result detail header style. -->
+    <style name="DetailCellHeader">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">end|center_vertical</item>
+    </style>
+
+    <!-- Audit result resume row style. -->
+    <style name="ResumeRow">
+        <item name="android:minHeight">@dimen/resultResumeRowMinHeight</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <!-- Audit result resume cell style. -->
+    <style name="ResumeCell">
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/cell_shape</item>
+        <item name="android:gravity">end|center_vertical</item>
+        <item name="android:textAppearance">?android:attr/textAppearance</item>
+    </style>
+
+    <!-- Audit result resume cell with icon style. -->
+    <style name="ResumeCellWithIcon" parent="ResumeCell">
+        <item name="android:paddingLeft">@dimen/resultResumeHandicapIconPaddingLeft</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:gravity">start|left|center_vertical</item>
+    </style>
+
+    <!-- Audit result resume header style. -->
+    <style name="ResumeCellHeader" parent="ResumeCell">
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <!-- Audit result resume header with icon style. -->
+    <style name="ResumeCellHeaderWithIcon" parent="ResumeCellHeader">
+    </style>
+
+    <!-- Audit result anomaly group style. -->
+    <style name="AnomalyGroup">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:minHeight">?android:attr/listPreferredItemHeight</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:paddingLeft">@dimen/anomalyGroupPaddingLeft</item>
+        <item name="android:background">@color/grey_light</item>
+    </style>
+
+    <!-- Audit result anomaly child style. -->
+    <style name="AnomalyChild">
+        <item name="android:paddingLeft">@dimen/anomalyChildPaddingLeft</item>
+    </style>
+
+    <!-- Audit result anomaly header style. -->
+    <style name="AnomalyHeader">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/accent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:minHeight">?android:attr/listPreferredItemHeight</item>
+        <item name="android:gravity">center_vertical|left</item>
+    </style>
+
+    <!-- Audit result anomaly content style. -->
+    <style name="AnomalyContent">
+        <item name="android:paddingLeft">@dimen/anomalyChildPaddingLeft</item>
+    </style>
+
+    <!-- Audit result anomaly rule style. -->
+    <style name="AnomalyRule">
+        <item name="android:textAppearance">?android:attr/textAppearance</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:minHeight">?android:attr/listPreferredItemHeight</item>
+        <item name="android:textColor">@color/primaryText</item>
+    </style>
+
+    <!-- objet detail title style. -->
+    <style name="DetailTitle">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/accent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:minHeight">?android:attr/listPreferredItemHeight</item>
+        <item name="android:gravity">center_vertical|left</item>
+    </style>
+
+    <!-- Comment Style -->
+    <style name="CommentItem">
+        <item name="android:paddingLeft">@dimen/commentPaddingLeft</item>
+        <item name="android:paddingRight">@dimen/commentPaddingRight</item>
+        <item name="android:paddingBottom">@dimen/commentPaddingBottom</item>
+        <item name="android:paddingTop">@dimen/commentPaddingTop</item>
+    </style>
+
+    <!-- Dialogs -->
+    <style name="DialogTitle">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:height">@dimen/popupTitleHeight</item>
+    </style>
+
+    <style name="Dialog" parent="AppTheme">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="rulsetDropStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+    <dimen name="detailMargin">4dp</dimen>
+</resources>

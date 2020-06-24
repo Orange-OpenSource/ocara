@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2020 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  -->
+
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.orange.ocara.ui.view.OcaraListPreference
+        android:defaultValue="0"
+        android:dialogTitle="@string/setting_test_dialog_title"
+        android:entries="@array/setting_when_test_entries"
+        android:entryValues="@array/setting_when_test_entries_values"
+        android:key="@string/setting_when_test_entries_key"
+        android:persistent="true"
+        android:summary="%s"
+        android:title="@string/setting_test_title" />
+
+    <com.orange.ocara.ui.view.OcaraListPreference
+        android:defaultValue="1"
+        android:dialogTitle="@string/setting_display_auditing_progress_dialog_title"
+        android:entries="@array/setting_display_auditing_progress_entries"
+        android:entryValues="@array/setting_display_auditing_progress_entries_values"
+        android:key="@string/setting_display_auditing_progress_key"
+        android:persistent="true"
+        android:summary="%s"
+        android:title="@string/setting_display_auditing_progress_title" />
+</androidx.preference.PreferenceScreen>
