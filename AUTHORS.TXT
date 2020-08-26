@@ -1,8 +1,4 @@
-ludovic.lelion@orange.com
-alexis.chemin@orange.com
-manuel1.sanchez@orange.com
-denis.boisset@orange.com
-ludovic.soltys@orange.com
-ronan.gestin@orange.com
-gilles.zanolin@orange.com
-denis.chene@orange.com
+SOLTYS Ludovic
+GESTIN Ronan
+ZANOLIN Gilles
+CHENE Denis
