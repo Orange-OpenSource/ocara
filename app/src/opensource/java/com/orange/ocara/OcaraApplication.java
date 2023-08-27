@@ -15,19 +15,17 @@ import androidx.multidex.MultiDex;
 
 import com.facebook.stetho.Stetho;
 import com.google.firebase.analytics.FirebaseAnalytics;
-import com.microsoft.appcenter.AppCenter;
-import com.microsoft.appcenter.analytics.Analytics;
-import com.orange.ocara.data.net.client.ApiClient;
-import com.orange.ocara.tools.OcaraLogger;
+import com.orange.ocara.data.network.client.ApiClient;
+import com.orange.ocara.utils.OcaraLogger;
 
-import org.androidannotations.annotations.EApplication;
-
+import dagger.hilt.android.HiltAndroidApp;
 import timber.log.Timber;
 
 /**
  * Bootstrap of the application
  */
-@EApplication
+//@EApplication
+@HiltAndroidApp
 public class OcaraApplication extends Application {
 
     private FirebaseAnalytics mFirebaseAnalytics;
@@ -38,7 +36,7 @@ public class OcaraApplication extends Application {
 
         OcaraLogger.initialize();
 
-        AppCenter.start(this, "a37103e7-6037-4080-86e4-22f935f5aac0", Analytics.class);
+       // AppCenter.start(this, "a37103e7-6037-4080-86e4-22f935f5aac0", Analytics.class);
 
         if (BuildConfig.DEBUG) {
             Stetho.initializeWithDefaults(this);

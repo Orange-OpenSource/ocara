@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.fragment.ListAuditsFragment">
+
+        <LinearLayout
+            android:id="@+id/noAuditsFoundView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:visibility="gone">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_alert_error_outline_24_px_3"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/LabelsTextView"
+                android:layout_marginStart="12dp"
+                android:text="@string/no_audits_found"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/noAuditsFoundButton"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="18dp"
+            android:text="@string/add_new_audit"
+            android:visibility="gone"
+            android:background="#ff7900"
+            app:layout_constraintTop_toBottomOf="@+id/noAuditsFoundView" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_height="wrap_content"
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/addAudit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#f16e00"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/icon" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

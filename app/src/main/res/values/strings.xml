@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ Software Name: OCARA
   ~
-  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2020 Orange
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
   ~ SPDX-License-Identifier: MPL v2.0
   ~
   ~ This software is distributed under the Mozilla Public License v. 2.0,
@@ -63,7 +62,7 @@
     <string name="name_label">Name</string>
     <string name="publication_date_label">Publication date</string>
     <string name="version_label">Version number</string>
-    <string name="rule_category_label">Rule\'s category</string>
+    <string name="rule_category_label">Rule\'s equipmentCategory</string>
     <string name="comment_label">Comment</string>
     <string name="associated_objects_label">Associated objects</string>
 
@@ -300,7 +299,7 @@ https://opensource.org/licenses/mit-license.php
     <string name="audit_list_retest_audit_title">Start a new test of the path</string>
     <string name="audit_list_retest_audit_message" formatted="false">Do you want to start a new test of the whole path %s?\nA new audit will be generated.</string>
 
-    <string name="action_sort_by_status">by status</string>
+    <string name="action_sort_by_status">by answer</string>
     <string name="action_sort_by_site">by site</string>
     <string name="action_sort_by_date">by date</string>
 
@@ -386,7 +385,7 @@ https://opensource.org/licenses/mit-license.php
     <string name="audit_object_remove_all_objects_button">Erase the path</string>
 
     <!-- Auditing progress Dialog -->
-    <string name="auditing_progress_title">Progress status</string>
+    <string name="auditing_progress_title">Progress answer</string>
     <string name="auditing_progress_info" formatted="false">Test results :</string>
     <string name="auditing_progress_status_ok">Test results:\nAccessible: All control points are checked !</string>
     <string name="auditing_progress_status_nok">Test results :\nNot accessible: Some blocking defaults</string>
@@ -479,7 +478,7 @@ https://opensource.org/licenses/mit-license.php
     <string name="test_now">Test it now</string>
     <string name="remember_test_now_answer">Remember my choice</string>
 
-    <!-- activity detail status  accessibility -->
+    <!-- activity detail answer  accessibility -->
     <string name="status_OK">Accessible</string>
     <string name="status_NOK">Not accessible</string>
     <string name="status_NoAnswer">Not tested</string>
@@ -493,7 +492,7 @@ https://opensource.org/licenses/mit-license.php
     <string name="detail_button_update">Modify</string>
     <string name="detail_title_caracteristic">Properties</string>
     <string name="detail_title_definition">Definition</string>
-    <string name="detail_title_status">Accessibility status</string>
+    <string name="detail_title_status">Accessibility answer</string>
     <string name="detail_title_illustration">Illustrations</string>
     <string name="detail_title_comment">Comments</string>
 
@@ -570,4 +569,192 @@ https://opensource.org/licenses/mit-license.php
     <string name="tutorial_step_5_title">Operation completed</string>
     <string name="tutorial_step_5_description">The referential with a green flag is ready to use. You can now start a new audit with it.</string>
     <string name="running_offline">Application is running offline.</string>
+    <string name="audit_id_key" translatable="false">auditId</string>
+
+
+    <!--    ************************************************************************************************************ -->
+    <string name="terms_title_txt">CONDITIONS GÉNÉRALES D\'UTILISATION DE L\'APPLICATION OCARA</string>
+    <string name="terms_general_info_title_txt"><b>INFORMATIONS GÉNÉRALES</b></string>
+
+    <string name="terms_general_info_context_txt">L\'application « OCARA» est un outil d\’audit matérialisé par une interface pour terminal  Android(tablette ou smartphone),
+        permettant de décrire et d\’auditer  l\’accessibilité et/ou la sécurité des parcours des usagers à l\’intérieur de tout
+        bâtiment ou en extérieur (ci-après dénommée « Application »).\n
+
+    L\'Application est proposée par la société Orange, une société anonyme au capital social de 10 640 226 396 €, immatriculée au RCS de Paris sous le numéro 380 129 866,
+        dont le siège social est situé au 78 rue Olivier de Serres, 75015 Paris, France (ci-après dénommée « Orange »).\n
+    L\'Application est disponible librement, gratuitement, en la téléchargeant sur github  via le lien
+       https://github.com/Orange-OpenSource/ocara <a href="https://github.com/Orange-OpenSource/ocara" />, à toute personne, (ci-après dénommée Auditeur) souhaitant utiliser l\’Application aux fins de décrire et
+        d\’auditer l\’accessibilité et la sécurité du parcours des usagers à l\’intérieur de tout  bâtiment ou en extérieur.\n
+    L\'accès et l\'utilisation de l\'Application sont soumises aux présentes Conditions Générales d\'Utilisation (ci-après dénommées « CGU ») que
+        l\'Auditeur déclare avoir lues et accepte expressément en cochant la case « acceptation » correspondante.
+    </string>
+    <string name="terms_item_1_title_txt"><b>ARTICLE PREMIER : OBJET</b></string>
+    <string name="terms_item1_content_txt">
+    Les présentes CGU ont pour objet de définir les conditions selon lesquelles :\n
+
+    • l\'Application est mise à la disposition des Auditeurs ;\n
+    • les Auditeurs doivent utiliser l\'Application.
+    </string>
+
+    <string name="terms_item2_title_txt"><b>ARTICLE 2 : ACCÈS À L\'APPLICATION</b></string>
+
+    <string name="terms_item2_content_txt">
+Pour pouvoir utiliser l\'Application, l\'Auditeur doit disposer d\'une tablette ou d\’un smartphone compatible avec les systèmes d\'exploitation Android version 6 minimum (et ses versions ultérieures) et télécharger l\'Application via le lien <a href="https://github.com/Orange-OpenSource/ocara" />.\n
+L’utilisation du service OCARA nécessite une connexion à Internet pour télécharger les contenus (référentiels d’audits, dits aussi jeux de règles) permettant d’effectuer des audits. Il est précisé que ces connexions ne sont pas prises en charge par Orange, il appartient par conséquent à l’Auditeur de souscrire préalablement à une offre Internet  (incluant 50 Mo minimum) pour pouvoir utiliser le service OCARA.</string>
+
+    <string name="terms_item3_title_txt"><b>ARTICLE 3 : DESCRIPTION DE L\'APPLICATION</b></string>
+    <string name="terms_item3_content_txt">L’Application, initialement destinée aux personnes chargées de l’accessibilité et de la sécurité des bâtiments en entreprise, peut aussi être utilisée par toute personne sensibilisée à la problématique de l’accessibilité ou de la sécurité, et qui souhaite pouvoir effectuer un autodiagnostic de parcours ou de zones, à l’intérieur de tout bâtiment ou en extérieur, sur la base de contenus (référentiels d’audit) mis à disposition par des spécialistes du domaine.\n\n
+        \nUn référentiel d’audit recouvre un ensemble d’espaces (salle de réunion, caféteria, …) ou d’objets présents sur un parcours  (porte, couloir, dispositif de commande,…)
+        avec les règles et les questionnaires associés permettant de les contrôler. Ces contenus sont mis à disposition gratuitement par Orange sur le site ConfOCARA.
+        Ils sont téléchargeables depuis l’Application et sont utilisés par l’Auditeur pour dérouler des audits.
+
+    \nIl est porté à l’attention de l’Auditeur que contenus produits par Orange ou des tiers et mis à disposition sur le site ConfOCARA ne sont pas obligatoirement des référentiels
+        d’audit officiels homologués par les autorités compétentes. Ils sont inspirés par l’ensemble des règles officielles existantes, par l’état de l’art et par des retours d’usage.
+        Ils sont destinés à évaluer des caractéristiques pour un autodiagnostic centré sur l’usage, et pas obligatoirement sur la conformité règlementaire.
+
+    \nL\'Application, une fois téléchargée et installée sur  terminal de l\'Auditeur, permet à ce dernier de décrire et d’auditer les parcours des usagers et les
+        locaux qui les accueillent, par exemple à l’intérieur d’un site d’une entreprise, en utilisant les référentiels d’audit.
+
+    \nChaque objet rencontré sur le parcours (tel que, par exemple, place de parking, chemin, barrière, contrôle d’accès, salle de réunion …)
+        est référencé et peut être évalué immédiatement, et commenté (prise de photos, ajout de texte). En fin de parcours le service OCARA génère,
+        directement sur le terminal de l’Auditeur, un rapport d’audit qui récapitule les points de non-conformité  par rapport au référentiel utilisé,
+        et propose des scores de conformité. Ce rapport est conservé sur le terminal. L’Auditeur peut en produire un fichier Word qu’il archive localement ou qu’il partage
+        (par mail ou tout autre moyen disponible sur son terminal). Il appartient ensuite à l’Auditeur, sous sa seule responsabilité, d’exploiter le rapport d’audit généré.
+    </string>
+
+
+    <string name="terms_item4_title_txt"><b>ARTICLE 4 : CONDITIONS D\'UTILISATION</b></string>
+    <string name="terms_item4_content_txt">L’application est réservée aux personnes majeures.
+    \nL\'Application autorise un usage privé et strictement personnel, ou bien un usage professionnel.
+        L\'Auditeur s\'engage à ne pas utiliser l\'Application pour un usage commercial sans informer au préalable ses clients du caractère libre/open source
+        du logiciel utilisé et de ses propriétaires.
+    \nL\'Auditeur doit prendre toutes les mesures nécessaires pour veiller personnellement aux précautions requises lors de l\'utilisation de l\'Application. </string>
+
+
+    <string name="terms_item5_title_txt"><b>ARTICLE 5 : TARIFS</b></string>
+    <string name="terms_item5_content_txt">
+        Le service OCARA est fourni gratuitement, mais n\'inclut pas les frais de communication d\’accès à Internet lorsque
+        l\'Auditeur utilise l\’Application. Les coûts de connexion internet dépendent de l’offre internet mobile dont dispose l’Auditeur,
+        ou bien des modalités de connexion Internet via le réseau fixe (en Wifi).
+
+    \nLorsque l\'Utilisateur est situé hors du territoire dans lequel il dispose de son offre de services internet mobiles («itinérance»),
+        il peut être soumis à des frais supplémentaires pour l\'utilisation des données selon l’offre internet mobile dont bénéficie l’Utilisateur,
+        et la zone géographique dans laquelle il se trouve. Il incombe à l\'Utilisateur de s\'assurer auprès de son opérateur mobile qu\'il dispose d\'une offre permettant
+        l\'utilisation des données depuis l\'étranger.</string>
+
+
+    <string name="terms_item6_title_txt"><b>ARTICLE 6 : RESPONSABILITÉ D\'ORANGE</b></string>
+    <string name="terms_item6_content_txt">Le service OCARA est fourni gratuitement,
+        mais n\'inclut pas les frais de communication d’accès à Internet lorsque l\'Auditeur utilise l’Application. Les coûts de connexion internet dépendent de l’offre
+        internet mobile dont dispose l’Auditeur, ou bien des modalités de connexion Internet via le réseau fixe (en Wifi).
+
+    \nLorsque l\'Utilisateur est situé hors du territoire dans lequel il dispose de son offre de services internet mobiles
+        («itinérance»), il peut être soumis à des frais supplémentaires pour l\'utilisation des données selon l’offre internet mobile dont bénéficie l’Utilisateur,
+        et la zone géographique dans laquelle il se trouve. Il incombe à l\'Utilisateur de s\'assurer auprès de son opérateur mobile qu\'il dispose d\'une offre permettant
+        l\'utilisation des données depuis l\'étranger.</string>
+
+
+    <string name="terms_item7_title_txt"><b>ARTICLE 7 : RESPONSABILITÉ DE L\'AUDITEUR</b></string>
+    <string name="terms_item7_content_txt">Orange met en place les moyens nécessaires au bon fonctionnement, à la maintenance et  à la continuité de l\'Application.
+
+    \nLa responsabilité d\'Orange envers l\'Auditeur ne peut être engagée qu\'en cas de faute ou de négligence d\'Orange dûment prouvée et uniquement
+        imputable à Orange, en particulier en cas de non-respect de ses obligations en vertu des présentes CGU.</string>
+
+
+    <string name="terms_item8_title_txt"><b>Article 8 : MODIFICATION</b></string>
+    <string name="terms_item8_content_txt">L\'Auditeur est seul responsable de son utilisation de l\'Application et de tout préjudice et
+        dommage matériel direct qu\'il pourrait causer à Orange ou à des tiers, notamment en cas de dommages causés par un terminal mobile
+        sur lequel l\'Application est installée ou par une utilisation non conforme aux CGU.
+    Il appartient donc à l\'Auditeur, de s’assurer, auprès d’une compagnie d’assurance, contre tous risques,
+        dommages et éventuelles conséquences financières découlant de sa responsabilité.
+
+    \nL’Auditeur est seul responsable de l’audit effectué grâce à l’Application et de l’utilisation des contenus miss à sa disposition
+        ainsi que du contenu qui en découle et produit par l’Auditeur.</string>
+
+
+    <string name="terms_item9_title_txt"><b>ARTICLE 9 : PROPRIÉTÉ INTELLECTUELLE</b></string>
+    <string name="terms_item9_content_txt">Orange est et reste propriétaire de l\'Application sous réserve des droits des tiers.
+    \nLe code source de l’Application est disponible sur l’espace github Orange
+        (https://github.com/Orange-OpenSource/ocara <a href="https://github.com/Orange-OpenSource/ocara" /> ) selon les termes de la licence open source Mozilla Public License version 2.0 disponible via le lien :
+         https://opensource.org/licenses/MPL-2.0<a href="https://opensource.org/licenses/MPL-2.0" />.
+        Ainsi l’Auditeur peut l’utiliser dans le respect des termes de cette licence et sous réserve de se conformer aux présentes CGU.
+
+    \nLa documentation associée au code source est disponible sous la licence creative commons :
+        attribution-sharealike 4.0. accessible via le lien https://creativecommons.org/licenses/by-sa/4.0/ <a href="https://creativecommons.org/licenses/by-sa/4.0/" />.
+
+    \n <b>Droit d’utilisation des contenus (référentiels d’audit) mis à disposition</b>
+    \nDans le cadre des présentes CGU, Orange accorde à l\'Auditeur un droit d’utilisation non exclusif, non cessible, révocable,
+    pour le monde entier et ne pouvant faire l’objet de sous-licence d’utilisation des contenus (référentiels d’audit).
+    Cette autorisation est accordée à l\'Auditeur tant que l’Application est disponible et est soumise au respect des présentes CGU.
+    L’Auditeur ne doit pas :
+
+    \t\t a. utiliser, copier, modifier ou distribuer les contenus (référentiels d’audit), sauf autorisation expresse contenue dans les présentes CGU ;
+    \t\t b. sous-licencier ou concéder les contenus.
+    </string>
+    <string name="terms_item10_title_txt"><b>ARTICLE 10 : RÉSILIATION</b></string>
+    <string name="terms_item10_content_txt">Orange peut, à sa discrétion, et moyennant un préavis de quatre-vingt-dix (90) jours,
+        arrêter de fournir l\'Application, en partie ou entièrement, à tout moment. L’auditeur est informé que l’arrêt du service ConfoCARA entrainera automatiquement
+        l’arrêt de la mise à jour des contenus.
+
+    \nL\'Auditeur peut également arrêter d\'utiliser l\'Application à tout moment en la désinstallant. </string>
+
+
+    <string name="terms_item11_title_txt"><b>ARTICLE 11 : DIVERS</b></string>
+    <string name="terms_item11_content_txt">
+        <b>Autonomie des stipulations :</b> Si une ou plusieurs clauses des présentes CGU est/sont déclarée(s) nulle(s)
+        en application d’une loi, d’un règlement ou à la suite d’une décision définitive d’une juridiction compétente,
+        les autres clauses conserveront toute leur force et leur portée et resteront en vigueur. Les clauses déclarées nulles seront alors
+        remplacées par des  clauses valables qui se rapprocheront autant que possible de la portée des clauses initialement adoptées.
+
+        \n<b>Force majeure :</b> Orange et l\'Auditeur ne peuvent être tenus pour responsables de tout retard ou de la non-exécution de leurs obligations
+        dans les cas où la cause du retard ou de la non-exécution est liée à un événement de force majeure, tel que défini dans le droit applicable.
+
+        \n <b>Droit applicable et juridiction compétente :</b>Sauf disposition contraire d\'une loi d’ordre publique ou d\'une disposition légale obligatoire,
+        ces CGU sont soumises au droit français et tout litige non résolu au moyen d\'une procédure à l\'amiable sera soumis à la juridiction compétente.
+        \n<b>Contact </b>Toute  réclamation ou contestation liée à l\'Application doit être envoyée par e-mail à l\'adresse indiquée dans la rubrique « Contact »
+        de l\'Application (voir Rubrique « À propos »)
+        \nUne réponse sera envoyée dans un délai de 5 jours à compter de la réception de l\'e-mail.
+    </string>
+
+
+    <!--    **********************************about**********************************************-->
+    <string name="about_item1_title_txt"><b>Information sur le service</b></string>
+    <string name="about_item1_content_bef_img_txt"><b>OCARA</b>, Outil de Contrôle et d’Analyse du Réel Accessible,
+        est une application Android permettant d’effectuer un autodiagnostic d’accessibilité et/ou de sécurité des locaux.
+        Les audits sont effectués sur la base de référentiels (ensembles de règles à vérifier) distribués par un serveur web
+        ConfOCARA et que l’auditeur peut télécharger depuis OCARA.
+    \nLes règles d’accessibilité pour les salariés, inspirées des ERP, ont été adaptées pour les besoins de l’entreprise et sont
+        calées sur l’usage.
+    \nDéveloppée par les Orange Labs pour la
+    <b>Mission Insertion Handicap d’Orange</b>
+    , la solution est évolutive, complète et autonome,elle adresse tous les types de handicap.
+        \nOCARA se veut aussi pédagogique et ludique.
+    </string>
+    <string name="about_item1_content_af_img_txt">Orange a décidé de mettre la solution Ocara en open-source
+        afin que toutes les entreprises puissent utiliser cet outil pour leurs salariés, et contribuer à son développement.
+
+        \nL’accessibilité est une préoccupation commune qui gagnera en efficacité avec la mutualisation des
+        ressources dans le cadre de la Responsabilité Sociale des Entreprises.  Elle est une partie intégrante des politiques
+        de bien-être et de la santé au travail, et un facteur d’efficience sociale.</string>
+
+    <string name="about_item2_title_txt">Conditions Générales d’Utilisation (CGU)</string>
+    <string name="about_item2_content_txt">Les conditions générales d\'utilisation (CGU) sont un document contractuel
+        qui décrit les modalités d’interaction entre le fournisseur du service et ses utilisateurs. Elles engagent à la fois
+        l’utilisateur du service et son exploitant à en respecter le contenu.
+        \nL’utilisateur du service choisit de les accepter (il adhère aux conditions) ou de les refuser. </string>
+
+    <string name="about_item3_title_txt">Logiciels tiers</string>
+    <string name="about_item3_content_txt">Liste des logiciels open-source utilisés par OCARA</string>
+
+
+    <string name="about_item4_title_txt">Usage des données personnelles et statistiques d’usage</string>
+    <string name="about_item4_content_txt">Le service OCARA n’utilise pas de données personnelles.
+    \nDes Statistiques d’usage anonymes sont utilisées pour suivre l’activité et améliorer la qualité de service. </string>
+
+    <string name="about_item5_title_txt">\@ Contact</string>
+    <string name="about_item5_content_txt"> Pour demander des informations, du support, proposer des améliorations ou signaler un problème :
+    \n ocara.support@orange.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

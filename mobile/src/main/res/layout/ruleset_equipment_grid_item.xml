@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<androidx.cardview.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="80dp"
+    android:elevation="10dp"
+    android:layout_margin="4dp"
+    app:strokeWidth="3dp"
+    app:strokeColor="#80979797"
+    card_view:cardCornerRadius="10dp">
+
+<!--        <FrameLayout-->
+<!--            android:background="@color/grey_light"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:padding="@dimen/objectDescriptionPadding">
+
+                        <ImageView
+                            android:id="@+id/object_description_image"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_gravity="center_horizontal"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter" />
+
+                        <TextView
+                            android:id="@+id/object_description_title"
+                            style="@style/ObjectDescriptionTitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:layout_marginTop="5dp"
+                            android:ellipsize="end"
+                            android:singleLine="false"
+                            android:gravity="center_horizontal"
+                            android:text="testa;fdoajdoasjkdlaskjdalkjdalkdja;lkdjad;lakjd;laksjdalkj;dasdna,smdnas,mdnasdlm,nadklandal;ksndjas;kljnd;akljda;lskdja;slkdja;lkdj;ljkaalkdsja;lkdja;lkdja;lkdja;lkdjalkdsj;alkjda;lkdjal;kdj;lakjsd;alkjaklsdj;alkjd;alkjd;alkdj;aslkdjal;kjsd;alkjd;alkdj;alkjd;lkjd"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                </LinearLayout>
+<!--        </FrameLayout>-->
+
+</androidx.cardview.widget.CardView>

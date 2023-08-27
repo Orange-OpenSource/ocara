@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "510082227676",
+    "firebase_url": "https://ocara-4589c.firebaseio.com",
+    "project_id": "ocara-4589c",
+    "storage_bucket": "ocara-4589c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510082227676:android:6531511d9f642422",
+        "android_client_info": {
+          "package_name": "com.orange.ocara.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510082227676-7l1m6lek3kqboeepr7smnq9p16u5vqdj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0M6_UmlsfZoXueI8peSrVRjxsIO9YWhM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

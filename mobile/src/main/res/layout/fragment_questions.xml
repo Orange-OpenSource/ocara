@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ExpandableListView
+            android:id="@+id/expandable_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/designMarginMedium"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="1dp"
+            android:groupIndicator="@null"
+            app:layout_constraintBottom_toTopOf="@+id/nextBtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/preBtn"
+            android:layout_width="0dp"
+            android:minHeight="@dimen/navigationBtnsInQuestionsHeight"
+            android:layout_height="wrap_content"
+            android:text="@string/pre"
+            android:layout_marginStart="@dimen/navigationBtnsInQuestionsHorMargin"
+            android:textColor="@color/black"
+            app:icon="@drawable/chevron_left"
+            app:iconGravity="textStart"
+            app:iconTint="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/nextBtn"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/nextBtn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/navigationBtnsInQuestionsHeight"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="@dimen/navigationBtnsInQuestionsHorMargin"
+            android:text="@string/next"
+            app:icon="@drawable/chevron_right"
+            app:iconGravity="textEnd"
+            app:iconTint="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/preBtn" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

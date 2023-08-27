@@ -1,7 +1,7 @@
 /*
  * Software Name: OCARA
  *
- * SPDX-FileCopyrightText: Copyright (c) 2015-2020 Orange
+ * SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
  * SPDX-License-Identifier: MPL v2.0
  *
  * This software is distributed under the Mozilla Public License v. 2.0,
@@ -9,24 +9,31 @@
  * see the "license.txt" file for more details.
  */
 buildscript {
+    ext {
+        kotlin_version = '1.6.0'
+    }
     repositories {
         google()
         maven { url 'https://plugins.gradle.org/m2/' }
+        maven { url 'https://maven.fabric.io/public' }
+
         jcenter()
     }
     dependencies {
+        classpath 'com.google.dagger:hilt-android-gradle-plugin:2.36'
+
         // before upgrading this dependency, please see https://developer.android.com/studio/releases/gradle-plugin.html
-        classpath 'com.android.tools.build:gradle:3.5.3'
-
-        classpath 'com.google.gms:google-services:3.1.2'
-        classpath 'fr.oab.android.gradle:sonarAndroidPlugin:1.9.3'
-        classpath 'org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.8'
+        classpath 'com.android.tools.build:gradle:4.1.1'
+        //  classpath 'com.google.firebase:firebase-crashlytics-gradle:2.3.0'
+        classpath 'com.google.gms:google-services:4.3.4'
+        classpath 'io.fabric.tools:gradle:1.30.0'
         classpath 'org.pegdown:pegdown:1.6.0'
-
-        // Add the Firebase Crashlytics Gradle plugin.
-        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.1.1'
-
         classpath 'org.owasp:dependency-check-gradle:5.2.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+
+        def nav_version = "2.3.5"
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version"
+
     }
 }
 
@@ -34,11 +41,18 @@ allprojects {
     repositories {
         google()
         maven { url 'https://jitpack.io' }
+        maven { url 'https://maven.fabric.io/public' }
 
         // for Active Android only
         maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
 
         jcenter()
+    }
+    // Allow 400 errors.
+    gradle.projectsEvaluated {
+        tasks.withType(JavaCompile) {
+            options.compilerArgs << "-Xmaxerrs" << "400"
+        }
     }
 }
 
@@ -69,7 +83,7 @@ ext {
      * releases, but this is what you were aiming for. This is mostly to indicate how current your
      * application is for use in the marketplace, etc.
      */
-    targetSdkVersion = 26
+    targetSdkVersion = 29
 
     /**
      * the version of android your IDE uses to make the app when you publish a .apk file.
@@ -78,7 +92,7 @@ ext {
      * develop it. As this will be the version to compile to an APK, it will naturally be the
      * version of your release. Likewise, it is advisable to have this match you target sdk version.
      */
-    compileSdkVersion = 28
+    compileSdkVersion = 31
 
     /**
      * When you change this value, the jobs may fail in Jenkins. When that happens, you have to
@@ -89,11 +103,44 @@ ext {
      * see https://wiki.jenkins.io/display/JENKINS/Custom+Tools+Plugin
      * see https://faas.forge.orange-labs.fr/documentation/master/userguide/index.html#jenkins-custom-tools
      */
-    buildToolsVersion = '28.0.3'
+    buildToolsVersion = '29.0.3'
 
     // androidx dependencies
     supportLibraryVersion = '26.1.0'
 
     // com.microsoft.appcenter dependencies
     appCenterSdkVersion = '1.4.0'
+
+    //define a common used libraries
+    room_version = "2.4.3"
+
+    //Work Manager
+    work_version = "2.6.0"
+
+    Lombok_Version = "1.18.22"
+
+
+    libraries = [
+            rxJava                 : 'io.reactivex.rxjava2:rxjava:2.2.12',
+            rxAndroid              : 'io.reactivex.rxjava2:rxandroid:2.1.1',
+            timber                 : 'com.jakewharton.timber:timber:4.6.0',
+            gson                   : 'com.google.code.gson:gson:2.8.6',
+            apacheDocx             : 'org.apache.poi:poi:3.17',
+            Hilt                   : 'com.google.dagger:hilt-android:2.40.5',
+            HiltAnnotation         : 'com.google.dagger:hilt-compiler:2.40.5',
+            HiltTesting            : 'com.google.dagger:hilt-android-testing:2.28-alpha',
+            HiltTestAnnotation     : 'com.google.dagger:hilt-android-compiler:2.28-alpha',
+            HiltLifecycle          : 'androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha02',
+            HiltAndroidxAnnotation : 'androidx.hilt:hilt-compiler:1.0.0',
+            RoomRxJava             : "androidx.room:room-rxjava2:$room_version",
+            Room                   : "androidx.room:room-runtime:$room_version",
+            RoomAnnoatation        : "androidx.room:room-compiler:$room_version",
+            WorkManager_Java       : "androidx.work:work-runtime:$work_version",
+            WorkManager_Kotlin     : "androidx.work:work-runtime-ktx:$work_version",
+            Hilt_WorkManager       : 'androidx.hilt:hilt-work:1.0.0',
+            Hilt_WorkManager_Kotlin: 'androidx.hilt:hilt-compiler:1.0.0',
+            Hilt_WorkManager_Java  : 'androidx.hilt:hilt-compiler:1.0.0',
+            Lombok                 : "org.projectlombok:lombok:$Lombok_Version"
+
+    ]
 }

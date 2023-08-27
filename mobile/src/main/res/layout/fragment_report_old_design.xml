@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animateLayoutChanges="true">
+
+            <TextView
+                android:id="@+id/auditName"
+                style="@style/LabelsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="8dp"
+                android:text="Audit name"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/auditInfoIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/auditName"
+                app:srcCompat="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+            <TextView
+                android:id="@+id/rulesetType"
+                style="@style/LabelsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/referential_type"
+                app:layout_constraintStart_toStartOf="@+id/auditName"
+                app:layout_constraintTop_toBottomOf="@+id/auditName" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/auditInfoLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="@id/rulesetType"
+                app:layout_constraintTop_toBottomOf="@id/rulesetType">
+
+                <TextView
+                    android:id="@+id/siteName"
+                    style="@style/LabelsTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="site name"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/auditorName"
+                    style="@style/LabelsTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="auditor name"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/siteName" />
+
+                <TextView
+                    android:id="@+id/date"
+                    style="@style/LabelsTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="date : 12/10/2021"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/auditorName" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:id="@+id/first_line"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="5dp"
+                android:background="#000000"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/auditInfoLayout" />
+
+            <TextView
+                android:id="@+id/see_route"
+                style="@style/LabelsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/voir_parcours"
+                app:layout_constraintStart_toStartOf="@+id/rulesetType"
+                app:layout_constraintTop_toBottomOf="@+id/first_line" />
+
+            <ImageView
+                android:id="@+id/see_route_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="@+id/auditInfoIcon"
+                app:layout_constraintTop_toTopOf="@+id/see_route"
+                app:srcCompat="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/equipmentsList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="@id/see_route"
+                app:layout_constraintTop_toBottomOf="@id/see_route" />
+
+            <View
+                android:id="@+id/second_line"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="5dp"
+                android:background="#000000"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/equipmentsList" />
+
+            <Button
+                android:id="@+id/selectProfiles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:text="Profiles"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/see_pie_icon"
+                tools:layout_editor_absoluteY="94dp" />
+
+            <ImageView
+                android:id="@+id/see_pie_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="@+id/auditInfoIcon"
+                app:layout_constraintTop_toBottomOf="@+id/second_line"
+                app:srcCompat="@drawable/ic_baseline_keyboard_arrow_up_24" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/selectedProfilesList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                app:layout_constraintStart_toEndOf="@id/selectProfiles"
+                app:layout_constraintTop_toBottomOf="@id/see_pie_icon" />
+
+            <com.orange.ocara.mobile.ui.view.piechart.PieGraph
+                android:id="@+id/pie_chart"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginStart="@dimen/defaultMarginLeft"
+                android:layout_marginEnd="@dimen/defaultMarginRight"
+                android:layout_marginBottom="@dimen/defaultMarginBottom"
+                app:layout_constraintTop_toBottomOf="@id/selectedProfilesList"
+                app:pieInnerCircleRatio="200" />
+
+            <View
+                android:id="@+id/third_line"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="5dp"
+                android:background="#000000"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/pie_chart" />
+
+            <ImageView
+                android:id="@+id/see_table_report"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="@+id/auditInfoIcon"
+                app:layout_constraintTop_toBottomOf="@+id/third_line"
+                app:srcCompat="@drawable/ic_baseline_keyboard_arrow_up_24" />
+
+            <HorizontalScrollView
+                android:id="@+id/tableLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/see_table_report">
+
+                <TableLayout
+                    android:id="@+id/result_resume_table"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:collapseColumns="*"
+                    android:stretchColumns="*">
+
+                    <TableRow
+                        android:id="@+id/table_row"
+                        style="@style/ResumeRow"
+                        android:background="@color/resultTableHeader">
+
+                        <TextView
+                            style="@style/ResumeCellHeaderWithIcon"
+                            android:text="@string/audit_results_table_handicap_title" />
+
+                    </TableRow>
+
+                </TableLayout>
+            </HorizontalScrollView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

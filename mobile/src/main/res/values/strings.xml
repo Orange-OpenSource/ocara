@@ -1,0 +1,561 @@
+<!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<resources>
+    <string name="app_name" translatable="false">OCARA</string>
+    <string name="app_version" translatable="false">V1.0.0</string>
+
+    <string name="audit_name">Audit Name : *</string>
+    <string name="site">Site : (*)</string>
+    <string name="siteLabel" translatable="false">Site</string>
+    <string name="edit_audit_level_beginner">novice</string>
+    <string name="edit_audit_level_expert">expert</string>
+    <string name="show_less">show less</string>
+    <string name="Help_on_the_page">Help on the page</string>
+    <string name="view_referentials">View referentials</string>
+    <string name="view_referentials_fragment_title">Referentials</string>
+    <string name="referentials_info">Referential info</string>
+    <string name="referentials">Referentials</string>
+    <string name="preferences">Preferences</string>
+    <string name="terms_of_use">Terms of Use</string>
+    <string name="terms_of_use_title">Terms of Use</string>
+    <string name="terms_of_use_intro_title">OCARA - Terms of Use</string>
+    <string name="terms_of_use_intro_accept">Accept the GCU</string>
+    <string name="terms_of_use_intro_refuse">Refuse the GCU</string>
+    <string name="about">About</string>
+    <string name="choose_site">choose site</string>
+    <string name="add_site">Add site</string>
+    <string name="street">Address</string>
+    <string name="city">City</string>
+    <string name="postal_code">Postal code (5 digits) :</string>
+    <string name="create_site">Create site</string>
+    <string name="site_info">Site info</string>
+    <string name="modify_site">Edit site</string>
+    <string name="modify_auditor">Edit auditor</string>
+    <string name="create_auditor">Create auditor</string>
+    <string name="name">Name :</string>
+    <string name="last_name">Last name :</string>
+    <string name="email" translatable="false">Email :</string>
+    <string name="inform_me">Inform me of audits carried out</string>
+    <string name="add_auditor">Add auditor</string>
+    <string name="auditor">Auditor</string>
+    <string name="rulesetInDroplistFormat" translatable="false">%s (V%d)</string>
+    <string name="rulesetInDroplist_content_desc_downloaded">downloaded</string>
+    <string name="rulesetInDroplist_content_desc_not_downloaded">to download</string>
+    <string name="name_of_ref">Name of referential</string>
+    <string name="type_of_ref">Referential type</string>
+    <string name="ref_eq_search_hint">Enter a keyword</string>
+    <string name="authorLabel">Author :</string>
+    <string name="rule_category">Rule Category :</string>
+    <string name="versionLabel">Version number :</string>
+    <string name="dateLabel">Publication Date :</string>
+
+    <string name="commentLabel">Comment :</string>
+    <string name="view_referetial">View Rules</string>
+    <string name="uninstall_ref">Uninstall this referential</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="name_of_obj">Name of object</string>
+    <string name="obj_sub_obj_dialog_tite">Indicate properties present in this element :</string>
+
+    <!-- this is a contentDescription -->
+    <string name="edit_path">Edit path</string>
+    <string name="view_report">View report</string>
+
+
+    <string name="search_rules">Show rules</string>
+    <string name="comments">Comment (%d)</string>
+    <string name="details">Details</string>
+    <string name="properties">Properties (%d)</string>
+    <string name="audit">Audit</string>
+    <string name="test">Test</string>
+    <string name="next">next</string>
+    <string name="valider">validate</string>
+    <string name="delete">delete</string>
+    <string name="parcours" translatable="false">parcours</string>
+    <string name="choice">Choice of Objects</string>
+    <string name="object" translatable="false">Object</string>
+    <string name="timer" translatable="false">%d:%d</string>
+    <string name="speech_to_text">speech to text</string>
+    <string name="this_is_an_audio_comment_but_it_has_not_audio">This is an audio comment, but it has no audio</string>
+    <string name="delete_comment">Delete Comment ?</string>
+    <string name="save">save</string>
+
+    <string name="Copy">Copy</string>
+    <string name="sort_by_date">Sort by date</string>
+    <string name="sort_by_site">Sort by site</string>
+    <string name="sort_by_status">Sort by status</string>
+    <string name="reverse">Reverse</string>
+    <string name="voir_parcours">see route</string>
+    <string name="referential_type" translatable="false">Référentiel : %s</string>
+    <string name="auditorName">Auditor : %s</string>
+    <string name="date" translatable="false">Date : %s</string>
+    <string name="siteName" translatable="false">Site : %s</string>
+    <string name="all_profiles">all the profiles</string>
+    <string name="commentsCount">Comments (%d)</string>
+    <string name="anamoliesCount" translatable="false">Anamolies (%d)</string>
+
+    <!--    ************************************************************************************************************ -->
+
+    <string-array name="terms_title_texts">
+        <item>@string/terms_general_info_title_txt</item>
+        <item>@string/terms_item_1_title_txt</item>
+        <item>@string/terms_item2_title_txt</item>
+        <item>@string/terms_item3_title_txt</item>
+        <item>@string/terms_item4_title_txt</item>
+        <item>@string/terms_item5_title_txt</item>
+        <item>@string/terms_item6_title_txt</item>
+        <item>@string/terms_item7_title_txt</item>
+        <item>@string/terms_item8_title_txt</item>
+        <item>@string/terms_item9_title_txt</item>
+        <item>@string/terms_item10_title_txt</item>
+        <item>@string/terms_item11_title_txt</item>
+    </string-array>
+    <string-array name="terms_content_texts">
+        <item>@string/terms_general_info_context_txt</item>
+        <item>@string/terms_item1_content_txt</item>
+        <item>@string/terms_item2_content_txt</item>
+        <item>@string/terms_item3_content_txt</item>
+        <item>@string/terms_item4_content_txt</item>
+        <item>@string/terms_item5_content_txt</item>
+        <item>@string/terms_item6_content_txt</item>
+        <item>@string/terms_item7_content_txt</item>
+        <item>@string/terms_item8_content_txt</item>
+        <item>@string/terms_item9_content_txt</item>
+        <item>@string/terms_item10_content_txt</item>
+        <item>@string/terms_item11_content_txt</item>
+    </string-array>
+
+    <string name="terms_title_txt" translatable="false">CONDITIONS GÉNÉRALES D\'UTILISATION DE L\'APPLICATION OCARA</string>
+    <string name="terms_general_info_title_txt" translatable="false"><b>INFORMATIONS GÉNÉRALES</b></string>
+
+    <string name="terms_general_info_context_txt" translatable="false">L\'application « OCARA» est un outil d\’audit matérialisé par une interface pour terminal  Android(tablette ou smartphone),
+        permettant de décrire et d\’auditer  l\’accessibilité et/ou la sécurité des parcours des usagers à l\’intérieur de tout
+        bâtiment ou en extérieur (ci-après dénommée « Application »).\n
+
+    L\'Application est proposée par la société Orange, une société anonyme au capital social de 10 640 226 396 €, immatriculée au RCS de Paris sous le numéro 380 129 866,
+        dont le siège social est situé au 78 rue Olivier de Serres, 75015 Paris, France (ci-après dénommée « Orange »).\n
+    L\'Application est disponible librement, gratuitement, en la téléchargeant sur github  via le lien
+       https://github.com/Orange-OpenSource/OCARA <a href="https://github.com/Orange-OpenSource/OCARA" />, à toute personne, (ci-après dénommée Auditeur) souhaitant utiliser l\’Application aux fins de décrire et
+        d\’auditer l\’accessibilité et la sécurité du parcours des usagers à l\’intérieur de tout  bâtiment ou en extérieur.\n
+    L\'accès et l\'utilisation de l\'Application sont soumises aux présentes Conditions Générales d\'Utilisation (ci-après dénommées « CGU ») que
+        l\'Auditeur déclare avoir lues et accepte expressément en cochant la case « acceptation » correspondante.
+    </string>
+    <string name="terms_item_1_title_txt" translatable="false"><b>Article Premier : OBJET</b></string>
+    <string name="terms_item1_content_txt" translatable="false">
+    Les présentes CGU ont pour objet de définir les conditions selon lesquelles :\n
+
+    • l\'Application est mise à la disposition des Auditeurs ;\n
+    • les Auditeurs doivent utiliser l\'Application.
+    </string>
+
+    <string name="terms_item2_title_txt" translatable="false"><b>Article 2 : ACCÈS À L\'APPLICATION</b></string>
+
+    <string name="terms_item2_content_txt" translatable="false">
+Pour pouvoir utiliser l\'Application, l\'Auditeur doit disposer d\'une tablette ou d\’un smartphone compatible avec les systèmes d\'exploitation Android version 6 minimum (et ses versions ultérieures) et télécharger l\'Application via le lien <a href="https://github.com/Orange-OpenSource/OCARA" />.\n
+L’utilisation du service OCARA nécessite une connexion à Internet pour télécharger les contenus (référentiels d’audits, dits aussi jeux de règles) permettant d’effectuer des audits. Il est précisé que ces connexions ne sont pas prises en charge par Orange, il appartient par conséquent à l’Auditeur de souscrire préalablement à une offre Internet  (incluant 50 Mo minimum) pour pouvoir utiliser le service OCARA.</string>
+
+    <string name="terms_item3_title_txt" translatable="false"><b>Article 3 : DESCRIPTION DE L\'APPLICATION</b></string>
+    <string name="terms_item3_content_txt" translatable="false">L’Application, initialement destinée aux personnes chargées de l’accessibilité et de la sécurité des bâtiments en entreprise, peut aussi être utilisée par toute personne sensibilisée à la problématique de l’accessibilité ou de la sécurité, et qui souhaite pouvoir effectuer un autodiagnostic de parcours ou de zones, à l’intérieur de tout bâtiment ou en extérieur, sur la base de contenus (référentiels d’audit) mis à disposition par des spécialistes du domaine.\n\n
+        \nUn référentiel d’audit recouvre un ensemble d’espaces (salle de réunion, caféteria, …) ou d’objets présents sur un parcours  (porte, couloir, dispositif de commande,…)
+        avec les règles et les questionnaires associés permettant de les contrôler. Ces contenus sont mis à disposition gratuitement par Orange sur le site ConfOCARA.
+        Ils sont téléchargeables depuis l’Application et sont utilisés par l’Auditeur pour dérouler des audits.
+
+    \nIl est porté à l’attention de l’Auditeur que contenus produits par Orange ou des tiers et mis à disposition sur le site ConfOCARA ne sont pas obligatoirement des référentiels
+        d’audit officiels homologués par les autorités compétentes. Ils sont inspirés par l’ensemble des règles officielles existantes, par l’état de l’art et par des retours d’usage.
+        Ils sont destinés à évaluer des caractéristiques pour un autodiagnostic centré sur l’usage, et pas obligatoirement sur la conformité règlementaire.
+
+    \nL\'Application, une fois téléchargée et installée sur  terminal de l\'Auditeur, permet à ce dernier de décrire et d’auditer les parcours des usagers et les
+        locaux qui les accueillent, par exemple à l’intérieur d’un site d’une entreprise, en utilisant les référentiels d’audit.
+
+    \nChaque objet rencontré sur le parcours (tel que, par exemple, place de parking, chemin, barrière, contrôle d’accès, salle de réunion …)
+        est référencé et peut être évalué immédiatement, et commenté (prise de photos, ajout de texte). En fin de parcours le service OCARA génère,
+        directement sur le terminal de l’Auditeur, un rapport d’audit qui récapitule les points de non-conformité  par rapport au référentiel utilisé,
+        et propose des scores de conformité. Ce rapport est conservé sur le terminal. L’Auditeur peut en produire un fichier Word qu’il archive localement ou qu’il partage
+        (par mail ou tout autre moyen disponible sur son terminal). Il appartient ensuite à l’Auditeur, sous sa seule responsabilité, d’exploiter le rapport d’audit généré.
+    </string>
+
+
+    <string name="terms_item4_title_txt" translatable="false"><b>Article 4 : CONDITIONS D\'UTILISATION</b></string>
+    <string name="terms_item4_content_txt" translatable="false">L’application est réservée aux personnes majeures.
+    \nL\'Application autorise un usage privé et strictement personnel, ou bien un usage professionnel.
+        L\'Auditeur s\'engage à ne pas utiliser l\'Application pour un usage commercial sans informer au préalable ses clients du caractère libre/open source
+        du logiciel utilisé et de ses propriétaires.
+    \nL\'Auditeur doit prendre toutes les mesures nécessaires pour veiller personnellement aux précautions requises lors de l\'utilisation de l\'Application. </string>
+
+
+    <string name="terms_item5_title_txt" translatable="false"><b>Article 5 : TARIFS</b></string>
+    <string name="terms_item5_content_txt" translatable="false">
+        Le service OCARA est fourni gratuitement, mais n\'inclut pas les frais de communication d\’accès à Internet lorsque
+        l\'Auditeur utilise l\’Application. Les coûts de connexion internet dépendent de l’offre internet mobile dont dispose l’Auditeur,
+        ou bien des modalités de connexion Internet via le réseau fixe (en Wifi).
+
+    \nLorsque l\'Utilisateur est situé hors du territoire dans lequel il dispose de son offre de services internet mobiles («itinérance»),
+        il peut être soumis à des frais supplémentaires pour l\'utilisation des données selon l’offre internet mobile dont bénéficie l’Utilisateur,
+        et la zone géographique dans laquelle il se trouve. Il incombe à l\'Utilisateur de s\'assurer auprès de son opérateur mobile qu\'il dispose d\'une offre permettant
+        l\'utilisation des données depuis l\'étranger.</string>
+
+
+    <string name="terms_item6_title_txt" translatable="false"><b>Article 6 : RESPONSABILITÉ D\'ORANGE</b></string>
+    <string name="terms_item6_content_txt" translatable="false">Le service OCARA est fourni gratuitement,
+        mais n\'inclut pas les frais de communication d’accès à Internet lorsque l\'Auditeur utilise l’Application. Les coûts de connexion internet dépendent de l’offre
+        internet mobile dont dispose l’Auditeur, ou bien des modalités de connexion Internet via le réseau fixe (en Wifi).
+
+    \nLorsque l\'Utilisateur est situé hors du territoire dans lequel il dispose de son offre de services internet mobiles
+        («itinérance»), il peut être soumis à des frais supplémentaires pour l\'utilisation des données selon l’offre internet mobile dont bénéficie l’Utilisateur,
+        et la zone géographique dans laquelle il se trouve. Il incombe à l\'Utilisateur de s\'assurer auprès de son opérateur mobile qu\'il dispose d\'une offre permettant
+        l\'utilisation des données depuis l\'étranger.</string>
+
+
+    <string name="terms_item7_title_txt" translatable="false"><b>Article 7 : RESPONSABILITÉ DE L\'AUDITEUR</b></string>
+    <string name="terms_item7_content_txt" translatable="false">Orange met en place les moyens nécessaires au bon fonctionnement, à la maintenance et  à la continuité de l\'Application.
+
+    \nLa responsabilité d\'Orange envers l\'Auditeur ne peut être engagée qu\'en cas de faute ou de négligence d\'Orange dûment prouvée et uniquement
+        imputable à Orange, en particulier en cas de non-respect de ses obligations en vertu des présentes CGU.</string>
+
+
+    <string name="terms_item8_title_txt" translatable="false"><b>Article 8 : MODIFICATION</b></string>
+    <string name="terms_item8_content_txt" translatable="false">L\'Auditeur est seul responsable de son utilisation de l\'Application et de tout préjudice et
+        dommage matériel direct qu\'il pourrait causer à Orange ou à des tiers, notamment en cas de dommages causés par un terminal mobile
+        sur lequel l\'Application est installée ou par une utilisation non conforme aux CGU.
+    Il appartient donc à l\'Auditeur, de s’assurer, auprès d’une compagnie d’assurance, contre tous risques,
+        dommages et éventuelles conséquences financières découlant de sa responsabilité.
+
+    \nL’Auditeur est seul responsable de l’audit effectué grâce à l’Application et de l’utilisation des contenus miss à sa disposition
+        ainsi que du contenu qui en découle et produit par l’Auditeur.</string>
+
+
+    <string name="terms_item9_title_txt" translatable="false"><b>Article 9 : PROPRIÉTÉ INTELLECTUELLE</b></string>
+    <string name="terms_item9_content_txt" translatable="false">Orange est et reste propriétaire de l\'Application sous réserve des droits des tiers.
+    \nLe code source de l’Application est disponible sur l’espace github Orange
+        (https://github.com/Orange-OpenSource/OCARA <a href="https://github.com/Orange-OpenSource/OCARA" /> ) selon les termes de la licence open source Mozilla Public License version 2.0 disponible via le lien :
+         https://opensource.org/licenses/MPL-2.0<a href="https://opensource.org/licenses/MPL-2.0" />.
+        Ainsi l’Auditeur peut l’utiliser dans le respect des termes de cette licence et sous réserve de se conformer aux présentes CGU.
+
+    \nLa documentation associée au code source est disponible sous la licence creative commons :
+        attribution-sharealike 4.0. accessible via le lien https://creativecommons.org/licenses/by-sa/4.0/ <a href="https://creativecommons.org/licenses/by-sa/4.0/" />.
+
+    \n <b>Droit d’utilisation des contenus (référentiels d’audit) mis à disposition</b>
+    \nDans le cadre des présentes CGU, Orange accorde à l\'Auditeur un droit d’utilisation non exclusif, non cessible, révocable,
+    pour le monde entier et ne pouvant faire l’objet de sous-licence d’utilisation des contenus (référentiels d’audit).
+    Cette autorisation est accordée à l\'Auditeur tant que l’Application est disponible et est soumise au respect des présentes CGU.
+    L’Auditeur ne doit pas :
+
+    \t\t a. utiliser, copier, modifier ou distribuer les contenus (référentiels d’audit), sauf autorisation expresse contenue dans les présentes CGU ;
+    \t\t b. sous-licencier ou concéder les contenus.
+    </string>
+    <string name="terms_item10_title_txt" translatable="false"><b>Article 10 : RÉSILIATION</b></string>
+    <string name="terms_item10_content_txt" translatable="false">Orange peut, à sa discrétion, et moyennant un préavis de quatre-vingt-dix (90) jours,
+        arrêter de fournir l\'Application, en partie ou entièrement, à tout moment. L’auditeur est informé que l’arrêt du service ConfOCARA entrainera automatiquement
+        l’arrêt de la mise à jour des contenus.
+
+    \nL\'Auditeur peut également arrêter d\'utiliser l\'Application à tout moment en la désinstallant. </string>
+
+
+    <string name="terms_item11_title_txt" translatable="false"><b>Article 11 : DIVERS</b></string>
+    <string name="terms_item11_content_txt" translatable="false">
+        <b>Autonomie des stipulations :</b> Si une ou plusieurs clauses des présentes CGU est/sont déclarée(s) nulle(s)
+        en application d’une loi, d’un règlement ou à la suite d’une décision définitive d’une juridiction compétente,
+        les autres clauses conserveront toute leur force et leur portée et resteront en vigueur. Les clauses déclarées nulles seront alors
+        remplacées par des  clauses valables qui se rapprocheront autant que possible de la portée des clauses initialement adoptées.
+
+        \n<b>Force majeure :</b> Orange et l\'Auditeur ne peuvent être tenus pour responsables de tout retard ou de la non-exécution de leurs obligations
+        dans les cas où la cause du retard ou de la non-exécution est liée à un événement de force majeure, tel que défini dans le droit applicable.
+
+        \n <b>Droit applicable et juridiction compétente :</b>Sauf disposition contraire d\'une loi d’ordre publique ou d\'une disposition légale obligatoire,
+        ces CGU sont soumises au droit français et tout litige non résolu au moyen d\'une procédure à l\'amiable sera soumis à la juridiction compétente.
+        \n<b>Contact </b>Toute  réclamation ou contestation liée à l\'Application doit être envoyée par e-mail à l\'adresse indiquée dans la rubrique « Contact »
+        de l\'Application (voir Rubrique « À propos »)
+        \nUne réponse sera envoyée dans un délai de 5 jours à compter de la réception de l\'e-mail.
+    </string>
+    <string name="new_audit_title">New Audit</string>
+    <string name="edit_audit_title">Edit Audit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="edit">Edit</string>
+    <string name="complete">Complete</string>
+    <string name="copy">Copy</string>
+    <string name="Delete">Delete</string>
+    <string name="retest">Retest</string>
+    <string name="retest_aud_msg">Restest the route of the audit %s.\nA copied audit will be created </string>
+    <string name="ok">YES</string>
+    <string name="no_audits_found">No Audits Found</string>
+    <string name="no_obj_found">No objects added to the route</string>
+    <string name="retest_aud_keep_ans_msg">Do you want to keep replies and comments?</string>
+    <string name="retest_aud_keep_ans_msg_yes">yes, keep data</string>
+    <string name="retest_aud_keep_ans_msg_no">No, delete data</string>
+
+    <string name="search">Search</string>
+    <string name="help">Help</string>
+    <string name="help_screen_title">Help</string>
+    <string name="path_choices">Choose an object</string>
+    <string name="current_rout_title">Path Choices</string>
+
+    <string name="objects">Objects</string>
+    <string name="add_to_path">Add To Path</string>
+    <string name="referential_info">Referential Information</string>
+    <string name="write_text_comment_header">Please write your comment here</string>
+    <string name="press_to_start_recording">Please press to start recording</string>
+    <string name="press_to_stop_recording">Please press to stop recording</string>
+    <string name="dont_make_noise">please don\'t make any noise until the record is finished playing</string>
+    <string name="retake">Retake</string>
+    <string name="delete_comment_confirmation_msg">Are you sure you want to delete this comment ?</string>
+    <string name="delete_record">Delete Record ?</string>
+    <string name="delete_record_confirmation_msg">Are you sure you want to delete this record ?</string>
+    <string name="no_comments_found">No Comments Found</string>
+    <string name="audio_comment">Audio Comment</string>
+    <string name="record_comment">Record Comment</string>
+    <string name="record_comment_permission">You need permission to record audio</string>
+    <string name="comments_label">Comments</string>
+    <string name="audio_comments">Audio Comments (%d)</string>
+    <string name="text_comments">Text Comments (%d)</string>
+    <string name="photo_comments">Photo Comments (%d)</string>
+    <string name="text_comment">Text Comment</string>
+    <string name="photo_comment">Photo Comment</string>
+    <string name="add_photo_comment">Photo</string>
+    <string name="add_text_comment">Text</string>
+    <string name="add_audio_comment">Audio</string>
+    <string name="add_image_comment">Picture</string>
+    <string name="take_image_permission"> You need permission to take picture</string>
+    <string name="add_photo_permission">You need permission to choose picture</string>
+    <string name="comment_label_in_audio_list">Comment (%d)</string>
+    <string name="delete_comments">Delete Comments</string>
+    <string name="delete_comments_confirmation_msg">Are you sure you want to delete selected comments ?</string>
+
+    <string name="delete_comments_confirmation_msg_one">One comment will be deleted :</string>
+    <string name="delete_comments_confirmation_msg_multiple">%d comments will be deleted :</string>
+
+    <string name="about_icon_app_desc">BUILDING ACCESSIBILITY AUDIT</string>
+    <string name="pre">prev</string>
+    <string name="illustrations_title">ExplanationsFragment</string>
+    <string name="choose_auditor_title">Choose Auditor</string>
+    <string name="choose_auditor_info">The selected name will be displayed in the audit report and associated with the signature.</string>
+    <string name="choose_site_title">Choose site</string>
+    <string name="search_name">Search</string>
+    <!--    <string name="search_name">Search by name</string>-->
+
+    <!--    home screen -->
+    <string name="create_audit">Create audit</string>
+    <string name="all_audits">All the audits</string>
+    <string name="home_full_paragraph">The OCARA app is a real world accessibility self-diagnostic tool. It makes it possible to assess the accessibility of user journeys on a given site based on the audit standards available for download.\n\n An object encountered on the course is referenced and evaluated in relation to the proposed criteria, then commented on. The \"objects\" are for example a parking space, a path, a reception, a door, a room . The audit report is built automatically.\n\n Easy to use and educational, OCARA makes it possible to identify the most troublesome obstacles. According to the proposed standards, it also allows audits of various kinds</string>
+    <string name="home_part_paragraph">The OCARA app is a real world accessibility self-diagnostic tool. It makes it possible to assess the accessibility of user journeys on a given site …</string>
+
+
+    <!--Edit audit screen-->
+    <string name="update">update</string>
+
+    <!--Create audit screen-->
+    <string name="enter_audit_name">Audit Name</string>
+    <string name="enter_site_name">Audit site</string>
+    <string name="audit_referential">Referential Type</string>
+    <string name="enter_auditor_name">Auditor name</string>
+    <string name="referential_warring">This referential type needs to be downloaded.</string>
+    <string name="download">Download</string>
+    <string name="download_ref_dialog_title">Download Referential</string>
+    <string name="download_ref_dialog_content">Are you sure you want to download Referential : %s</string>
+
+    <string name="audit_auditor">Name and Surname : *</string>
+    <string name="audit_expertise">Expertise level</string>
+    <string name="novice">NOVICE</string>
+    <string name="expert">EXPERT</string>
+    <string name="create_the_audit">Create the audit</string>
+    <!--    create site screen-->
+    <string name="create_site_page_title">Add a site </string>
+    <string name="mobile_create_site_name">Site name</string>
+    <string name="mobile_create_site_address">Site address</string>
+    <string name="mobile_create_site_code">Postal code</string>
+    <string name="mobile_create_site_code_hint">Postal code (5 digits)</string>
+    <string name="create_site_town">Town</string>
+    <string name="create_site_btn">Create</string>
+    <string name="fill_site_code_error_title">Invalid postal code.\nExample : 35000</string>
+
+    <string name="delete_site_dialog_title">You are going to delete the site %s</string>
+
+    <!--    \nSite code should be 5 digits-->
+    <!--    create auditor screen-->
+    <string name="create_auditor_title">Add auditor</string>
+    <string name="create_auditor_name">Name</string>
+    <string name="create_auditor_lastname">Last Name</string>
+    <string name="create_auditor_email">E-mail</string>
+    <string name="create_auditor_check">Inform me of audits carried out</string>
+    <string name="fill_mail_error_title">Invalid e-mail address.\nExample : melanie@orange.fr</string>
+    <string name="fill_mail_hint">Expected format: name@domain.com</string>
+    <string name="delete_auditor_dialog_title">You are going to delete the auditor %s %s</string>
+
+    <!--generic-->
+    <string name="fill_form_title">Please fill the form</string>
+    <string name="required_field">Required field</string>
+    <string name="fill_field_error_title">Please complete this field.</string>
+    <string name="create">Create</string>
+
+    <!--report equipments-->
+    <string name="report_eq_title">Report Equipments</string>
+    <string name="report_eq_comments">Comments</string>
+    <string name="report_eq_anomalies">Anomalies</string>
+
+    <string name="title_activity_report_result">ReportResultActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+    <string name="modification_date">Modified on %s</string>
+
+
+    <string name="delete_audit_confirmation_msg">Are you sure you want to delete the \"%s\" audit ?</string>
+    <string name="delete_audit">Delete Audit ?</string>
+    <string name="copied">Copied!</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="path_element">Path Elements</string>
+
+    <string name="adjust_eq">ADJUST THE AUDIT</string>
+
+    <!--Report-->
+    <string name="report_fragment_title">Report info</string>
+    <string name="info_ref_type">Referential Type</string>
+    <string name="results">Results</string>
+    <string name="summary">View the route</string>
+    <string name="lock_audit">Lock Audit</string>
+    <string name="info_audit_name">Audit Name:</string>
+    <string name="info_site_name">Site Name:</string>
+    <string name="info_auditor_name">Auditor Name:</string>
+    <string name="info_expertise">Expertise Level:</string>
+    <string name="info_date">Date:</string>
+    <string name="results_representation">Representation of the results</string>
+
+    <string name="report_summary">Report Summary</string>
+    <string name="report_view_route_title">Resume of the route</string>
+    <string name="report_results">Results of the audit</string>
+
+
+    <string name="ok_percentage">(%f) %</string>
+    <string name="welcome_in_ocara">Welcome in OCARA</string>
+    <string name="what_to_do">what would you like to do ?</string>
+    <string name="all_audits_with_cnt">Access to audits (%d)</string>
+    <string name="want_to_know_more">Want to know more about OCARA ?</string>
+    <string name="want_to_know_more_exp"> expanded button</string>
+    <string name="want_to_know_more_not_exp"> collapsed button</string>
+    <string name="lock_audit_dialog_content">Are you sure you want to lock this audit ?</string>
+
+    <string name="control_ok">Control OK</string>
+    <string name="control_no">Control KO</string>
+    <string name="control_doubt">Doubt</string>
+
+    <!--    Audit equipment-->
+    <string name="delete_audit_obj_confirmation_msg">"Are you sure you want to delete this item ? "</string>
+    <string name="delete_obj">Delete Equipment</string>
+
+    <!--    export audit-->
+    <string name="exporting">Exporting</string>
+    <string name="export_fail">Failed to export</string>
+    <string name="export_docx_fail_app_error">Sorry cannot open file, please install doc file opening app  \n\n file path : %s</string>
+    <!--answer questions-->
+    <string name="question_answer_save_dialog_title">Save advancement</string>
+    <string name="question_answer_save_dialog_content">Would you like to save answers?</string>
+    <string name="question_answer_save_dialog_cancel">DON\'T SAVE</string>
+    <string name="question_answer_save_dialog_confirm">SAVE</string>
+
+    <string name="object_tile">Object</string>
+    <!--questions answer-->
+    <string name="answer_yes">YES</string>
+    <string name="answer_no">NO</string>
+    <string name="answer_doubt">DOUBT</string>
+    <string name="answer_na">N/A</string>
+    <!--list audits-->
+    <string name="add_new_audit">+ Add A New Audit</string>
+
+    <string name="home_screen_title">Welcome</string>
+    <!--sign report-->
+
+    <string name="sign_screen_title">Sign</string>
+    <string name="sign_title_1">The report will no longer be editable. </string>
+    <string name="sign_title_2">Sign the report : </string>
+    <string name="sign_clear">Clear</string>
+    <string name="sign_conf_title">Sign &amp; lock audit</string>
+    <string name="sign_conf_content">Are you sure that you want to sign and lock the audit ?</string>
+    <!--content description-->
+    <string name="site_info_content_desc">Selected site information</string>
+    <string name="auditor_info_content_desc">Selected auditor information</string>
+    <string name="ref_info_content_desc">Selected referential information</string>
+    <string name="close_content_desc">Close</string>
+    <string name="obj_up_arrow_content_desc">Move item to top of list</string>
+    <string name="obj_down_arrow_content_desc">Move item down list </string>
+    <string name="obj_list_delete_content_desc">delete an element of the route</string>
+    <string name="obj_list_edit_content_desc">change order of objects of the route</string>
+
+    <!--    expertise info-->
+    <string name="exp_info_title">Information about expertise level</string>
+    <string name="exp_info_novice_title">\u2022 <b><u>Novice mode :</u></b></string>
+    <string name="exp_info_novice_title_no_bullet"><b><u>Novice mode :</u></b></string>
+    <string name="exp_info_novice_cont">\u2022 For a new user
+        \n\u2022The rules to be audited are displayed sequentially
+        \n\u2022Only one rule per screen
+    </string>
+    <string name="exp_info_expert_title">\u2022 <b><u>Expert mode :</u></b> </string>
+    <string name="exp_info_expert_title_no_bullet"><b><u>Expert mode :</u></b> </string>
+
+    <string name="exp_info_expert_cont">\u2022 Assumes knowledge of accessibility rules
+        \n\u2022 Aimed at a user accustomed to carrying out audits
+        \n\u2022 All the rules are displayed on a single screen
+    </string>
+    <!--    content desc-->
+    <string name="home_btn_content_desc">Navigate up</string>
+    <string name="delete_content_desc">delete an element of the route</string>
+    <string name="edit_content_desc">change order of objects of the route </string>
+    <string name="content_desc_sort">Sort</string>
+    <string name="content_desc_closed_audit">closed audit</string>
+    <string name="content_desc_ong_audit">on going audit</string>
+    <string name="content_desc_obj_selected">selected</string>
+    <string name="content_desc_obj_not_selected">deselected</string>
+    <string name="content_desc_edit_obj_name">Edit object name</string>
+    <string name="content_desc_delete_obj">delete this object of the route</string>
+    <string name="content_desc_record_start">Start audio record</string>
+    <string name="content_desc_record_stop">Stop audio record</string>
+    <string name="content_desc_audio_state_play">Play</string>
+    <string name="content_desc_audio_state_stop">Stop</string>
+    <string name="content_desc_edit_photo">edit the photo </string>
+    <string name="content_desc_in_list">In list</string>
+
+    <string name="content_desc_add_obj_to_route">add an object to the route</string>
+    <string name="content_desc_del_obj_from_route">confirm deletion of selected items</string>
+    <string name="content_desc_modify_route">confirm route change</string>
+    <string name="content_desc_compliant">Compliant</string>
+    <string name="content_desc_improper">Improper</string>
+    <string name="content_desc_uncertain">Uncertain</string>
+    <string name="content_desc_unaudited">Unaudited</string>
+    <string name="content_desc_item_list_size">list of (%d) element(s)</string>
+    <string name="content_desc_item_list_pos">element (%d) in the list</string>
+    <string name="content_desc_item_sub_list_size">sub list of (%d) element(s)</string>
+    <string name="content_desc_item_sub_list_pos">element (%d) in the sub list</string>
+    <string name="content_desc_deselected">deselected</string>
+    <string name="content_desc_item_delete">item deleted</string>
+    <string name="content_desc_order_chaged">order changed</string>
+    <string name="content_desc_list_audit_items_found">%d audits found</string>
+    <string name="content_desc_close">Close</string>
+
+    <string name="content_desc_activated">activated, double tap to deactivate</string>
+    <string name="content_desc_deactivated">deactivated, double tap to activate</string>
+    <string name="content_desc_rule_info">Explanation of the rule</string>
+    <string name="content_desc_delete_auditor">Delete the auditor</string>
+    <string name="content_desc_edit_auditor">Modify the auditor</string>
+    <string name="content_desc_delete_site">Delete the site</string>
+    <string name="content_desc_edit_site">Modify the site</string>
+
+
+
+    <string name="content_desc"></string>
+
+</resources>

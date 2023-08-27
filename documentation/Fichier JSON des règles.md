@@ -3,7 +3,7 @@
 * version : Version de l'application ex : "1.0.0"
 * type : Nom du fichier de régles ex "Régles Open Source"
 
-## objects
+## subObject / équipement
 * id : Identifiant de l'élément de parcours ex "Obj4b"
 * icon : Nom du fichier image correspondant à l'icône de cet élément de parcours ex "Porte coulissante-01.png"
 * name : Nom de l'élément de parcours ex "porte coulissante"
@@ -14,7 +14,7 @@ Les portes battantes et les portes automatiques peuvent être utilisées sans da
 Les sas permettent le passage et la manœuvre des portes pour les personnes handicapées ...
 Pour plus d'infos : http://www.accessibilite-batiment.fr/erp-situes-dans-un-cadre-bati-existant/portes-portiques-et-sas/arrete.html"
 * illustrations : Identifiant de l'illustration
-* objects : Identifiant des caractéristiques de l'élément de parcours ex ["SObj04", qui correspond à l’élément « déverrouillage » "SObj05", qui correspond à l’élément « ouverture à distance » "SObj06" qui correspond à l’élément « système de détection » ]
+* subObject : Identifiant des caractéristiques de l'élément de parcours ex ["SObj04", qui correspond à l’élément « déverrouillage » "SObj05", qui correspond à l’élément « ouverture à distance » "SObj06" qui correspond à l’élément « système de détection » ]
 * questions : Identifiant des questions ex ["O-4", qui correspond à « Es ce que la porte a les dimensions requises ? » "O-4a" qui correspond à « Est-ce qu'il y a des repères visuels (bandes, contrastes) sur la porte ? » ]
 
 ## handicaps
@@ -22,7 +22,7 @@ Pour plus d'infos : http://www.accessibilite-batiment.fr/erp-situes-dans-un-cadr
 * label : Libellé du type de handicap ex "Fauteuil roulant éclectrique"
 * picto : Nom du fichier image correspondant à l'icône du type de handicap ex "Fauteuil roulant électrique-01.png"
 
-## questions
+## questions / groupes de règles
 * "Identifiant de la question" ex "O-4"
     * ref : Identifiant de la question ex "O-4"
     * subject : Groupe de la question ex Caractériqtiques et équipements
@@ -36,7 +36,7 @@ Pour plus d'infos : http://www.accessibilite-batiment.fr/erp-situes-dans-un-cadr
             * "Identifiant du handicap " : "B" pour bloquant ou "G" pour génant ex {"H1" : "B", "H2" : "B", "H3" : "G" }
         * illustration : Identifiant de l'illustration de la règle ex "P01"
 
-## rules 
+## rules / règles
 * "Identifiant de la question" ex O-4
     * V : "Identifiant de la question suivante" ex "O-4-a"
     * NV : "Identifiant de la question suivante" ex "O-4-a"
@@ -45,9 +45,9 @@ Pour plus d'infos : http://www.accessibilite-batiment.fr/erp-situes-dans-un-cadr
 * type : Type de l'audit ex "Audit de parcours"
 * areas : Catégories présentes dans ce type d'audit
     * desc : Catégorie ex "Accès zone"
-    * objects : Elements de parcours qui appartiennent à cette catégorie ex ["Obj1", "Obj4a", "Obj4b", "Obj5a","Obj5b","Obj6", "Obj9", "Obj10", "Obj15", "SObj09", "SObj11" ]
+    * subObject : Elements de parcours qui appartiennent à cette catégorie ex ["Obj1", "Obj4a", "Obj4b", "Obj5a","Obj5b","Obj6", "Obj9", "Obj10", "Obj15", "SObj09", "SObj11" ]
 
-##illustrations
+## illustrations / explications
 * "Identifiant de l'illustration ex "P01" "
     * title : Titre de l'illustration "Passage utile"
     * image : Nom du fichier image correspondant à l'illustration ex "porte01.jpg"

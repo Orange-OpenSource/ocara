@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/delete_mode"
+        app:showAsAction="always"
+        android:focusable="true"
+        android:icon="@drawable/ic_trash"
+        android:contentDescription="@string/obj_list_delete_content_desc"
+        android:title="@string/delete_content_desc" />
+
+    <item
+        android:id="@+id/edit_mode"
+        app:showAsAction="always"
+        android:focusable="true"
+        android:contentDescription="@string/obj_list_edit_content_desc"
+        android:icon="@drawable/pencil_1"
+        android:title="@string/edit_content_desc" />
+
+
+    <item
+        android:id="@+id/help"
+        app:showAsAction="never"
+        android:title="@string/action_help" />
+    <item android:id="@+id/preferences"
+        app:showAsAction="never"
+        android:title="@string/preferences"/>
+    <item
+        android:id="@+id/terms_of_use"
+        app:showAsAction="never"
+        android:title="@string/terms_of_use" />
+    <item
+        android:id="@+id/about"
+        app:showAsAction="never"
+        android:title="@string/about" />
+
+</menu>

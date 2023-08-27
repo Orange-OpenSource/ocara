@@ -2,7 +2,7 @@
 <!--
   ~ Software Name: OCARA
   ~
-  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2020 Orange
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
   ~ SPDX-License-Identifier: MPL v2.0
   ~
   ~ This software is distributed under the Mozilla Public License v. 2.0,
@@ -419,7 +419,7 @@ https://opensource.org/licenses/mit-license.php
     <string name="audit_results_table_doubt_title">Doute</string>
     <string name="audit_results_custom_handicap">Personnalisé</string>
     <string name="audit_results_not_answered">Non répondu</string>
-    <string name="audit_results_table_all_handicap">Tous-profil</string>
+    <string name="audit_results_table_all_handicap">Tous les profils</string>
     <string name="audit_results_lock_dialog_title">Clôturer l\'audit et fermer le rapport</string>
     <string name="audit_results_lock_dialog_message">Êtes vous certain de vouloir clôturer cet audit ? Ensuite vous ne pourrez plus faire de modification.</string>
     <string name="audit_results_lock_done">Le rapport a été fermé.</string>
@@ -485,7 +485,7 @@ https://opensource.org/licenses/mit-license.php
     <string name="remember_test_now_answer">Enregistrer mon choix</string>
 
 
-    <!-- activity detail status  accessibility -->
+    <!-- activity detail answer  accessibility -->
     <string name="status_OK">contrôle OK </string>
     <string name="status_NOK">contrôle en erreur</string>
     <string name="status_NoAnswer">Non testé</string>
@@ -562,16 +562,15 @@ https://opensource.org/licenses/mit-license.php
     <string name="tutorial_title">Didacticiel</string>
     <string name="tutorial_ended">Didacticiel terminé</string>
     <string name="tutorial_cancelled">Didacticiel annulé</string>
-    <string name="tutorial_step_1_description">Pour votre première visite, ce petit didacticiel vous présente comment choisir et  télécharger vos référentiels d\'audit. Cela vous sera nécessaire pour effectuer de vrais audits\nAppuyer sur SUIVANT (en bas à droite) pour continuer la visite.\nAppuyer sur IGNORER en haut à droite pour sauter cette présentation et lancer directement  l\'application.</string>
+    <string name="tutorial_step_1_description">Pour votre première visite, ce didacticiel vous présentera comment télécharger votre premier référentiel. Vous pouvez soit appuyer sur Suivant (en bas à droite) pour passer à l\'écran suivant, soit appuyer sur Ignorer (en haut à gauche) pour aller directement dans l\'application</string>
     <string name="tutorial_step_1_title">Bienvenue dans OCARA</string>
     <string name="tutorial_step_2_title">Sélection du référentiel</string>
-    <string name="tutorial_step_2_description">Ocara affiche les référentiels d\'audit actuellement disponibles au téléchargement.\nSélectionner un référentiel qui vous intéresse en cliquant sur la ligne.</string>
+    <string name="tutorial_step_2_description">Ocara affiche les référentiels d\'audit actuellement disponibles au téléchargement. Sélectionner un référentiel qui vous intéresse.</string>
     <string name="tutorial_step_3_title">Visualisation des infos</string>
-    <string name="tutorial_step_3_description">L\'écran fait apparaître les informations concernant le référentiel d\'audit sélectionné.\nAppuyer sur le bouton "télécharger le référentiel" pour lancer le téléchargement.\nPatienter : l\'opération peut prendre quelques dizaines de secondes. </string>
+    <string name="tutorial_step_3_description">Prenez connaissance des informations relatives au référentiel sélectionné avant de le télécharger.</string>
     <string name="tutorial_step_4_title">Téléchargement</string>
-    <string name="tutorial_step_4_description">Un message d\'information vous signale que le téléchargement est terminé.\nVous pouvez consulter le contenu du référentiel téléchargé en cliquant sur \u00AB Afficher les règles \u00BB, ou revenir à l\'écran d\'accueil en cliquant sur \u00AB retour \u00BB.</string>
+    <string name="tutorial_step_4_description">Cliquer sur télécharger. Le téléchargement peut prendre quelques dizaines de secondes. Une fois terminé, vous aurez un message d\'information et vous pourrez consulter les contenus téléchargé en appuyant sur "Afficher les règles"</string>
     <string name="tutorial_step_5_title">Opération terminée</string>
     <string name="tutorial_step_5_description">Le référentiel indiqué par un flag vert est prêt à être utilisé pour créer de nouveaux audits.</string>
-
     <string name="running_offline">L\'application est hors ligne.</string>
 </resources>

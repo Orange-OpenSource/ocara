@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/designMarginStart">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/rule_dialog_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_marginTop="@dimen/designMarginMedium"
+                    style="@style/DialogNormalTextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/designMarginShort"
+                    android:gravity="center"
+                    android:singleLine="false"
+                    android:text="@string/exp_info_title"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@id/close"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/close" />
+
+                <ImageView
+                    android:id="@+id/close"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginHorizontal="@dimen/designMarginShort"
+                    android:contentDescription="@string/content_desc_close"
+                    android:padding="11dp"
+                    android:layout_marginTop="@dimen/designMarginMedium"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/icon_navigation_close_24_px" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <TextView
+                android:id="@+id/expert_info_title_tv"
+                style="@style/DialogNormalTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/designMarginLong"
+                android:layout_marginTop="@dimen/designMarginLong"
+                android:gravity="start"
+                android:text="@string/exp_info_expert_title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/novice_info_tv" />
+
+            <TextView
+                android:id="@+id/expert_info_tv"
+                style="@style/DialogNormalTextView"                android:paddingStart="@dimen/designMarginLong"
+
+                android:layout_width="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="normal"
+                android:layout_marginHorizontal="@dimen/designMarginLong"
+                android:gravity="start"
+                android:text="@string/exp_info_expert_cont"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/expert_info_title_tv" />
+
+
+            <TextView
+                android:id="@+id/novice_info_title_tv"
+                style="@style/DialogNormalTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/designMarginLong"
+                android:layout_marginTop="@dimen/designMarginLong"
+                android:gravity="start"
+                android:text="@string/exp_info_novice_title"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rule_dialog_title" />
+
+            <TextView
+                android:id="@+id/novice_info_tv"
+                style="@style/DialogNormalTextView"
+                android:layout_width="0dp"
+                android:paddingStart="@dimen/designMarginLong"
+                android:layout_marginTop="10dp"
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/designMarginLong"
+                android:gravity="start"
+                android:text="@string/exp_info_novice_cont"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/novice_info_title_tv" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/close_button"
+                style="@style/DialogHeadTitleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginEnd="64dp"
+                android:backgroundTint="@color/white"
+                android:minWidth="120dp"
+                android:minHeight="75dp"
+                android:paddingTop="5dp"
+                android:contentDescription="@string/content_desc_close"
+
+                android:text="@string/action_close"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:visibility="visible"
+                app:cornerRadius="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/expert_info_tv"
+                app:layout_constraintVertical_bias="0.488"
+                app:strokeColor="@color/black"
+                app:strokeWidth="3dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</layout>

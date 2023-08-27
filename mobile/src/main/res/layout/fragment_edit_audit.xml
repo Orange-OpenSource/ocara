@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.orange.ocara.mobile.ui.viewmodel.CreateAuditViewModel" />
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/auditNameTv"
+                style="@style/LabelsTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="@dimen/designMarginLong"
+                android:singleLine="false"
+                android:text="@string/fill_form_title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.163"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/auditNameET"
+                style="@style/App_EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designMarginStart"
+                android:layout_marginTop="@dimen/designMarginShort"
+                android:layout_marginEnd="@dimen/designMarginEnd"
+                android:hint="@string/enter_audit_name"
+                android:inputType="textWebEditText"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/auditNameTv"
+                app:layout_constraintTop_toBottomOf="@+id/auditNameTv" />
+
+            <TextView
+                android:id="@+id/siteTv"
+                style="@style/LabelsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/editAuditLabelPaddingTop"
+                android:text="@string/site"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/auditNameTv"
+
+                app:layout_constraintTop_toBottomOf="@+id/auditNameET" />
+
+            <EditText
+                android:id="@+id/siteET"
+                style="@style/App_EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designMarginStart"
+                android:layout_marginTop="@dimen/designMarginMedium"
+                android:layout_marginEnd="@dimen/designMarginEnd"
+                android:drawableEnd="@drawable/ic_baseline_add_24"
+                android:ems="10"
+                android:enabled="true"
+                android:hint="@string/enter_site_name"
+                android:text="@{viewModel.currentSite.name}"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/auditNameET" />
+
+            <EditText
+                android:id="@+id/auditorET"
+                style="@style/App_EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designMarginStart"
+                android:layout_marginTop="@dimen/designMarginMedium"
+                android:layout_marginEnd="@dimen/designMarginEnd"
+                android:drawableEnd="@drawable/ic_baseline_add_24"
+                android:ems="10"
+                android:enabled="true"
+                android:hint="@string/enter_auditor_name"
+                android:text="@{viewModel.currentAuditor.firstName}"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/siteET" />
+
+            <ImageView
+                android:id="@+id/siteInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/siteET"
+                app:layout_constraintTop_toTopOf="@+id/siteTv"
+
+                app:srcCompat="@drawable/ic_outline_info_24" />
+
+            <ImageView
+                android:id="@+id/selectSite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/siteET"
+                app:layout_constraintTop_toBottomOf="@+id/siteInfo"
+
+                app:srcCompat="@drawable/search_icon" />
+
+            <FrameLayout
+                android:id="@+id/referential_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designMarginStart"
+                android:layout_marginTop="@dimen/designMarginLong"
+                android:layout_marginEnd="@dimen/designMarginEnd"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/auditorET">
+
+                <TextView
+                    android:id="@+id/referentialTV"
+                    style="@style/LabelsTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="@string/audit_referential" />
+
+                <ImageView
+                    android:id="@+id/referentialInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    app:srcCompat="@drawable/ic_outline_info_24" />
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:id="@+id/referentialSpinner_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designMarginStart"
+                android:layout_marginTop="@dimen/designMarginShort"
+                android:layout_marginEnd="@dimen/designMarginEnd"
+                android:background="@drawable/edit_text_background"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/referential_layout">
+
+                <Spinner
+                    android:id="@+id/referentialSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/dropdownListPreferredItemHeight"
+                    android:clickable="false"
+                    android:dropDownWidth="328dp"
+                    android:popupElevation="8dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/referential_warningTv"
+                style="@style/SubTitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designMarginStart"
+                android:layout_marginTop="@dimen/designMarginShort"
+                android:layout_marginEnd="@dimen/designMarginEnd"
+                android:text="@string/referential_warring"
+                android:textSize="14sp"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/referentialSpinner_layout" />
+
+            <TextView
+                android:id="@+id/referential_downloadBtn"
+                style="@style/SubTitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designMarginStart"
+                android:layout_marginTop="@dimen/designMarginLong"
+                android:layout_marginEnd="@dimen/designMarginEnd"
+                android:gravity="end"
+                android:text="@string/download"
+                android:textColor="@color/orange_design"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/referential_warningTv" />
+
+            <TextView
+                android:id="@+id/auditorTV"
+                style="@style/LabelsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/editAuditLabelPaddingTop"
+                android:text="@string/audit_auditor"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/auditNameTv"
+
+                app:layout_constraintTop_toBottomOf="@+id/referentialSpinner_layout" />
+
+
+            <ImageView
+                android:id="@+id/auditorInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/auditorET"
+                app:layout_constraintTop_toTopOf="@+id/auditorTV"
+
+                app:srcCompat="@drawable/ic_outline_info_24" />
+
+            <ImageView
+                android:id="@+id/selectAuditor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/auditorET"
+                app:layout_constraintTop_toBottomOf="@+id/auditorInfo"
+
+                app:srcCompat="@drawable/search_icon" />
+
+            <TextView
+                android:id="@+id/expertiseTV"
+                style="@style/LabelsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designMarginStart"
+                android:layout_marginTop="@dimen/designMarginLong"
+                android:text="@string/audit_expertise"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/referential_downloadBtn" />
+
+            <RadioGroup
+                android:id="@+id/btns_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designMarginStart"
+                android:layout_marginTop="@dimen/designMarginShort"
+                android:layout_marginEnd="@dimen/designMarginEnd"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/expertiseTV">
+
+                <androidx.appcompat.widget.AppCompatRadioButton
+                    android:id="@+id/novice_switch_button"
+                    style="@style/RadioBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/novice" />
+
+                <androidx.appcompat.widget.AppCompatRadioButton
+                    android:id="@+id/expert_switch_button"
+                    style="@style/RadioBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/expert" />
+
+            </RadioGroup>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/create_audit_button"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="@dimen/designMarginStart"
+                android:layout_marginTop="@dimen/designMarginLong"
+                android:layout_marginEnd="@dimen/designMarginEnd"
+                android:layout_marginBottom="@dimen/designMarginLong"
+                android:backgroundTint="#e4e4e4"
+                android:text="@string/create_audit"
+                android:textColor="@drawable/create_audit_btn_txt_selector"
+                app:cornerRadius="4dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btns_layout"
+                app:strokeColor="#61000000"
+                app:strokeWidth="1dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

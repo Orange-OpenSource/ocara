@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<resources>
+    <dimen name="editAuditPaddingTop">5dp</dimen>
+    <dimen name="editAuditPaddingLeft">50dp</dimen>
+    <dimen name="editAuditPaddingRight">50dp</dimen>
+    <dimen name="editAuditPaddingRightWithInfo">100dp</dimen>
+    <dimen name="editAuditLabelPaddingTop">28dp</dimen>
+    <dimen name="switchButtonWidth">150dp</dimen>
+    <dimen name="toolbarIconWidth">40dp</dimen>
+    <dimen name="selectSiteDialogStartMargin">32dp</dimen>
+    <dimen name="search_view_width">300dp</dimen>
+    <dimen name="dialogTitleTopMargin">20dp</dimen>
+    <dimen name="dialogTitleBottomMargin">20dp</dimen>
+    <dimen name="add_site_dialog_margin_start_end">24dp</dimen>
+    <dimen name="add_site_margin_top">32dp</dimen>
+    <dimen name="close_dialog_margin">8dp</dimen>
+    <dimen name="equipmentIconSize">40dp</dimen>
+    <dimen name="objectDescriptionPadding">8dp</dimen>
+    <dimen name="objectDescriptionImageMarginLeft">8dp</dimen>
+    <dimen name="objectDescriptionImageMarginRight">8dp</dimen>
+    <dimen name="objectDescriptionImageMarginTop">8dp</dimen>
+    <dimen name="objectDescriptionImageMarginBottom">8dp</dimen>
+
+    <!-- margins -->
+    <dimen name="defaultMarginLeft">8dp</dimen>
+    <dimen name="defaultMarginRight">8dp</dimen>
+    <dimen name="defaultMarginTop">8dp</dimen>
+    <dimen name="defaultMarginBottom">8dp</dimen>
+
+    <dimen name="designMarginShort">5dp</dimen>
+    <dimen name="designMarginMedium">10dp</dimen>
+    <dimen name="designMarginLong">25dp</dimen>
+
+    <dimen name="designMarginStart">41dp</dimen>
+    <dimen name="designMarginEnd">42dp</dimen>
+
+    <dimen name="reportTitleMarginStart">21dp</dimen>
+
+    <!-- Audit result resume row -->
+    <dimen name="resultResumeRowMinHeight">36dp</dimen>
+    <dimen name="resultResumeHeaderPaddingLeft">16dp</dimen>
+    <dimen name="resultResumeHandicapIconPaddingLeft">16dp</dimen>
+    <dimen name="resultResumeHandicapIconSize">24dp</dimen>
+    <!-- Dividers -->
+    <dimen name="divider">1dp</dimen>
+    <!-- Handicap choice -->
+    <dimen name="handicap_choice_background_size">48dp</dimen>
+    <dimen name="handicap_choice_item_size">24dp</dimen>
+
+
+    <dimen name="spinner_item_textsize">14sp</dimen>
+    <dimen name="dialogDataMarginStart">21dp</dimen>
+    <dimen name="playAndPauseIconSize">45dp</dimen>
+    <dimen name="audioPlayerHorizontalMargin">28dp</dimen>
+    <dimen name="audioCommentButtonsHeight">60dp</dimen>
+    <dimen name="audioCommentButtonsHorizontalMargin">43dp</dimen>
+    <dimen name="delete_dialog_title_top_margin">25dp</dimen>
+    <dimen name="delete_dialog_title_start_margin">22dp</dimen>
+    <dimen name="delete_dialog_buttons_width">120dp</dimen>
+    <dimen name="confirm_dialog_buttons_width">120dp</dimen>
+
+    <dimen name="answersBtnHeight">52dp</dimen>
+    <dimen name="answersBtnWidth">85dp</dimen>
+    <dimen name="commentsCardsRadius">5dp</dimen>
+    <dimen name="commentCardsIconSize">24dp</dimen>
+    <dimen name="commentsCardArrowEndMargin">16dp</dimen>
+    <dimen name="updateAuditBtnTopMargin">25dp</dimen>
+    <dimen name="updateAuditBtnHeight">66dp</dimen>
+    <dimen name="dropDownWidth">328dp</dimen>
+    <dimen name="navigationBtnsInQuestionsHorMargin">16dp</dimen>
+    <dimen name="navigationBtnsInQuestionsBottomMargin">32dp</dimen>
+    <dimen name="navigationBtnsInQuestionsHeight">60dp</dimen>
+
+    <dimen name="designPaddingShort">8dp</dimen>
+    <dimen name="designPaddingMedium">16dp</dimen>
+    <dimen name="designPaddingLong">32dp</dimen>
+
+    <dimen name="infoBtnMarginStart">30dp</dimen>
+    <dimen name="infoBtnMarginEnd">38dp</dimen>
+    <dimen name="anomaliesBtnHeight">40dp</dimen>
+    <dimen name="anomaliesBtnWidth">75dp</dimen>
+    <dimen name="reportEquipmentDetailsCardWidth">180dp</dimen>
+    <dimen name="reportEquipmentDetailsCardHeight">85dp</dimen>
+    <dimen name="reportEquipmentDetailsCardMarginTop">25dp</dimen>
+    <dimen name="equipmentImageSize">30dp</dimen>
+    <dimen name="equipmentNameInCardTopMargin">10dp</dimen>
+    <dimen name="commentsLabelInEquipmentDetailsStartMargin">21dp</dimen>
+    <dimen name="commentsLabelInEquipmentDetailsTopMargin">25dp</dimen>
+    <dimen name="commentsListInEquipmentsDetailsTopMargin">5dp</dimen>
+    <dimen name="commentsListInEquipmentDetailsHorizontalMargin">16dp</dimen>
+    <dimen name="auditButtonInEquipmentDetailsHeight">56dp</dimen>
+    <dimen name="auditButtonInEquipmentDetailsHorizontalMargin">41dp</dimen>
+    <dimen name="home_screen_start_margin">40dp</dimen>
+    <dimen name="welcome_msg_top_margin">25dp</dimen>
+    <dimen name="home_btns_height">65dp</dimen>
+    <dimen name="paragraph_horizontal_margin">33dp</dimen>
+    <dimen name="want_to_know_more_btn_height">75dp</dimen>
+    <dimen name="paragraph_padding">10dp</dimen>
+    <dimen name="reportViewRouteEquipmentIconSize">40dp</dimen>
+    <dimen name="viewRouteEquipmentIconSize">30dp</dimen>
+
+</resources>

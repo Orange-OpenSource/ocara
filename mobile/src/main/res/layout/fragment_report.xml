@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/designPaddingMedium">
+
+            <TextView
+                android:id="@+id/info_audit_name_title"
+                style="@style/DialogNormalTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designMarginStart"
+                android:layout_marginTop="@dimen/designMarginLong"
+                android:layout_marginEnd="@dimen/designMarginEnd"
+                android:text="@string/info_audit_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/info_audit_name"
+                style="@style/ReportInfoTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designMarginStart"
+                android:layout_marginTop="@dimen/designMarginShort"
+                android:layout_marginEnd="@dimen/designMarginEnd"
+                android:text="@string/info_audit_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/info_audit_name_title" />
+
+            <TextView
+                android:id="@+id/info_site_title"
+                style="@style/DialogNormalTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designMarginStart"
+                android:layout_marginTop="@dimen/designMarginMedium"
+                android:layout_marginEnd="@dimen/designMarginEnd"
+                android:text="@string/info_site_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/info_audit_name" />
+
+            <TextView
+                android:id="@+id/info_site"
+                style="@style/ReportInfoTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designMarginStart"
+                android:layout_marginTop="@dimen/designMarginShort"
+                android:layout_marginEnd="@dimen/designMarginEnd"
+                android:text="@string/info_site_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/info_site_title" />
+
+            <TextView
+                android:id="@+id/info_auditor_name_title"
+                style="@style/DialogNormalTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designMarginStart"
+                android:layout_marginTop="@dimen/designMarginMedium"
+                android:layout_marginEnd="@dimen/designMarginEnd"
+                android:text="@string/info_auditor_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/info_site" />
+
+            <TextView
+                android:id="@+id/info_auditor"
+                style="@style/ReportInfoTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designMarginStart"
+                android:layout_marginTop="@dimen/designMarginShort"
+                android:layout_marginEnd="@dimen/designMarginEnd"
+                android:text="@string/info_auditor_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/info_auditor_name_title" />
+
+            <TextView
+                android:id="@+id/info_expertise_title"
+                style="@style/DialogNormalTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designMarginStart"
+                android:layout_marginTop="@dimen/designMarginMedium"
+                android:layout_marginEnd="@dimen/designMarginEnd"
+                android:text="@string/info_expertise"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/info_ref_type" />
+            <!--            info_ref_type-->
+            <TextView
+                android:id="@+id/info_expertise"
+                style="@style/ReportInfoTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designMarginStart"
+                android:layout_marginTop="@dimen/designMarginShort"
+                android:layout_marginEnd="@dimen/designMarginEnd"
+                android:text="@string/info_expertise"
+                android:textAllCaps="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/info_expertise_title" />
+
+            <TextView
+                android:id="@+id/info_date_title"
+                style="@style/DialogNormalTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designMarginStart"
+                android:layout_marginTop="@dimen/designMarginMedium"
+                android:layout_marginEnd="@dimen/designMarginEnd"
+                android:text="@string/info_date"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/info_expertise" />
+
+            <TextView
+                android:id="@+id/info_date"
+                style="@style/ReportInfoTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designMarginStart"
+                android:layout_marginTop="@dimen/designMarginShort"
+                android:layout_marginEnd="@dimen/designMarginEnd"
+                android:text="@string/info_date"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/info_date_title" />
+
+            <TextView
+                android:id="@+id/info_ref_type_title"
+                style="@style/DialogNormalTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designMarginStart"
+                android:layout_marginTop="@dimen/designMarginMedium"
+                android:layout_marginEnd="@dimen/designMarginEnd"
+                android:text="@string/info_ref_type"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/info_auditor" />
+
+            <TextView
+                android:id="@+id/info_ref_type"
+                style="@style/ReportInfoTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designMarginStart"
+                android:layout_marginTop="@dimen/designMarginShort"
+                android:layout_marginEnd="@dimen/designMarginEnd"
+                android:text="@string/info_ref_type"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/info_ref_type_title" />
+
+            <!--            <androidx.appcompat.widget.LinearLayoutCompat-->
+            <!--                android:id="@+id/large_ll"-->
+            <!--                android:layout_width="0dp"-->
+            <!--                android:layout_height="0dp"-->
+            <!--                android:orientation="vertical"-->
+            <!--                android:weightSum="2"-->
+            <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--                app:layout_constraintEnd_toEndOf="parent"-->
+            <!--                app:layout_constraintStart_toStartOf="parent"-->
+            <!--                app:layout_constraintTop_toBottomOf="@id/info_ref_type">-->
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/first_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/designMarginMedium"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="@dimen/designMarginMedium"
+                android:weightSum="2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/info_date">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/info_results_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:minHeight="132dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/white"
+                    android:text="@string/results"
+                    app:cornerRadius="5dp"
+                    app:icon="@drawable/file_copy_19371_1"
+                    app:iconGravity="textTop"
+                    app:iconPadding="@dimen/designMarginMedium"
+                    app:iconTint="@color/black"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/info_ref_type"
+                    app:strokeColor="@color/grey_light" />
+
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/view_paths_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:minHeight="132dp"
+                    android:layout_marginStart="@dimen/designMarginMedium"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/white"
+                    android:text="@string/summary"
+                    app:cornerRadius="5dp"
+                    app:icon="@drawable/reminders_19371_1"
+                    app:iconGravity="textTop"
+                    app:iconPadding="@dimen/designMarginMedium"
+                    app:iconTint="@color/black"
+                    app:layout_constraintStart_toEndOf="@+id/info_results_btn"
+                    app:layout_constraintTop_toBottomOf="@id/info_ref_type"
+                    app:strokeColor="@color/grey_light" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/second_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/designMarginMedium"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="@dimen/designMarginMedium"
+                android:weightSum="2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/first_ll">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/info_export_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:minHeight="132dp"
+                    android:layout_marginBottom="@dimen/designMarginMedium"
+
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/white"
+                    android:text="@string/action_export_audit_docx"
+                    app:cornerRadius="5dp"
+                    app:icon="@drawable/movie_blue"
+                    app:iconGravity="textTop"
+                    app:iconPadding="@dimen/designMarginMedium"
+                    app:iconTint="@color/black"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/info_results_btn"
+                    app:strokeColor="@color/grey_light" />
+
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/info_lock_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:minHeight="132dp"
+                    android:layout_marginStart="@dimen/designMarginMedium"
+
+                    android:layout_marginBottom="@dimen/designMarginMedium"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/white"
+                    android:text="@string/lock_audit"
+                    app:cornerRadius="5dp"
+                    app:icon="@drawable/lock_19371_1"
+                    app:iconGravity="textTop"
+                    app:iconPadding="@dimen/designMarginMedium"
+                    app:iconTint="@color/black"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/info_results_btn"
+                    app:strokeColor="@color/grey_light" />
+
+                <!--                    <com.google.android.material.button.MaterialButton-->
+                <!--                        android:id="@+id/info_lock_btn"-->
+                <!--                        android:layout_width="0dp"-->
+                <!--                        android:layout_height="132dp"-->
+                <!--                        android:layout_weight="1"-->
+                <!--                        android:layout_marginStart="@dimen/designMarginMedium"-->
+                <!--                        android:backgroundTint="@color/white"-->
+                <!--                        android:text="@string/lock_audit"-->
+                <!--                        android:textColor="@color/black"-->
+                <!--                        app:cornerRadius="5dp"-->
+                <!--                        app:icon="@drawable/lock_19371_1"-->
+                <!--                        app:iconGravity="textTop"-->
+                <!--                        app:iconPadding="@dimen/designMarginMedium"-->
+                <!--                        app:iconTint="@color/black"-->
+                <!--                        app:layout_constraintBottom_toBottomOf="@+id/info_export_btn"-->
+                <!--                        app:layout_constraintStart_toEndOf="@+id/info_export_btn"-->
+                <!--                        app:strokeColor="@color/grey_light" />-->
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <!--            </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+            <!--            <com.google.android.material.button.MaterialButton-->
+            <!--                android:id="@+id/signBtn"-->
+            <!--                android:layout_width="162dp"-->
+            <!--                android:layout_height="132dp"-->
+            <!--                android:backgroundTint="@color/white"-->
+            <!--                android:text="sign"-->
+            <!--                android:textColor="@color/black"-->
+            <!--                android:visibility="gone"-->
+            <!--                app:cornerRadius="5dp"-->
+            <!--                app:icon="@drawable/lock_19371_1"-->
+            <!--                app:iconGravity="textTop"-->
+            <!--                app:iconPadding="@dimen/designMarginMedium"-->
+            <!--                app:iconTint="@color/black"-->
+            <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--                app:strokeColor="@color/grey_light" />-->
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+</layout>

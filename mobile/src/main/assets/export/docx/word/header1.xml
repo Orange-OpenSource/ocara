@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+<w:hdr xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:o="urn:schemas-microsoft-com:office:office"
+    xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+    xmlns:v="urn:schemas-microsoft-com:vml"
+    xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+    xmlns:w10="urn:schemas-microsoft-com:office:word"
+    xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"
+    xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml"
+    xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+    xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing"
+    xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas"
+    xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup"
+    xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk"
+    xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape"
+    mc:Ignorable="w14 wp14">
+    <w:tbl>
+        <w:tblPr>
+            <w:tblStyle w:val="Grilledutableau" />
+            <w:tblW w:type="auto" w:w="0" />
+            <w:tblInd w:type="dxa" w:w="-284" />
+            <w:tblBorders>
+                <w:top w:color="auto" w:space="0" w:sz="0" w:val="none" />
+                <w:left w:color="auto" w:space="0" w:sz="0" w:val="none" />
+                <w:bottom w:color="auto" w:space="0" w:sz="0" w:val="none" />
+                <w:right w:color="auto" w:space="0" w:sz="0" w:val="none" />
+                <w:insideH w:color="auto" w:space="0" w:sz="0" w:val="none" />
+                <w:insideV w:color="auto" w:space="0" w:sz="0" w:val="none" />
+            </w:tblBorders>
+            <w:tblLook w:firstColumn="1" w:firstRow="1" w:lastColumn="0" w:lastRow="0" w:noHBand="0"
+                w:noVBand="1" w:val="04A0" />
+        </w:tblPr>
+        <w:tblGrid>
+            <w:gridCol w:w="4889" />
+            <w:gridCol w:w="5142" />
+        </w:tblGrid>
+        <w:tr w:rsidR="001E1640" w:rsidTr="001E1640">
+            <w:tc>
+                <w:tcPr>
+                    <w:tcW w:type="dxa" w:w="4889" />
+                </w:tcPr>
+                <w:p w:rsidP="00BB76BB" w:rsidR="001E1640" w:rsidRDefault="001E1640">
+                    <w:pPr>
+                        <w:pStyle w:val="En-tte" />
+                        <w:tabs>
+                            <w:tab w:pos="9026" w:val="clear" />
+                            <w:tab w:pos="9639" w:val="right" />
+                        </w:tabs>
+                        <w:jc w:val="both" />
+                        <w:rPr>
+                            <w:lang w:val="fr-FR" />
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r>
+                        <w:rPr>
+                            <w:lang w:val="fr-FR" />
+                        </w:rPr>
+                        <w:t>Rapport d’audit OCARA</w:t>
+                    </w:r>
+                </w:p>
+            </w:tc>
+            <w:tc>
+                <w:tcPr>
+                    <w:tcW w:type="dxa" w:w="5142" />
+                </w:tcPr>
+                <w:p w:rsidP="001E1640" w:rsidR="001E1640" w:rsidRDefault="001E1640">
+                    <w:pPr>
+                        <w:pStyle w:val="En-tte" />
+                        <w:tabs>
+                            <w:tab w:pos="9026" w:val="clear" />
+                            <w:tab w:pos="9639" w:val="right" />
+                        </w:tabs>
+                        <w:jc w:val="right" />
+                        <w:rPr>
+                            <w:lang w:val="fr-FR" />
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r>
+                        <w:rPr>
+                            <w:noProof />
+                            <w:lang w:eastAsia="fr-FR" w:val="fr-FR" />
+                        </w:rPr>
+                        <w:drawing>
+                            <wp:inline distB="0" distL="0" distR="0" distT="0"
+                                wp14:anchorId="20F2313E" wp14:editId="0657CE13">
+                                <wp:extent cx="523875" cy="523875" />
+                                <wp:effectExtent b="9525" l="0" r="9525" t="0" />
+                                <wp:docPr name="Image 9" descr="orange" id="9" />
+                                <wp:cNvGraphicFramePr>
+                                    <a:graphicFrameLocks
+                                        xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"
+                                        noChangeAspect="1" />
+                                </wp:cNvGraphicFramePr>
+                                <a:graphic
+                                    xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+                                    <a:graphicData
+                                        uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                                        <pic:pic
+                                            xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                                            <pic:nvPicPr>
+                                                <pic:cNvPr name="Picture 17" descr="orange"
+                                                    id="0" />
+                                                <pic:cNvPicPr>
+                                                    <a:picLocks noChangeArrowheads="1"
+                                                        noChangeAspect="1" />
+                                                </pic:cNvPicPr>
+                                            </pic:nvPicPr>
+                                            <pic:blipFill>
+                                                <a:blip r:embed="rId1">
+                                                    <a:extLst>
+                                                        <a:ext
+                                                            uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
+                                                            <a14:useLocalDpi
+                                                                xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main"
+                                                                val="0" />
+                                                        </a:ext>
+                                                    </a:extLst>
+                                                </a:blip>
+                                                <a:srcRect />
+                                                <a:stretch>
+                                                    <a:fillRect />
+                                                </a:stretch>
+                                            </pic:blipFill>
+                                            <pic:spPr bwMode="auto">
+                                                <a:xfrm>
+                                                    <a:off x="0" y="0" />
+                                                    <a:ext cx="523875" cy="523875" />
+                                                </a:xfrm>
+                                                <a:prstGeom prst="rect">
+                                                    <a:avLst />
+                                                </a:prstGeom>
+                                                <a:noFill />
+                                                <a:ln>
+                                                    <a:noFill />
+                                                </a:ln>
+                                            </pic:spPr>
+                                        </pic:pic>
+                                    </a:graphicData>
+                                </a:graphic>
+                            </wp:inline>
+                        </w:drawing>
+                    </w:r>
+                </w:p>
+            </w:tc>
+        </w:tr>
+    </w:tbl>
+    <w:p w:rsidP="00BB76BB" w:rsidR="00D25DE4" w:rsidRDefault="00BB76BB" w:rsidRPr="00D25DE4">
+        <w:pPr>
+            <w:pStyle w:val="En-tte" />
+            <w:tabs>
+                <w:tab w:pos="9026" w:val="clear" />
+                <w:tab w:pos="9639" w:val="right" />
+            </w:tabs>
+            <w:ind w:left="-284" />
+            <w:jc w:val="both" />
+            <w:rPr>
+                <w:lang w:val="fr-FR" />
+            </w:rPr>
+        </w:pPr>
+        <w:r>
+            <w:rPr>
+                <w:lang w:val="fr-FR" />
+            </w:rPr>
+            <w:tab />
+            <w:t xml:space="preserve">  </w:t>
+        </w:r>
+    </w:p>
+</w:hdr>

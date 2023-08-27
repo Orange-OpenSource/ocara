@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <!--        <TextView-->
+            <!--            android:id="@+id/obj_name_tv"-->
+            <!--            style="@style/EditAuditHeaderFieldCell"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:textAppearance="@style/TextAppearance.AppCompat.Small"-->
+            <!--            android:layout_marginStart="16dp"-->
+            <!--            android:layout_marginTop="32dp"-->
+            <!--            android:gravity="start|center_vertical"-->
+            <!--            android:text="@string/name_of_obj"-->
+            <!--            android:textColor="@color/black"-->
+            <!--            app:layout_constraintStart_toStartOf="parent"-->
+            <!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+            <!--        <androidx.appcompat.widget.SearchView-->
+            <!--            android:id="@+id/search_et"-->
+            <!--            android:layout_width="0dp"-->
+            <!--            android:layout_height="60dp"-->
+            <!--            android:layout_marginStart="30dp"-->
+            <!--            android:layout_marginTop="24dp"-->
+            <!--            android:layout_marginEnd="30dp"-->
+            <!--            style="@style/SearchViewStyle"-->
+            <!--            android:iconifiedByDefault="false"-->
+            <!--            android:background="@drawable/referential_search_text"-->
+            <!--            android:ems="10"-->
+            <!--            android:queryHint="@string/search_name"-->
+            <!--            android:text="Search"-->
+            <!--            app:defaultQueryHint="@string/search"-->
+            <!--            app:layout_constraintEnd_toEndOf="parent"-->
+            <!--            app:layout_constraintHorizontal_bias="1.0"-->
+            <!--            app:layout_constraintStart_toStartOf="parent"-->
+            <!--            app:layout_constraintTop_toBottomOf="@+id/info_textview" />-->
+            <EditText
+                android:id="@+id/search_et"
+                style="@style/SearchViewStyle"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/referential_search_text"
+                android:ems="10"
+                android:hint="@string/search_name"
+                android:iconifiedByDefault="false"
+                android:textColorHint="@color/dark_grey"
+                android:textSize="18sp"
+                app:defaultQueryHint="@string/search"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/info_textview" />
+
+            <ImageView
+                android:id="@+id/close_search"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:paddingHorizontal="10dp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@+id/search_et"
+                app:layout_constraintEnd_toEndOf="@+id/search_et"
+                app:layout_constraintTop_toTopOf="@+id/search_et"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/ic_baseline_close_black_24"
+                app:tint="@color/dark_grey" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/objects_list"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:minHeight="150dp"
+                android:paddingTop="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/search_et" />
+
+            <TextView
+                android:id="@+id/title_textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="@string/choose_auditor_title"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toStartOf="@+id/close"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/info_textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/choose_auditor_info"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/title_textview" />
+
+            <ImageView
+                android:id="@+id/close"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="16dp"
+                android:contentDescription="@string/close_content_desc"
+                android:padding="11dp"
+                app:layout_constraintBottom_toBottomOf="@+id/title_textview"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/title_textview"
+                app:srcCompat="@drawable/ic_baseline_close_black_24" />
+
+            <!--        <ImageView-->
+            <!--            android:id="@+id/add"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            app:layout_constraintBottom_toBottomOf="@+id/search_et"-->
+            <!--            app:layout_constraintEnd_toEndOf="@+id/search_et"-->
+            <!--            app:layout_constraintTop_toTopOf="@+id/search_et"-->
+            <!--            app:srcCompat="@drawable/ic_icon_content_add_24_px" />-->
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/add"
+                style="@style/DefaultButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:padding="@dimen/designPaddingMedium"
+                android:text="@string/create_site_page_title"
+                app:icon="@drawable/ic_baseline_add_white_24"
+                app:iconGravity="textStart"
+                app:iconTint="@android:color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/objects_list" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

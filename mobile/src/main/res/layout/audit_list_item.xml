@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:id="@+id/audit_item_container"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="18dp"
+            android:src="@drawable/ic_audit_en_cours"
+            app:layout_constraintBottom_toBottomOf="@id/modificationDate"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/auditName" />
+        <!--        android:src="@drawable/lock_open_19371_1"-->
+
+        <TextView
+            android:id="@+id/auditName"
+            style="@style/LabelsTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:maxLines="2"
+            android:singleLine="false"
+            android:ellipsize="end"
+            android:text="TextView"
+            app:layout_constraintEnd_toStartOf="@+id/edit"
+            app:layout_constraintStart_toEndOf="@+id/icon"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/siteName"
+            style="@style/LabelsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            app:layout_constraintStart_toStartOf="@+id/auditName"
+            app:layout_constraintTop_toBottomOf="@id/auditName"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/modificationDate"
+            style="@style/LabelsTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:singleLine="false"
+            android:text="@string/modification_date"
+            android:textFontWeight="12"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/auditName"
+            app:layout_constraintTop_toBottomOf="@+id/siteName" />
+
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="18dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/icon"
+            app:srcCompat="@drawable/icon_social_share_24_px" />
+
+        <ImageView
+            android:id="@+id/edit"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="11dp"
+            android:contentDescription="@string/edit"
+            android:layout_marginEnd="15dp"
+            app:layout_constraintBottom_toBottomOf="@+id/share"
+            app:layout_constraintEnd_toStartOf="@+id/share"
+            app:layout_constraintTop_toTopOf="@+id/share"
+            app:srcCompat="@drawable/pencil_1" />
+
+        <TextView
+            android:id="@+id/copied"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/copied"
+            android:textColor="@color/black"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@id/edit"
+            app:layout_constraintStart_toStartOf="@id/edit"
+            tools:layout_editor_absoluteX="330dp"
+            tools:layout_editor_absoluteY="5dp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginHorizontal="@dimen/designMarginMedium"
+            android:layout_marginVertical="@dimen/designMarginMedium"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/modificationDate" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

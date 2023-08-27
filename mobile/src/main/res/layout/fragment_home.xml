@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/home_screen_start_margin"
+                android:layout_marginTop="@dimen/welcome_msg_top_margin"
+                android:text="@string/welcome_in_ocara"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/what_to_do"
+                android:layout_width="0dp"
+                android:singleLine="false"
+                android:layout_height="wrap_content"
+                android:text="@string/what_to_do"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@id/welcome"
+                app:layout_constraintTop_toBottomOf="@id/welcome" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/new_audit_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/home_btns_height"
+                android:layout_marginTop="@dimen/welcome_msg_top_margin"
+                android:layout_marginHorizontal="30dp"
+                android:textAllCaps="false"
+                android:text="@string/new_audit_title"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:cornerRadius="5dp"
+                app:icon="@drawable/ic_create_aud"
+                app:iconGravity="textStart"
+                app:iconSize="35dp"
+                app:iconTint="@color/transparent"
+                app:iconTintMode="add"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/what_to_do"
+                app:strokeColor="@color/black"
+                app:strokeWidth="2dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/all_audits_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/home_btns_height"
+                android:textAllCaps="false"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/all_audits_with_cnt"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:cornerRadius="5dp"
+                app:icon="@drawable/ic_all_audits_btn"
+                app:iconGravity="textStart"
+                app:iconSize="35dp"
+                app:iconTint="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/new_audit_btn"
+                app:strokeColor="@color/black"
+                app:strokeWidth="2dp" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical"
+                app:cardCornerRadius="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/all_audits_btn"
+                app:strokeColor="#80979797"
+                app:strokeWidth="2dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/knowMoreTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="@dimen/want_to_know_more_btn_height"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/knowMoreTV"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:text="@string/want_to_know_more"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/knowMoreIcon"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/knowMoreIcon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/designMarginMedium"
+                            android:src="@drawable/ic_arrow_drop_down"
+                            app:layout_constraintBottom_toBottomOf="@id/knowMoreTV"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="@id/knowMoreTV" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/parTv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/grey_lighter"
+                        android:paddingVertical="@dimen/paragraph_padding"
+                        android:paddingHorizontal="9dp"
+                        android:text="@string/home_full_paragraph"
+                        android:textColor="@color/black"
+                        android:breakStrategy="high_quality"
+                        android:visibility="gone"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="@id/knowMoreTitle"
+                        app:layout_constraintStart_toStartOf="@id/knowMoreTitle"
+                        app:layout_constraintTop_toBottomOf="@id/knowMoreTitle" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

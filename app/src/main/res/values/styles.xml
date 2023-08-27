@@ -2,7 +2,7 @@
 <!--
   ~ Software Name: OCARA
   ~
-  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2020 Orange
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
   ~ SPDX-License-Identifier: MPL v2.0
   ~
   ~ This software is distributed under the Mozilla Public License v. 2.0,
@@ -41,7 +41,7 @@
 
     <!-- The launcher theme. It sets the main window background to the launch_screen drawable -->
     <style name="AppTheme.Launcher">
-    <item name="android:windowBackground">@drawable/launch_screen</item>
+<!--    <item name="android:windowBackground">@drawable/launch_screen</item>-->
     <!-- Optional, on Android 5+ you can modify the colorPrimaryDark color to match the windowBackground color for further branding-->
     <!-- <item name="colorPrimaryDark">@android:color/white</item> -->
     </style>
@@ -122,7 +122,7 @@
         <item name="android:layout_marginLeft">@dimen/buttonMarginLeft</item>
         <item name="android:layout_marginRight">@dimen/buttonMarginRight</item>
         <item name="android:minWidth">@dimen/buttonMinWidth</item>
-        <item name="android:background">@drawable/button_background</item>
+<!--        <item name="android:background">@drawable/button_background</item>-->
         <item name="android:textAppearance">?android:attr/textAppearanceButton</item>
     </style>
 
@@ -160,8 +160,8 @@
     <!-- Custom Pager Tab Style -->
     <style name="CustomPagerSlidingTab">
         <item name="android:background">@color/tabBackground</item>
-        <item name="tabBackground">@drawable/tab_background</item>
-        <item name="android:textColor">@color/tab_text_color</item>
+<!--        <item name="tabBackground">@drawable/tab_background</item>-->
+<!--        <item name="android:textColor">@color/tab_text_color</item>-->
         <item name="android:textSize">@dimen/tabTextSize</item>
         <item name="indicatorColor">@color/tabIndicatorColor</item>
         <item name="indicatorHeight">@dimen/tabIndicatorHeight</item>
@@ -189,7 +189,7 @@
     </style>
 
     <style name="TextAppearance.Button" parent="@android:style/TextAppearance.Widget.Button">
-        <item name="android:textColor">@color/button_text_color</item>
+<!--        <item name="android:textColor">@color/button_text_color</item>-->
         <item name="android:textAllCaps">true</item>
     </style>
 
@@ -239,7 +239,7 @@
     <style name="AuditObjectNavigationBar">
         <item name="android:layout_marginTop">@dimen/auditObjectsMarginBetweenDivider</item>
         <item name="android:layout_marginBottom">@dimen/auditObjectsMarginBetweenDivider</item>
-        <item name="android:background">@drawable/audit_path_border</item>
+<!--        <item name="android:background">@drawable/audit_path_border</item>-->
         <item name="android:choiceMode">singleChoice</item>
         <item name="android:orientation">horizontal</item>
         <item name="android:scrollbars">none</item>
@@ -280,7 +280,7 @@
         <item name="android:minWidth">@dimen/responseButtonMinWidth</item>
         <item name="android:minHeight">@dimen/responseButtonMinHeight</item>
         <item name="android:gravity">center</item>
-        <item name="android:textColor">@color/response_text_color</item>
+<!--        <item name="android:textColor">@color/response_text_color</item>-->
         <item name="android:textAppearance">?android:attr/textAppearance</item>
     </style>
 
@@ -341,7 +341,7 @@
         <item name="android:paddingRight">8dp</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_width">match_parent</item>
-        <item name="android:background">@drawable/cell_shape</item>
+<!--        <item name="android:background">@drawable/cell_shape</item>-->
         <item name="android:gravity">end|center_vertical</item>
         <item name="android:textAppearance">?android:attr/textAppearance</item>
     </style>

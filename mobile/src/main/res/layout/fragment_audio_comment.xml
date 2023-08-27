@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/audioStatImage"
+                android:layout_width="@dimen/playAndPauseIconSize"
+                android:layout_height="@dimen/playAndPauseIconSize"
+                android:layout_marginStart="@dimen/audioPlayerHorizontalMargin"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="16dp"
+                android:contentDescription="@string/content_desc_audio_state_play"
+                android:src="@drawable/ic_baseline_play_arrow_24"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:progressTint="@color/orange"
+                android:thumbTint="@color/orange"
+                app:layout_constraintBottom_toBottomOf="@id/audioStatImage"
+                app:layout_constraintEnd_toStartOf="@+id/timer"
+                app:layout_constraintStart_toEndOf="@+id/audioStatImage"
+                app:layout_constraintTop_toTopOf="@+id/audioStatImage" />
+
+            <TextView
+                android:id="@+id/timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/audioPlayerHorizontalMargin"
+                android:text="0:00"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/seekBar" />
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/audioCommentButtonsHorizontalMargin"
+                android:layout_marginTop="25dp"
+                android:backgroundTint="@color/white"
+                android:minHeight="@dimen/audioCommentButtonsHeight"
+                android:text="@string/cancel"
+                app:icon="@drawable/icon_navigation_close_24_px"
+                app:iconGravity="textStart"
+                app:iconTint="@color/black"
+                app:layout_constraintTop_toBottomOf="@id/audioStatImage" />
+
+            <Button
+                android:id="@+id/btnRetake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/audioCommentButtonsHorizontalMargin"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/white"
+                android:minHeight="@dimen/audioCommentButtonsHeight"
+                android:text="@string/retake"
+                app:icon="@drawable/reload_19371_1"
+                app:iconGravity="textStart"
+                app:iconTint="@color/black"
+                app:layout_constraintTop_toBottomOf="@id/btnCancel" />
+
+            <Button
+                android:id="@+id/btnValidate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/audioCommentButtonsHorizontalMargin"
+                android:layout_marginTop="10dp"
+                android:minHeight="@dimen/audioCommentButtonsHeight"
+                android:text="@string/valider"
+                app:icon="@drawable/form_tick_1"
+                app:iconGravity="textStart"
+                app:iconTint="@color/black"
+                app:layout_constraintTop_toBottomOf="@id/btnRetake" />
+
+            <Button
+                android:id="@+id/btn_speechToText"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/audioCommentButtonsHeight"
+                android:layout_marginHorizontal="@dimen/audioCommentButtonsHorizontalMargin"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/white"
+                android:text="@string/speech_to_text"
+                app:iconGravity="textStart"
+                app:iconTint="@color/black"
+                app:layout_constraintTop_toBottomOf="@id/btnValidate" />
+
+            <TextView
+                android:id="@+id/speechToTextTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/audioCommentButtonsHorizontalMargin"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintTop_toBottomOf="@id/btn_speechToText"
+                tools:text="this is speech to text" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</layout>

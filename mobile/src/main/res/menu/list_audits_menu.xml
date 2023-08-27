@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/search_icon"
+        android:title="@string/search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+
+    <item
+        android:id="@+id/sort"
+        android:icon="@drawable/sort_by_19371_1"
+        android:title="sort"
+        android:contentDescription="@string/content_desc_sort"
+        app:showAsAction="never">
+        <menu>
+            <group
+                android:id="@+id/group"
+                android:contentDescription="@string/content_desc_sort"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/sort_by_date"
+                    android:title="@string/sort_by_date" />
+                <item
+                    android:id="@+id/sort_by_site"
+                    android:title="@string/sort_by_site" />
+                <item
+                    android:id="@+id/sort_by_status"
+                    android:title="@string/sort_by_status" />
+                <item
+                    android:id="@+id/reverse"
+                    android:title="@string/reverse" />
+            </group>
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/help"
+        android:title="@string/action_help" />
+    <item
+        android:id="@+id/preferences"
+        android:title="@string/preferences" />
+    <item
+        android:id="@+id/terms_of_use"
+        android:title="@string/terms_of_use" />
+    <item
+        android:id="@+id/about"
+        android:title="@string/about" />
+</menu>

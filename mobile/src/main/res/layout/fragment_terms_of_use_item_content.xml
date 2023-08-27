@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/designPaddingMedium"
+        android:paddingHorizontal="@dimen/designPaddingMedium">
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:cardCornerRadius="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:strokeColor="#80979797"
+            app:strokeWidth="2dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/terms_item_title"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:gravity="center"
+                    android:text="@string/terms_item_1_title_txt"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:paddingHorizontal="@dimen/designPaddingMedium"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <View
+                    android:id="@+id/imageView2"
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/terms_item_title"
+                    android:background="#80979797"/>
+
+                <TextView
+                    android:id="@+id/terms_item_content"
+                    android:layout_width="wrap_content"
+                    android:padding="@dimen/designPaddingMedium"
+                    android:background="#f4f4f4"
+                    android:layout_height="wrap_content"
+                    android:text="@string/terms_item1_content_txt"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <!--                <com.google.android.material.textview.MaterialTextView-->
+            <!--                    android:id="@+id/parTv"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:background="@color/grey_lighter"-->
+            <!--                    android:padding="@dimen/paragraph_padding"-->
+            <!--                    android:text="@string/home_full_paragraph"-->
+            <!--                    android:textColor="@color/black"-->
+            <!--                    android:visibility="gone"-->
+            <!--                    app:layout_constraintEnd_toEndOf="@id/knowMoreTitle"-->
+            <!--                    app:layout_constraintStart_toStartOf="@id/knowMoreTitle"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@id/knowMoreTitle" />-->
+        </com.google.android.material.card.MaterialCardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </ScrollView>
+</layout>

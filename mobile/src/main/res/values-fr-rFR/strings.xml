@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<resources>
+    <string name="app_name">OCARA</string>
+    <string name="speech_to_text">parole au texte</string>
+    <string name="Help_on_the_page">Aide sur la page</string>
+    <string name="view_referentials">Voir les référentiels</string>
+    <string name="view_referentials_fragment_title">Référentiels</string>
+    <string name="referentials_info">Information sur l\'objet</string>
+    <string name="referentials">Référentiels</string>
+    <string name="preferences">Préférences</string>
+    <string name="terms_of_use">Conditions d\'utilisation</string>
+    <string name="terms_of_use_title">Conditions générales d\'utilisation</string>
+    <string name="terms_of_use_intro_title">OCARA - Conditions générales d\'utilisation</string>
+    <string name="terms_of_use_intro_accept">Accepter les CGU</string>
+    <string name="terms_of_use_intro_refuse">Refuser les CGU</string>
+
+    <string name="about"> À propos</string>
+    <string name="choose_site">Choix du site</string>
+    <string name="add_site">Ajouter un site</string>
+    <string name="street">Rue :</string>
+    <string name="city">Ville :</string>
+    <string name="postal_code">Code postal (5 chiffres) :</string>
+    <string name="create_site">Créer le site</string>
+    <string name="site_info">Informations sur le site</string>
+<!--    <string name="modify_site">Modifier le site</string>-->
+
+    <string name="modify_site">Modifier</string>
+<!--    <string name="modify_auditor">Modifier l\'auditeur</string>-->
+    <string name="modify_auditor">Modifier</string>
+    <string name="create_auditor">Créer un auditeur</string>
+    <string name="name">Nom :</string>
+    <string name="last_name">Prénom :</string>
+    <string name="inform_me">M\'informer des audits effectués</string>
+    <string name="add_auditor">"Ajouter un auditeur "</string>
+    <string name="auditor">Auditeur</string>
+    <string name="rulesetInDroplist_content_desc_downloaded">disponible</string>
+    <string name="rulesetInDroplist_content_desc_not_downloaded"> A télécharger</string>
+    <string name="name_of_ref">Nom du Référentiel</string>
+    <string name="type_of_ref">Nom du référentiel</string>
+    <string name="ref_eq_search_hint">Saisissez un mot clef</string>
+    <string name="authorLabel">Auteur :</string>
+    <string name="rule_category">Catégorie de règle :</string>
+    <string name="versionLabel">Numéro de version :</string>
+    <string name="dateLabel">Date de Publication:</string>
+
+    <string name="commentLabel">Commentaire :</string>
+    <string name="view_referetial">Voir les règles</string>
+    <string name="uninstall_ref">Vous allez désinstaller ce référentiel</string>
+    <string name="uninstall">DÉSINSTALLER</string>
+    <string name="confirm">Confirmer</string>
+    <string name="cancel">Annuler</string>
+    <string name="view_report">"Voir le rapport "</string>
+    <string name="edit_path">Modifier le chemin</string>
+    <string name="name_of_obj">Objet</string>
+    <string name="obj_sub_obj_dialog_tite">Indiquez les propriétés présentes dans cet élément :</string>
+    <string name="search_rules">Rechercher dans les règles</string>
+    <string name="comments">Commentaire (%d)</string>
+    <string name="details">Détails</string>
+    <string name="properties">Propriétés (%d)</string>
+    <string name="audit">Auditer</string>
+    <string name="next">Suivant</string>
+    <string name="valider">valider</string>
+    <string name="choice">Choix des Objets</string>
+    <string name="this_is_an_audio_comment_but_it_has_not_audio">"Ceci est un commentaire audio, mais il n'a pas d'audio "</string>
+    <string name="delete_comment">supprimer le commentaire?</string>
+    <string name="save">enregistrer</string>
+    <string name="delete">Supprimer</string>
+    <string name="Copy">Copier</string>
+    <string name="sort_by_date">Trier par date</string>
+    <string name="sort_by_site">Trier par site</string>
+    <string name="sort_by_status">"Trier par statut "</string>
+    <string name="reverse">Inverser</string>
+    <string name="voir_parcours">voir parcours</string>
+    <string name="auditorName">Auditeur : %s</string>
+    <string name="all_profiles">tous les profiles</string>
+    <string name="commentsCount">Commaintaire (%d)</string>
+    <string name="path_choices">Choix des objets</string>
+    <string name="new_audit_title">Créer un audit</string>
+    <string name="add_to_path">ajouter au chemin</string>
+    <string name="referential_info">Informations sur le référentiel</string>
+    <string name="write_text_comment_header">Veuillez saisir votre commentaire ci-dessous</string>
+    <string name="press_to_start_recording">Veuillez appuyer pour commencer l\'enregistrement</string>
+    <string name="press_to_stop_recording">Veuillez appuyer pour arrêter l\'enregistrement</string>
+    <string name="dont_make_noise">"s'il vous plaît ne faites pas de bruit jusqu'à ce que le disque soit fini de jouer "</string>
+    <string name="retake">Refaire</string>
+    <string name="delete_comment_confirmation_msg">"Êtes-vous sûr de vouloir supprimer ce commentaire ? "</string>
+    <string name="delete_record">Supprimer le son ?</string>
+    <!--    <string name="delete_record_confirmation_msg">Voulez-vous vraiment supprimer cet enregistrement ?</string>-->
+    <string name="delete_record_confirmation_msg">Vous allez supprimer cet enregistrement</string>
+    <string name="no_comments_found">Aucun commentaire trouvé</string>
+    <string name="audio_comment">"Commentaire audio "</string>
+    <string name="record_comment">Enregistrer le commentaire</string>
+    <string name="record_comment_permission">Vous avez besoin d\'une autorisation pour enregistrer de l\'audio</string>
+    <string name="comments_label">Commentaires</string>
+    <string name="audio_comments">Commentaires audio (%d)</string>
+    <string name="text_comments">Commentaires textuels (%d)</string>
+    <string name="photo_comments">Commentaires sur les photos (%d)</string>
+    <string name="text_comment">Commentaire textuel</string>
+    <string name="photo_comment">Commentaire photo</string>
+    <string name="add_photo_comment">Photo</string>
+    <string name="add_text_comment">Texte</string>
+    <string name="add_audio_comment">Audio</string>
+    <string name="add_image_comment">Image</string>
+    <string name="take_image_permission"> Vous avez besoin d\'une autorisation pour prendre une photo</string>
+    <string name="add_photo_permission">Vous avez besoin d\'une autorisation pour choisir une image</string>
+    <string name="comment_label_in_audio_list">Commentaire (%d)</string>
+    <string name="delete_comments">supprimer les commentaires</string>
+    <string name="delete_comments_confirmation_msg">Voulez-vous vraiment supprimer les commentaires sélectionnés ?</string>
+
+    <string name="delete_comments_confirmation_msg_one">Un commentaire va être supprimé</string>
+    <string name="delete_comments_confirmation_msg_multiple">%d commentaires vont être supprimés</string>
+
+    <string name="about_icon_app_desc">BUILDING ACCESSIBILITY AUDIT</string>
+    <string name="pre">précédent</string>
+    <string name="illustrations_title">Explication de la règle</string>
+    <string name="choose_auditor_title">Choix de l\'auditeur</string>
+    <string name="choose_auditor_info">Le nom sélectionné sera affiché dans la rapport d\'audit et associé à la signature.</string>
+    <string name="choose_site_title">Choix du site</string>
+    <string name="search_name">Rechercher</string>
+    <!--    <string name="search_name">Rechercher dans le nom</string>-->
+    <string name="edit_audit_title">Modifier l\'audit</string>
+
+    <!--home screen-->
+    <string name="create_audit">Créer un audit</string>
+    <string name="all_audits">Tous les audits</string>
+    <string name="home_full_paragraph">L\'application OCARA est un outil permettant d\’auditer l\’accessibilité des locaux.
+Il permet d\'évaluer l\'accessibilité des parcours des utilisateurs sur un site donné en se basant sur les référentiels d\'audit disponibles au téléchargement.\n\n
+Un objet rencontré sur le parcours est référencé et évalué par rapport aux critères proposés, puis commenté.
+Les "objets" sont par exemple une place de parking, un chemin, un accueil, une porte, une salle.
+Le rapport d\'audit se construit automatiquement.\n\n
+Facile à utiliser et pédagogique, OCARA permet de repérer les obstacles les plus gênants.
+Selon les référentiels proposés, il permet aussi des audits de natures variées.</string>
+    <string name="home_part_paragraph">L’application OCARA est un outil d’autodiagnostic d’accessibilité du monde réel. Il permet d’évaluer l’accessibilité des parcours des utilisateurs sur un site donné …</string>
+
+    <!--    Update audit screen-->
+    <string name="update">mettre à jour</string>
+
+    <!--create audit screen-->
+    <string name="enter_audit_name">Nom de l\'audit</string>
+    <string name="enter_site_name">Site</string>
+    <string name="enter_auditor_name">Auditeur – Nom Prénom</string>
+    <string name="create_the_audit">Créer l\'audit</string>
+    <string name="audit_auditor">Auditeur – Nom Prénom : *</string>
+    <string name="audit_referential">Référentiel d’audit</string>
+    <string name="referential_warring">Ce référentiel doit être téléchargé.</string>
+    <!--    <string name="download">télécharger</string>-->
+    <string name="download">TÉLÉCHARGER</string>
+    <string name="download_ref_dialog_title">Télécharger le référentiel</string>
+    <string name="download_ref_dialog_content">Êtes-vous sûr de vouloir télécharger Référentiel : %s</string>
+
+    <string name="audit_expertise">Expertise</string>
+    <string name="novice">NOVICE</string>
+    <string name="expert">EXPERT</string>
+    <!--    create site screen-->
+    <string name="create_site_page_title">Ajouter un site</string>
+    <string name="mobile_create_site_name">Nom du site</string>
+    <string name="mobile_create_site_address">Adresse</string>
+    <string name="mobile_create_site_code">Code postal</string>
+    <string name="mobile_create_site_code_hint">Code postal (5 chiffres)</string>
+    <string name="create_site_town">Ville</string>
+    <string name="create_site_btn">Créer</string>
+    <string name="fill_site_code_error_title">Code postal invalide.\nExemple: 35000</string>
+    <string name="delete_site_dialog_title">Vous allez supprimer le site %s</string>
+
+    <!--    \nLe code du site doit comporter 5 chiffres-->
+    <!--    create auditor screen-->
+    <string name="create_auditor_title">Ajouter un auditeur</string>
+    <string name="create_auditor_name">Nom</string>
+    <string name="create_auditor_lastname">Prénom</string>
+    <string name="create_auditor_email">E-mail</string>
+    <string name="create_auditor_check">M\'informer des audits effectués.</string>
+    <string name="fill_mail_error_title">Adresse e-mail invalide.\nExemple: melanie@orange.fr</string>
+    <string name="fill_mail_hint">Format attendu : nom@domaine.fr</string>
+    <string name="delete_auditor_dialog_title">Vous allez supprimer l\'auditeur %s %s</string>
+
+    <!--generic-->
+    <string name="fill_form_title">Tous les champs sont obligatoires.</string>
+    <string name="required_field">champs requis</string>
+    <string name="fill_field_error_title">Veuillez renseigner ce champ.</string>
+    <string name="create">Créer</string>
+    <string name="search">Rechercher</string>
+    <string name="modification_date">Modifié le %s</string>
+    <string name="no_audits_found">Aucun audit trouvé</string>
+    <string name="no_obj_found">Aucun objet ajouté au parcours</string>
+
+    <string name="edit">Editer</string>
+    <string name="complete">Compléter</string>
+    <string name="copy">Copier</string>
+    <string name="retest">Retester</string>
+    <string name="retest_aud_msg">Retester le parcours de l\'audit %s.\nUn nouvel audit sera crée. </string>
+    <string name="Delete">Supprimer</string>
+    <!--    <string name="delete_audit_confirmation_msg">"Êtes-vous sur(e) de vouloir supprimer l'audit \"%s\" ? "</string>-->
+    <string name="delete_audit_confirmation_msg">"Vous allez supprimer l'audit \"%s\" ? "</string>
+    <string name="delete_audit">Supprimer Audit ?</string>
+    <string name="copied">Copié!</string>
+    <string name="retest_aud_keep_ans_msg">Souhaitez-vous conserver les réponses et les commentaires ?</string>
+    <string name="retest_aud_keep_ans_msg_yes">Oui, conserver les données</string>
+    <string name="retest_aud_keep_ans_msg_no">Non, effacer les données</string>
+
+
+    <!--    Report-->
+    <string name="report_fragment_title">Rapport d\'audit</string>
+    <string name="results">Résultats de l\'audit</string>
+    <string name="summary">Voir le parcours</string>
+    <string name="lock_audit">Clôturer l\'audit</string>
+    <string name="path_element">Éléments de chemin</string>
+    <string name="info_audit_name">Nom de l\'audit:</string>
+    <string name="info_site_name">Site:</string>
+    <string name="info_auditor_name">Nom de l\'auditeur:</string>
+    <string name="info_expertise">Expertise:</string>
+    <string name="info_date">Date:</string>
+    <string name="info_ref_type">Référentiel d’audit :</string>
+    <string name="report_summary">Résumé du rapport</string>
+    <string name="report_view_route_title">Résumé du parcours</string>
+    <string name="results_representation">Représentation des résultats</string>
+
+    <string name="report_results">Résultats de l\'audit</string>
+    <string name="lock_audit_dialog_content">Êtes-vous sûr(e) de vouloir clôturer l\'audit? \nLe rapport ne sera plus modifiable.</string>
+
+
+    <string name="control_ok">Contrôle OK</string>
+    <string name="control_no">Contrôle KO</string>
+    <string name="control_doubt">Doute</string>
+    <!--report equipments-->
+    <string name="report_eq_title">Équipements de rapport</string>
+    <string name="report_eq_comments">Commentaire</string>
+    <string name="report_eq_anomalies">Anomalies</string>
+    <string name="welcome_in_ocara">"Bienvenue sur OCARA "</string>
+    <string name="what_to_do">Que souhaitez-vous faire?</string>
+    <string name="all_audits_with_cnt">Accéder aux audits (%d)</string>
+    <string name="want_to_know_more">En savoir plus sur OCARA</string>
+    <string name="want_to_know_more_exp"> bouton développé</string>
+    <string name="want_to_know_more_not_exp"> bouton réduit</string>
+    <string name="adjust_eq">AJUSTER L\'AUDIT</string>
+
+    <!--    Audit equipment-->
+    <!--    <string name="delete_audit_obj_confirmation_msg">"Êtes-vous sûr de bien vouloir supprimer cet élément ? "</string>-->
+    <string name="delete_audit_obj_confirmation_msg">"Vous allez retirer cet objet du parcours"</string>
+    <string name="delete_obj">Supprimer l\'équipement</string>
+
+    <string name="exporting">Audit d\'exportation</string>
+    <string name="export_fail">Échec de l\'exportation</string>
+    <string name="export_docx_fail_app_error">Désolé, impossible d\'ouvrir le fichier, veuillez installer l\'application d\'ouverture de fichier doc  \n\nchemin du fichier : %s</string>
+
+    <!--answer questions-->
+    <string name="question_answer_save_dialog_title">Enregistrer l\'avancement</string>
+    <string name="question_answer_save_dialog_content">Voulez-vous enregistrer vos réponses?</string>
+    <string name="question_answer_save_dialog_cancel">NE PAS ENREGISTRER</string>
+    <string name="question_answer_save_dialog_confirm">ENREGISTRER</string>
+    <string name="test">Auditer</string>
+    <string name="current_rout_title">Parcours</string>
+
+    <string name="object_tile">Objet</string>
+
+
+    <!--questions answer-->
+    <string name="answer_yes">OUI</string>
+    <string name="answer_no">NON</string>
+    <string name="answer_doubt">DOUTE</string>
+    <string name="answer_na">N/A</string>
+    <!--list audits-->
+    <string name="add_new_audit">+ Ajouter un nouvel audit</string>
+
+    <string name="help_screen_title">Aide sur la page</string>
+    <string name="home_screen_title">Accueil</string>
+
+    <!--sign report-->
+    <string name="sign_screen_title">Signer</string>
+    <string name="sign_title_1">Le rapport ne sera plus modifiable.</string>
+    <string name="sign_title_2">Signer le rapport :</string>
+    <string name="sign_clear">EFFACER</string>
+    <string name="sign_conf_title">Audit de signature et de verrouillage</string>
+    <string name="sign_conf_content">Êtes-vous sûr de vouloir signer et verrouiller l\'audit?</string>
+    <!--content description-->
+    <string name="site_info_content_desc">Informations du site sélectionné</string>
+    <string name="auditor_info_content_desc">Informations sur l\'auditeur sélectionné</string>
+    <string name="ref_info_content_desc">Informations sur le référentiel d\'audit sélectionné</string>
+    <string name="close_content_desc">Fermer</string>
+    <string name="obj_up_arrow_content_desc">Déplacer l\'objet vers le haut de la liste</string>
+    <string name="obj_down_arrow_content_desc">Déplacer l\'objet vers le bas de la liste </string>
+    <string name="obj_list_delete_content_desc"> supprimer un objet du parcours</string>
+    <string name="obj_list_edit_content_desc">modifier l\'ordre des objets du parcours</string>
+
+    <!--    expertise info-->
+    <string name="exp_info_title">Informations sur le niveau d\'expertise</string>
+    <string name="exp_info_novice_title">\u2022 <b><u>Novice :</u></b></string>
+    <string name="exp_info_novice_title_no_bullet"><b><u>Novice :</u></b></string>
+
+    <string name="exp_info_novice_cont">\u2022 S\'adresse à un nouvel utilisateur sans connaissance des règles d\'accessibilité
+        \n\u2022 On affiche séquentiellement les règles à auditer
+        \n\u2022 Une seule règle par écran
+    </string>
+    <string name="exp_info_expert_title">\u2022 <b><u>Expert :</u></b></string>
+    <string name="exp_info_expert_title_no_bullet"><b><u>Expert :</u></b></string>
+    <string name="exp_info_expert_cont">\u2022 Suppose une connaissance des règles d\'accessibilité
+        \n\u2022 S\'adresse à un utilisateur habitué à réaliser des audits
+        \n\u2022 On affichage l\'ensemble des règles sur un seul écran
+    </string>
+    <!--    content desc-->
+
+    <string name="home_btn_content_desc">Retour</string>
+    <string name="delete_content_desc">supprimer un objet du parcours</string>
+    <string name="edit_content_desc"> modifier l\'ordre des objets du parcours</string>
+    <string name="content_desc_sort">filtrer la liste des audits</string>
+
+    <string name="content_desc_closed_audit">audit clôturé</string>
+    <string name="content_desc_ong_audit">audit en cours</string>
+    <string name="content_desc_obj_selected">sélectionné</string>
+    <string name="content_desc_obj_not_selected">désélectionné</string>
+    <string name="content_desc_edit_obj_name">Editer le nom de l\'objet</string>
+    <string name="content_desc_delete_obj">supprimer un objet du parcours</string>
+
+    <string name="content_desc_record_start">Démarrer l\'enregistrement audio</string>
+    <string name="content_desc_record_stop">Arrêter l\'enregistrement audio</string>
+    <string name="content_desc_audio_state_play"> Lecture de l\'audio</string>
+    <string name="content_desc_audio_state_stop">Stop</string>
+    <string name="content_desc_edit_photo">éditer la photo</string>
+    <string name="content_desc_in_list">In list</string>
+
+    <string name="content_desc_add_obj_to_route">Ajouter un objet au parcours</string>
+    <string name="content_desc_del_obj_from_route">confirmer la suppression des objets sélectionnés</string>
+    <string name="content_desc_modify_route">confirmer la modification du parcours</string>
+    <string name="content_desc_compliant">Conforme</string>
+    <string name="content_desc_improper">Non conforme</string>
+    <string name="content_desc_uncertain">Incertain</string>
+    <string name="content_desc_unaudited">Non audité</string>
+    <string name="content_desc_item_list_size">liste de (%d) élément(s)</string>
+    <string name="content_desc_item_list_pos">élément (%d) dans la liste</string>
+    <string name="content_desc_item_sub_list_size">sous-liste de (%d) élément(s)</string>
+    <string name="content_desc_item_sub_list_pos">élément (%d) dans la sous-liste</string>
+    <string name="content_desc_deselected">désélectionné</string>
+    <string name="content_desc_close">Fermer</string>
+
+    <string name="content_desc_activated">activé, appuyez deux fois pour désactiver</string>
+    <string name="content_desc_deactivated">désactivé, appuyez deux fois pour activer</string>
+    <string name="content_desc_rule_info">Explication de la règle</string>
+
+    <string name="content_desc_item_delete">élément supprimé</string>
+    <string name="content_desc_order_chaged">organiser modifiée</string>
+    <string name="content_desc_list_audit_items_found">%d audit trouvés</string>
+
+
+    <string name="content_desc_delete_auditor">Supprimer l\'auditeur</string>
+    <string name="content_desc_edit_auditor">Modifier l\'auditeur</string>
+    <string name="content_desc_delete_site">Supprimer le site</string>
+    <string name="content_desc_edit_site">Modifier le site</string>
+    <string name="content_desc"></string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Software Name : OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~
+  ~ This software is confidential and proprietary information of Orange.
+  ~ You shall not disclose such Confidential Information and shall not copy, use or distribute it
+  ~ in whole or in part without the prior written consent of Orange
+  ~
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <string name="create_site_create_site_title_orange">Ajouter un site Orange dans la base locale</string>
+    <string name="create_site_code_orange">(*) Code NOIMM du site :</string>
+    <string name="create_site_code_hint_orange"><i>Entrez le code NOIMM sur 6 caractères numériques</i></string>
+    <string name="create_site_code_ugi">Code UGI :</string>
+    <string name="create_site_code_ugi_hint"><i>Entrez le code de l\'UGI</i></string>
+    <string name="create_site_name_ugi">Nom de l\'UGI :</string>
+    <string name="create_site_name_ugi_hint"><i>Entrez le nom de l\'UGI</i></string>
+
+    <!-- about Orange-->
+    <string name="about_text_1"><b>OCARA</b>, Outil de Contrôle et d’Analyse du Réel Accessible, est une application permettant d’effectuer un autodiagnostic d’accessibilité des parcours effectués au sein des bâtiments.</string>
+    <string name="about_text_2">Il est associé à des critères évolutifs et personnalisables permettant d’auditer tout type d’objet, de parcours ou de zone de service.</string>
+    <string name="about_text_3">C’est un outil complet, autonome et adapté à tous les  types de handicap, il est utilisé au sein d’Orange.</string>
+    <string name="about_text_4">Ocara est développé par les <u>Orange Labs</u> pour la Mission Insertion Handicap d’Orange, en coordination avec la direction de l’immobilier. Les règles d’accessibilité pour les salariés, inspirées des ERP, ont été adaptées pour les besoins de l’entreprise.</string>
+    <string name="about_text_5">Au sein de la direction de la diversité Groupe, la mission insertion handicap (MIH) pilote la politique d´insertion des travailleurs handicapés dans le cadre de la politique diversité du Groupe. Elle s’attache aussi à sensibiliser l’ensemble des salariés au handicap et à intégrer la démarche accessibilité dans les pratiques courantes.</string>
+    <string name="about_text_6">Elle anime le réseau des correspondants handicap, coordonne les actions de communication interne et externe, gère le fonds d’insertion handicap.</string>
+    <string name="about_text_7">Elle garantit l´application des engagements de l´accord, avec le soutien de ses réseaux d´experts.</string>
+    <string name="about_text_8">Retrouver les informations utiles sur le site Intranet handicapaction :<a href="https://portailrh.sso.infra.ftgroup/web/hd/accueil">https://portailrh.sso.infra.ftgroup/web/hd/accueil</a></string>
+
+    <string name="about_title_MIH"><u>La Mission Insertion Handicap</u></string>
+</resources>

@@ -1,0 +1,244 @@
+<!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.orange.ocara.mobile.ui.viewmodel.AuditEquipmentDetailsViewModel" />
+    </data>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/obj_name_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/obj_name_tv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:singleLine="false"
+                android:text="object name"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/edit_icon"
+                app:layout_constraintStart_toEndOf="@+id/equipmentIcon"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/fill_name_txt"
+                style="@style/SubTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="@string/fill_field_error_title"
+                android:textColor="@color/red"
+                android:visibility="gone"
+                android:singleLine="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/obj_name_tv"
+                app:layout_constraintTop_toBottomOf="@+id/obj_name_tv" />
+
+            <ImageView
+                android:id="@+id/edit_icon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="10dp"
+                android:contentDescription="@string/content_desc_edit_obj_name"
+                android:padding="11dp"
+                app:layout_constraintBottom_toBottomOf="@+id/obj_name_tv"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/obj_name_tv"
+                app:srcCompat="@drawable/pencil_1" />
+
+            <ImageView
+                android:id="@+id/check_icon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="10dp"
+                android:padding="11dp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@+id/editTextObjectName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/editTextObjectName"
+                app:srcCompat="@drawable/ic_round_check_black_24" />
+
+            <EditText
+                android:id="@+id/editTextObjectName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="@color/orange_design"
+                android:ems="10"
+                android:visibility="gone"
+                android:inputType="textPersonName"
+                android:singleLine="false"
+                android:textCursorDrawable="@drawable/cursor"
+                app:layout_constraintBottom_toBottomOf="@+id/obj_name_tv"
+                app:layout_constraintEnd_toStartOf="@+id/check_icon"
+                app:layout_constraintStart_toEndOf="@+id/equipmentIcon"
+                app:layout_constraintTop_toTopOf="@+id/obj_name_tv" />
+
+            <ImageView
+                android:id="@+id/equipmentIcon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="16dp"
+                app:layout_constraintBottom_toBottomOf="@+id/obj_name_tv"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/obj_name_tv"
+                app:srcCompat="@drawable/ic_baseline_description_24" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/orange"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/obj_name_layout" />
+
+        <TextView
+            android:id="@+id/details_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/details"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintStart_toEndOf="@+id/detailsIcon"
+            app:layout_constraintTop_toBottomOf="@+id/view1" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/orange"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sub_objects_icon" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/orange"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/obj_name_layout" />
+
+        <ImageView
+            android:id="@+id/detailsIcon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/details_tv"
+            app:srcCompat="@drawable/search_icon" />
+
+        <TextView
+            android:id="@+id/sub_objects_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/properties"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/sub_objects_icon"
+            app:layout_constraintStart_toEndOf="@+id/commentsIcon"
+            app:layout_constraintTop_toTopOf="@+id/sub_objects_icon" />
+
+        <ImageView
+            android:id="@+id/sub_objects_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/view1"
+            app:srcCompat="@drawable/ic_equipment_prop" />
+
+        <TextView
+            android:id="@+id/commentsCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/comments"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/commentsIcon"
+            app:layout_constraintStart_toEndOf="@+id/commentsIcon"
+            app:layout_constraintTop_toTopOf="@+id/commentsIcon" />
+
+        <ImageView
+            android:id="@+id/commentsIcon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:importantForAccessibility="no"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view2"
+            app:srcCompat="@drawable/ic_baseline_comment_24" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/auditTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:gravity="center_horizontal"
+            android:paddingVertical="@dimen/designPaddingMedium"
+            android:text="@string/test"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/commentsIcon" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

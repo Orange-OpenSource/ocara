@@ -25,7 +25,7 @@
 -repackageclasses
 
 ## Application classes that will be serialized/deserialized over Gson
--keep class com.orange.ocara.data.net.model.** { *; }
+-keep class com.orange.ocara.conflicts.net.model.** { *; }
 -keep class com.orange.ocara.data.cache.db.** { *; }
 
 ## Application classes used by jMustache

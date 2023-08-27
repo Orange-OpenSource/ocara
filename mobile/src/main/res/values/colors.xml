@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<resources>
+    <!-- Material design -->
+    <color name="primary">#B0BEC5</color>
+    <color name="primaryDark">#607D8B</color>
+    <color name="primaryLight">#CFD8DC</color>
+    <color name="accent">@color/orange</color>
+    <color name="primaryText">@color/black90</color>
+    <color name="secondaryText">@color/black60</color>
+    <color name="orange">#ff7900</color>
+
+    <color name="orange_design">#ff7900</color>
+    <color name="orange_design_accessibility">#F16E00</color>
+
+
+    <color name="transparent">@android:color/transparent</color>
+    <color name="black15">#26000000</color>
+    <color name="black40">#66000000</color>
+    <color name="black50">#80000000</color>
+    <color name="black60">#98000000</color>
+    <color name="black90">#E5000000</color>
+    <color name="blue">#4E6CEF</color>
+    <color name="red">#DD2C00</color>
+    <color name="yellow">#FFD600</color>
+    <color name="green">#259B24</color>
+    <color name="light_green">#00FF00</color>
+    <color name="orange_fallback">#FFA726</color>
+    <color name="orange_light">#FFCC80</color>
+    <color name="grey">#ffaaaaaa</color>
+    <color name="grey_light">#ffcccccc</color>
+    <color name="grey_lighter">#f1f1f1</color>
+    <color name="dark_grey">#656565</color>
+
+    <color name="app_bg_grey">#f4f4f4</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gradient_start_color">#4c84ff</color>
+    <color name="gradient_end_color">#18a3fe</color>
+    <color name="colorDarkBlue">#3D4054</color>
+    <color name="text_grey">#99000000</color>
+
+    <!-- colors for tab and screen text -->
+    <color name="tab_indicator_gray">#c0c0c0</color>
+    <color name="intro_description_color">#656565</color>
+    <color name="intro_title_color">#000000</color>
+    <color name="orange2">#FF5722</color>
+
+    <!-- result resume table colors -->
+    <color name="resultTableHeader">@color/grey_light</color>
+    <color name="resultTableColorOdd">@color/transparent</color>
+    <color name="resultTableColorEven">@color/orange_light</color>
+
+    <color name="divider">@color/black15</color>
+    <color name="bloody_red">#cd3c14</color>
+    <color name="ansYesColor">#32c832</color>
+    <color name="ansNoColor">#D63C14</color>
+    <color name="ansDoubtColor">#ffcc00</color>
+    <color name="ansNAColor">#527edb</color>
+    <color name="createCommentActionButtonsColor">#ff7900</color>
+    <color name="black_light">#333333</color>
+
+    <!--Pie chart color    -->
+    <color name="piechart_red">#cd3c14</color>
+    <color name="piechart_green">#32c832</color>
+    <color name="piechart_yellow">#ffcc00</color>
+</resources>

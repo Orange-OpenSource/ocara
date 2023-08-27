@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+<c:chartSpace xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"
+    xmlns:c="http://schemas.openxmlformats.org/drawingml/2006/chart"
+    xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
+    <c:date1904 val="0" />
+    <c:lang val="fr-FR" />
+    <c:roundedCorners val="0" />
+    <mc:AlternateContent xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006">
+        <mc:Choice xmlns:c14="http://schemas.microsoft.com/office/drawing/2007/8/2/chart"
+            Requires="c14">
+            <c14:style val="102" />
+        </mc:Choice>
+        <mc:Fallback>
+            <c:style val="2" />
+        </mc:Fallback>
+    </mc:AlternateContent>
+    <c:chart>
+        <c:autoTitleDeleted val="0" />
+        <c:plotArea>
+            <c:layout />
+            <c:barChart>
+                <c:barDir val="col" />
+                <c:grouping val="stacked" />
+                <c:varyColors val="0" />
+                <c:ser>
+                    <c:idx val="0" />
+                    <c:order val="0" />
+                    <c:tx>
+                        <c:strRef>
+                            <c:f>tableau!$B$19</c:f>
+                            <c:strCache>
+                                <c:ptCount val="1" />
+                                <c:pt idx="0">
+                                    <c:v>ok control</c:v>
+                                </c:pt>
+                            </c:strCache>
+                        </c:strRef>
+                    </c:tx>
+                    <c:spPr>
+                        <a:solidFill>
+                            <a:srgbClr val="00B050" />
+                        </a:solidFill>
+                    </c:spPr>
+                    <c:invertIfNegative val="0" />
+                    <c:cat>
+                        <c:strRef>
+                            <c:f>tableau!$C$18:$K$18</c:f>
+                            <c:strCache>
+                                <c:ptCount val="{{stats.handicapCount}}" />
+                                {{#stats.accessibleHandicaps}}
+                                <c:pt idx="{{index}}">
+                                    <c:v>{{name}}</c:v>
+                                </c:pt>
+                                {{/stats.accessibleHandicaps}}
+                            </c:strCache>
+                        </c:strRef>
+                    </c:cat>
+                    <c:val>
+                        <c:numRef>
+                            <c:f>tableau!$C$19:$K$19</c:f>
+                            <c:numCache>
+                                <c:formatCode>General</c:formatCode>
+                                <c:ptCount val="{{stats.handicapCount}}" />
+                                {{#stats.accessibleHandicaps}}
+                                <c:pt idx="{{index}}">
+                                    <c:v>{{stat}}</c:v>
+                                </c:pt>
+                                {{/stats.accessibleHandicaps}}
+                            </c:numCache>
+                        </c:numRef>
+                    </c:val>
+                </c:ser>
+                <c:ser>
+                    <c:idx val="1" />
+                    <c:order val="1" />
+                    <c:tx>
+                        <c:strRef>
+                            <c:f>tableau!$B$20</c:f>
+                            <c:strCache>
+                                <c:ptCount val="1" />
+                                <c:pt idx="0">
+                                    <c:v>doubt</c:v>
+                                </c:pt>
+                            </c:strCache>
+                        </c:strRef>
+                    </c:tx>
+                    <c:spPr>
+                        <a:solidFill>
+                            <a:srgbClr val="FFFF00" />
+                        </a:solidFill>
+                    </c:spPr>
+                    <c:invertIfNegative val="0" />
+                    <c:cat>
+                        <c:strRef>
+                            <c:f>tableau!$C$18:$K$18</c:f>
+                            <c:strCache>
+                                <c:ptCount val="{{stats.handicapCount}}" />
+                                {{#stats.doubtHandicaps}}
+                                <c:pt idx="{{index}}">
+                                    <c:v>{{name}}</c:v>
+                                </c:pt>
+                                {{/stats.doubtHandicaps}}
+                            </c:strCache>
+                        </c:strRef>
+                    </c:cat>
+                    <c:val>
+                        <c:numRef>
+                            <c:f>tableau!$C$20:$K$20</c:f>
+                            <c:numCache>
+                                <c:formatCode>General</c:formatCode>
+                                <c:ptCount val="{{stats.handicapCount}}" />
+                                {{#stats.doubtHandicaps}}
+                                <c:pt idx="{{index}}">
+                                    <c:v>{{stat}}</c:v>
+                                </c:pt>
+                                {{/stats.doubtHandicaps}}
+                            </c:numCache>
+                        </c:numRef>
+                    </c:val>
+                </c:ser>
+
+                <!-- adding new element : annoying score -->
+                <c:ser>
+                    <c:idx val="2" />
+                    <c:order val="2" />
+                    <c:tx>
+                        <c:strRef>
+                            <c:f>tableau!$B$21</c:f>
+                            <c:strCache>
+                                <c:ptCount val="1" />
+                                <c:pt idx="0">
+                                    <c:v>annoying</c:v>
+                                </c:pt>
+                            </c:strCache>
+                        </c:strRef>
+                    </c:tx>
+                    <c:spPr>
+                        <a:solidFill>
+                            <a:srgbClr val="FFAA00" />
+                        </a:solidFill>
+                    </c:spPr>
+                    <c:invertIfNegative val="0" />
+                    <c:cat>
+                        <c:strRef>
+                            <c:f>tableau!$C$18:$K$18</c:f>
+                            <c:strCache>
+                                <c:ptCount val="{{stats.handicapCount}}" />
+                                {{#stats.annoyingHandicaps}}
+                                <c:pt idx="{{index}}">
+                                    <c:v>{{name}}</c:v>
+                                </c:pt>
+                                {{/stats.annoyingHandicaps}}
+                            </c:strCache>
+                        </c:strRef>
+                    </c:cat>
+                    <c:val>
+                        <c:numRef>
+                            <c:f>tableau!$C$21:$K$21</c:f>
+                            <c:numCache>
+                                <c:formatCode>General</c:formatCode>
+                                <c:ptCount val="{{stats.handicapCount}}" />
+                                {{#stats.annoyingHandicaps}}
+                                <c:pt idx="{{index}}">
+                                    <c:v>{{stat}}</c:v>
+                                </c:pt>
+                                {{/stats.annoyingHandicaps}}
+                            </c:numCache>
+                        </c:numRef>
+                    </c:val>
+                </c:ser>
+                <!-- adding new element : annoying score -->
+
+                <c:ser>
+                    <c:idx val="3" />
+                    <c:order val="3" />
+                    <c:tx>
+                        <c:strRef>
+                            <c:f>tableau!$B$22</c:f>
+                            <c:strCache>
+                                <c:ptCount val="1" />
+                                <c:pt idx="0">
+                                    <c:v>blocking</c:v>
+                                </c:pt>
+                            </c:strCache>
+                        </c:strRef>
+                    </c:tx>
+                    <c:spPr>
+                        <a:solidFill>
+                            <a:srgbClr val="FF0000" />
+                        </a:solidFill>
+                    </c:spPr>
+                    <c:invertIfNegative val="0" />
+                    <c:cat>
+                        <c:strRef>
+                            <c:f>tableau!$C$18:$K$18</c:f>
+                            <c:strCache>
+                                <c:ptCount val="{{stats.handicapCount}}" />
+                                {{#stats.notAccessibleHandicaps}}
+                                <c:pt idx="{{index}}">
+                                    <c:v>{{name}}</c:v>
+                                </c:pt>
+                                {{/stats.notAccessibleHandicaps}}
+                            </c:strCache>
+                        </c:strRef>
+                    </c:cat>
+                    <c:val>
+                        <c:numRef>
+                            <c:f>tableau!$C$21:$K$21</c:f>
+                            <c:numCache>
+                                <c:formatCode>General</c:formatCode>
+                                <c:ptCount val="{{stats.handicapCount}}" />
+                                {{#stats.notAccessibleHandicaps}}
+                                <c:pt idx="{{index}}">
+                                    <c:v>{{stat}}</c:v>
+                                </c:pt>
+                                {{/stats.notAccessibleHandicaps}}
+                            </c:numCache>
+                        </c:numRef>
+                    </c:val>
+                </c:ser>
+                <c:dLbls>
+                    <c:showLegendKey val="0" />
+                    <c:showVal val="0" />
+                    <c:showCatName val="0" />
+                    <c:showSerName val="0" />
+                    <c:showPercent val="0" />
+                    <c:showBubbleSize val="0" />
+                </c:dLbls>
+                <c:gapWidth val="150" />
+                <c:overlap val="100" />
+                <c:axId val="239658880" />
+                <c:axId val="239660416" />
+            </c:barChart>
+            <c:catAx>
+                <c:axId val="239658880" />
+                <c:scaling>
+                    <c:orientation val="minMax" />
+                </c:scaling>
+                <c:delete val="0" />
+                <c:axPos val="b" />
+                <c:majorTickMark val="out" />
+                <c:minorTickMark val="none" />
+                <c:tickLblPos val="nextTo" />
+                <c:crossAx val="239660416" />
+                <c:crosses val="autoZero" />
+                <c:auto val="1" />
+                <c:lblAlgn val="ctr" />
+                <c:lblOffset val="100" />
+                <c:noMultiLvlLbl val="0" />
+            </c:catAx>
+            <c:valAx>
+                <c:axId val="239660416" />
+                <c:scaling>
+                    <c:orientation val="minMax" />
+                </c:scaling>
+                <c:delete val="0" />
+                <c:axPos val="l" />
+                <c:majorGridlines />
+                <c:numFmt formatCode="General" sourceLinked="1" />
+                <c:majorTickMark val="out" />
+                <c:minorTickMark val="none" />
+                <c:tickLblPos val="nextTo" />
+                <c:crossAx val="239658880" />
+                <c:crosses val="autoZero" />
+                <c:crossBetween val="between" />
+            </c:valAx>
+        </c:plotArea>
+        <c:legend>
+            <c:legendPos val="r" />
+            <c:overlay val="0" />
+        </c:legend>
+        <c:plotVisOnly val="1" />
+        <c:dispBlanksAs val="gap" />
+        <c:showDLblsOverMax val="0" />
+    </c:chart>
+</c:chartSpace>
