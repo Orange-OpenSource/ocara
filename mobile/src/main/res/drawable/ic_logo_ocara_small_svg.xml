@@ -1,0 +1,40 @@
+<!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="500dp"
+    android:height="500dp"
+    android:viewportWidth="500"
+    android:viewportHeight="500">
+  <path
+      android:pathData="m0,0v213.717c160.345,-0.003 340.14,0.108 500.48,0.111V362.34C192.832,269.217 111.449,269.007 0,302.922V501.828H500.609V0ZM0,302.922V213.717h-0.023v89.213c0.008,-0.002 0.015,-0.005 0.023,-0.008z"
+      android:strokeAlpha="0.97"
+      android:strokeLineJoin="round"
+      android:strokeWidth="41.29990768"
+      android:fillColor="#ff7900"
+      android:strokeColor="#00000000"
+      android:fillType="evenOdd"
+      android:fillAlpha="0.97"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M255.621,50.91h549.153v217.797h-549.153z"
+      android:fillColor="#fd5802"/>
+  <path
+      android:pathData="m717.994,353.029v19c110.661,-12.585 192.135,-12.551 497.598,22v-41c-159.198,-0.001 -338.398,-0.001 -497.598,0z"
+      android:strokeLineJoin="miter"
+      android:strokeWidth="35"
+      android:fillColor="#fd5802"
+      android:strokeColor="#00000000"
+      android:fillType="nonZero"
+      android:strokeLineCap="butt"/>
+</vector>

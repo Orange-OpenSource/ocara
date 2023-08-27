@@ -27,7 +27,7 @@
   <Relationship Id="comment_{{id}}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/oleObject" Target="media/comment/{{attachmentName}}"/>
   {{/audioAuditComments}}
 
-  {{#auditObjects}}
+  {{#auditEquipments}}
       <Relationship Id="icon_{{id}}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="media/icon/{{iconName}}"/>
 
       {{#photoComments}}
@@ -41,5 +41,5 @@
       {{#audioComments}}
       <Relationship Id="comment_{{id}}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/oleObject" Target="media/comment/{{attachmentName}}"/>
       {{/audioComments}}
-  {{/auditObjects}}
+  {{/auditEquipments}}
 </Relationships>

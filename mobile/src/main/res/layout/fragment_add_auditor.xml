@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/auditor_title_Tv"
+            style="@style/LabelsTextView"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_marginStart="20dp"
+            android:singleLine="false"
+            android:layout_marginTop="@dimen/designMarginLong"
+            android:text="@string/fill_form_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/auditor_name_Tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/designMarginStart"
+            android:layout_marginTop="@dimen/designMarginMedium"
+            android:text="@string/create_auditor_name"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintHorizontal_bias="0.163"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/auditor_title_Tv" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/auditor_name_ET"
+            style="@style/App_EditTextStyle"
+            android:singleLine="true"
+            android:lines="1"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/designMarginStart"
+            android:layout_marginEnd="@dimen/designMarginEnd"
+            android:inputType="textWebEditText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/auditor_name_Tv" />
+
+
+        <TextView
+            android:id="@+id/auditor_last_name_Tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/designMarginStart"
+            android:text="@string/create_auditor_lastname"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/designMarginMedium"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fill_name_err_txt" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/auditor_lastname_ET"
+            style="@style/App_EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:lines="1"
+            android:maxLines="1"
+            android:layout_marginStart="@dimen/designMarginStart"
+            android:layout_marginEnd="@dimen/designMarginEnd"
+            android:ems="10"
+            android:enabled="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/auditor_last_name_Tv" />
+
+        <TextView
+            android:id="@+id/auditor_mail_Tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/designMarginStart"
+            android:text="@string/create_auditor_email"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginTop="@dimen/designMarginMedium"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fill_last_name_err_txt" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/auditor_email_ET"
+            style="@style/App_EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/designMarginStart"
+            android:layout_marginEnd="@dimen/designMarginEnd"
+            android:singleLine="true"
+            android:lines="1"
+            android:maxLines="1"
+            android:ems="10"
+            android:enabled="true"
+            android:inputType="textWebEmailAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/auditor_mail_Tv" />
+
+        <CheckBox
+            android:id="@+id/auditor_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/designMarginMedium"
+            android:text="@string/create_auditor_check"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/auditor_email_ET" />
+
+        <Button
+            android:id="@+id/create_auditor_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/designMarginStart"
+            android:layout_marginTop="@dimen/designMarginLong"
+            android:layout_marginEnd="@dimen/designMarginEnd"
+            android:paddingVertical="@dimen/designPaddingMedium"
+            android:text="@string/create"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/fill_mail_err_txt" />
+
+        <TextView
+            android:id="@+id/fill_name_err_txt"
+            style="@style/SubTitleTextView"
+            android:layout_width="wrap_content"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:text="@string/fill_field_error_title"
+            android:textColor="@color/red"
+            app:layout_constraintStart_toStartOf="@+id/auditor_name_ET"
+            app:layout_constraintTop_toBottomOf="@+id/auditor_name_ET" />
+
+        <TextView
+            android:id="@+id/fill_last_name_err_txt"
+            style="@style/SubTitleTextView"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/designMarginMedium"
+            android:text="@string/fill_field_error_title"
+            android:textColor="@color/red"
+            app:layout_constraintStart_toStartOf="@+id/auditor_lastname_ET"
+            app:layout_constraintTop_toBottomOf="@+id/auditor_lastname_ET" />
+
+
+        <TextView
+            android:id="@+id/fill_mail_err_txt"
+            style="@style/SubTitleTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/designMarginMedium"
+            android:visibility="gone"
+            android:singleLine="false"
+            android:text="@string/fill_mail_error_title"
+            android:textColor="@color/red"
+            app:layout_constraintEnd_toEndOf="@+id/auditor_mail_hint"
+            app:layout_constraintStart_toStartOf="@+id/auditor_mail_hint"
+            app:layout_constraintTop_toBottomOf="@+id/auditor_mail_hint" />
+
+        <TextView
+            android:id="@+id/auditor_mail_hint"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/designMarginStart"
+            android:layout_marginTop="@dimen/designMarginShort"
+            android:text="@string/fill_mail_hint"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/auditor_email_ET"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/auditor_email_ET" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

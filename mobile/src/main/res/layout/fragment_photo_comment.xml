@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/photo"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+            <Button
+                android:id="@+id/validate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="35dp"
+                android:layout_marginBottom="16dp"
+                android:text="@string/valider"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:backgroundTint="@color/orange"
+                app:icon="@drawable/ic_round_check_black_24"
+                app:iconGravity="textStart"
+                app:iconTint="@android:color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/guideline3"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/cancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="35dp"
+                android:backgroundTint="@color/white"
+                android:text="@string/cancel"
+                app:icon="@drawable/icon_navigation_close_24_px"
+                app:iconGravity="textStart"
+                app:iconTint="@color/black"
+                app:layout_constraintBottom_toBottomOf="@+id/validate"
+                app:layout_constraintEnd_toStartOf="@+id/guideline3"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/retake_btn"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/grey_lighter"
+                android:padding="@dimen/designMarginMedium"
+                android:text="@string/retake"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:cornerRadius="50dp"
+                app:icon="@drawable/ic_reload"
+                app:iconGravity="textTop"
+                app:iconTint="@android:color/black"
+                app:layout_constraintBottom_toTopOf="@+id/validate"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.ocara.Button.Circle"
+                app:strokeColor="@color/white"
+                app:strokeWidth="5dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.5" />
+            <!--        android:background="@drawable/retake_btn_background"-->
+
+            <!--        <ImageView-->
+            <!--            android:id="@+id/change_image"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            app:layout_constraintBottom_toBottomOf="@+id/validate"-->
+            <!--            app:layout_constraintEnd_toEndOf="parent"-->
+            <!--            app:layout_constraintStart_toStartOf="parent"-->
+            <!--            app:srcCompat="@drawable/ic_baseline_redo_40" />-->
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+ </layout>

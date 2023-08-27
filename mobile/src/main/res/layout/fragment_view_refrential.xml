@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="@color/app_bg_grey"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/refrential_tv"
+            style="@style/EditAuditHeaderFieldCell"
+            android:layout_width="0dp"
+            android:gravity="start|center_vertical"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:text="@string/type_of_ref"
+            android:singleLine="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/spinner_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/referential_spinner"
+            android:layout_marginHorizontal="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/refrential_tv">
+
+            <Spinner
+                style="@style/spinner_style"
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 />
+
+        </LinearLayout>
+
+
+        <!--        <SearchView-->
+        <!--            android:id="@+id/obj_name_et"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="16dp"-->
+        <!--            android:ems="10"-->
+        <!--            android:text="Name"-->
+        <!--            app:layout_constraintEnd_toEndOf="@+id/spinner"-->
+        <!--            app:layout_constraintStart_toStartOf="@+id/spinner"-->
+        <!--            app:layout_constraintTop_toBottomOf="@+id/refrential_tv" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/obj_name_tv"-->
+        <!--            style="@style/EditAuditHeaderFieldCell"-->
+        <!--            android:layout_width="158dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginStart="16dp"-->
+        <!--            android:gravity="start|center_vertical"-->
+        <!--            android:text="@string/name_of_obj"-->
+        <!--            android:textColor="@color/black"-->
+        <!--            app:layout_constraintBottom_toBottomOf="@+id/obj_name_et"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toTopOf="@+id/obj_name_et" />-->
+
+
+        <FrameLayout
+            android:id="@+id/search_layout"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner_layout">
+
+        </FrameLayout>
+
+        <!--        <androidx.recyclerview.widget.RecyclerView-->
+        <!--            android:id="@+id/objects_grid"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="32dp"-->
+        <!--            app:layout_constraintEnd_toEndOf="@+id/obj_name_et"-->
+        <!--            app:layout_constraintStart_toStartOf="@+id/obj_name_tv"-->
+        <!--            app:layout_constraintTop_toBottomOf="@+id/obj_name_tv" />-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,5306 @@
+[
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "940036",
+    "name": "LES PORTES D ARCUEIL",
+    "addr": {
+      "street": "1 RUE NELSON MANDELA",
+      "cp": "94110",
+      "city": "ARCUEIL"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "934001",
+    "name": "ORANGE STADIUM",
+    "addr": {
+      "street": "1 PLACE DES DROITS DE L HOMME",
+      "cp": "93200",
+      "city": "SAINT-DENIS"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "920406",
+    "name": "ISSY-LES-MOULINEAUX RD SIEGE",
+    "addr": {
+      "street": "38 A 40 RUE DU GENERAL LECLERC",
+      "cp": "92130",
+      "city": "ISSY-LES-MOULINEAUX"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "221134",
+    "name": "LANNION FT R&D Z\/OUEST",
+    "addr": {
+      "street": "2 AVENUE PIERRE MARZIN",
+      "cp": "22300",
+      "city": "LANNION"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "940034",
+    "name": "ARCUEIL LENINE",
+    "addr": {
+      "street": "67 AVENUE LENINE",
+      "cp": "94110",
+      "city": "ARCUEIL"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "319354",
+    "name": "BLAGNAC ALBERT DURAND",
+    "addr": {
+      "street": "6 AVENUE ALBERT DURAND",
+      "cp": "31700",
+      "city": "BLAGNAC"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "139496",
+    "name": "MARSEILLE ST MAURONT",
+    "addr": {
+      "street": "83 A 93 RUE FELIX PYAT",
+      "cp": "13003",
+      "city": "MARSEILLE 3E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "940038",
+    "name": "ARCUEIL 4",
+    "addr": {
+      "street": "1 RUE NELSON MANDELA",
+      "cp": "94110",
+      "city": "ARCUEIL"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "759504",
+    "name": "ALLERAY",
+    "addr": {
+      "street": "6 PLACE D ALLERAY",
+      "cp": "75015",
+      "city": "PARIS 15E ARRONDISSEMENT"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "694103",
+    "name": "LYON VIVIER MERLE",
+    "addr": {
+      "street": "101 BOULEVARD VIVIER MERLE",
+      "cp": "69383",
+      "city": "LYON 3E ARRONDISSEMENT"
+    },
+    "type": "Boutique centre ville"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "757271",
+    "name": "CI ARCHIVES-PASTOU",
+    "addr": {
+      "street": "57BIS À 67 RUE DES ARCHIVES",
+      "cp": "75003",
+      "city": "PARIS 3E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "920405",
+    "name": "ISSY CAMILLE DES MOULINS (les oliviers)",
+    "addr": {
+      "street": "48 A 50 ET 54 RUE CAMILLE DESMOULINS",
+      "cp": "92130",
+      "city": "ISSY-LES-MOULINEAUX"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "339216",
+    "name": "CT CHATEAU D EAU",
+    "addr": {
+      "street": "20 A 22 RUE DU CHATEAU D EAU",
+      "cp": "33000",
+      "city": "BORDEAUX"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "751141",
+    "name": "LOSSERAND",
+    "addr": {
+      "street": "208 212 RUE RAYMOND LOSSERAND",
+      "cp": "75014",
+      "city": "PARIS 14E ARRONDISSEMENT"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "330903",
+    "name": "MULTIPO DES GRAVES",
+    "addr": {
+      "street": "23 RUE THOMAS EDISON",
+      "cp": "33600",
+      "city": "PESSAC"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "920750",
+    "name": "VANVES ARTOIS",
+    "addr": {
+      "street": "2 RUE AUGUSTE COMTE",
+      "cp": "92170",
+      "city": "VANVES"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "755106",
+    "name": "NORD JEMMAPES",
+    "addr": {
+      "street": "103 A 107 BOULEVARD DE LA VILLETTE",
+      "cp": "75010",
+      "city": "PARIS 10E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "389409",
+    "name": "MEYLAN FTR&D",
+    "addr": {
+      "street": "28 CHEMIN DU VIEUX CHENE",
+      "cp": "38240",
+      "city": "MEYLAN"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "755117",
+    "name": "PHILIPPE AUGUSTE",
+    "addr": {
+      "street": "42 46 AVENUE PHILIPPE AUGUSTE",
+      "cp": "75011",
+      "city": "PARIS 11E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "759664",
+    "name": "BRUNE",
+    "addr": {
+      "street": "101 BOULEVARD BRUNE",
+      "cp": "75014",
+      "city": "PARIS 14E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "699577",
+    "name": "LYON GAMBETTA",
+    "addr": {
+      "street": "141 COURS GAMBETTA",
+      "cp": "69003",
+      "city": "LYON 3E ARRONDISSEMENT"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "349863",
+    "name": "MONTPELLIER SNE GALERA",
+    "addr": {
+      "street": "245 RUE DE LA GALERA",
+      "cp": "34000",
+      "city": "MONTPELLIER"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "920207",
+    "name": "CHATILLON LE DIAGONAL",
+    "addr": {
+      "street": "140-166 AVENUE DE LA REPUBLIQUE",
+      "cp": "92320",
+      "city": "CHATILLON"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "359712",
+    "name": "CESSON SEVIGNE FT R & D",
+    "addr": {
+      "street": "4 RUE DU CLOS COURTEL",
+      "cp": "35510",
+      "city": "CESSON-SEVIGNE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "459409",
+    "name": "FLEURY AUBRAIS BERTHELOT",
+    "addr": {
+      "street": "380 RUE MARCELIN BERTHELOT",
+      "cp": "45400",
+      "city": "FLEURY-LES-AUBRAIS"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "756624",
+    "name": "PONCELET",
+    "addr": {
+      "street": "33 RUE PONCELET",
+      "cp": "75017",
+      "city": "PARIS 17E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "787181",
+    "name": "GUYANCOURT L'EQUERRE SNPI",
+    "addr": {
+      "street": "3 A 9 RUE HELENE BOUCHER",
+      "cp": "78280",
+      "city": "GUYANCOURT"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "767795",
+    "name": "ROUEN ASTROLABE",
+    "addr": {
+      "street": "17 A 25 AVENUE DE LA LIBERATION",
+      "cp": "76000",
+      "city": "ROUEN"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "359727",
+    "name": "RENNES ALBERT 1ER",
+    "addr": {
+      "street": " 89 AVENUE FREVILLE",
+      "cp": "35000",
+      "city": "RENNES"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "869291",
+    "name": "POITIERS DR",
+    "addr": {
+      "street": "30 RUE SALVADOR ALLENDE",
+      "cp": "86000",
+      "city": "POITIERS"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "353927",
+    "name": "RENNES ORANGE PARC",
+    "addr": {
+      "street": "RUE DU PATIS TATELIN",
+      "cp": "35000",
+      "city": "RENNES"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "335902",
+    "name": "EYSINES PAUILLAC",
+    "addr": {
+      "street": "33 ROUTE DE PAUILLAC",
+      "cp": "33320",
+      "city": "EYSINES"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "449605",
+    "name": "NANTES GAUDINIERE",
+    "addr": {
+      "street": "51, AVENUE HECTOR BERLIOZ",
+      "cp": "44000",
+      "city": "NANTES"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "755176",
+    "name": "MEDERIC",
+    "addr": {
+      "street": "23 27 RUE MEDERIC",
+      "cp": "75017",
+      "city": "PARIS 17E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "692902",
+    "name": "ST PRIEST MILLENAIRE",
+    "addr": {
+      "street": "654 COURS DU 3EME MILLENAIRE",
+      "cp": "69800",
+      "city": "SAINT-PRIEST"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "920074",
+    "name": "BAGNEUX ORANGE DISTRIBUTION",
+    "addr": {
+      "street": "196 AVENUE HENRI RAVERA",
+      "cp": "92220",
+      "city": "BAGNEUX"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "757241",
+    "name": "BONNE NOUVELLE",
+    "addr": {
+      "street": "3 RUE MAZAGRAN",
+      "cp": "75010",
+      "city": "PARIS 10E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "755116",
+    "name": "VOLTAIRE",
+    "addr": {
+      "street": "6 A 10BIS PASSAGE SAINT PIERRE AMELOT",
+      "cp": "75011",
+      "city": "PARIS 11E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "545479",
+    "name": "VANDOEUVRE LES NANCY DOUMER",
+    "addr": {
+      "street": "6 AVENUE PAUL DOUMER",
+      "cp": "54500",
+      "city": "VANDOEUVRE-LES-NANCY"
+    },
+    "type": "Technique"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "339469",
+    "name": "BORDEAUX JJ BOSC",
+    "addr": {
+      "street": "53 BOULEVARD JEAN JACQUES BOSC",
+      "cp": "33800",
+      "city": "BORDEAUX"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "940414",
+    "name": "SIRIUS LE MONDE",
+    "addr": {
+      "street": "11 RUE JEAN MAZET",
+      "cp": "94200",
+      "city": "IVRY-SUR-SEINE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "916876",
+    "name": "VIRY USR CENTRAUX",
+    "addr": {
+      "street": "31 AVENUE DU BELLAY",
+      "cp": "91170",
+      "city": "VIRY-CHATILLON"
+    },
+    "type": "Boutique centre ville"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "350511",
+    "name": "CESSON SEVIGNE TECHNOPOLE",
+    "addr": {
+      "street": "9 RUE DU CHENE GERMAIN",
+      "cp": "35510",
+      "city": "CESSON-SEVIGNE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "755168",
+    "name": "AUTEUIL",
+    "addr": {
+      "street": "21 RUE JASMIN",
+      "cp": "75016",
+      "city": "PARIS 16E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "139476",
+    "name": "MARSEILLE NEDELEC",
+    "addr": {
+      "street": "2 RUE JULES FERRY",
+      "cp": "13003",
+      "city": "MARSEILLE 3E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "597393",
+    "name": "APLM",
+    "addr": {
+      "street": "6 RUE DES TECHNIQUES",
+      "cp": "59650",
+      "city": "VILLENEUVE-D'ASCQ"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "951276",
+    "name": "CERGY CEZANNE-DEGAS-MORISOT-R.A.-GARDERIE",
+    "addr": {
+      "street": "10 A 16 RUE FRANCIS COMBE",
+      "cp": "95000",
+      "city": "CERGY"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "757231",
+    "name": "ANJOU",
+    "addr": {
+      "street": "11 A 15 RUE D ANJOU",
+      "cp": "75008",
+      "city": "PARIS 8E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "693611",
+    "name": "LYON VAISE ORANGE",
+    "addr": {
+      "street": "8 RUE EMILE DUPORT",
+      "cp": "69389",
+      "city": "LYON 9E ARRONDISSEMENT"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "755054",
+    "name": "DANTON",
+    "addr": {
+      "street": "91 BOULEVARD SAINT MICHEL",
+      "cp": "75005",
+      "city": "PARIS 5E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "751198",
+    "name": "JAURES",
+    "addr": {
+      "street": "18 34 AVENUE JEAN JAURES",
+      "cp": "75019",
+      "city": "PARIS 19E ARRONDISSEMENT"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "579462",
+    "name": "METZ ARSENAL 3",
+    "addr": {
+      "street": "5 RUE PERIGOT",
+      "cp": "57000",
+      "city": "METZ"
+    },
+    "type": "Technique"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "293206",
+    "name": "QUIMPER CREACH GWENN",
+    "addr": {
+      "street": "72 BOULEVARD DE CREAC H GWEN",
+      "cp": "29000",
+      "city": "QUIMPER"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "449632",
+    "name": "NANTES MOULIN DE LA GARDE",
+    "addr": {
+      "street": "5 A 9 RUE DU MOULIN DE LA GARDE",
+      "cp": "44300",
+      "city": "NANTES"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "751196",
+    "name": "ORANGE MAC-DONALD",
+    "addr": {
+      "street": "105 A 109 BOULEVARD MAC DONALD",
+      "cp": "75019",
+      "city": "PARIS 19E ARRONDISSEMENT"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "787161",
+    "name": "GUYANCOURT EQUINOXE I",
+    "addr": {
+      "street": "4 A 6 AVENUE DU 8 MAI 1945",
+      "cp": "78280",
+      "city": "GUYANCOURT"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "269246",
+    "name": "VALENCE CECILE",
+    "addr": {
+      "street": "10 BIS RUE DE LA CECILE",
+      "cp": "26000",
+      "city": "VALENCE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "691238",
+    "name": " LYON SEVIGNE",
+    "addr": {
+      "street": "1 RUE DUPHOT",
+      "cp": "69003",
+      "city": "LYON 3E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "699446",
+    "name": "LYON LACASSAGNE",
+    "addr": {
+      "street": "131 AVENUE FELIX FAURE",
+      "cp": "69003",
+      "city": "LYON 3E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "940767",
+    "name": "VILLEJUIF URM",
+    "addr": {
+      "street": "110 RUE EDOUARD VAILLANT",
+      "cp": "94800",
+      "city": "VILLEJUIF"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "319427",
+    "name": "TOULOUSE 41 RUE DE SOUPETARD 24 RUE FERRIE",
+    "addr": {
+      "street": "39 A 41 RUE DE SOUPETARD",
+      "cp": "31500",
+      "city": "TOULOUSE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "443103",
+    "name": "NANTES MARTIN LUTHER KING",
+    "addr": {
+      "street": "13 BOULEVARD MARTIN LUTHER KING",
+      "cp": "44000",
+      "city": "NANTES"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "751467",
+    "name": "TOUR LYON BERCY",
+    "addr": {
+      "street": "173 A 175 RUE DE BERCY",
+      "cp": "75012",
+      "city": "PARIS 12E ARRONDISSEMENT"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "219451",
+    "name": "DIJON JOLIET",
+    "addr": {
+      "street": "10 RUE DU FAUBOURG RAINES",
+      "cp": "21000",
+      "city": "DIJON"
+    },
+    "type": "Technique"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "379309",
+    "name": "TOURS CARLOTTI",
+    "addr": {
+      "street": "11 AVENUE CHANOINE CARLOTTI",
+      "cp": "37000",
+      "city": "TOURS"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "759403",
+    "name": "MONTSOURIS",
+    "addr": {
+      "street": "86 A 94 BOULEVARD KELLERMAN",
+      "cp": "75013",
+      "city": "PARIS 13E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "343656",
+    "name": "MONTPELLIER TOUR THEMIS",
+    "addr": {
+      "street": "23 ALLEE DE DELOS",
+      "cp": "34000",
+      "city": "MONTPELLIER"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "069449",
+    "name": "NICE DR ST BARTHELEMY",
+    "addr": {
+      "street": "44 AVENUE CYRILLE BESSET",
+      "cp": "06000",
+      "city": "NICE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "679418",
+    "name": "STRASBOURG WODLI",
+    "addr": {
+      "street": "1 RUE CLAUDE CHAPPE",
+      "cp": "67000",
+      "city": "STRASBOURG"
+    },
+    "type": "Technique"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "318111",
+    "name": "BLAGNAC RUE LAFAYETTE",
+    "addr": {
+      "street": "4 RUE ESCADRILLE LAFAYETTE",
+      "cp": "31700",
+      "city": "BLAGNAC"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "596904",
+    "name": "VILLENEUVE D'ASCQ DIRECTION REGIONALE NORD (UIR)",
+    "addr": {
+      "street": "2 RUE TREMIERE",
+      "cp": "59650",
+      "city": "VILLENEUVE-D'ASCQ"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "560987",
+    "name": "LANESTER KERPONT",
+    "addr": {
+      "street": "Z-I LA MONTAGNE DU SALUT",
+      "cp": "56600",
+      "city": "LANESTER"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "149631",
+    "name": "CAEN RECHERCHE ET DEVELOPPEMENT",
+    "addr": {
+      "street": "42 RUE DES COUTURES",
+      "cp": "14000",
+      "city": "CAEN"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "596929",
+    "name": "VILLENEUVE ORANGE VALMY",
+    "addr": {
+      "street": "121 BOULEVARD DE VALMY",
+      "cp": "59491",
+      "city": "VILLENEUVE-D'ASCQ"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "060851",
+    "name": "MOUGINS DONAT MARCO POLO",
+    "addr": {
+      "street": "790 AVENUE DOCTEUR MAURICE DONAT",
+      "cp": "06250",
+      "city": "MOUGINS"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "349219",
+    "name": "MONTP.CCL-SIDOT MARCHE GARE",
+    "addr": {
+      "street": "707 AVENUE DU MARCHE GARE",
+      "cp": "34070",
+      "city": "MONTPELLIER"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "974626",
+    "name": "ST DENIS LE CHAUDRON",
+    "addr": {
+      "street": "4 RUE JULES HERMAN",
+      "cp": "97400",
+      "city": "SAINT-DENIS"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "879397",
+    "name": "LIMOGES BEAUBLANC",
+    "addr": {
+      "street": "25 RUE EDOUARD MICHAUD",
+      "cp": "87000",
+      "city": "LIMOGES"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "755157",
+    "name": "JOBBE DUVAL",
+    "addr": {
+      "street": "8 10 RUE JOBBE DUVAL",
+      "cp": "75015",
+      "city": "PARIS 15E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "SOFR",
+    "labelUGI": "SOFRECOM",
+    "NOIMMO": "940803",
+    "name": "SOF V1",
+    "addr": {
+      "street": "24 AVENUE DU PETIT PARC",
+      "cp": "94300",
+      "city": "VINCENNES"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "759108",
+    "name": "MAILLOT AGENCE",
+    "addr": {
+      "street": "18 RUE GUSTAVE CHARPENTIER",
+      "cp": "75017",
+      "city": "PARIS 17E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "782977",
+    "name": "GUYANCOURT LE CALIFORNIEN",
+    "addr": {
+      "street": "2 AVENUE DU 8 MAI 1945",
+      "cp": "78280",
+      "city": "GUYANCOURT"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "429255",
+    "name": "FAURIEL",
+    "addr": {
+      "street": "12 RUE DU LIEUTENANT MORIN",
+      "cp": "42000",
+      "city": "SAINT-ETIENNE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "919778",
+    "name": "MASSY AR GCT CD124",
+    "addr": {
+      "street": "147-149 RUE DE PARIS",
+      "cp": "91300",
+      "city": "MASSY"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "674474",
+    "name": "SCHILTIGHEIM CRYSTAL PARK",
+    "addr": {
+      "street": "AVENUE DE L'EUROPE",
+      "cp": "67300",
+      "city": "SCHILTIGHEIM"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "597516",
+    "name": "BERLIOZ VALENCIENNES",
+    "addr": {
+      "street": "RUE HECTOR BERLIOZ",
+      "cp": "59300",
+      "city": "VALENCIENNES"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "941011",
+    "name": "IVRY MARQUES",
+    "addr": {
+      "street": "1 BOULEVARD HYPPOLITE MARQUES",
+      "cp": "94200",
+      "city": "IVRY-SUR-SEINE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "759667",
+    "name": "RASPAIL",
+    "addr": {
+      "street": "12 A 16 RUE CAMPAGNE PREMIERE",
+      "cp": "75014",
+      "city": "PARIS 14E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "353865",
+    "name": "CESSON TRANSPAC TOUCHE LAMBERT",
+    "addr": {
+      "street": "7 RUE DE LA TOUCHE LAMBERT",
+      "cp": "35510",
+      "city": "CESSON-SEVIGNE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "755122",
+    "name": "DIDEROT ET PARIS DAUMESNIL BOUTIQUE",
+    "addr": {
+      "street": "187 A 189 AVENUE DAUMESNIL",
+      "cp": "75012",
+      "city": "PARIS 12E ARRONDISSEMENT"
+    },
+    "type": "Boutique centre ville"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "694206",
+    "name": "LYON TOUR CREDIT LYONNAIS SI CLIENT",
+    "addr": {
+      "street": "129 RUE SERVIENT",
+      "cp": "69326",
+      "city": "LYON 3E ARRONDISSEMENT"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "699439",
+    "name": "LYON BACHUT",
+    "addr": {
+      "street": "68 A 72 RUE BATAILLE",
+      "cp": "69008",
+      "city": "LYON 8E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "389716",
+    "name": "GRENOBLE MUTUALITE JEAN PAIN",
+    "addr": {
+      "street": "39 A 41 RUE JOSEPH CHANRION",
+      "cp": "38000",
+      "city": "GRENOBLE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "789562",
+    "name": "MONTIGNY LE BRETONNEUX NEWTON",
+    "addr": {
+      "street": "4 SQUARE NEWTON",
+      "cp": "78180",
+      "city": "MONTIGNY-LE-BRETONNEUX"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "596901",
+    "name": "VILLENEUVE D ASCQ FLERS",
+    "addr": {
+      "street": "2 CHEMIN DE LA MARE",
+      "cp": "59650",
+      "city": "VILLENEUVE-D'ASCQ"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "593507",
+    "name": "LILLE BOITELLE (URR)",
+    "addr": {
+      "street": "8 RUE LOUIS DUPIED",
+      "cp": "59000",
+      "city": "LILLE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "139785",
+    "name": "AIX-EN-PROVENCE TUBINGEN LESSEPS",
+    "addr": {
+      "street": "1 AVENUE FERDINAND DE LESSEPS",
+      "cp": "13100",
+      "city": "AIX-EN-PROVENCE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "929384",
+    "name": "NANTERRE MANSART",
+    "addr": {
+      "street": "24 A 32 BOULEVARD JULES MANSARD",
+      "cp": "92000",
+      "city": "NANTERRE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "779531",
+    "name": "MELUN DR",
+    "addr": {
+      "street": "172 RUE RAYMOND POINCARE",
+      "cp": "77000",
+      "city": "VAUX-LE-PENIL"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "691231",
+    "name": "HOTEL DES POSTES",
+    "addr": {
+      "street": "13 A 18 QUAI GAILLETON",
+      "cp": "69382",
+      "city": "LYON 2E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "919201",
+    "name": "VILLABE EX CPRI",
+    "addr": {
+      "street": "CHE AMBREVILLE CORBEIL ESSONNES",
+      "cp": "91100",
+      "city": "VILLABE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "779489",
+    "name": "MELUN CT AGENCE",
+    "addr": {
+      "street": "5 RUE ANDRE MALRAUX",
+      "cp": "77000",
+      "city": "MELUN"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "755097",
+    "name": "TRUDAINE NAVARIN",
+    "addr": {
+      "street": "18 A 20 RUE DE NAVARIN",
+      "cp": "75009",
+      "city": "PARIS 9E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "972503",
+    "name": "FORT DE FRANCE POINTE DES GRIVES",
+    "addr": {
+      "street": "POINTE DES GRIVES",
+      "cp": "97200",
+      "city": "FORT-DE-FRANCE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "771111",
+    "name": "CHESSY ANTARES",
+    "addr": {
+      "street": "3 RUE DE LA GALMY",
+      "cp": "77700",
+      "city": "CHESSY"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "930064",
+    "name": "CIAB BAGNOLET",
+    "addr": {
+      "street": "5 7 AVENUE GAMBETTA",
+      "cp": "93170",
+      "city": "BAGNOLET"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "592981",
+    "name": "COMPLEXE HELLEMMES",
+    "addr": {
+      "street": "51 A 55 RUE JEAN BART",
+      "cp": "59800",
+      "city": "LILLE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "352816",
+    "name": "ST JACQUES DE LA LANDE",
+    "addr": {
+      "street": "RUE DU PATIS DES COUASNES",
+      "cp": "35136",
+      "city": "SAINT-JACQUES-DE-LA-LANDE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "259447",
+    "name": "BESANCON DR",
+    "addr": {
+      "street": "4 RUE BERTRAND RUSSEL",
+      "cp": "25000",
+      "city": "BESANCON"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "499267",
+    "name": "ST BARTHELEMY D'ANJOU CHANTERIE",
+    "addr": {
+      "street": "1 RUE DE LA CHANTERIE",
+      "cp": "49124",
+      "city": "SAINT-BARTHELEMY-D'ANJOU"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "755011",
+    "name": "PARIS GUTENBERG ET BOUTIQUE",
+    "addr": {
+      "street": "55 A 57 RUE JEAN JACQUES ROUSSEAU",
+      "cp": "75001",
+      "city": "PARIS 1E ARRONDISSEMENT"
+    },
+    "type": "Boutique centre ville"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "349668",
+    "name": "MONTPELLIER COMPLEXE RABELAIS",
+    "addr": {
+      "street": "38 TER AVENUE SAINT LAZARE",
+      "cp": "34000",
+      "city": "MONTPELLIER"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "349443",
+    "name": "MONTPELLIER CPRI",
+    "addr": {
+      "street": "21 A 61 RUE DE TRENCAVEL",
+      "cp": "34000",
+      "city": "MONTPELLIER"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "749724",
+    "name": "ANNECY LES ROMAINS",
+    "addr": {
+      "street": "69 AVENUE DES ROMAINS",
+      "cp": "74000",
+      "city": "ANNECY"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "920629",
+    "name": "PUTEAUX BELLINI",
+    "addr": {
+      "street": "4 A 6 RUE BELLINI",
+      "cp": "92800",
+      "city": "PUTEAUX"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "679755",
+    "name": "STRASBOURG DR ET LECLERC2 C3",
+    "addr": {
+      "street": "1 RUE FRITZ KIENER",
+      "cp": "67000",
+      "city": "STRASBOURG"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "839506",
+    "name": "TOULON CASTIGNEAU",
+    "addr": {
+      "street": "AVENUE LAURENT MATTIO",
+      "cp": "83000",
+      "city": "TOULON"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "352388",
+    "name": "RENNES FRANCOIS CHÂTEAU",
+    "addr": {
+      "street": "1 AVENUE FRANCOIS CHATEAU",
+      "cp": "35000",
+      "city": "RENNES"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "381856",
+    "name": "GRENOBLE PASTEUR",
+    "addr": {
+      "street": "11 RUE DU 4EME REGIMENT DU GENIE",
+      "cp": "38000",
+      "city": "GRENOBLE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "901272",
+    "name": "BELFORT ORANGE",
+    "addr": {
+      "street": "6 AVENUE DES USINES",
+      "cp": "90000",
+      "city": "BELFORT"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "319426",
+    "name": "TOULOUSE REYNERIE",
+    "addr": {
+      "street": "66 AVENUE DE LA REYNERIE",
+      "cp": "31100",
+      "city": "TOULOUSE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "359698",
+    "name": "RENNES PATTON",
+    "addr": {
+      "street": "183 AV GENERAL PATTON",
+      "cp": "35000",
+      "city": "RENNES"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "499437",
+    "name": "ANGERS ORGEMONT",
+    "addr": {
+      "street": "110 RUE DU CHATEAU D ORGEMONT",
+      "cp": "49000",
+      "city": "ANGERS"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "952186",
+    "name": "ERAGNY CPRI",
+    "addr": {
+      "street": "2 A 10 RUE LEO LAGRANGE",
+      "cp": "95610",
+      "city": "ERAGNY"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "639844",
+    "name": "CLERMONT-FERRAND LA PARLETTE",
+    "addr": {
+      "street": "52 A 54 RUE DE LA PARLETTE",
+      "cp": "63000",
+      "city": "CLERMONT-FERRAND"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "693593",
+    "name": "LYON DAUPHINE",
+    "addr": {
+      "street": "8 RUE DU DAUPHINE",
+      "cp": "69383",
+      "city": "LYON 3E ARRONDISSEMENT"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "579694",
+    "name": "METZ MALRAUX",
+    "addr": {
+      "street": "150 AVENUE ANDRE MALRAUX",
+      "cp": "57000",
+      "city": "METZ"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "141376",
+    "name": "CARPIQUET 29 RUE DE L AVENIR",
+    "addr": {
+      "street": "29 RUE DE L AVENIR",
+      "cp": "14650",
+      "city": "CARPIQUET"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "479325",
+    "name": "AGEN PAGANEL",
+    "addr": {
+      "street": "44 RUE PAGANEL",
+      "cp": "47000",
+      "city": "AGEN"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "949747",
+    "name": "CRETEIL SAVAR",
+    "addr": {
+      "street": "27 RUE JULIETTE SAVAR",
+      "cp": "94000",
+      "city": "CRETEIL"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "316283",
+    "name": "TOULOUSE GRANDE PLAINE",
+    "addr": {
+      "street": "30 AVENUE MARCEL DASSAULT",
+      "cp": "31000",
+      "city": "TOULOUSE"
+    },
+    "type": "Boutique centre ville"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "931038",
+    "name": "NOISY MONT D EST",
+    "addr": {
+      "street": "16 BOULEVARD DU MONT D EST",
+      "cp": "93160",
+      "city": "NOISY-LE-GRAND"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "940412",
+    "name": "IVRY BRANDEBOURG",
+    "addr": {
+      "street": "63 63BIS 63TER BOULEVARD DE BRANDEBOURG",
+      "cp": "94200",
+      "city": "IVRY-SUR-SEINE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "452345",
+    "name": "ORLEANS TURBAT",
+    "addr": {
+      "street": "52 A 54 RUE EUGENE TURBAT",
+      "cp": "45100",
+      "city": "ORLEANS"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "639205",
+    "name": "CLERMONT FERRAND DE LILLE CT",
+    "addr": {
+      "street": "10 AVENUE CHARRAS",
+      "cp": "63000",
+      "city": "CLERMONT-FERRAND"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "579545",
+    "name": "METZ SABLON (100 MALRAUX)",
+    "addr": {
+      "street": "100 AVENUE ANDRE MALRAUX",
+      "cp": "57000",
+      "city": "METZ"
+    },
+    "type": "Technique"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "452344",
+    "name": "ORLEANS GAS",
+    "addr": {
+      "street": "6 BIS RUE DU GRENIER A SEL",
+      "cp": "45000",
+      "city": "ORLEANS"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "808563",
+    "name": "AMIENS CAMPUS",
+    "addr": {
+      "street": "20 AVENUE PAUL CLAUDEL",
+      "cp": "80000",
+      "city": "AMIENS"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "333183",
+    "name": "THOMAS EDISON PESSAC",
+    "addr": {
+      "street": "1 RUE THOMAS EDISON",
+      "cp": "33600",
+      "city": "PESSAC"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "669415",
+    "name": "PERPIGNAN BACCHUS",
+    "addr": {
+      "street": "38 BOULEVARD NUNGESSER ET COLI",
+      "cp": "66000",
+      "city": "PERPIGNAN"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "319466",
+    "name": "TOULOUSE CAL FERRIE",
+    "addr": {
+      "street": "45 RUE DE SOUPETARD",
+      "cp": "31500",
+      "city": "TOULOUSE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "449215",
+    "name": "NANTES FULTON",
+    "addr": {
+      "street": "2 RUE FULTON",
+      "cp": "44000",
+      "city": "NANTES"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "923009",
+    "name": "COURBEVOIE HUTCHISON UFIFRANCE",
+    "addr": {
+      "street": "13 RUE DE L ABREUVOIR",
+      "cp": "92400",
+      "city": "COURBEVOIE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "359713",
+    "name": "CESSON CHENE GERMAIN",
+    "addr": {
+      "street": "11 RUE DU CHENE GERMAIN",
+      "cp": "35510",
+      "city": "CESSON-SEVIGNE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "314336",
+    "name": "PORTET SUR GARONNE GRAND CHEMIN",
+    "addr": {
+      "street": "1 AVENUE DE LA GARE",
+      "cp": "31120",
+      "city": "PORTET-SUR-GARONNE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "971631",
+    "name": "BAIE-MAHAULT DESTRELLAN SUD U.R. CARAIBES",
+    "addr": {
+      "street": "ALLEE DES TECHNOLOGIES AVANCEES",
+      "cp": "97122",
+      "city": "BAIE-MAHAULT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "385908",
+    "name": "ISLE D'ABEAU SH3",
+    "addr": {
+      "street": "12 RUE DU CREUZAT",
+      "cp": "38080",
+      "city": "L'ISLE-D'ABEAU"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "139533",
+    "name": "MARSEILLE SABLIER",
+    "addr": {
+      "street": "78 BOULEVARD DU SABLIER",
+      "cp": "13008",
+      "city": "MARSEILLE 8E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "149333",
+    "name": "CAEN VENOIX",
+    "addr": {
+      "street": "36 RUE DES COUTURES",
+      "cp": "14000",
+      "city": "CAEN"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "219485",
+    "name": "DIJON VOLTAIRE DR",
+    "addr": {
+      "street": "21 BOULEVARD VOLTAIRE",
+      "cp": "21000",
+      "city": "DIJON"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "755057",
+    "name": "GOBELINS",
+    "addr": {
+      "street": "40 BOULEVARD DE PORT ROYAL",
+      "cp": "75005",
+      "city": "PARIS 5E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "069854",
+    "name": "NICE GROSSO BAUMETTES",
+    "addr": {
+      "street": "9 BOULEVARD FRANCOIS GROSSO",
+      "cp": "06000",
+      "city": "NICE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "849283",
+    "name": "AVIGNON ROI SOLEIL",
+    "addr": {
+      "street": "AVENUE DU ROI SOLEIL",
+      "cp": "84000",
+      "city": "AVIGNON"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "920206",
+    "name": "CHATILLON ANTARES",
+    "addr": {
+      "street": "39 A 49 RUE LOUVEAU",
+      "cp": "92320",
+      "city": "CHATILLON"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "931039",
+    "name": "NOISY CENTRAL 1",
+    "addr": {
+      "street": "420-430-440 CLOS DE LA COURTINE",
+      "cp": "93160",
+      "city": "NOISY-LE-GRAND"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "149334",
+    "name": "CAEN COUTURES 38",
+    "addr": {
+      "street": "38 RUE DES COUTURES",
+      "cp": "14000",
+      "city": "CAEN"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "940372",
+    "name": "GENTILLY FTT",
+    "addr": {
+      "street": "60 A 66 AVENUE LENINE",
+      "cp": "94250",
+      "city": "GENTILLY"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "649241",
+    "name": "ANGLET CENTRAL HARDOY",
+    "addr": {
+      "street": "21 RUE DE L INDUSTRIE",
+      "cp": "64600",
+      "city": "ANGLET"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "787129",
+    "name": "GUYANCOURT LE PRISME",
+    "addr": {
+      "street": "1 RUE GEORGES BRAQUE",
+      "cp": "78280",
+      "city": "GUYANCOURT"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "769471",
+    "name": "ROUEN ST CLEMENT",
+    "addr": {
+      "street": "6 PLACE SAINT CLEMENT",
+      "cp": "76100",
+      "city": "ROUEN"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "763223",
+    "name": "GRAND QUEVILLY LEBON",
+    "addr": {
+      "street": "3 AVENUE PHILIPPE LEBON",
+      "cp": "76120",
+      "city": "LE GRAND-QUEVILLY"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "319683",
+    "name": "TOULOUSE GRAMONT",
+    "addr": {
+      "street": "100 CHEMIN DE GABARDIE",
+      "cp": "31200",
+      "city": "TOULOUSE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "132094",
+    "name": "MARSEILLE REATTU Bât H",
+    "addr": {
+      "street": "18 RUE JACQUES REATTU",
+      "cp": "13009",
+      "city": "MARSEILLE 9E ARRONDISSEMENT"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "756481",
+    "name": "PROVENCE",
+    "addr": {
+      "street": "15 17 RUE DU FAUBOURG POISSONNIERE",
+      "cp": "75009",
+      "city": "PARIS 9E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "859398",
+    "name": "LA ROCHE SUR YON INDUSTRIE",
+    "addr": {
+      "street": "97 BOULEVARD DE L INDUSTRIE",
+      "cp": "85000",
+      "city": "LA ROCHE-SUR-YON"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "212312",
+    "name": "DIJON STALINGRAD",
+    "addr": {
+      "street": "26 AVENUE DE STALINGRAD",
+      "cp": "21000",
+      "city": "DIJON"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "629865",
+    "name": "BOULOGNE SUR MER Liane CT",
+    "addr": {
+      "street": "BOULEVARD DIDEROT",
+      "cp": "62200",
+      "city": "BOULOGNE-SUR-MER"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "779351",
+    "name": "LAGNY CT",
+    "addr": {
+      "street": "6 ET 8 RUE CAVALLO PEDUZZI",
+      "cp": "77400",
+      "city": "LAGNY-SUR-MARNE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "449697",
+    "name": "NANTES VINCENT GACHE",
+    "addr": {
+      "street": "3 BOULEVARD VINCENT GACHE",
+      "cp": "44000",
+      "city": "NANTES"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "752055",
+    "name": "JAVEL",
+    "addr": {
+      "street": "11 A 13 RUE DE JAVEL",
+      "cp": "75015",
+      "city": "PARIS 15E ARRONDISSEMENT"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "755088",
+    "name": "LABORDE",
+    "addr": {
+      "street": "10 RUE DE MADRID",
+      "cp": "75008",
+      "city": "PARIS 8E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "624989",
+    "name": "LENS Voltaire",
+    "addr": {
+      "street": "5 RUE VOLTAIRE",
+      "cp": "62300",
+      "city": "LENS"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "319623",
+    "name": "COLOMIERS AVENUE YVES BRUNAUD",
+    "addr": {
+      "street": "8 AVENUE YVES BRUNAUD",
+      "cp": "31770",
+      "city": "COLOMIERS"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "674479",
+    "name": "SCHILTIGHEIM CDA",
+    "addr": {
+      "street": "1 A RUE RENE LAENNEC",
+      "cp": "67300",
+      "city": "SCHILTIGHEIM"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "499265",
+    "name": "ANGERS RAMON CENTRAL",
+    "addr": {
+      "street": "52 BOULEVARD GASTON RAMON",
+      "cp": "49100",
+      "city": "ANGERS"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "449603",
+    "name": "NANTES GLORIETTE",
+    "addr": {
+      "street": "6 A 8 RUE GASTON VEIL",
+      "cp": "44000",
+      "city": "NANTES"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "830501",
+    "name": "DRAGUIGNAN FERRY ROISSE UIR ARD",
+    "addr": {
+      "street": "322 BOULEVARD JULES FERRY",
+      "cp": "83300",
+      "city": "DRAGUIGNAN"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "597282",
+    "name": "VILLENEUVE D'ASCQ STATION HERTZIENNE(URN)",
+    "addr": {
+      "street": "65 RUE FAIDHERBE",
+      "cp": "59650",
+      "city": "VILLENEUVE-D'ASCQ"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "639238",
+    "name": "CLERMONT FERRAND LES BUGHES",
+    "addr": {
+      "street": "1 RUE MARINETTE MENUT",
+      "cp": "63000",
+      "city": "CLERMONT-FERRAND"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "739512",
+    "name": "CHAMBERY VERNEY",
+    "addr": {
+      "street": "114 AVENUE COMTE VERT",
+      "cp": "73000",
+      "city": "CHAMBERY"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "519729",
+    "name": "DIR REGIONALE FT",
+    "addr": {
+      "street": "50 AVENUE DU GENERAL PATTON",
+      "cp": "51000",
+      "city": "CHALONS-EN-CHAMPAGNE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "659369",
+    "name": "TARBES ECHEZ",
+    "addr": {
+      "street": "6 8 AVENUE DE L ECHEZ",
+      "cp": "65000",
+      "city": "TARBES"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "931771",
+    "name": "NOISY-LE-GRAND CTU",
+    "addr": {
+      "street": "RUE GRAHAM BELL",
+      "cp": "93160",
+      "city": "NOISY-LE-GRAND"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "765404",
+    "name": "ROUEN JEANNE D ARC",
+    "addr": {
+      "street": "18 RUE ECUYERE",
+      "cp": "76000",
+      "city": "ROUEN"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "599691",
+    "name": "CT PASTEUR VALENCIENNES",
+    "addr": {
+      "street": "1 RUE ST MICHEL NORD",
+      "cp": "59300",
+      "city": "VALENCIENNES"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "301893",
+    "name": "NIMES NATOIRE",
+    "addr": {
+      "street": "22 BOULEVARD NATOIRE",
+      "cp": "30000",
+      "city": "NIMES"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "319827",
+    "name": "TOULOUSE 19 RUE DU GENERAL FERRIE",
+    "addr": {
+      "street": "19 RUE GENERAL GUSTAVE FERRIE",
+      "cp": "31500",
+      "city": "TOULOUSE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "229445",
+    "name": "LANNION FT R&D Z\/EST - 2",
+    "addr": {
+      "street": "RUE CLAUDE CHAPPE",
+      "cp": "22300",
+      "city": "LANNION"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "549604",
+    "name": "NANCY ST GEORGES",
+    "addr": {
+      "street": "3 RUE DU TAPIS VERT",
+      "cp": "54000",
+      "city": "NANCY"
+    },
+    "type": "Technique"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "649413",
+    "name": "PAU 3 CENTRAL TELEPHONIQUE 'BUROS'",
+    "addr": {
+      "street": "34 AVENUE DE BUROS",
+      "cp": "64000",
+      "city": "PAU"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "931045",
+    "name": "AUBERVILLIERS LA MOTTE",
+    "addr": {
+      "street": "21 25 RUE DE LA MOTTE",
+      "cp": "93300",
+      "city": "AUBERVILLIERS"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "769385",
+    "name": "LE HAVRE CAPUCHET",
+    "addr": {
+      "street": "7 RUE DU CAPUCHET",
+      "cp": "76620",
+      "city": "LE HAVRE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "721817",
+    "name": "LE MANS PESCHE",
+    "addr": {
+      "street": "12 RUE JULIEN PESCHE",
+      "cp": "72000",
+      "city": "LE MANS"
+    },
+    "type": "Technique"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "519317",
+    "name": "CITP REIMS",
+    "addr": {
+      "street": "RUE PIERRE MEHAULT",
+      "cp": "51100",
+      "city": "REIMS"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "756778",
+    "name": "BOBILLOT",
+    "addr": {
+      "street": "95 A 97 RUE BOBILLOT",
+      "cp": "75013",
+      "city": "PARIS 13E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "682243",
+    "name": "MULHOUSE HENNER",
+    "addr": {
+      "street": "2 RUE JEAN JACQUES HENNER",
+      "cp": "68100",
+      "city": "MULHOUSE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "619236",
+    "name": "ALENCON LAVOISIER",
+    "addr": {
+      "street": "7 RUE ANTOINE LAVOISIER",
+      "cp": "61000",
+      "city": "ALENCON"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "719312",
+    "name": "CHALON MARAICHERS",
+    "addr": {
+      "street": "60 A 66 RUE GENERAL GIRAUD",
+      "cp": "71100",
+      "city": "CHALON-SUR-SAONE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "949631",
+    "name": "IVRY CPE",
+    "addr": {
+      "street": "71 RUE GEORGES GOSNAT",
+      "cp": "94200",
+      "city": "IVRY-SUR-SEINE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "809397",
+    "name": "ZAC CLAUDEL",
+    "addr": {
+      "street": "20 AVENUE PAUL CLAUDEL",
+      "cp": "80000",
+      "city": "AMIENS"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "772582",
+    "name": "LOGNES THIMONNIER",
+    "addr": {
+      "street": "13 MAIL BARTHELEMY THIMONNIER",
+      "cp": "77185",
+      "city": "LOGNES"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "449875",
+    "name": "NANTES DAUBENTON",
+    "addr": {
+      "street": "1 RUE DAUBENTON",
+      "cp": "44000",
+      "city": "NANTES"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "544826",
+    "name": "SAINT-MAX ESSEY",
+    "addr": {
+      "street": "4 BIS RUE D ESSEY",
+      "cp": "54130",
+      "city": "SAINT-MAX"
+    },
+    "type": "Technique"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "180336",
+    "name": "BOURGES LAUDIER ct",
+    "addr": {
+      "street": " 21 AVENUE HENRI LAUDIER",
+      "cp": "18000",
+      "city": "BOURGES"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "629153",
+    "name": "LENS CERI Lavoisier",
+    "addr": {
+      "street": "21 RUE ANTOINE LAURENT LAVOISIER",
+      "cp": "62300",
+      "city": "LENS"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "130551",
+    "name": "COLBERT + LA POSTE",
+    "addr": {
+      "street": "23 RUE COLBERT",
+      "cp": "13001",
+      "city": "MARSEILLE 1E ARRONDISSEMENT"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "971578",
+    "name": "POINTE-A-PITRE FELIX EBOUE CL3_AD_AVSC",
+    "addr": {
+      "street": "RUE FELIX EBOUE",
+      "cp": "97139",
+      "city": "LES ABYMES"
+    },
+    "type": "Technique"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "870858",
+    "name": "LIMOGES CLOS JARGOT",
+    "addr": {
+      "street": "8 A 20 RUE DU CLOS JARGOT",
+      "cp": "87000",
+      "city": "LIMOGES"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "629518",
+    "name": "LENS Condé CT",
+    "addr": {
+      "street": "RUE PAUL SION",
+      "cp": "62300",
+      "city": "LENS"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "389847",
+    "name": "ISLE D'ABEAU SH1",
+    "addr": {
+      "street": "18 RUE DU CREUZAT",
+      "cp": "38080",
+      "city": "L'ISLE-D'ABEAU"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "240534",
+    "name": "PERIGUEUX-BOULAZAC",
+    "addr": {
+      "street": "AVENUE HENRY DELUC",
+      "cp": "24750",
+      "city": "BOULAZAC"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "545788",
+    "name": "VILLERS-LES-NANCY CATTENOZ",
+    "addr": {
+      "street": "12 BOULEVARD DU DOCTEUR CATTENOZ",
+      "cp": "54600",
+      "city": "VILLERS-LES-NANCY"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "920446",
+    "name": "LEVALLOIS-PERRET PEREIRE",
+    "addr": {
+      "street": "37BIS A 43 RUE PIERRE BROSSOLETTE",
+      "cp": "92300",
+      "city": "LEVALLOIS-PERRET"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "740119",
+    "name": "ANNECY LE VIEUX GLAISINS BUREAUX",
+    "addr": {
+      "street": "2 RUE DU PRE FAUCON",
+      "cp": "74940",
+      "city": "ANNECY-LE-VIEUX"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "299332",
+    "name": "LOSCOAT",
+    "addr": {
+      "street": "72 RUE DE LOSCOAT",
+      "cp": "29200",
+      "city": "BREST"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "542571",
+    "name": "NANCY TSC7",
+    "addr": {
+      "street": "2 ALLEE DES GRANDS PAQUIS",
+      "cp": "54180",
+      "city": "HEILLECOURT"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "839507",
+    "name": "TOULON COMPLEXE STE MUSSE",
+    "addr": {
+      "street": "RUE HENRI SAINTE CLAIRE DEVILLE",
+      "cp": "83000",
+      "city": "TOULON"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "319778",
+    "name": "TOULOUSE 47 RUE DE SOUPETARD",
+    "addr": {
+      "street": "47 RUE DE SOUPETARD BP 5824",
+      "cp": "31000",
+      "city": "TOULOUSE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "315555",
+    "name": "TOULOUSE LANGUEDOC",
+    "addr": {
+      "street": "11 A 13 BOULEVARD DELACOURTIE",
+      "cp": "31400",
+      "city": "TOULOUSE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "089381",
+    "name": "CPE CCL AC",
+    "addr": {
+      "street": "49 AVENUE LEON BOURGEOIS",
+      "cp": "08000",
+      "city": "CHARLEVILLE-MEZIERES"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "940686",
+    "name": "SAINT-MAUR GRAVELLE",
+    "addr": {
+      "street": "36 BOULEVARD RABELAIS",
+      "cp": "94100",
+      "city": "SAINT-MAUR-DES-FOSSES"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "379268",
+    "name": "TOURS COTY Ct Maginot Ftc",
+    "addr": {
+      "street": "43 AVENUE ANDRE MAGINOT",
+      "cp": "37100",
+      "city": "TOURS"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "597013",
+    "name": "DUNKERQUE JEU DE MAIL U.E.R.",
+    "addr": {
+      "street": "94 RUE DE LILLE",
+      "cp": "59140",
+      "city": "DUNKERQUE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "449482",
+    "name": "VERTOU 12 RUE LA VERTONNE",
+    "addr": {
+      "street": "10 TER AVENUE DE LA VERTONNE",
+      "cp": "44120",
+      "city": "VERTOU"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "841753",
+    "name": "AVIGNON CASTELETTE",
+    "addr": {
+      "street": "170 AVENUE PIERRE BEREGOVOY",
+      "cp": "84140",
+      "city": "AVIGNON"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "149391",
+    "name": "CAEN GAMBETTA",
+    "addr": {
+      "street": "RUE GEORGES LEBRET",
+      "cp": "14000",
+      "city": "CAEN"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "224127",
+    "name": "LANNION PEGASE",
+    "addr": {
+      "street": "RUE BLAISE PASCAL",
+      "cp": "22300",
+      "city": "LANNION"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "423620",
+    "name": "SAINT ETIENNE MOULINIERS",
+    "addr": {
+      "street": "26 RUE DES MOULINIERS",
+      "cp": "42000",
+      "city": "SAINT-ETIENNE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "889397",
+    "name": "EPINAL LA VOIVRE",
+    "addr": {
+      "street": "2 RUE DE LA VOIVRE",
+      "cp": "88000",
+      "city": "EPINAL"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "114618",
+    "name": "NARBONNE BONNE SOURCE",
+    "addr": {
+      "street": "18 RUE ERNEST COGNACQ",
+      "cp": "11100",
+      "city": "NARBONNE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "179423",
+    "name": "SAINTES Ormeau",
+    "addr": {
+      "street": "LIEUDIT LA COMBE A MARGOT",
+      "cp": "17100",
+      "city": "SAINTES"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "069521",
+    "name": "ANTIBES CHANCEL",
+    "addr": {
+      "street": "9 A 17 BOULEVARD CHANCEL",
+      "cp": "06600",
+      "city": "ANTIBES"
+    },
+    "type": "Boutique centre ville"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "131383",
+    "name": "COMPLEXE ST PIERRE",
+    "addr": {
+      "street": "555 RUE ST PIERRE",
+      "cp": "13012",
+      "city": "MARSEILLE 12E ARRONDISSEMENT"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "755187",
+    "name": "PARIS MARCADET 114 (ex-MONTMARTRE)",
+    "addr": {
+      "street": "114 RUE MARCADET",
+      "cp": "75018",
+      "city": "PARIS 18E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "819424",
+    "name": "ALBI \/ LAUTREC",
+    "addr": {
+      "street": "50 AVENUE GENERAL HOCHE",
+      "cp": "81000",
+      "city": "ALBI"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "681546",
+    "name": "ILLZACH URR",
+    "addr": {
+      "street": "49 AVENUE DE BELGIQUE",
+      "cp": "68110",
+      "city": "ILLZACH"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "769734",
+    "name": "ROUEN LA MOTTE Mermoz",
+    "addr": {
+      "street": "9 RUE DE LA MOTTE",
+      "cp": "76000",
+      "city": "ROUEN"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "973026",
+    "name": "CAYENNE URCC + AVSCC",
+    "addr": {
+      "street": "ANGLE VOLTAIRE GIPPET ARON",
+      "cp": "97300",
+      "city": "CAYENNE"
+    },
+    "type": "Boutique centre ville"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "941010",
+    "name": "IVRY MIRABEAU",
+    "addr": {
+      "street": "95 RUE MIRABEAU",
+      "cp": "94200",
+      "city": "IVRY-SUR-SEINE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "829282",
+    "name": "MONTAUBAN \/ COURBET",
+    "addr": {
+      "street": "615 BOULEVARD ALSACE LORRAINE",
+      "cp": "82000",
+      "city": "MONTAUBAN"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "359458",
+    "name": "RENNES FRANCOIS CHATEAU BAT E",
+    "addr": {
+      "street": "3 AVENUE FRANCOIS CHATEAU",
+      "cp": "35000",
+      "city": "RENNES"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "514548",
+    "name": "CPRI BÂT D'EXPLOITATION",
+    "addr": {
+      "street": "7 BOULEVARD LOUIS BARTHOU",
+      "cp": "51100",
+      "city": "REIMS"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "755077",
+    "name": "SEGUR",
+    "addr": {
+      "street": "55 A 57 BIS AVENUE DE SAXE",
+      "cp": "75007",
+      "city": "PARIS 7E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "870856",
+    "name": "LIMOGES CENTRAL NORIAC",
+    "addr": {
+      "street": "28 A 30 RUE JULES NORIAC",
+      "cp": "87000",
+      "city": "LIMOGES"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "941014",
+    "name": "VINCENNES NADAR SOFRECOM",
+    "addr": {
+      "street": "5 7 SQUARE FELIX NADAR",
+      "cp": "94300",
+      "city": "VINCENNES"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "172743",
+    "name": "ROCHELLE Perigny",
+    "addr": {
+      "street": "26 AVENUE LOUIS LUMIERE",
+      "cp": "17180",
+      "city": "PERIGNY"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "131278",
+    "name": "BOUFFAN CTRAL TEL.",
+    "addr": {
+      "street": "IMPASSE DES FRERES PRATESI",
+      "cp": "13090",
+      "city": "AIX-EN-PROVENCE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "173006",
+    "name": "LA ROCHELLE LECLERC",
+    "addr": {
+      "street": "1 AVENUE DU GENERAL LECLERC",
+      "cp": "17000",
+      "city": "LA ROCHELLE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "299345",
+    "name": "BREST NORD BOTREL",
+    "addr": {
+      "street": "RUE THEODORE BOTREL BREST",
+      "cp": "29200",
+      "city": "BREST"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "449416",
+    "name": "NANTES CAMBRONNE",
+    "addr": {
+      "street": "3 A 5 RUE MAURICE SIBILLE",
+      "cp": "44000",
+      "city": "NANTES"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "789595",
+    "name": "ST GERMAIN CTZP CTS GSM VIDEO",
+    "addr": {
+      "street": "30 AVENUE SAINT FIACRE",
+      "cp": "78100",
+      "city": "SAINT-GERMAIN-EN-LAYE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "972133",
+    "name": "COMPLEXE LAMENTIN",
+    "addr": {
+      "street": "ROUTE DU VERT PRÉ",
+      "cp": "97232",
+      "city": "LE LAMENTIN"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "974894",
+    "name": "ST DENIS CHAMP FLEURI",
+    "addr": {
+      "street": "2 RUE MARCEL PAGNOL",
+      "cp": "97490",
+      "city": "SAINT-DENIS"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "429374",
+    "name": "ROANNE JEAN MACE CENTRAL",
+    "addr": {
+      "street": "21 A 23 RUE JEAN MACE",
+      "cp": "42300",
+      "city": "ROANNE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "229721",
+    "name": "PLOUFRAGAN CHATELETS",
+    "addr": {
+      "street": "24 AVENUE DES CHATELETS",
+      "cp": "22440",
+      "city": "PLOUFRAGAN"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "916592",
+    "name": "VILLABE APE PACOM",
+    "addr": {
+      "street": "CHEMIN D AMBREVILLE",
+      "cp": "91100",
+      "city": "VILLABE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "956077",
+    "name": "TAVERNY CLASSE 3",
+    "addr": {
+      "street": "156 A 162 RUE D HERBLAY",
+      "cp": "95150",
+      "city": "TAVERNY"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "786216",
+    "name": "TRAPPES MARTIN L. KING",
+    "addr": {
+      "street": "63 AVENUE DU PASTEUR MARTIN LUTHER KING",
+      "cp": "78190",
+      "city": "TRAPPES"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "830629",
+    "name": "GARDE (LA) CT",
+    "addr": {
+      "street": "286 AVENUE DU 1ER BIMP",
+      "cp": "83130",
+      "city": "LA GARDE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "589338",
+    "name": "NEVERS LAVOIR",
+    "addr": {
+      "street": "4 RUE DES DOCKS",
+      "cp": "58000",
+      "city": "NEVERS"
+    },
+    "type": "Technique"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "161663",
+    "name": "ISLE D ESPAGNAC",
+    "addr": {
+      "street": "150 BOULEVARD SALVADOR ALLENDE",
+      "cp": "16340",
+      "city": "L'ISLE-D'ESPAGNAC"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "279429",
+    "name": "EVREUX COUDRAY",
+    "addr": {
+      "street": "163 RUE GAY LUSSAC",
+      "cp": "27006",
+      "city": "EVREUX"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "597057",
+    "name": "LILLE URM",
+    "addr": {
+      "street": "73 RUE DE LA CIMAISE",
+      "cp": "59650",
+      "city": "VILLENEUVE-D ASCQ"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "102977",
+    "name": "CCL TROYES",
+    "addr": {
+      "street": "24 RUE MARC VERDIER",
+      "cp": "10150",
+      "city": "PONT-SAINTE-MARIE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "756647",
+    "name": "ST LAMBERT",
+    "addr": {
+      "street": "10-12 RUE ST AMAND",
+      "cp": "75015",
+      "city": "PARIS 15E ARRONDISSEMENT"
+    },
+    "type": "Technique"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "069411",
+    "name": "CANNES MIMONT",
+    "addr": {
+      "street": "32 RUE DE MIMONT",
+      "cp": "06400",
+      "city": "CANNES"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "809242",
+    "name": "DEJEAN 55 U,F,R, - S,N,P,I,",
+    "addr": {
+      "street": "55 RUE DEJEAN ",
+      "cp": "80000",
+      "city": "AMIENS"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "974759",
+    "name": "ST DENIS CHATEL ACCUEIL",
+    "addr": {
+      "street": "112 RUE JEAN CHATEL",
+      "cp": "97400",
+      "city": "SAINT-DENIS"
+    },
+    "type": "Boutique centre ville"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "331629",
+    "name": "EYSINES CT",
+    "addr": {
+      "street": "46 RUE ANDRE BLANC",
+      "cp": "33320",
+      "city": "EYSINES"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "229626",
+    "name": "ST BRIEUC CHARNER ",
+    "addr": {
+      "street": "24 TER BOULEVARD CHARNER",
+      "cp": "22000",
+      "city": "SAINT-BRIEUC"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "940214",
+    "name": "CHEVILLY LA RUE",
+    "addr": {
+      "street": "72 ET 74 AVENUE DE LA REPUBLIQUE",
+      "cp": "94550",
+      "city": "CHEVILLY-LARUE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "029346",
+    "name": "GAMBETTA",
+    "addr": {
+      "street": "2 RUE DE LA TOUSSAINT",
+      "cp": "02100",
+      "city": "SAINT-QUENTIN"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "749486",
+    "name": "ANNEMASSE CHABLAIS + R.2000 adjacent au noimm 740128",
+    "addr": {
+      "street": "RUE DES FRERES TASSILE",
+      "cp": "74100",
+      "city": "ANNEMASSE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "729249",
+    "name": "LE MANS JAURES CENTRAL",
+    "addr": {
+      "street": "100 AVENUE JEAN JAURES",
+      "cp": "72100",
+      "city": "LE MANS"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "212318",
+    "name": "DIJON ALBERT PREMIER",
+    "addr": {
+      "street": "14 AVENUE ALBERT 1ER",
+      "cp": "21000",
+      "city": "DIJON"
+    },
+    "type": "Technique"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "569497",
+    "name": "VANNES PARGO",
+    "addr": {
+      "street": "22 ALLEE DU PARGO",
+      "cp": "56000",
+      "city": "VANNES"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "027226",
+    "name": "GAMBETTA",
+    "addr": {
+      "street": "16 BOULEVARD GAMBETTA",
+      "cp": "02200",
+      "city": "SOISSONS"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "109298",
+    "name": "CAA EUROPE",
+    "addr": {
+      "street": "6 RUE LOUIS MORIN",
+      "cp": "10000",
+      "city": "TROYES"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "031902",
+    "name": "MOULINS TANNERIES CT",
+    "addr": {
+      "street": "29 RUE DES TANNERIES",
+      "cp": "03000",
+      "city": "MOULINS"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "339591",
+    "name": "MERIGNAC CT PICHEY",
+    "addr": {
+      "street": "51 AVENUE HENRI VIGNEAU",
+      "cp": "33700",
+      "city": "MERIGNAC"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "650475",
+    "name": "AUREILHAN ALARIC",
+    "addr": {
+      "street": "2 RUE DES ALOUETTES",
+      "cp": "65800",
+      "city": "AUREILHAN"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "679348",
+    "name": "STRASBOURG BROGLIE C3",
+    "addr": {
+      "street": "5 RUE DES CLARISSES",
+      "cp": "67000",
+      "city": "STRASBOURG"
+    },
+    "type": "Technique"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "940048",
+    "name": "BOISSY CPE",
+    "addr": {
+      "street": "1A 4 AVENUE DU GENERAL DE GAULLE",
+      "cp": "94470",
+      "city": "BOISSY-SAINT-LEGER"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "889359",
+    "name": "EPINAL DOGNEVILLE UER",
+    "addr": {
+      "street": "68 A 70 QUAI DE DOGNEVILLE",
+      "cp": "88000",
+      "city": "EPINAL"
+    },
+    "type": "Technique"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "272291",
+    "name": "EVREUX OURSEL ST THOMAS",
+    "addr": {
+      "street": "25 RUE DU DOCTEUR OURSEL",
+      "cp": "27000",
+      "city": "EVREUX"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "974162",
+    "name": "ST PIERRE RAVINE BLANCHE",
+    "addr": {
+      "street": "186 RUE MARIUS ET ARY LEBLOND",
+      "cp": "97410",
+      "city": "SAINT-PIERRE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "061236",
+    "name": "SAINT LAURENT DU VAR ZILLER SAUVAIGO",
+    "addr": {
+      "street": "156 AVENUE PIERRE ZILLER",
+      "cp": "06700",
+      "city": "SAINT-LAURENT-DU-VAR"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "280852",
+    "name": "CHARTRES RESERVOIRS ct",
+    "addr": {
+      "street": "31 RUE DES RESERVOIRS",
+      "cp": "28000",
+      "city": "CHARTRES"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "309385",
+    "name": "ALES CROUPILLAC CCL MAGASIN",
+    "addr": {
+      "street": "LIEU DIT PLAINE GROUPILLAC NORD",
+      "cp": "30100",
+      "city": "ALES"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "643352",
+    "name": "LESCAR PAU SUPPLY CHAIN",
+    "addr": {
+      "street": "CHEMIN COMMUNAL DU BATAN",
+      "cp": "64230",
+      "city": "LESCAR"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "949323",
+    "name": "CHAMPIGNY-SUR-MARNE CPE",
+    "addr": {
+      "street": "42 RUE LIEUTENANT ANDRE OHRESSER",
+      "cp": "94500",
+      "city": "CHAMPIGNY-SUR-MARNE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "599252",
+    "name": "LILLE U.F.R.",
+    "addr": {
+      "street": "55 RUE JEAN JAURES",
+      "cp": "59000",
+      "city": "LILLE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "629823",
+    "name": "BETHUNE Lamartine CT",
+    "addr": {
+      "street": "RUE CLAUDE CHAPPE",
+      "cp": "62407",
+      "city": "BETHUNE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "974702",
+    "name": "STE MARIE VIERGE NOIRE",
+    "addr": {
+      "street": "ROUTE DE LA VIERGE NOIRE",
+      "cp": "97438",
+      "city": "SAINTE-MARIE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "576729",
+    "name": "THIONVILLE VILLARS",
+    "addr": {
+      "street": "5 RUE DE VILLARS",
+      "cp": "57100",
+      "city": "THIONVILLE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "809472",
+    "name": "DEJEAN 147",
+    "addr": {
+      "street": "147 RUE DEJEAN",
+      "cp": "80000",
+      "city": "AMIENS"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "509501",
+    "name": "ST LO rue Torteron bureaux Boutique",
+    "addr": {
+      "street": "21A 23 RUE TORTERON",
+      "cp": "50000",
+      "city": "SAINT-LO"
+    },
+    "type": "Boutique centre ville"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "119495",
+    "name": "NARBONNE TUILERIES",
+    "addr": {
+      "street": "30 RUE PRUDHOM",
+      "cp": "11100",
+      "city": "NARBONNE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "259589",
+    "name": "BESANCON GAY LUSSAC",
+    "addr": {
+      "street": "11 RUE GAY LUSSAC",
+      "cp": "25000",
+      "city": "BESANCON"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "059256",
+    "name": "GAP J,JAURES",
+    "addr": {
+      "street": "60 AVENUE JEAN JAURES",
+      "cp": "05000",
+      "city": "GAP"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "389248",
+    "name": "GRENOBLE AMPERE CENTRAL",
+    "addr": {
+      "street": "30 BIS RUE AMPERE",
+      "cp": "38000",
+      "city": "GRENOBLE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "549227",
+    "name": "NANCY BERTHELEMY",
+    "addr": {
+      "street": "19 RUE EMILE BERTIN",
+      "cp": "54000",
+      "city": "NANCY"
+    },
+    "type": "Technique"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "061527",
+    "name": "SOPHIA ANTIPOLIS EINSTEIN",
+    "addr": {
+      "street": "905 RUE ALBERT EINSTEIN",
+      "cp": "06560",
+      "city": "VALBONNE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "019495",
+    "name": "BOURG HERRIOT",
+    "addr": {
+      "street": "6 BOULEVARD EDOUARD HERRIOT",
+      "cp": "01000",
+      "city": "BOURG-EN-BRESSE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "721814",
+    "name": "LE MANS FOUCAUDIERE",
+    "addr": {
+      "street": "69 A 73 CHEMIN DE LA FOUCAUDIERE",
+      "cp": "72000",
+      "city": "LE MANS"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "133590",
+    "name": "MARSEILLE BUREAUPARC Bât F",
+    "addr": {
+      "street": "18 RUE JACQUES REATTU",
+      "cp": "13009",
+      "city": "MARSEILLE 9E ARRONDISSEMENT"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "808566",
+    "name": "AMIENS CONDORCET",
+    "addr": {
+      "street": "35 RUE DE QUEBEC",
+      "cp": "80000",
+      "city": "AMIENS"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "259584",
+    "name": "BESANCON JUSTICES",
+    "addr": {
+      "street": "105 RUE DE VESOUL",
+      "cp": "25000",
+      "city": "BESANCON"
+    },
+    "type": "Technique"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "939571",
+    "name": "ROSNY SOUS BOIS CT",
+    "addr": {
+      "street": "37 RUE JULES FERRY",
+      "cp": "93110",
+      "city": "ROSNY-SOUS-BOIS"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "940334",
+    "name": "FONTENAY SOUS BOIS",
+    "addr": {
+      "street": "12 AVENUE RABELAIS",
+      "cp": "94120",
+      "city": "FONTENAY-SOUS-BOIS"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "121764",
+    "name": "ONET LE CHATEAU BUREAUX",
+    "addr": {
+      "street": "13 AVENUE DU CAUSSE",
+      "cp": "12000",
+      "city": "ONET-LE-CHATEAU"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "359724",
+    "name": "RENNES MALAKOFF CENTRAL",
+    "addr": {
+      "street": "50 RUE DE REDON",
+      "cp": "35000",
+      "city": "RENNES"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "772889",
+    "name": "MELUN CT",
+    "addr": {
+      "street": "24 RUE DU CHATEAU",
+      "cp": "77000",
+      "city": "MELUN"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "689498",
+    "name": "COLMAR ST JOSEPH C3",
+    "addr": {
+      "street": "5 A 7 RUE GUSTAVE ADOLPHE",
+      "cp": "68000",
+      "city": "COLMAR"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "756893",
+    "name": "MASSENA",
+    "addr": {
+      "street": "57 A 63 RUE ALBERT",
+      "cp": "75013",
+      "city": "PARIS 13E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "709472",
+    "name": "VESOUL MAGINOT",
+    "addr": {
+      "street": "4 RUE ANDRE MAGINOT",
+      "cp": "70000",
+      "city": "VESOUL"
+    },
+    "type": "Technique"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "212311",
+    "name": "DIJON STALINGRAD ALGECO",
+    "addr": {
+      "street": "26 AVENUE DE STALINGRAD",
+      "cp": "21000",
+      "city": "DIJON"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "819299",
+    "name": "ALBI \/ LAPEROUSE",
+    "addr": {
+      "street": "2 AVENUE GENERAL HOCHE",
+      "cp": "81000",
+      "city": "ALBI"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "229719",
+    "name": "LANNION FT R&D Z\/EST",
+    "addr": {
+      "street": "ROUTE DE PERROS GUIREC",
+      "cp": "22300",
+      "city": "LANNION"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "519297",
+    "name": "CTRI PONT-ASSY",
+    "addr": {
+      "street": "101 RUE DE LOUVOIS",
+      "cp": "51100",
+      "city": "REIMS"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "079372",
+    "name": "ANNONAY UFR",
+    "addr": {
+      "street": "47 RUE LEO LAGRANGE",
+      "cp": "07100",
+      "city": "ANNONAY"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "579533",
+    "name": "SARREGUEMINES FAIENCERIES",
+    "addr": {
+      "street": "RUE COLONEL EDOUARD CAZAL",
+      "cp": "57200",
+      "city": "SARREGUEMINES"
+    },
+    "type": "Technique"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "923018",
+    "name": "COURBEVOIE HUTCHISON CARDIMMO",
+    "addr": {
+      "street": "11 RUE DE L ABREUVOIR",
+      "cp": "92400",
+      "city": "COURBEVOIE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "839712",
+    "name": "TOULON DAVELUY CT",
+    "addr": {
+      "street": "AVENUE AMIRAL DAVELUY",
+      "cp": "83000",
+      "city": "TOULON"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "629871",
+    "name": "ARRAS Faidherbe CT",
+    "addr": {
+      "street": "14 RUE CONSTANT DUTILLEUX",
+      "cp": "62000",
+      "city": "ARRAS"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "971452",
+    "name": "BM DESTRELLAN NORD AE_DT CARAIBES",
+    "addr": {
+      "street": "LIEU DIT DESTRELLAN",
+      "cp": "97122",
+      "city": "BAIE-MAHAULT"
+    },
+    "type": "Boutique centre ville"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "772681",
+    "name": "MAGNY LE HONGRE CT",
+    "addr": {
+      "street": "RUE DU PRE DE BRAY",
+      "cp": "77700",
+      "city": "MAGNY-LE-HONGRE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "569244",
+    "name": "LORIENT LANVEUR",
+    "addr": {
+      "street": "RUE DE LANVEUR",
+      "cp": "56100",
+      "city": "LORIENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "069645",
+    "name": "MOUGINS TOURNAMY",
+    "addr": {
+      "street": "607 CHEMIN DE L HUBAC",
+      "cp": "06250",
+      "city": "MOUGINS"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "597083",
+    "name": "LILLE BLEUETS (UER)",
+    "addr": {
+      "street": "RUE MAUGRE",
+      "cp": "59800",
+      "city": "LILLE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "429682",
+    "name": "ST ETIENNE ROND-POINT",
+    "addr": {
+      "street": "6 BOULEVARD ALEXANDRE DE FRAISSINETTE",
+      "cp": "42000",
+      "city": "SAINT-ETIENNE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "2A9733",
+    "name": "AJACCIO DR",
+    "addr": {
+      "street": "AVENUE DOCTEUR RAMARONI",
+      "cp": "20000",
+      "city": "AJACCIO"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "469204",
+    "name": "CAHORS \/ TERRE ROUGE",
+    "addr": {
+      "street": "680 AV DES FTP ET DU 8EME RI",
+      "cp": "46000",
+      "city": "CAHORS"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "599451",
+    "name": "THOMAS CL 3 CAMBRAI",
+    "addr": {
+      "street": "PLACE EUGENE THOMAS",
+      "cp": "59400",
+      "city": "CAMBRAI"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "339523",
+    "name": "BORDEAUX BASTIDE CT",
+    "addr": {
+      "street": "323 AVENUE THIERS",
+      "cp": "33000",
+      "city": "BORDEAUX"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "442491",
+    "name": "DONGES SITE 1",
+    "addr": {
+      "street": "LIEU DIT MOQUE SOURIS",
+      "cp": "44480",
+      "city": "DONGES"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "763516",
+    "name": "LE HAVRE EYRIES",
+    "addr": {
+      "street": "21 A 23 RUE JB EYRIES",
+      "cp": "76600",
+      "city": "LE HAVRE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "974753",
+    "name": "ST DENIS LA COMPAGNIE",
+    "addr": {
+      "street": "36 38 RUE DE LA COMPAGNIE",
+      "cp": "97400",
+      "city": "SAINT-DENIS"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "559441",
+    "name": "BAR-LE-DUC LIBERATION",
+    "addr": {
+      "street": "11 AVENUE DE LA LIBERATION",
+      "cp": "55000",
+      "city": "BAR-LE-DUC"
+    },
+    "type": "Technique"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "389808",
+    "name": "GRENOBLE DRAC CENTRAL",
+    "addr": {
+      "street": "30 BIS RUE AMPERE",
+      "cp": "38000",
+      "city": "GRENOBLE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "531307",
+    "name": "LAVAL CHAPPE CENTRAL",
+    "addr": {
+      "street": "14 RUE CLAUDE CHAPPE",
+      "cp": "53000",
+      "city": "LAVAL"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "784986",
+    "name": "POISSY AP SIEGE CL4 VIDEO",
+    "addr": {
+      "street": "49 BOULEVARD VICTOR HUGO",
+      "cp": "78300",
+      "city": "POISSY"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "519271",
+    "name": "CPE CRT REIMS",
+    "addr": {
+      "street": "1 RUE EUGENE DESTEUQUE",
+      "cp": "51100",
+      "city": "REIMS"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "601756",
+    "name": "CREIL BARBUSSE",
+    "addr": {
+      "street": "3 RUE HENRI BARBUSSE",
+      "cp": "60100",
+      "city": "CREIL"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "381695",
+    "name": "FONTAINE SECTEUR ET CENTRAL",
+    "addr": {
+      "street": "RUE GERARD PHILIPE",
+      "cp": "38600",
+      "city": "FONTAINE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "222252",
+    "name": "PLOUMAGOAR GAMBETTA",
+    "addr": {
+      "street": "6 RUE GAMBETTA",
+      "cp": "22970",
+      "city": "PLOUMAGOAR"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "839327",
+    "name": "TOULON LA RODE CT AG",
+    "addr": {
+      "street": "RUE JEAN BARTOLINI",
+      "cp": "83000",
+      "city": "TOULON"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "627656",
+    "name": "SAINT OMER Sarrail CT CL.IV",
+    "addr": {
+      "street": "RUE DU GENERAL SARRAIL",
+      "cp": "62500",
+      "city": "SAINT-OMER"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "303765",
+    "name": "NIMES MAS DES ABEILLES",
+    "addr": {
+      "street": "ZAC DU MAS DES ABEILLES",
+      "cp": "30000",
+      "city": "NIMES"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "639574",
+    "name": "CLERMONT-FERRAND LAVOISIER CT",
+    "addr": {
+      "street": "32 RUE DU CLOS NOTRE DAME",
+      "cp": "63000",
+      "city": "CLERMONT-FERRAND"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "649568",
+    "name": "PAU 4 CENTRAL TELEPHONIQUE'ROUSSILLE'",
+    "addr": {
+      "street": "35 RUE AMEDEE ROUSSILLE",
+      "cp": "64000",
+      "city": "PAU"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "569383",
+    "name": "VANNES GERBAULT",
+    "addr": {
+      "street": "8 RUE ALAIN GERBAULT",
+      "cp": "56000",
+      "city": "VANNES"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "449812",
+    "name": "SAINT NAZAIRE ZI DE BRAIS",
+    "addr": {
+      "street": "ZONE INDUSTRIELLE DE BRAIS",
+      "cp": "44600",
+      "city": "SAINT-NAZAIRE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "449536",
+    "name": "NANTES LONGCHAMP",
+    "addr": {
+      "street": "46 RUE CHANTECLERC",
+      "cp": "44300",
+      "city": "NANTES"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "699691",
+    "name": "LYON PARMENTIER CT",
+    "addr": {
+      "street": "12 RUE BRIGADIER VOITURET",
+      "cp": "69387",
+      "city": "LYON 7E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "289374",
+    "name": "CHARTRES BOUILLON",
+    "addr": {
+      "street": "11 RUE DU PETIT BOUILLON",
+      "cp": "28000",
+      "city": "CHARTRES"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "349365",
+    "name": "BEZIERS LORRAINE",
+    "addr": {
+      "street": "AVENUE RHIN ET DANUBE",
+      "cp": "34500",
+      "city": "BEZIERS"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "759098",
+    "name": "ROBERT KELLER",
+    "addr": {
+      "street": "6 RUE DE L INGENIEUR ROBERT KELLER",
+      "cp": "75015",
+      "city": "PARIS 15E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "767951",
+    "name": "DIEPPE ESCARPE",
+    "addr": {
+      "street": "ZAC DU VAL DRUEL TERRES DE JANVAL",
+      "cp": "76200",
+      "city": "DIEPPE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "315557",
+    "name": "TOULOUSE BONNEFOY",
+    "addr": {
+      "street": "108 A 110 RUE DE PERIOLE",
+      "cp": "31500",
+      "city": "TOULOUSE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "299796",
+    "name": "QUIMPER MIOSSEC",
+    "addr": {
+      "street": "11 AVENUE MIOSSEC",
+      "cp": "29000",
+      "city": "QUIMPER"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "901268",
+    "name": "BELFORT RD",
+    "addr": {
+      "street": "6 AVENUE DES USINES",
+      "cp": "90000",
+      "city": "BELFORT"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "360444",
+    "name": "CHATEAUROUX SCHUMAN ct",
+    "addr": {
+      "street": "6 RUE ROBERT SCHUMANN",
+      "cp": "36000",
+      "city": "CHATEAUROUX"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "529209",
+    "name": "CHAUMONT BEUGNOT BOUTIQUE \/ BUREAUX",
+    "addr": {
+      "street": "11 RUE VOIE BEUGNOT",
+      "cp": "52000",
+      "city": "CHAUMONT"
+    },
+    "type": "Boutique centre ville"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "449297",
+    "name": "SAINT NAZAIRE JEAN BART",
+    "addr": {
+      "street": "75 RUE JEAN BART",
+      "cp": "44600",
+      "city": "SAINT-NAZAIRE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "699684",
+    "name": "VILLEFRANCHE-SUR-SAONE HERON CENTRAL",
+    "addr": {
+      "street": "76 RUE PHILIPPE HERON",
+      "cp": "69400",
+      "city": "VILLEFRANCHE-SUR-SAONE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "591782",
+    "name": "CT CANTELEU DOUAI",
+    "addr": {
+      "street": "170A RUE DU CANTELEU",
+      "cp": "59500",
+      "city": "DOUAI"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "319288",
+    "name": "TOULOUSE 9 RUE CAMICHEL",
+    "addr": {
+      "street": "9 RUE CAMICHEL",
+      "cp": "31000",
+      "city": "TOULOUSE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "490997",
+    "name": "CHOLET MANDEL CENTRAL",
+    "addr": {
+      "street": "AVENUE GEORGES MANDEL",
+      "cp": "49300",
+      "city": "CHOLET"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "839632",
+    "name": "C.M.T.S.M.LA SEYNE",
+    "addr": {
+      "street": "IMASSE DES CABLIERS",
+      "cp": "83500",
+      "city": "LA SEYNE-SUR-MER"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "592990",
+    "name": "HEM NORDNET",
+    "addr": {
+      "street": "111 RUE DE CROIX",
+      "cp": "59510",
+      "city": "HEM"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "609309",
+    "name": "MARGNY",
+    "addr": {
+      "street": "365 RUE LOUIS BARTHOU",
+      "cp": "60321",
+      "city": "MARGNY-LES-COMPIEGNE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "869268",
+    "name": "POITIERS AYMAR DE BEAUPUY",
+    "addr": {
+      "street": "36 BOULEVARD DU PONT ACHARD",
+      "cp": "86000",
+      "city": "POITIERS"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "890243",
+    "name": "AUXERRE VAUBAN",
+    "addr": {
+      "street": "7 BOULEVARD VAUBAN",
+      "cp": "89000",
+      "city": "AUXERRE"
+    },
+    "type": "Technique"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "161549",
+    "name": "GOND PONTOUVRE",
+    "addr": {
+      "street": "LIEU DIT PLANTIER DE BREBONZAC",
+      "cp": "16160",
+      "city": "GOND-PONTOUVRE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "930486",
+    "name": "MONTREUIL CU",
+    "addr": {
+      "street": "86 94 96 RUE ALEXIS PESNON",
+      "cp": "93100",
+      "city": "MONTREUIL"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "112621",
+    "name": "NARBONNE KENNEDY",
+    "addr": {
+      "street": "46 AVENUE PRESIDENT KENNEDY",
+      "cp": "11100",
+      "city": "NARBONNE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "019491",
+    "name": "BOURG RECAMIER CENTRAL",
+    "addr": {
+      "street": "12 RUE JULIETTE RECAMIER",
+      "cp": "01000",
+      "city": "BOURG-EN-BRESSE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "699456",
+    "name": "CALUIRE CENTRAL",
+    "addr": {
+      "street": "2 AVENUE MARC SANGNIER",
+      "cp": "69300",
+      "city": "CALUIRE-ET-CUIRE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "2A9796",
+    "name": "MEZZAVIA CDA",
+    "addr": {
+      "street": "CHEMIN DU RANOCHIETTO",
+      "cp": "20167",
+      "city": "AJACCIO"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "505027",
+    "name": "ST LO GUILLAUME MICHEL",
+    "addr": {
+      "street": "RUE GUILLAUME MICHEL",
+      "cp": "50000",
+      "city": "SAINT-LO"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "029404",
+    "name": "ST LAZARE",
+    "addr": {
+      "street": "BOULEVARD DOCTEUR CAMILLE GUERIN",
+      "cp": "02100",
+      "city": "SAINT-QUENTIN"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "402796",
+    "name": "ST PAUL LES DAX CENTRAL TELEPHONIQUE",
+    "addr": {
+      "street": "RUE JEAN ODDOS",
+      "cp": "40990",
+      "city": "SAINT-PAUL-LES-DAX"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "291516",
+    "name": "MORLAIX POULFANC",
+    "addr": {
+      "street": "RUE DE POULFRANC",
+      "cp": "29600",
+      "city": "MORLAIX"
+    },
+    "type": "Technique"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "579437",
+    "name": "THIONVILLE BALANCIERS",
+    "addr": {
+      "street": "11 RUE DES BALANCIERS",
+      "cp": "57100",
+      "city": "THIONVILLE"
+    },
+    "type": "Technique"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "049297",
+    "name": "DIGNE ST VERAN",
+    "addr": {
+      "street": "26 AVENUE DE SAINT VERAN",
+      "cp": "04000",
+      "city": "DIGNE-LES-BAINS"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "609535",
+    "name": "ST LAZARE C P E",
+    "addr": {
+      "street": "9 RUE DU DOCTEUR SCHWEITZER",
+      "cp": "60000",
+      "city": "BEAUVAIS"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "774876",
+    "name": "VAUX -LE-PENIL",
+    "addr": {
+      "street": "169 RUE DE LA JUSTICE",
+      "cp": "77000",
+      "city": "VAUX-LE-PENIL"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "629159",
+    "name": "LENS LANOY",
+    "addr": {
+      "street": "5 RUE DIDEROT",
+      "cp": "62300",
+      "city": "LENS"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "631134",
+    "name": "CLERMONT FERRAND SALINS CT",
+    "addr": {
+      "street": "40 A 42 RUE DU MONT MOUCHET",
+      "cp": "63000",
+      "city": "CLERMONT-FERRAND"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "692909",
+    "name": "ST PRIEST SEQUOIA 3 IMMEUBLE 14",
+    "addr": {
+      "street": "97 ALLEE ALEXANDRE BORODINE",
+      "cp": "69800",
+      "city": "SAINT-PRIEST"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "819476",
+    "name": "ALBI \/ ROCHEGUDE",
+    "addr": {
+      "street": "36 AVENUE GENERAL HOCHE",
+      "cp": "81000",
+      "city": "ALBI"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "409296",
+    "name": "MONT DE MARSAN CADILLON CT ET PYLONE",
+    "addr": {
+      "street": "299 RUE ANDRE CADILLON",
+      "cp": "40000",
+      "city": "MONT-DE-MARSAN"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "609235",
+    "name": "CREIL HAVEZ CENTRAL",
+    "addr": {
+      "street": "3 BD GABRIEL HAVEZ",
+      "cp": "60100",
+      "city": "CREIL"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "299374",
+    "name": "BREST DUQUESNE",
+    "addr": {
+      "street": "7 A 13 RUE DUQUESNE",
+      "cp": "29200",
+      "city": "BREST"
+    },
+    "type": "Technique"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "293298",
+    "name": "QUIMPER LE GOFFIC MAGASIN",
+    "addr": {
+      "street": "61 RUE CHARLES LE GOFFIC",
+      "cp": "29000",
+      "city": "QUIMPER"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "913776",
+    "name": "MASSY CENTRAL CD107",
+    "addr": {
+      "street": "1 ALLEE DE MADRID",
+      "cp": "91300",
+      "city": "MASSY"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "923000",
+    "name": "MONTROUGE GINOUX",
+    "addr": {
+      "street": "29 AVENUE HENRI GINOUX",
+      "cp": "92120",
+      "city": "MONTROUGE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "921402",
+    "name": "COURBEVOIE CHAMBON",
+    "addr": {
+      "street": "1BIS A 9 VILLA CHAMBON",
+      "cp": "92400",
+      "city": "COURBEVOIE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "189365",
+    "name": "BOURGES ARAGO",
+    "addr": {
+      "street": "RUE LOUIS ARMAND",
+      "cp": "18000",
+      "city": "BOURGES"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "649275",
+    "name": "BIARRITZ CENTRAL KENNEDY",
+    "addr": {
+      "street": "RUE DU JAIZQUIBEL",
+      "cp": "64200",
+      "city": "BIARRITZ"
+    },
+    "type": "Technique"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "920049",
+    "name": "ASNIERES SOLICIA",
+    "addr": {
+      "street": "4 AVENUE LAURENT CELY",
+      "cp": "92600",
+      "city": "ASNIERES-SUR-SEINE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "452348",
+    "name": "ORLEANS VIGNAT",
+    "addr": {
+      "street": "10 BIS RUE EUGENE VIGNAT",
+      "cp": "45000",
+      "city": "ORLEANS"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "652351",
+    "name": "JUILLAN PYRENE SRA",
+    "addr": {
+      "street": "BATIMENT TELEPORT",
+      "cp": "65290",
+      "city": "JUILLAN"
+    },
+    "type": "Technique"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "329301",
+    "name": "AUCH COMPLEXE DES TELECOM",
+    "addr": {
+      "street": "47 AVENUE SAMBRE ET MEUSE",
+      "cp": "32000",
+      "city": "AUCH"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "399302",
+    "name": "LONS LE SAUNIER REGARD",
+    "addr": {
+      "street": "117 RUE REGARD",
+      "cp": "39000",
+      "city": "LONS-LE-SAUNIER"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "740107",
+    "name": "ANNECY LES ILES",
+    "addr": {
+      "street": "CHEMIN DES TETS",
+      "cp": "74000",
+      "city": "ANNECY"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "261983",
+    "name": "MONTELIMAR MANCHE",
+    "addr": {
+      "street": "10 CHEMIN DE LA MANCHE",
+      "cp": "26200",
+      "city": "MONTELIMAR"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "539393",
+    "name": "LAVAL BECQUEREL",
+    "addr": {
+      "street": "118 BOULEVARD HENRI BECQUEREL",
+      "cp": "53000",
+      "city": "LAVAL"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "939397",
+    "name": "BLANC-MESNIL CTU ET CU",
+    "addr": {
+      "street": "25 BIS RUE SANTOS DUMONT",
+      "cp": "93150",
+      "city": "LE BLANC-MESNIL"
+    },
+    "type": "Technique"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "940165",
+    "name": "CACHAN",
+    "addr": {
+      "street": "53 57 AVENUE ARISTIDE BRIAND",
+      "cp": "94230",
+      "city": "CACHAN"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "751497",
+    "name": "SETIB PARIS",
+    "addr": {
+      "street": "24 RUE DES JEUNEURS",
+      "cp": "75002",
+      "city": "PARIS 2E ARRONDISSEMENT"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "150148",
+    "name": "AURILLAC REPUBLIQUE",
+    "addr": {
+      "street": "10 RUE DU CARMEL",
+      "cp": "15000",
+      "city": "AURILLAC"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "439346",
+    "name": "BRIVES CHARENSAC MAGASIN",
+    "addr": {
+      "street": "16 ROUTE DE COUBON",
+      "cp": "43700",
+      "city": "BRIVES-CHARENSAC"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "230962",
+    "name": "GUERET REPUBLIQUE",
+    "addr": {
+      "street": "1 AVENUE DE LA REPUBLIQUE",
+      "cp": "23011",
+      "city": "GUERET"
+    },
+    "type": "Boutique centre ville"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "299325",
+    "name": "BREST MARINE",
+    "addr": {
+      "street": "9364 BOULEVARD ISIDORE MARFILLE",
+      "cp": "29200",
+      "city": "BREST"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "849432",
+    "name": "LE PONTET ST JEAN",
+    "addr": {
+      "street": "297 AVENUE ST JEAN",
+      "cp": "84130",
+      "city": "LE PONTET"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "519414",
+    "name": "CPE",
+    "addr": {
+      "street": "98 RUE DE LA MARNE",
+      "cp": "51000",
+      "city": "CHALONS-EN-CHAMPAGNE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "139566",
+    "name": "ST ANTOINE CTRAL",
+    "addr": {
+      "street": "LES BASTIDES",
+      "cp": "13015",
+      "city": "MARSEILLE 15E ARRONDISSEMENT"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "369295",
+    "name": "CHATEAUROUX TOLIERE Magasin",
+    "addr": {
+      "street": "ALLEE DE TOLIERE",
+      "cp": "36000",
+      "city": "CHATEAUROUX"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "786405",
+    "name": "VELIZY VILLACOUBLAY UER SIEGE-CU-CT3",
+    "addr": {
+      "street": "9 A 15 AVENUE LOUIS BREGUET",
+      "cp": "78140",
+      "city": "VELIZY-VILLACOUBLAY"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "419404",
+    "name": "BLOIS MONTESQUIEU EUROPE ct",
+    "addr": {
+      "street": "39 RUE MONTESQUIEU",
+      "cp": "41000",
+      "city": "BLOIS"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NPC",
+    "labelUGI": "UGI NORD PICARDIE CHAMPAGNE",
+    "NOIMMO": "609376",
+    "name": "VOISINLIEU CENTRAL",
+    "addr": {
+      "street": "37 RUE DE PARIS",
+      "cp": "60000",
+      "city": "BEAUVAIS"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "389458",
+    "name": "VOIRON CT",
+    "addr": {
+      "street": "12 AVENUE JULES RAVAT",
+      "cp": "38500",
+      "city": "VOIRON"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "644457",
+    "name": "PAU CENTRAL TELEPHONIQUE 2 .'BEZIOU'",
+    "addr": {
+      "street": "BOULEVARD EDOUARD HERRIOT",
+      "cp": "64000",
+      "city": "PAU"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "NC",
+    "labelUGI": "UGI NORMANDIE CENTRE",
+    "NOIMMO": "379365",
+    "name": "TOURS DANEMARK 2",
+    "addr": {
+      "street": "50 RUE DE FRANCHE COMTE",
+      "cp": "37000",
+      "city": "TOURS"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "110695",
+    "name": "CARCASSONNE IENA",
+    "addr": {
+      "street": "78 ALLEE D IENA",
+      "cp": "11000",
+      "city": "CARCASSONNE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "692666",
+    "name": "VILLEURBANNE CENTRAL",
+    "addr": {
+      "street": "42 AVENUE HENRI BARBUSSE",
+      "cp": "69100",
+      "city": "VILLEURBANNE"
+    },
+    "type": "Boutique centre ville"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "739516",
+    "name": "CHAMBERY BISSY",
+    "addr": {
+      "street": "190 CHEMIN DU PRE DEMAISON",
+      "cp": "73000",
+      "city": "CHAMBERY"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "859475",
+    "name": "LA ROCHE SUR YON BOSSUET",
+    "addr": {
+      "street": "39 A 45 RUE BOSSUET",
+      "cp": "85000",
+      "city": "LA ROCHE-SUR-YON"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "711053",
+    "name": "CHARNAY CT",
+    "addr": {
+      "street": "53 RUE AMBROISE PARE",
+      "cp": "71850",
+      "city": "CHARNAY-LES-MACON"
+    },
+    "type": "Technique"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "920447",
+    "name": "LEVALLOIS ANATOLE FRANCE",
+    "addr": {
+      "street": "25 A 29 RUE ANATOLE FRANCE",
+      "cp": "92300",
+      "city": "LEVALLOIS-PERRET"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "IDFE",
+    "labelUGI": "UGI EST-OUEST",
+    "NOIMMO": "955986",
+    "name": "SOISY SOUS MONTMORENCY OFFENBACH",
+    "addr": {
+      "street": "61 AVENUE KELLERMANN",
+      "cp": "95230",
+      "city": "SOISY-SOUS-MONTMORENCY"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "OC",
+    "labelUGI": "UGI PAYS D OC",
+    "NOIMMO": "489299",
+    "name": "MENDE PIENCOURT CAL",
+    "addr": {
+      "street": "8 ALLEE PIENCOURT",
+      "cp": "48000",
+      "city": "MENDE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "199274",
+    "name": "BRIVE JAUBERT",
+    "addr": {
+      "street": "RUE ALEXIS JAUBERT",
+      "cp": "19100",
+      "city": "BRIVE-LA-GAILLARDE"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "BPL",
+    "labelUGI": "UGI BRETAGNE PAYS DE LOIRE",
+    "NOIMMO": "350517",
+    "name": "CESSON SEVIGNE BATIPAC 2 BELLE ILE",
+    "addr": {
+      "street": "1 RUE DU CHENE GERMAIN",
+      "cp": "35510",
+      "city": "CESSON-SEVIGNE"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "131625",
+    "name": "MARTIGUES JONQUIERES CT",
+    "addr": {
+      "street": "ANCIEN CHEMIN DE SAINT PIERRE",
+      "cp": "13500",
+      "city": "MARTIGUES"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "EST",
+    "labelUGI": "UGI EST",
+    "NOIMMO": "899445",
+    "name": "AUXERRE MONGE",
+    "addr": {
+      "street": "5 TER RUE MONGE",
+      "cp": "89000",
+      "city": "AUXERRE"
+    },
+    "type": "Technique"
+  },
+  {
+    "idUGI": "MED",
+    "labelUGI": "UGI MEDITERRANEE",
+    "NOIMMO": "2B9265",
+    "name": "BASTIA HDP CAA",
+    "addr": {
+      "street": "BOULEVARD DU GENERAL GRAZIANI",
+      "cp": "20200",
+      "city": "BASTIA"
+    },
+    "type": "Mixte"
+  },
+  {
+    "idUGI": "RAA",
+    "labelUGI": "UGI RHONE ALPES AUVERGNE",
+    "NOIMMO": "269283",
+    "name": "MONTELIMAR ESPELUCHE",
+    "addr": {
+      "street": "ROUTE ESPELUCHE LIEUDIT BEMICROIX",
+      "cp": "26200",
+      "city": "MONTELIMAR"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "ATL",
+    "labelUGI": "UGI ATLANTIQUE",
+    "NOIMMO": "239295",
+    "name": "GUERET CHER DU PRAT",
+    "addr": {
+      "street": "118 LE PES DU CROS",
+      "cp": "23000",
+      "city": "GUERET"
+    },
+    "type": "Banalisé"
+  },
+  {
+    "idUGI": "PARIS",
+    "labelUGI": "UGI PARIS OUTRE MER",
+    "NOIMMO": "751541",
+    "name": "IMMEUBLE OLYMPIQUE",
+    "addr": {
+      "street": "9 A 35 AV. PIERRE DE COUBERTIN",
+      "cp": "75013",
+      "city": "PARIS 13E ARRONDISSEMENT"
+    },
+    "type": "Banalisé"
+  }
+]

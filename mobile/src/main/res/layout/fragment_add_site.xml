@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/site_title_Tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designMarginStart"
+                android:layout_marginTop="@dimen/designMarginMedium"
+                android:text="@string/mobile_create_site_name"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/site_name_Tv" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/site_code_ET"
+                style="@style/App_EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designMarginStart"
+                android:layout_marginTop="@dimen/designMarginShort"
+                android:layout_marginEnd="@dimen/designMarginEnd"
+                android:hint="@string/create_site_code"
+                android:inputType="number"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/site_title_Tv" />
+
+
+            <TextView
+                android:id="@+id/site_name_Tv"
+                style="@style/LabelsTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="@dimen/designMarginLong"
+                android:singleLine="false"
+                android:text="@string/fill_form_title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.163"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/site_name_ET"
+                style="@style/App_EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designMarginStart"
+                android:layout_marginEnd="@dimen/designMarginEnd"
+                android:ems="10"
+                android:enabled="true"
+                android:lines="1"
+                android:maxLines="1"
+                android:singleLine="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/site_title_Tv" />
+
+
+            <TextView
+                android:id="@+id/site_address_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designMarginStart"
+                android:layout_marginTop="@dimen/designMarginMedium"
+                android:text="@string/mobile_create_site_address"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fill_name_err_txt" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/site_address_ET"
+                style="@style/App_EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designMarginStart"
+                android:layout_marginEnd="@dimen/designMarginEnd"
+                android:ems="10"
+                android:enabled="true"
+                android:lines="1"
+                android:maxLines="1"
+                android:singleLine="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/site_address_tv" />
+
+
+            <TextView
+                android:id="@+id/site_code_tv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/designMarginMedium"
+                android:singleLine="false"
+                android:text="@string/mobile_create_site_code_hint"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/site_address_ET"
+                app:layout_constraintTop_toBottomOf="@+id/fill_address_err_txt" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/site_postalCode_ET"
+                style="@style/App_EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designMarginStart"
+                android:layout_marginEnd="@dimen/designMarginEnd"
+                android:ems="10"
+                android:enabled="true"
+                android:inputType="number"
+                android:lines="1"
+                android:maxLength="5"
+                android:maxLines="1"
+                android:singleLine="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/site_code_tv" />
+
+            <TextView
+                android:id="@+id/site_city_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designMarginStart"
+                android:layout_marginTop="@dimen/designMarginMedium"
+                android:text="@string/create_site_town"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fill_code_err_txt" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/site_city_ET"
+                style="@style/App_EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designMarginStart"
+                android:layout_marginEnd="@dimen/designMarginEnd"
+                android:ems="10"
+                android:enabled="true"
+                android:lines="1"
+                android:maxLines="1"
+                android:singleLine="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/site_city_tv" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/create_site_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designMarginStart"
+                android:layout_marginTop="@dimen/designMarginLong"
+                android:layout_marginEnd="@dimen/designMarginEnd"
+                android:paddingVertical="@dimen/designPaddingMedium"
+                android:text="@string/create_site_btn"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fill_city_err_txt" />
+
+            <TextView
+                android:id="@+id/fill_name_err_txt"
+                style="@style/SubTitleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/designMarginMedium"
+                android:text="@string/fill_field_error_title"
+                android:textColor="@color/red"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="@+id/site_name_ET"
+                app:layout_constraintTop_toBottomOf="@+id/site_name_ET" />
+
+            <TextView
+                android:id="@+id/fill_address_err_txt"
+                style="@style/SubTitleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/designMarginMedium"
+                android:text="@string/fill_field_error_title"
+                android:textColor="@color/red"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="@+id/site_address_ET"
+                app:layout_constraintTop_toBottomOf="@+id/site_address_ET" />
+
+            <TextView
+                android:id="@+id/fill_code_err_txt"
+                style="@style/SubTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/designMarginMedium"
+                android:minHeight="40dp"
+                android:singleLine="false"
+                android:text="@string/fill_site_code_error_title"
+                android:textColor="@color/red"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="@+id/site_postalCode_ET"
+                app:layout_constraintStart_toStartOf="@+id/site_postalCode_ET"
+                app:layout_constraintTop_toBottomOf="@+id/site_postalCode_ET" />
+
+            <TextView
+                android:id="@+id/fill_city_err_txt"
+                style="@style/SubTitleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/designMarginMedium"
+                android:text="@string/fill_field_error_title"
+                android:textColor="@color/red"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="@+id/site_city_ET"
+                app:layout_constraintTop_toBottomOf="@+id/site_city_ET" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

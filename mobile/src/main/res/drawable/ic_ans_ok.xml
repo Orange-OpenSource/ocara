@@ -1,0 +1,23 @@
+<!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+  <path
+      android:pathData="m18.007,8.862 l-6.612,8.349s-0.756,1.034 -1.822,-0.082c-0.962,-1.006 -3.626,-4.183 -3.626,-4.183s-0.607,-0.77 0.295,-1.623c0.761,-0.72 1.345,-0.427 1.526,-0.247 0.296,0.295 2.199,2.215 2.199,2.215s0.23,0.23 0.574,-0.148l5.808,-5.806s0.707,-0.657 1.494,0.049c0.814,0.729 0.164,1.476 0.164,1.476zM12,2.824a9.14,9.14 0,1 1,-0.031 18.278A9.14,9.14 0,0 1,12 2.824zM12,0C5.373,0 0,5.373 0,12s5.373,12 12,12 12,-5.373 12,-12S18.627,0 12,0z"
+      android:fillColor="#00B400"
+      android:fillType="evenOdd"/>
+</vector>

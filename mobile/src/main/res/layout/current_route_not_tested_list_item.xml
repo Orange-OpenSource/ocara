@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:elevation="10dp"
+    app:cardCornerRadius="10dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="#80979797"
+    android:theme="@style/Theme.MaterialComponents.Light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="75dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            android:id="@+id/objectIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/lock_open_19371_1" />
+
+        <TextView
+            android:id="@+id/objectName"
+            style="@style/LabelsTextView"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:singleLine="false"
+            android:layout_height="wrap_content"
+            android:text="ascensuar"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

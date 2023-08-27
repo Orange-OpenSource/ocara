@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.orange.ocara.mobile.ui.fragment.HomeFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_createAuditFragment"
+            app:destination="@id/createAuditFragment" />
+
+        <action
+            android:id="@+id/action_view_ref"
+            app:destination="@id/view_referentials_fragment" />
+
+        <action
+            android:id="@+id/action_help"
+            app:destination="@id/helpFragment" />
+
+        <action
+            android:id="@+id/action_about"
+            app:destination="@id/aboutFragment" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_listAuditsFragment"
+            app:destination="@id/listAuditsFragment"
+            app:enterAnim="@anim/slide_left_in"
+            app:exitAnim="@anim/slide_left_out"
+            app:popEnterAnim="@anim/slide_right_in"
+            app:popExitAnim="@anim/slide_right_out" />
+        <action
+            android:id="@+id/action_homeFragment_to_termsOfUseContentFragment"
+            app:destination="@id/termsOfUseContentFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_currentRouteFragment"
+            app:destination="@id/currentRouteFragment" />
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/termsOfUseContentFragment"
+        android:name="com.orange.ocara.mobile.ui.fragment.TermsOfUseFragment"
+        android:label="@string/terms_of_use_title"
+        tools:layout="@layout/fragment_terms_of_use">
+        <action
+            android:id="@+id/action_termsOfUse_to_TermsItemFragment"
+            app:destination="@id/termsOfUseItemContentFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/termsOfUseItemContentFragment"
+        android:name="com.orange.ocara.mobile.ui.fragment.TermsOfUseItemContentFragment"
+        android:label="@string/terms_of_use_title"
+        tools:layout="@layout/fragment_terms_of_use_item_content">
+        <argument
+            android:name="itemIdx"
+            android:defaultValue="-1"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/createAuditFragment"
+        android:name="com.orange.ocara.mobile.ui.fragment.CreateAuditFragment"
+        android:label="@string/new_audit_title"
+        tools:layout="@layout/fragment_create_audit">
+
+        <!--        <argument-->
+        <!--            android:name="auditorName"-->
+        <!--            android:defaultValue=""-->
+        <!--            app:argType="string" />-->
+        <argument
+            android:name="siteId"
+            android:defaultValue="-1"
+            app:argType="integer" />
+        <argument
+            android:name="auditorId"
+            android:defaultValue="-1"
+            app:argType="integer" />
+
+        <action
+            android:id="@+id/action_createAuditFragment_to_addEquipmentFragment"
+            app:destination="@id/addEquipmentFragment" />
+        <action
+            android:id="@+id/action_createAuditFragment_to_currentRouteFragment"
+            app:destination="@id/currentRouteFragment"
+            app:popUpTo="@id/createAuditFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_createAuditFragment_to_addAuditorFragment"
+            app:destination="@id/addAuditorFragment" />
+        <action
+            android:id="@+id/action_createAuditFragment_to_addSiteFragment"
+            app:destination="@id/addSiteFragment" />
+
+        <action
+            android:id="@+id/action_view_ref"
+            app:destination="@id/view_referentials_fragment" />
+        <action
+            android:id="@+id/action_createAuditFragment_to_view_referentials_fragment"
+            app:destination="@id/view_referentials_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/currentRouteFragment"
+        android:name="com.orange.ocara.mobile.ui.fragment.CurrentRouteFragment"
+        android:label="CurrentRouteFragment"
+        tools:layout="@layout/fragment_path_choices">
+        <action
+            android:id="@+id/action_currentRouteFragment_to_addEquipmentFragment"
+            app:destination="@id/addEquipmentFragment" />
+        <argument
+            android:name="auditId"
+            android:defaultValue="0"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_currentRouteFragment_to_equipmentDetailsFragment"
+            app:destination="@id/auditEquipmentDetailsNavigation" />
+        <action
+            android:id="@+id/action_currentRouteFragment_self"
+            app:destination="@id/currentRouteFragment"
+            app:popUpTo="@id/currentRouteFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_currentRouteFragment_to_reportFragment"
+            app:destination="@id/reportFragment" />
+        <action
+            android:id="@+id/action_currentRouteFragment_to_termsOfUseContentFragment"
+            app:destination="@id/termsOfUseContentFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addEquipmentFragment"
+        android:name="com.orange.ocara.mobile.ui.fragment.AddEquipmentFragment"
+        android:label="AddEquipmentFragment"
+        tools:layout="@layout/fragment_add_equipment">
+        <action
+            android:id="@+id/action_addEquipmentFragment_to_equipmentDetailsFragment"
+            app:destination="@id/auditEquipmentDetailsNavigation"
+            app:popUpTo="@id/addEquipmentFragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="auditId"
+            android:defaultValue="0"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_addEquipmentFragment_to_termsOfUseContentFragment"
+            app:destination="@id/termsOfUseContentFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/view_referentials_fragment"
+        android:name="com.orange.ocara.mobile.ui.fragment.ViewReferentialFragment"
+        android:label="@string/view_referentials_fragment_title"
+        tools:layout="@layout/fragment_view_refrential">
+        <action
+            android:id="@+id/action_equip_questions_Fragment"
+            app:destination="@id/equip_questions_fragment"
+            app:popUpTo="@id/view_referentials_fragment" />
+        <action
+            android:id="@+id/action_view_refFragment_to_explanationsFragment"
+            app:destination="@id/explanationsFragment" />
+        <argument
+            android:name="default_ruleset"
+            android:defaultValue="-1"
+            app:argType="integer" />
+
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/questionsFragment"
+        android:name="com.orange.ocara.mobile.ui.fragment.QuestionsFragment"
+        android:label="QuestionsFragment"
+        tools:layout="@layout/fragment_questions">
+        <argument
+            android:name="auditEquipmentId"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_questionsFragment_to_currentRouteFragment"
+            app:destination="@id/currentRouteFragment"
+            app:popUpTo="@id/currentRouteFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_questionsFragment_to_explanationsFragment"
+            app:destination="@id/explanationsFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/equip_questions_fragment"
+        android:name="com.orange.ocara.mobile.ui.fragment.RulesetEquipmentsQuestionsFragment"
+        android:label="@string/referentials_info"
+        tools:layout="@layout/fragment_referential_equipments_questions">
+        <action
+            android:id="@+id/action_equipment_questionsFragment_to_explanationsFragment"
+            app:destination="@id/explanationsFragment" />
+
+        <argument
+            android:name="equipmentRef"
+            app:argType="string" />
+        <argument
+            android:name="equipmentIcon"
+            app:argType="string" />
+        <argument
+            android:name="equipmentType"
+            app:argType="string" />
+        <argument
+            android:name="rulesetRef"
+            app:argType="string" />
+        <argument
+            android:name="rulesetName"
+            app:argType="string" />
+        <argument
+            android:name="rulesetVer"
+            app:argType="string" />
+    </fragment>
+
+    <navigation
+        android:id="@+id/auditEquipmentDetailsNavigation"
+        app:startDestination="@id/equipmentDetailsFragment">
+        <fragment
+            android:id="@+id/equipmentDetailsFragment"
+            android:name="com.orange.ocara.mobile.ui.fragment.AuditEquipmentDetailsFragment"
+            android:label="@string/object_tile"
+            tools:layout="@layout/fragment_equipment_details">
+            <argument
+                android:name="auditEquipmentId"
+                app:argType="integer" />
+            <action
+                android:id="@+id/action_equipmentDetailsFragment_to_questionsFragment"
+                app:destination="@id/questionsFragment" />
+            <action
+                android:id="@+id/action_equipmentDetailsFragment_to_auditEquipmentWithCharacteristicsFragment"
+                app:destination="@id/auditEquipmentWithCharacteristicsFragment"
+                app:popUpTo="@id/equipmentDetailsFragment"
+                app:popUpToInclusive="true" />
+        </fragment>
+        <fragment
+            android:id="@+id/auditEquipmentWithCharacteristicsFragment"
+            android:name="com.orange.ocara.mobile.ui.fragment.AuditEquipmentWithCharacteristicsFragment"
+            android:label="@string/object_tile"
+            tools:layout="@layout/fragment_equipment_details">
+            <argument
+                android:name="auditEquipmentId"
+                app:argType="integer" />
+            <action
+                android:id="@+id/action_auditEquipmentWithCharacteristicsFragment_to_questionsFragment"
+                app:destination="@id/questionsFragment" />
+        </fragment>
+        <argument
+            android:name="auditEquipmentId"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_auditEquipmentDetails_listCommentsFragment"
+            app:destination="@id/listCommentsFragment" />
+    </navigation>
+    <!--    <navigation-->
+    <!--        android:id="@+id/audioCommentNavigation"-->
+    <!--        app:startDestination="@id/recordCommentFragment">-->
+    <fragment
+        android:id="@+id/recordCommentFragment"
+        android:name="com.orange.ocara.mobile.ui.fragment.RecordCommentFragment"
+        tools:layout="@layout/fragment_record_comment">
+        <argument
+            android:name="commentId"
+            android:defaultValue="-1"
+            app:argType="integer" />
+        <argument
+            android:name="equipmentId"
+            android:defaultValue="-1"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_recordCommentFragment_to_audioCommentFragment"
+            app:destination="@id/audioCommentFragment"
+            app:popUpTo="@id/listCommentsFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/audioCommentFragment"
+        android:name="com.orange.ocara.mobile.ui.fragment.AudioCommentFragment"
+        tools:layout="@layout/fragment_audio_comment">
+        <argument
+            android:name="commentId"
+            android:defaultValue="-1"
+            app:argType="integer" />
+        <argument
+            android:name="equipmentId"
+            android:defaultValue="-1"
+            app:argType="integer" />
+
+        <argument
+            android:name="recordPath"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_audioCommentFragment_to_recordCommentFragment"
+            app:destination="@id/recordCommentFragment"
+            app:popUpTo="@id/audioCommentFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <argument
+        android:name="commentId"
+        android:defaultValue="-1"
+        app:argType="integer" />
+    <argument
+        android:name="equipmentId"
+        android:defaultValue="-1"
+        app:argType="integer" />
+    <!--    </navigation>-->
+    <fragment
+        android:id="@+id/listCommentsFragment"
+        android:name="com.orange.ocara.mobile.ui.fragment.ListCommentsFragment"
+        android:label="ListCommentsFragment"
+        tools:layout="@layout/fragment_list_comments">
+        <argument
+            android:name="auditEquipmentId"
+            android:defaultValue="1"
+            app:argType="integer" />
+
+        <action
+            android:id="@+id/action_listCommentsFragment_to_recordCommentNav"
+            app:destination="@id/recordCommentFragment">
+
+            <argument
+                android:name="equipmentId"
+                android:defaultValue="-1"
+                app:argType="integer" />
+        </action>
+        <action
+            android:id="@+id/action_listCommentsFragment_to_audioCommentNav"
+            app:destination="@id/audioCommentFragment">
+            <argument
+                android:name="commentId"
+                android:defaultValue="-1"
+                app:argType="integer" />
+        </action>
+        <action
+            android:id="@+id/action_listCommentsFragment_to_photoCommentFragment"
+            app:destination="@id/photoCommentFragment" />
+        <action
+            android:id="@+id/action_listCommentsFragment_to_textCommentFragment"
+            app:destination="@id/textCommentFragment" />
+        <action
+            android:id="@+id/action_listCommentsFragment_self"
+            app:destination="@id/listCommentsFragment"
+            app:popUpTo="@id/listCommentsFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/photoCommentFragment"
+        android:name="com.orange.ocara.mobile.ui.fragment.PhotoCommentFragment"
+        android:label="@string/photo_comment"
+        tools:layout="@layout/fragment_photo_comment">
+        <argument
+            android:name="commentId"
+            app:argType="integer" />
+        <argument
+            android:name="commentType"
+            android:defaultValue="PHOTO"
+            app:argType="com.orange.ocara.utils.enums.CommentType" />
+        <argument
+            android:name="fromCreate"
+            android:defaultValue="false"
+            app:argType="boolean" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/textCommentFragment"
+        android:name="com.orange.ocara.mobile.ui.fragment.TextCommentFragment"
+        android:label="@string/text_comment"
+        tools:layout="@layout/fragment_text_comment">
+        <argument
+            android:name="commentId"
+            app:argType="integer" />
+        <argument
+            android:name="equipmentId"
+            android:defaultValue="-1"
+            app:argType="integer" />
+        <argument
+            android:name="isNewComment"
+            android:defaultValue="false"
+            app:argType="boolean" />
+    </fragment>
+    <fragment
+        android:id="@+id/listAuditsFragment"
+        android:name="com.orange.ocara.mobile.ui.fragment.ListAuditsFragment"
+        android:label="ListAuditsFragment"
+        tools:layout="@layout/fragment_list_audits">
+        <action
+            android:id="@+id/action_listAuditsFragment_to_currentRouteFragment"
+            app:destination="@id/currentRouteFragment" />
+        <action
+            android:id="@+id/action_listAuditsFragment_to_reportFragment"
+            app:destination="@id/reportFragment" />
+        <action
+            android:id="@+id/action_listAuditsFragment_to_createAuditFragment"
+            app:destination="@id/createAuditFragment" />
+        <action
+            android:id="@+id/action_listAuditsFragment_to_editAuditFragment"
+            app:destination="@id/editAuditFragment" />
+
+        <action
+            android:id="@+id/action_listAuditsFragment_to_genericDeleteNavGraphConfirmationDialog"
+            app:destination="@id/genericDeleteNavGraphConfirmationDialog" />
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/reportFragment"
+        android:name="com.orange.ocara.mobile.ui.fragment.ReportFragment"
+        android:label="@string/report_fragment_title"
+        tools:layout="@layout/fragment_report">
+        <argument
+            android:name="audit_id"
+            android:defaultValue="-1" />
+        <action
+            android:id="@+id/action_reportFragment_to_reportEquipmentsFragment"
+            app:destination="@id/reportEquipmentsFragment" />
+        <action
+            android:id="@+id/action_reportFragment_to_reportChartFragment"
+            app:destination="@id/reportChartFragment" />
+        <action
+            android:id="@+id/action_reportFragment_to_reportSummaryFragment"
+            app:destination="@id/reportProfilesScores" />
+        <action
+            android:id="@+id/action_reportFragment_to_reportScores"
+            app:destination="@id/reportProfilesScores" />
+
+        <action
+            android:id="@+id/action_reportFragment_to_listAudits"
+            app:destination="@id/listAuditsFragment"
+            app:popUpTo="@id/listAuditsFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_reportFragment_to_reportViewRouteFragment"
+            app:destination="@id/reportViewRouteFragment" />
+
+        <action
+            android:id="@+id/action_reportFragment_to_sign_fragment"
+            app:destination="@id/signReportFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/reportEquipmentsFragment"
+        android:name="com.orange.ocara.mobile.ui.fragment.ReportEquipmentsFragment"
+        android:label="@string/report_eq_title"
+        tools:layout="@layout/fragment_report_equipments">
+        <argument
+            android:name="auditEquipmentId"
+            app:argType="integer" />
+        <argument
+            android:name="isEditable"
+            app:argType="boolean" />
+
+        <!--        android:defaultValue="false"-->
+        <action
+            android:id="@+id/action_reportEquipmentsFragment_to_audioCommentNav"
+            app:destination="@id/audioCommentFragment" />
+        <action
+            android:id="@+id/action_reportEquipmentsFragment_to_photoCommentFragment"
+            app:destination="@id/photoCommentFragment" />
+        <action
+            android:id="@+id/action_reportEquipmentsFragment_to_textCommentFragment"
+            app:destination="@id/textCommentFragment" />
+        <action
+            android:id="@+id/action_reportEquipmentsFragment_to_questionsFragment"
+            app:destination="@id/questionsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/explanationsFragment"
+        android:name="com.orange.ocara.mobile.ui.fragment.IllustrationsFragment"
+        android:label="@string/illustrations_title"
+        tools:layout="@layout/fragment_illustrations">
+        <argument
+            android:name="ruleRef"
+            app:argType="string" />
+        <argument
+            android:name="ruleSetRef"
+            app:argType="string" />
+        <argument
+            android:name="ruleSetVer"
+            app:argType="integer" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="com.orange.ocara.mobile.ui.fragment.HelpFragment"
+        android:label="@string/navigation_item_show_help"
+        tools:layout="@layout/fragment_layout_help_display">
+
+        <argument
+            android:name="subject"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true" />
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.orange.ocara.mobile.ui.fragment.AboutFragment"
+        android:label="@string/about"
+        tools:layout="@layout/fragment_about">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/preferencesFragment"
+        android:name="com.orange.ocara.mobile.ui.fragment.PreferencesFragment"
+        android:label="@string/preferences"
+        tools:layout="@layout/fragment_perefrences" />
+    <fragment
+        android:id="@+id/addAuditorFragment"
+        android:name="com.orange.ocara.mobile.ui.fragment.AddAuditorFragment"
+        android:label="@string/create_auditor_title"
+        tools:layout="@layout/fragment_add_auditor">
+        <action
+            android:id="@+id/action_addAuditorFragment_to_createAuditFragment"
+            app:destination="@id/createAuditFragment"
+            app:popUpTo="@id/createAuditFragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="auditId"
+            android:defaultValue="-1"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_addAuditorFragment_to_editAuditFragment"
+            app:destination="@id/editAuditFragment"
+            app:popUpTo="@id/editAuditFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/addSiteFragment"
+        android:name="com.orange.ocara.mobile.ui.fragment.AddSiteFragment"
+        android:label="@string/create_site_page_title"
+        tools:layout="@layout/fragment_add_site">
+        <action
+            android:id="@+id/action_addSiteFragment_to_createAuditFragment"
+            app:destination="@id/createAuditFragment"
+            app:popUpTo="@id/createAuditFragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="auditId"
+            android:defaultValue="-1"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_addSiteFragment_to_editAuditFragment"
+            app:destination="@id/editAuditFragment"
+            app:popUpTo="@id/editAuditFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/editAuditFragment"
+        android:name="com.orange.ocara.mobile.ui.fragment.EditAuditFragment"
+        android:label="@string/edit_audit_title"
+        tools:layout="@layout/fragment_create_audit">
+        <action
+            android:id="@+id/action_editAuditFragment_to_addSiteFragment"
+            app:destination="@id/addSiteFragment" />
+        <action
+            android:id="@+id/action_editAuditFragment_to_addAuditorFragment"
+            app:destination="@id/addAuditorFragment" />
+
+        <action
+            android:id="@+id/action_view_ref"
+            app:destination="@id/view_referentials_fragment" />
+        <argument
+            android:name="auditId"
+            app:argType="integer" />
+        <argument
+            android:name="siteId"
+            android:defaultValue="-1"
+            app:argType="integer" />
+        <argument
+            android:name="auditorId"
+            android:defaultValue="-1"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_editAuditFragment_to_currentRouteFragment"
+            app:destination="@id/currentRouteFragment"
+            app:popUpTo="@id/editAuditFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_editAuditFragment_to_view_referentials_fragment"
+            app:destination="@id/view_referentials_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/reportChartFragmentOld"
+        android:name="com.orange.ocara.mobile.ui.fragment.ReportChartContainerFragment"
+        android:label="@string/report_results"
+        tools:layout="@layout/fragment_report_result">
+
+        <argument
+            android:name="auditId"
+            android:defaultValue="-1"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_chart_fragment_to_reportEquipmentsFragment"
+            app:destination="@id/reportEquipmentsFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/reportChartFragment"
+        android:name="com.orange.ocara.mobile.ui.fragment.ReportChartFragment"
+        android:label="@string/report_results"
+        tools:layout="@layout/fragment_report_result">
+
+        <argument
+            android:name="auditId"
+            android:defaultValue="-1"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/reportProfilesScores"
+        android:name="com.orange.ocara.mobile.ui.fragment.ReportProfilesScoresContainerFragment"
+        android:label="@string/report_summary"
+        tools:layout="@layout/fragment_report_summary_results">
+        <argument
+            android:name="audit_id"
+            android:defaultValue="-1"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_summary_fragment_to_reportEquipmentsFragment"
+            app:destination="@id/reportEquipmentsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/reportViewRouteFragment"
+        android:name="com.orange.ocara.mobile.ui.fragment.ReportViewRouteFragment"
+        android:label="@string/report_view_route_title"
+        tools:layout="@layout/fragment_report_view_route">
+        <argument
+            android:name="auditId"
+            app:argType="integer" />
+        <argument
+            android:name="isEditable"
+            app:argType="boolean" />
+        <action
+            android:id="@+id/action_reportViewRouteFragment_to_reportEquipmentsFragment"
+            app:destination="@id/reportEquipmentsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/signReportFragment"
+        android:name="com.orange.ocara.mobile.ui.fragment.SignReportFragment"
+        android:label="@string/sign_screen_title"
+        tools:layout="@layout/fragment_sign">
+        <argument
+            android:name="audit_id"
+            android:defaultValue="-1"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_signReportFragment_to_all_audits"
+            app:destination="@id/listAuditsFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/listAuditsFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+
+    <dialog
+        android:id="@+id/genericDeleteNavGraphConfirmationDialog"
+        android:name="com.orange.ocara.mobile.ui.dialogs.GenericDeleteNavGraphConfirmationDialog"
+        android:label="GenericDeleteNavGraphConfirmationDialog"
+        tools:layout="@layout/dialog_generic_delete_confirmation">
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument
+            android:name="msg"
+            app:argType="string" />
+
+    </dialog>
+</navigation>

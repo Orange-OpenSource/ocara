@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/profiles_title"
+                style="@style/LabelsTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designMarginLong"
+                android:gravity="start"
+                android:text="@string/results_representation"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/designPaddingMedium"
+                android:layout_marginTop="@dimen/designMarginShort"
+                android:layout_marginEnd="@dimen/designPaddingMedium"
+                android:layout_marginBottom="@dimen/designMarginLong"
+                android:background="@drawable/alldisabilties_bg"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/profiles_title">
+
+                <LinearLayout
+                    android:id="@+id/chart_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingHorizontal="@dimen/designMarginMedium"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/designPaddingMedium"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <com.orange.ocara.mobile.ui.view.piechart.PieGraph
+                        android:id="@+id/pie_chart"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="@dimen/designMarginMedium"
+                        android:layout_marginTop="@dimen/designMarginMedium"
+                        android:layout_marginEnd="@dimen/designMarginShort"
+                        android:layout_marginBottom="@dimen/designMarginShort"
+                        app:pieInnerCircleRatio="100"
+                        app:pieSlicePadding="0.5dp" />
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:id="@+id/linearLayout"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/designMarginMedium"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/chart_ok_txt"
+                            style="@style/NormalTextView_14"
+                            android:layout_marginStart="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Control OK (3)" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center|start"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="start"
+                                android:background="@color/piechart_green" />
+
+                            <TextView
+                                android:id="@+id/chart_ok_percentage"
+                                style="@style/NormalTextView_14"
+                                android:textStyle="bold"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:gravity="start"
+                                android:text="20%" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/chart_doubt_txt"
+                            style="@style/NormalTextView_14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:gravity="start"
+                            android:text="@string/control_doubt" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center|start"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="start"
+                                android:background="@color/piechart_yellow" />
+
+                            <TextView
+                                android:id="@+id/chart_doubt_percentage"
+                                style="@style/NormalTextView_14"
+                                android:textStyle="bold"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:gravity="start"
+                                android:text="20%" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/chart_no_txt"
+                            style="@style/NormalTextView_14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:gravity="start"
+                            android:text="@string/control_no" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center|start"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="start"
+                                android:background="@color/piechart_red" />
+
+                            <TextView
+                                android:id="@+id/chart_no_percentage"
+                                style="@style/NormalTextView_14"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:textStyle="bold"
+                                android:gravity="start"
+                                android:text="20%" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/disabilities_RV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/designMarginLong"
+                    android:layout_marginTop="@dimen/designMarginShort"
+                    android:layout_marginEnd="@dimen/designMarginLong"
+                    android:layout_marginBottom="@dimen/designMarginMedium"
+                    android:isScrollContainer="false"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/chart_layout"
+                    tools:listitem="@layout/disabilties_list_item" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

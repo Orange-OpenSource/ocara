@@ -1,4 +1,4 @@
-# OCARA [![Build Status](https://travis-ci.org/Orange-OpenSource/ocara.svg?branch=master)](https://travis-ci.org/Orange-OpenSource/ocara)
+# OCARA [![Build Status](https://travis-ci.org/Orange-OpenSource/ocara.svg?branch=internationalisation)](https://travis-ci.org/Orange-OpenSource/ocara)
 
 OCARA, available for 10 inch Android tablet, is primarily an application for performing a self-diagnosis of buildings accessibility. You can use expert, but you do not need to be an expert!
 Typically, you describe and audit the path from a given starting point to a destination in the building (for instance from the entrance to a specific meeting room).
@@ -37,7 +37,7 @@ Accessibility is a common concern. It is by pooling and sharing our accessibilit
 
 ## Build the application
 
-A prebuilt apk is provided for your convenience (click on "Raw" to save file) [here](https://github.com/Orange-OpenSource/ocara/blob/master/demo/ocara-opensource-debug.apk)
+A prebuilt apk is provided for your convenience (click on "Raw" to save file) [here](https://github.com/Orange-OpenSource/ocara/blob/internationalisation/demo/ocara-opensource-debug.apk)
 
 To build the application, you need to have a proper installation of the [Android SDK](https://developer.android.com/sdk/index.html).
 Then the application can be built with Android Studio, or directly on the command line through:
@@ -50,9 +50,9 @@ When launching the application, you arrive on the page *Create audit*
 
 ## Documentation
 
-How to use Ocara is describe [here](https://github.com/Orange-OpenSource/ocara/blob/master/documentation/Guide_de_formation_V18.1.0.pdf)
+How to use Ocara is describe [here](https://github.com/Orange-OpenSource/ocara/blob/internationalisation/documentation/Guide de formation V16.2.pdf)
 
-The description of the json ruleset is [here](https://github.com/Orange-OpenSource/ocara/blob/master/documentation/Fichier%20JSON%20des%20règles.md)
+The description of the json ruleset is [here](https://github.com/Orange-OpenSource/ocara/blob/internationalisation/documentation/Fichier JSON des règles.md)
 
 
 ## License

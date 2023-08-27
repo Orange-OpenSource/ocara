@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/txt_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/info"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:padding="11dp"
+                android:contentDescription="@string/content_desc_rule_info"
+                android:src="@drawable/ic_info_black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:paddingEnd="10dp"
+                android:maxEms="20"
+                android:text="txt"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/icon"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:foregroundGravity="top"
+                app:layout_constraintBottom_toBottomOf="@+id/text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_drop_down_arrow" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:id="@+id/btns_contatiner"
+            android:layout_width="0dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/transparent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingHorizontal="8dp"
+            android:weightSum="4.2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_layout">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/yes_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:backgroundTint="@color/white"
+                android:layout_weight="1"
+                android:minHeight="@dimen/answersBtnHeight"
+                android:text="@string/answer_yes"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:cornerRadius="5dp"
+                app:strokeColor="@color/ansYesColor"
+                app:strokeWidth="2dp" />
+
+
+            <!--            <com.google.android.material.button.MaterialButton-->
+            <!--                android:id="@+id/doubt_btn"-->
+            <!--                android:layout_width="75dp"-->
+            <!--                android:layout_height="@dimen/answersBtnHeight"-->
+            <!--                android:layout_marginEnd="16dp"-->
+            <!--                android:backgroundTint="@drawable/ans_doubt_btn_selector2"-->
+            <!--                android:focusable="false"-->
+            <!--                android:focusableInTouchMode="false"-->
+            <!--                android:text="doubt"-->
+            <!--                android:textColor="@drawable/ans_btn_txt_selector"-->
+            <!--                android:textSize="14sp"-->
+            <!--                app:cornerRadius="5dp"-->
+            <!--                app:strokeColor="@color/ansDoubtColor"-->
+            <!--                app:strokeWidth="2dp"/>-->
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/doubt_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:backgroundTint="@color/white"
+                android:layout_weight="1.2"
+                android:minHeight="@dimen/answersBtnHeight"
+                android:singleLine="false"
+                android:text="@string/answer_doubt"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:cornerRadius="5dp"
+                app:strokeColor="@color/ansDoubtColor"
+                app:strokeWidth="2dp" />
+            <!--            answer_doubt-->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/no_btn"
+                android:layout_width="0dp"
+                android:backgroundTint="@color/white"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:minHeight="@dimen/answersBtnHeight"
+                android:text="@string/answer_no"
+
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:cornerRadius="5dp"
+                app:strokeColor="@color/ansNoColor"
+                app:strokeWidth="2dp" />
+            <!--            android:textColor="@drawable/ans_btn_txt_selector"-->
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/n_a_btn"
+                android:layout_width="0dp"
+                android:backgroundTint="@color/white"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minHeight="@dimen/answersBtnHeight"
+                android:text="@string/answer_na"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:cornerRadius="5dp"
+                app:strokeColor="@color/ansNAColor"
+                app:strokeWidth="2dp" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

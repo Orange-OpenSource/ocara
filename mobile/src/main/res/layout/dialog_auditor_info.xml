@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.orange.ocara.mobile.ui.viewmodel.AuditInfoParentViewModel" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="450dp">
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/LabelsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dialogTitleTopMargin"
+            android:text="@string/auditor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="@dimen/close_dialog_margin"
+            android:contentDescription="@string/close_content_desc"
+            android:padding="11dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_close_black_24" />
+
+
+        <TextView
+            android:id="@+id/auditor_name_Tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/designMarginStart"
+            android:layout_marginTop="@dimen/designMarginMedium"
+            android:text="@string/create_auditor_name"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintHorizontal_bias="0.163"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/firstNameInfoET"
+            style="@style/App_EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/designMarginStart"
+            android:layout_marginEnd="@dimen/designMarginEnd"
+            android:layout_marginBottom="@dimen/defaultMarginBottom"
+            android:clickable="false"
+            android:enabled="false"
+            android:inputType="textWebEditText"
+            android:lines="1"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="@{viewModel.currentAuditor.firstName}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/title"
+            app:layout_constraintTop_toBottomOf="@+id/auditor_name_Tv" />
+
+
+        <TextView
+            android:id="@+id/fill_name_err_txt"
+            style="@style/SubTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/designMarginStart"
+            android:layout_marginTop="@dimen/designMarginMedium"
+            android:singleLine="false"
+            android:text="@string/fill_field_error_title"
+            android:textColor="@color/red"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/firstNameInfoET" />
+
+        <TextView
+            android:id="@+id/auditor_last_name_Tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/designMarginStart"
+            android:layout_marginTop="@dimen/designMarginMedium"
+            android:text="@string/create_auditor_lastname"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fill_name_err_txt" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/lastNameInfoTV"
+            style="@style/App_EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/designMarginStart"
+            android:layout_marginEnd="@dimen/designMarginEnd"
+            android:layout_marginBottom="@dimen/defaultMarginBottom"
+            android:clickable="false"
+            android:enabled="false"
+            android:inputType="textWebEditText"
+            android:lines="1"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="@{viewModel.currentAuditor.lastName}"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/auditor_last_name_Tv" />
+
+        <TextView
+            android:id="@+id/fill_last_name_err_txt"
+            style="@style/SubTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/designMarginStart"
+            android:layout_marginTop="@dimen/designMarginMedium"
+            android:singleLine="false"
+            android:text="@string/fill_field_error_title"
+            android:textColor="@color/red"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lastNameInfoTV" />
+
+        <TextView
+            android:id="@+id/auditor_mail_Tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/designMarginStart"
+            android:layout_marginTop="@dimen/designMarginMedium"
+            android:text="@string/create_auditor_email"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fill_last_name_err_txt" />
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/emailInfoET"
+            style="@style/App_EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/designMarginStart"
+            android:layout_marginEnd="@dimen/designMarginEnd"
+            android:layout_marginBottom="@dimen/defaultMarginBottom"
+            android:clickable="false"
+            android:enabled="false"
+            android:inputType="textWebEmailAddress"
+            android:lines="1"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="@{viewModel.currentAuditor.email}"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/auditor_mail_Tv" />
+
+        <TextView
+            android:id="@+id/auditor_mail_hint"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/designMarginStart"
+            android:layout_marginTop="@dimen/designMarginShort"
+            android:singleLine="false"
+            android:text="@string/fill_mail_hint"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/emailInfoET"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/emailInfoET" />
+
+        <TextView
+            android:id="@+id/fill_mail_err_txt"
+            style="@style/SubTitleTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/designMarginMedium"
+            android:singleLine="false"
+            android:text="@string/fill_mail_error_title"
+            android:textColor="@color/red"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@+id/auditor_mail_hint"
+            app:layout_constraintStart_toStartOf="@+id/auditor_mail_hint"
+            app:layout_constraintTop_toBottomOf="@+id/auditor_mail_hint" />
+
+        <CheckBox
+            android:id="@+id/sendEmailCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/orange"
+            android:checked="@{viewModel.currentAuditor.subscribe}"
+            android:clickable="false"
+            android:text="@string/inform_me"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="@+id/fill_mail_err_txt"
+            app:layout_constraintTop_toBottomOf="@+id/fill_mail_err_txt" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/add_site_margin_top"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:gravity="center"
+            android:layout_marginHorizontal="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sendEmailCheck">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/deleteButton"
+                style="@style/DefaultButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:drawableTop="@drawable/ic_trash"
+                android:gravity="center"
+                android:maxWidth="120dp"
+                android:layout_weight="1"
+                android:minHeight="70dp"
+                android:layout_marginEnd="10dp"
+                android:layout_gravity="start|center_vertical"
+                android:text="@string/delete"
+                android:textAllCaps="true"
+                app:backgroundTint="@color/white"
+                app:icon="@drawable/ic_trash"
+                app:iconTint="@color/black"
+                android:contentDescription="@string/content_desc_delete_auditor"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sendEmailCheck"
+                app:strokeColor="@color/black" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/modifyButton"
+                style="@style/DefaultButtonStyle"
+                android:minHeight="70dp"
+                android:layout_width="wrap_content"
+                android:contentDescription="@string/content_desc_edit_auditor"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:layout_weight="1"
+                android:maxWidth="160dp"
+                android:text="@string/modify_auditor"
+                app:icon="@drawable/pencil_1"
+                app:iconGravity="textStart"
+                app:iconTint="@android:color/black"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/cancel"
+            style="@style/DefaultButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/add_site_margin_top"
+            android:backgroundTint="@color/white"
+            android:minWidth="@dimen/delete_dialog_buttons_width"
+            android:text="@string/cancel"
+            android:textColor="@color/black"
+            android:visibility="gone"
+            app:cornerRadius="5dp"
+            app:icon="@drawable/icon_navigation_close_24_px"
+            app:iconGravity="textStart"
+            app:iconTint="@color/black"
+            app:layout_constraintEnd_toStartOf="@+id/confirm"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sendEmailCheck" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/confirm"
+            style="@style/DefaultButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/grey"
+            android:clickable="false"
+            android:minWidth="@dimen/delete_dialog_buttons_width"
+            android:text="@string/valider"
+            android:textColor="@color/black"
+            android:visibility="gone"
+            app:cornerRadius="5dp"
+            app:icon="@drawable/ic_round_check_black_24"
+            app:iconGravity="textStart"
+            app:iconTint="@android:color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/cancel"
+            app:layout_constraintTop_toBottomOf="@+id/sendEmailCheck"
+            app:layout_constraintTop_toTopOf="@+id/cancel" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

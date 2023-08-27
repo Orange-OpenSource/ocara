@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="5dp"
+    app:strokeColor="@color/grey"
+    app:strokeWidth="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/container_const"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="@dimen/designPaddingShort">
+
+        <TextView
+            android:id="@+id/equipmentNumberTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/equipmentName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center"
+            android:singleLine="false"
+            android:text="equipment"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/edit_layout"
+            app:layout_constraintStart_toEndOf="@+id/ansIcon"
+            app:layout_constraintTop_toBottomOf="@+id/equipmentIcon" />
+
+        <ImageView
+            android:id="@+id/ansIcon"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="@dimen/designMarginMedium"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/equipmentNumberTv"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/modifier_done_19371_1_green" />
+
+        <ImageView
+            android:id="@+id/equipmentIcon"
+            android:layout_width="@dimen/viewRouteEquipmentIconSize"
+            android:layout_height="@dimen/viewRouteEquipmentIconSize"
+            app:layout_constraintEnd_toEndOf="@+id/equipmentName"
+            app:layout_constraintStart_toStartOf="@+id/equipmentName"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/doubt_answer" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/edit_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/upArrow"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:padding="11dp"
+                android:visibility="gone"
+                android:contentDescription="@string/obj_up_arrow_content_desc"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_baseline_keyboard_arrow_up_24" />
+
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:id="@+id/delete_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/downArrow"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:importantForAccessibility="no"
+                android:layout_marginTop="3dp"
+                android:padding="11dp"
+                android:visibility="gone"
+                android:contentDescription="@string/obj_down_arrow_content_desc"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/upArrow"
+                app:srcCompat="@drawable/ic_baseline_keyboard_arrow_down_24" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

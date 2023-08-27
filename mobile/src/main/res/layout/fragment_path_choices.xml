@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/noObjFoundView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:layout_marginTop="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/objectsLabel"
+            app:layout_constraintVertical_bias="1.0">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_alert_error_outline_24_px_3" />
+
+            <TextView
+                style="@style/LabelsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="@string/no_obj_found" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/objectsLabel"
+            style="@style/LabelsTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="25dp"
+            android:singleLine="false"
+            android:text="@string/objects"
+            android:importantForAccessibility="yes"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="15dp"
+            android:clipToPadding="false"
+            android:paddingBottom="60dp"
+            app:layout_constraintBottom_toTopOf="@+id/report"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/objectsLabel"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingAddButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTintMode="@color/black"
+            app:borderWidth="1dp"
+            app:backgroundTint="@color/black"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/orange"
+            android:clickable="true"
+            android:layout_marginBottom="42dp"
+            android:contentDescription="@string/content_desc_add_obj_to_route"
+            android:focusable="true"
+            app:layout_constraintBottom_toTopOf="@+id/report"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/ic_baseline_add_24" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/report"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:minHeight="56dp"
+            android:layout_marginTop="28dp"
+            app:iconSize="30dp"
+            app:iconTint="@null"
+            app:iconGravity="textStart"
+            app:icon="@drawable/view_report_png"
+            android:visibility="visible"
+            android:layout_marginBottom="26dp"
+            android:text="@string/action_report"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:cornerRadius="5dp"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/recycler_view"
+            app:layout_constraintStart_toStartOf="@+id/recycler_view" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

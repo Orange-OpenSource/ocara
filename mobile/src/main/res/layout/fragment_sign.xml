@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <com.orange.ocara.mobile.ui.customviews.CustomScrollableScrollView
+        android:id="@+id/scroll_cont"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_title_1"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/designMarginLong"
+                android:text="@string/sign_title_2"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+            <ImageView
+                android:id="@+id/close"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:contentDescription="@string/close_content_desc"
+                android:padding="11dp"
+                android:src="@drawable/ic_baseline_close_black_24"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/content_card"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintBottom_toTopOf="@+id/fill_img_err_txt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/label"
+                app:strokeColor="@color/grey"
+                app:strokeWidth="1dp">
+
+                <com.orange.ocara.mobile.ui.customviews.PaintView
+                    android:id="@+id/paintView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/grey_lighter"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/label" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:id="@+id/fill_img_err_txt"
+                style="@style/SubTitleTextView"
+                android:layout_width="0dp"
+                android:visibility="invisible"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginBottom="@dimen/designMarginShort"
+                android:singleLine="false"
+                android:text="@string/fill_field_error_title"
+                android:textColor="@color/red"
+                app:layout_constraintBottom_toTopOf="@+id/undo_btn"
+                app:layout_constraintStart_toStartOf="parent"  />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/undo_btn"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginBottom="80dp"
+                android:backgroundTint="@color/white"
+                android:text="@string/sign_clear"
+                app:icon="@drawable/reload_19371_1"
+                app:iconGravity="textStart"
+                app:iconTint="@android:color/black"
+                app:layout_constraintBottom_toTopOf="@+id/cancel_btn"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/cancel_btn"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginBottom="@dimen/designMarginMedium"
+                android:backgroundTint="@color/white"
+                android:text="@string/cancel"
+                app:icon="@drawable/ic_baseline_close_black_24"
+                app:iconGravity="textStart"
+                app:iconTint="@android:color/black"
+                app:layout_constraintBottom_toTopOf="@+id/save"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_marginHorizontal="10dp"
+                android:text="@string/valider"
+                app:icon="@drawable/ic_round_check_black_24"
+                app:iconGravity="textStart"
+                app:iconTint="@android:color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.orange.ocara.mobile.ui.customviews.CustomScrollableScrollView>
+</layout>

@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~
+  ~ Software Name: OCARA
+  ~
+  ~ SPDX-FileCopyrightText: Copyright (c) 2015-2023 Orange
+  ~ SPDX-License-Identifier: MPL v2.0
+  ~
+  ~ This software is distributed under the Mozilla Public License v. 2.0,
+  ~ the text of which is available at http://mozilla.org/MPL/2.0/ or
+  ~ see the "license.txt" file for more details.
+  ~
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/noCommentsFoundLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/noCommentsTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:text="@string/no_comments_found"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginEnd="12dp"
+                    android:src="@drawable/icon_alert_error_outline_24_px"
+                    app:layout_constraintBottom_toBottomOf="@id/noCommentsTxt"
+                    app:layout_constraintEnd_toStartOf="@id/noCommentsTxt"
+                    app:layout_constraintTop_toTopOf="@+id/noCommentsTxt" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/commentsListLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/audioCommentsCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginTop="25dp"
+                    app:cardCornerRadius="@dimen/commentsCardsRadius"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:strokeColor="#80979797"
+                    app:strokeWidth="2dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/audioCommentsCardTitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="22dp"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <ImageView
+                                android:id="@+id/audioIcon"
+                                android:layout_width="@dimen/commentCardsIconSize"
+                                android:layout_height="@dimen/commentCardsIconSize"
+                                android:layout_marginStart="17dp"
+                                android:layout_marginTop="25dp"
+                                android:layout_marginBottom="26dp"
+                                android:src="@drawable/message_audio_19371_1"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/audioCommentsTv"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="14dp"
+                                android:text="@string/audio_comments"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                app:layout_constraintEnd_toStartOf="@+id/audioCommentsDropDownIcon"
+                                app:layout_constraintStart_toEndOf="@id/audioIcon"
+                                app:layout_constraintTop_toTopOf="@id/audioIcon" />
+
+                            <ImageView
+                                android:id="@+id/audioCommentsDropDownIcon"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/commentsCardArrowEndMargin"
+                                android:src="@drawable/ic_arrow_drop_up"
+                                app:layout_constraintBottom_toBottomOf="@id/audioIcon"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="@id/audioIcon" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/audioCommentsList"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintTop_toBottomOf="@id/audioCommentsCardTitle" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/textCommentsCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginTop="10dp"
+                    app:cardCornerRadius="@dimen/commentsCardsRadius"
+                    app:layout_constraintTop_toBottomOf="@id/audioCommentsCard"
+                    app:strokeColor="#80979797"
+                    app:strokeWidth="2dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/textCommentsCardTitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="22dp"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <ImageView
+                                android:id="@+id/textIcon"
+                                android:layout_width="@dimen/commentCardsIconSize"
+                                android:layout_height="@dimen/commentCardsIconSize"
+                                android:layout_marginStart="17dp"
+                                android:layout_marginTop="25dp"
+                                android:src="@drawable/message_group_1"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/textCommentsTv"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="14dp"
+                                android:text="@string/text_comments"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                app:layout_constraintStart_toEndOf="@id/textIcon"
+                                app:layout_constraintTop_toTopOf="@id/textIcon" />
+
+                            <ImageView
+                                android:id="@+id/textCommentsDropDownIcon"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/commentsCardArrowEndMargin"
+                                android:src="@drawable/ic_arrow_drop_up"
+                                app:layout_constraintBottom_toBottomOf="@id/textIcon"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="@id/textIcon" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/textCommentsList"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintTop_toBottomOf="@id/textCommentsCardTitle" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/photoCommentsCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginTop="10dp"
+                    app:cardCornerRadius="@dimen/commentsCardsRadius"
+                    app:layout_constraintTop_toBottomOf="@id/textCommentsCard"
+                    app:strokeColor="#80979797"
+                    app:strokeWidth="2dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/photoCommentsCardTitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="22dp"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <ImageView
+                                android:id="@+id/photoIcon"
+                                android:layout_width="@dimen/commentCardsIconSize"
+                                android:layout_height="@dimen/commentCardsIconSize"
+                                android:layout_marginStart="17dp"
+                                android:layout_marginTop="25dp"
+                                android:src="@drawable/camera_19371_1"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/photoCommentsTv"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="14dp"
+                                android:text="@string/photo_comments"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                app:layout_constraintEnd_toStartOf="@+id/photoCommentsDropDownIcon"
+                                app:layout_constraintStart_toEndOf="@id/photoIcon"
+                                app:layout_constraintTop_toTopOf="@id/photoIcon" />
+
+                            <ImageView
+                                android:id="@+id/photoCommentsDropDownIcon"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/commentsCardArrowEndMargin"
+                                android:src="@drawable/ic_arrow_drop_up"
+                                app:layout_constraintBottom_toBottomOf="@id/photoIcon"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="@id/photoIcon" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/photoCommentsList"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintTop_toBottomOf="@id/photoCommentsCardTitle" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/addComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/ic_baseline_add_white_24"
+            android:backgroundTint="@color/orange"
+            android:backgroundTintMode="@color/black"
+            app:borderWidth="1dp"
+            app:backgroundTint="@color/black"
+            tools:ignore="ContentDescription" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/orange"
+            android:visibility="gone"
+            app:backgroundTint="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/ic_trash"
+            tools:ignore="ContentDescription" />
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/addCommentsActionButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="@color/white"
+                android:backgroundTintMode="@color/black"
+                app:borderWidth="1dp"
+                app:backgroundTint="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:srcCompat="@drawable/icon_navigation_close_24_px"
+                tools:ignore="ContentDescription" />
+
+            <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+                android:id="@+id/imageComment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/createCommentActionButtonsColor"
+                app:layout_constraintBottom_toTopOf="@+id/cancel"
+                app:layout_constraintEnd_toEndOf="@+id/cancel"
+                app:iconGravity="textStart"
+                android:text="@string/add_image_comment"
+                android:textColor="@color/black"
+                app:icon="@drawable/folder_19371_1"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+                android:id="@+id/textComment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                app:iconGravity="textStart"
+                android:text="@string/add_text_comment"
+                android:backgroundTint="@color/createCommentActionButtonsColor"
+                app:layout_constraintBottom_toTopOf="@+id/imageComment"
+                app:layout_constraintEnd_toEndOf="@+id/imageComment"
+                app:icon="@drawable/ic_outline_text_snippet_24"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+                android:id="@+id/cameraComment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                app:iconGravity="textStart"
+                android:text="@string/add_photo_comment"
+                android:backgroundTint="@color/createCommentActionButtonsColor"
+                app:layout_constraintBottom_toTopOf="@+id/textComment"
+                app:layout_constraintEnd_toEndOf="@+id/textComment"
+                app:icon="@drawable/camera_19371_2"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+                android:id="@+id/micComment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                app:iconGravity="textStart"
+                android:text="@string/add_audio_comment"
+                android:backgroundTint="@color/createCommentActionButtonsColor"
+                app:layout_constraintBottom_toTopOf="@+id/cameraComment"
+                app:layout_constraintEnd_toEndOf="@+id/cameraComment"
+                app:icon="@drawable/mic"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
