@@ -1,6 +1,6 @@
 # OCARA [![Build Status](https://travis-ci.org/Orange-OpenSource/ocara.svg?branch=internationalisation)](https://travis-ci.org/Orange-OpenSource/ocara)
 
-OCARA, available for 10 inch Android tablet, is primarily an application for performing a self-diagnosis of buildings accessibility. You can use expert, but you do not need to be an expert!
+OCARA, available for mobile devices, is primarily an application for performing a self-diagnosis of buildings accessibility. You can use expert, but you do not need to be an expert!
 Typically, you describe and audit the path from a given starting point to a destination in the building (for instance from the entrance to a specific meeting room).
 Each object you encounter is referenced up the path as you go. Objects are, for example, a path, a door, a gate, a sidewalk...
  
