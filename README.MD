@@ -37,7 +37,7 @@ Accessibility is a common concern. It is by pooling and sharing our accessibilit
 
 ## Build the application
 
-A prebuilt apk is provided for your convenience (click on "Raw" to save file) [here](https://github.com/Orange-OpenSource/ocara/blob/internationalisation/demo/ocara-opensource-debug.apk)
+A prebuilt apk is provided for your convenience (click on "Raw" to save file) [here](https://github.com/Orange-OpenSource/ocara/tree/ocara_demo_apk/mobile/demo)
 
 To build the application, you need to have a proper installation of the [Android SDK](https://developer.android.com/sdk/index.html).
 Then the application can be built with Android Studio, or directly on the command line through:
