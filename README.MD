@@ -52,7 +52,7 @@ When launching the application, you arrive on the page *Create audit*
 
 How to use Ocara is describe [here](https://github.com/Orange-OpenSource/ocara/blob/internationalisation/documentation/Guide_de_formation_OCARA_mobile_V1.0.pdf)
 
-The description of the json ruleset is [here](https://github.com/Orange-OpenSource/ocara/blob/internationalisation/documentation/Fichier _JSON_des_regles.md)
+The description of the json ruleset is [here](https://github.com/Orange-OpenSource/ocara/blob/internationalisation/documentation/Fichier_JSON_des_regles.md)
 
 
 ## License
