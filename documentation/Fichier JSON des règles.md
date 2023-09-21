@@ -4,7 +4,7 @@
 * type : Nom du fichier de régles ex "Régles Open Source"
 
 ## objects
-* id : Identifiant de l'élément de parcours ex "Obj4b"
+* id / reference : Identifiant de l'élément de parcours ex "Obj4b"
 * icon : Nom du fichier image correspondant à l'icône de cet élément de parcours ex "Porte coulissante-01.png"
 * name : Nom de l'élément de parcours ex "porte coulissante"
 * définition : Définition de l'élément de parcours ex "Arrêté du 8 décembre 2014, article 10 : Les portes doivent répondre aux usages attendus.
@@ -15,7 +15,7 @@ Les sas permettent le passage et la manœuvre des portes pour les personnes hand
 Pour plus d'infos : http://www.accessibilite-batiment.fr/erp-situes-dans-un-cadre-bati-existant/portes-portiques-et-sas/arrete.html"
 * illustrations : Identifiant de l'illustration
 * objects : Identifiant des caractéristiques de l'élément de parcours ex ["SObj04", qui correspond à l’élément « déverrouillage » "SObj05", qui correspond à l’élément « ouverture à distance » "SObj06" qui correspond à l’élément « système de détection » ]
-* questions : Identifiant des questions ex ["O-4", qui correspond à « Es ce que la porte a les dimensions requises ? » "O-4a" qui correspond à « Est-ce qu'il y a des repères visuels (bandes, contrastes) sur la porte ? » ]
+* questions : Identifiant des questions ex ["O-4", qui correspond à « Est-ce que la porte a les dimensions requises ? » "O-4a" qui correspond à « Est-ce qu'il y a des repères visuels (bandes, contrastes) sur la porte ? » ]
 
 ## handicaps
 * idHandicap : Identifiant du type de handicap ex "H1"
